@@ -1,5 +1,17 @@
 # a4-howgoodisyourchessopening
 
+An interactive visualization of the utilization and success of chess openings over time.
+
+## Build instructions
+
+Run the following command to gather our dataset of games from the lichess.org open database. 
+```
+bash get_data.sh
+```
+It downloads the complete dataset of games across several years, unpacks it, preprocesses it using `preprocess.py`, and then writes a compressed version of the first 100,000 games in each month into the `datafiles` folder. Note that some of these downloads are very large (up to 30GB), and the unpacked versions can take up to 200GB of disk space. 
+
+## Writeup
+
 See here: https://6859-sp21.github.io/a4-howgoodisyourchessopening/
 
 For our interactive visualization, we wanted to explore the open source lichess.org database, which keeps data of all of its games. The main thing we wanted to explore were chess openings. Chess is an extremely complex and expanding game, whereas after several moves, virtually every game is unique, so we decided to focus on the opening and see if there were any trends or interesting observations that could be seen about different opening moves and their success rate across chess rating (a metric of Elo used by lichess). Using a sample from the most recent games from lichess, we were able to create such a visualization. 
