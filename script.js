@@ -8,12 +8,21 @@ $games.html("0/0" + "  (" + "0.00" + "%)")
 
 /*
 GET DATA
+
+1. Cleaned databases of lichess games
+2. Opening reference file obtained from https://lichess.org/forum/general-chess-discussion/eco-code-csv-sheet
 */
 var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
 var filenames = ["lichess_db_standard_rated_2013-01-cleaned.csv",
                  "lichess_db_standard_rated_2013-07-cleaned.csv",
                  "lichess_db_standard_rated_2014-01-cleaned.csv",
-                 "lichess_db_standard_rated_2014-07-cleaned.csv"]
+                 "lichess_db_standard_rated_2014-07-cleaned.csv",
+                 "lichess_db_standard_rated_2015-01-cleaned.csv",
+                 "lichess_db_standard_rated_2015-07-cleaned.csv",
+                 "lichess_db_standard_rated_2016-01-cleaned.csv",
+                 "lichess_db_standard_rated_2016-07-cleaned.csv",
+                 "lichess_db_standard_rated_2017-01-cleaned.csv",
+                 "lichess_db_standard_rated_2017-07-cleaned.csv"]
 
 var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
@@ -27,6 +36,8 @@ var master_data = Promise.all(
 })
 console.log(master_data);
 
+openingDatabaseFilename = "openingDatabase.tsv"
+openingDatabase = d3.tsv(filepath + openingDatabaseFilename, d3.autoType)
 
 var num_games = master_data.length
 var first_move = getMostCommonMove(master_data, "")
@@ -42,7 +53,7 @@ var low_rating = 0;
 var high_rating = 9999;
 var input_rating = false;
 var start_date = new Date("2013-01-01")
-var end_date = new Date("2014-07-01")
+var end_date = new Date("2017-07-01")
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
@@ -250,7 +261,7 @@ function plotOpeningsOverTime() {
 
     // Get most common openings
     var openingFrequencies = {}
-    var numOpenings = 10;
+    var numOpenings = 20;
     for (var i = 0; i < openingData.length; i++) {
       openingName = openingData[i].Opening.split(':')[0];
       if (!(openingName in openingFrequencies)) {
@@ -274,6 +285,7 @@ function plotOpeningsOverTime() {
       freqsToPlot = []
       for (var i = 0; i < openingsToPlot.length; i++) {
         freqsToPlot.push(100 * freqs[openingsToPlot[i]] / data.length);
+        // freqsToPlot.push(freqs[openingsToPlot[i]]);
       }
       return freqsToPlot;
     }
@@ -281,7 +293,13 @@ function plotOpeningsOverTime() {
     // Group data by month
     // Reference: https://stackoverflow.com/questions/40847912/group-data-by-calendar-month
     var nested_data = d3.nest()
-      .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
+      // .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
+      .key(function(d) {
+        var incDate = new Date(d.Date.replace(/\./g, "-"));
+        incDate.setDate(incDate.getDate()+1);
+        // console.log(incDate);
+        return incDate.getUTCFullYear() + "." + (incDate.getUTCMonth()+1);
+      })
       .sortKeys(d3.ascending)
       .rollup(getOpeningFrequencies)
       .entries(openingData);
