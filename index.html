@@ -21,6 +21,8 @@
 		        crossorigin="anonymous"></script>
 
 		<script defer src="js/chess.js"></script>
+		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+
 
 
 	    <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -45,6 +47,17 @@
 			  </label>
 			</form>
 		</div>
+
+		<div class="openings-over-time-container">
+			<div id="openings-over-time">
+					<svg id="openings-over-time-svg">
+						<g id='openings-over-time-xAxis'></g>
+						<g id='openings-over-time-yAxis'></g>
+						<g id='openings-over-time-paths'></g>
+					</svg>
+			</div>
+		</div>
+
 		<div class="visual-container">
 			<div class="board-container">
 				<!-- <label>Status:</label> -->
@@ -86,10 +99,6 @@
 				    Built following the examples in <a href="https://observablehq.com/@d3/histogram">Histogram | D3 | Observable</a>, and <a href="https://observablehq.com/@d3/stacked-bar-chart">Stacked Bar Chart | D3 | Observable</a>.
 				</div>
 			</div>
-		</div>
-
-		<div id="openings-over-time">
-
 		</div>
 
   	</body>

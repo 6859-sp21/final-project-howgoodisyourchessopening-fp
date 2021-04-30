@@ -5,21 +5,46 @@ var $fen = $('#fen')
 var $pgn = $('#pgn')
 var $games = $('#games')
 $games.html("0/0" + "  (" + "0.00" + "%)")
-var master_data = d3.tsv("https://raw.githubusercontent.com/6859-sp21/a4-howgoodisyourchessopening/main/2021-02-cleaned_1000000.csv", d3.autoType)
+
+/*
+GET DATA
+*/
+var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
+var filenames = ["lichess_db_standard_rated_2013-01-cleaned.csv",
+                 "lichess_db_standard_rated_2013-07-cleaned.csv",
+                 "lichess_db_standard_rated_2014-01-cleaned.csv",
+                 "lichess_db_standard_rated_2014-07-cleaned.csv"]
+
+var data_promises = []
+for (var i = 0; i < filenames.length; i++) {
+  data_promises = data_promises.concat(d3.tsv(filepath + filenames[i], d3.autoType))
+}
+
+var master_data = Promise.all(
+  data_promises
+).then(function(allData) {
+  return d3.merge(allData);
+})
+console.log(master_data);
+
 
 var num_games = master_data.length
 var first_move = getMostCommonMove(master_data, "")
 var common_move = first_move
 
+/*
+USER INPUT
+
+Instantiate user input parameters and create handlers
+*/
+
 var low_rating = 0;
 var high_rating = 9999;
 var input_rating = false;
-var start_date = new Date("2021-02-01")
-var end_date = new Date("2021-02-28")
-
+var start_date = new Date("2013-01-01")
+var end_date = new Date("2014-07-01")
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
-
 
 function filterByRating() {
   low_rating = document.getElementById("input-rating-low").value;
@@ -29,14 +54,11 @@ function filterByRating() {
   updateStatus();
 }
 
-
 function filterByDate() {
   start_date = new Date(document.getElementById("start-date").value);
   end_date = new Date(document.getElementById("end-date").value);
   updateStatus();
-} 
-
-
+}
 
 $('#startBtn').on('click', function() {reset()})
 function reset() {
@@ -58,7 +80,6 @@ function doMostCommon() {
   updateStatus()
 }
 
-
 function onDragStart (source, piece, position, orientation) {
   // do not pick up pieces if the game is over
   if (game.game_over()) return false
@@ -69,7 +90,6 @@ function onDragStart (source, piece, position, orientation) {
     return false
   }
 }
-
 
 function onDrop (source, target) {
   // see if the move is legal
@@ -134,8 +154,6 @@ function updateStatus () {
   $pgn.html(game.pgn())
   // console.log(game.pgn())
   // analyze(game.pgn())
-
-
 }
 
 function handleClick(event){
@@ -155,7 +173,7 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
     var date = new Date(date_str)
     console.log(date);
     console.log(date >= start_date && date <= end_date);
-  } 
+  }
   catch(e) {
     console.log(e);
   }
@@ -195,30 +213,216 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
   return maxEl
 }
 
+/*
+OPENINGS OVER TIME
+
+Create plot of common openings over time. Reference: https://observablehq.com/@d3/multi-line-chart
+*/
+
+width = 500;
+height = 200;
+margin = ({top: 20, right: 20, bottom: 30, left: 30});
+d3.select("#openings-over-time-svg")
+  .attr("viewBox", [0, 0, width, height])
+  .style("overflow", "visible");
+
+function plotOpeningsOverTime() {
+  master_data.then(function(data) {
+    var filterColor = "WhiteElo"
+    if (chessColor === 'black') {
+      filterColor = "BlackElo"
+    }
+
+    // Filter games by rating and date.
+    var openingData = data.filter(function (d) {
+      var elo = d.WhiteElo
+      if (chessColor === 'black') {
+        elo = d.BlackElo
+      }
+      var date_dot = d.Date
+      var date_str = date_dot.replace(/\./g, "-");
+      // console.log(date_str)
+      var date = new Date(date_str)
+      // console.log(date)
+
+      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+    });
+
+    // Get most common openings
+    var openingFrequencies = {}
+    var numOpenings = 10;
+    for (var i = 0; i < openingData.length; i++) {
+      openingName = openingData[i].Opening.split(':')[0];
+      if (!(openingName in openingFrequencies)) {
+        openingFrequencies[openingName] = 0;
+      }
+      openingFrequencies[openingName] += 1;
+    }
+    keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
+    var openingsToPlot = keysSorted.slice(0, numOpenings);
+    console.log(openingsToPlot);
+
+    function getOpeningFrequencies(data) {
+      freqs = {}
+      for (var i = 0; i < data.length; i++) {
+        openingName = data[i].Opening.split(':')[0];
+        if (!(openingName in freqs)) {
+          freqs[openingName] = 0;
+        }
+        freqs[openingName] += 1;
+      }
+      freqsToPlot = []
+      for (var i = 0; i < openingsToPlot.length; i++) {
+        freqsToPlot.push(100 * freqs[openingsToPlot[i]] / data.length);
+      }
+      return freqsToPlot;
+    }
+
+    // Group data by month
+    // Reference: https://stackoverflow.com/questions/40847912/group-data-by-calendar-month
+    var nested_data = d3.nest()
+      .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
+      .sortKeys(d3.ascending)
+      .rollup(getOpeningFrequencies)
+      .entries(openingData);
+    console.log(nested_data);
+    var keys = nested_data.map(function(d){ return d.key; });
+    var dates = []
+    for (var i = 0; i < keys.length; i++) {
+      dates.push(new Date(keys[i].replace(/\./g, "-")));
+    }
+    var linegraph_data = {
+      "dates": dates,
+      "series": []
+    }
+    for (var i = 0; i < openingsToPlot.length; i++) {
+      openingFreqs = []
+      for (var j = 0; j < keys.length; j++) {
+        openingFreqs.push(nested_data[j].value[i]);
+      }
+      linegraph_data["series"].push({
+        "name": openingsToPlot[i],
+        "values": openingFreqs
+      })
+    }
+    console.log(linegraph_data);
+
+    const svg = d3.select("#openings-over-time-svg")
+
+    x = d3.scaleUtc()
+        .domain(d3.extent(linegraph_data.dates))
+        .range([margin.left, width - margin.right])
+    y = d3.scaleLinear()
+        .domain([0, d3.max(linegraph_data.series, d => d3.max(d.values))]).nice()
+        .range([height - margin.bottom, margin.top])
+    xAxis = g => g
+        .attr("transform", `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
+    yAxis = g => g
+        .attr("transform", `translate(${margin.left},0)`)
+        .call(d3.axisLeft(y))
+        .call(g => g.select(".domain").remove())
+        .call(g => g.select(".tick:last-of-type text").clone()
+            .attr("x", 3)
+            .attr("text-anchor", "start")
+            .attr("font-weight", "bold")
+            .text("% Games"))
+
+    line = d3.line()
+        .defined(d => !isNaN(d))
+        .x((d, i) => x(linegraph_data.dates[i]))
+        .y(d => y(d))
+
+    svg.select("#openings-over-time-xAxis")
+        .call(xAxis);
+    svg.select("#openings-over-time-yAxis")
+        .call(yAxis);
+
+    const path = svg.select("#openings-over-time-paths")
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-width", 1.5)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+      .selectAll("path")
+      .data(linegraph_data.series)
+      .join("path")
+        .style("mix-blend-mode", "multiply")
+        .attr("d", d => line(d.values));
+
+    function hover(svg, path) {
+
+      if ("ontouchstart" in document) svg
+          .style("-webkit-tap-highlight-color", "transparent")
+          .on("touchmove", moved)
+          .on("touchstart", entered)
+          .on("touchend", left)
+      else svg
+          .on("mousemove", moved)
+          .on("mouseenter", entered)
+          .on("mouseleave", left);
+
+      const dot = svg.append("g")
+          .attr("display", "none");
+
+      dot.append("circle")
+          .attr("r", 2.5);
+
+      dot.append("text")
+          .attr("font-family", "sans-serif")
+          .attr("font-size", 10)
+          .attr("text-anchor", "middle")
+          .attr("y", -8);
+
+      function moved(event) {
+        event.preventDefault();
+        const pointer = d3.pointer(event, this);
+        const xm = x.invert(pointer[0]);
+        const ym = y.invert(pointer[1]);
+        const i = d3.bisectCenter(linegraph_data.dates, xm);
+        const s = d3.least(linegraph_data.series, d => Math.abs(d.values[i] - ym));
+        path.attr("stroke", d => d === s ? null : "#ddd").filter(d => d === s).raise();
+        dot.attr("transform", `translate(${x(linegraph_data.dates[i])},${y(s.values[i])})`);
+        dot.select("text").text(s.name);
+      }
+
+      function entered() {
+        path.style("mix-blend-mode", null).attr("stroke", "#ddd");
+        dot.attr("display", null);
+      }
+
+      function left() {
+        path.style("mix-blend-mode", "multiply").attr("stroke", null);
+        dot.attr("display", "none");
+      }
+    }
+
+    svg.call(hover, path);
+  })
+}
+
+
+/*
+WIN/DRAW RATES
+
+Create graph with win/draw rate based on moves played.
+*/
 
 var div = d3.select("#win-graph").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-
 const colorWin = "ForestGreen";
 const colorDraw = "LightSkyBlue";
-
-
 
 function analyze(val, chessColor) {
   console.log(start_date)
   console.log(end_date)
-  // console.log("ANALYZE");
-  // d3.tsv("https://raw.githubusercontent.com/6859-sp21/a4-howgoodisyourchessopening/main/2021-02-cleaned_1000000.csv", d3.autoType).then(function(data) {
   master_data.then(function(data) {
-    // document.getElementById('main').append(val);
-    // console.log(data.length)
     var filterColor = "WhiteElo"
     if (chessColor === 'black') {
       filterColor = "BlackElo"
     }
-    // var openingData = data.filter(d => d.Moves.startsWith(val));
     var openingData = data.filter(function (d) {
       var elo = d.WhiteElo
       if (chessColor === 'black') {
@@ -234,20 +438,11 @@ function analyze(val, chessColor) {
     });
 
     num_games = openingData.length
-    // console.log(num_games)
-
     common_move = getMostCommonMove(openingData, val)
-
-    // console.log(openingData);
     var proportion = (openingData.length/data.length*100).toFixed(3)
 
     $games.html(String(openingData.length) + "  (" + String(proportion) + "%)")
-    // var elos = new Array(openingData.length);
-    // for (var i=0; i < openingData.length; i++) {
-    //   elos[i] = openingData[i].WhiteElo;
-    // }
-    // console.log(elos);
-    // Formatting parameters
+
     height = 270;
     width = 500;
     margin = ({top: 20, right: 20, bottom: 60, left: 50});
@@ -257,7 +452,6 @@ function analyze(val, chessColor) {
 
     x = d3.scaleLinear()
       .domain([500, 3200]).nice()
-      // .domain([bins[0].x0, bins[bins.length - 1].x1])
       .range([margin.left, width - margin.right])
 
 
@@ -306,30 +500,9 @@ function analyze(val, chessColor) {
         .thresholds(thresholds)(openingData);
     }
 
-    // console.log(bins);
-
-          // KDE code from https://observablehq.com/@d3/kernel-density-estimation
-          // function kde(kernel, thresholds, data) {
-          //   return thresholds.map(t => [t, d3.mean(data, d => kernel(t - d))]);
-          // }
-          // function epanechnikov(bandwidth) {
-          //   return x => Math.abs(x /= bandwidth) <= 1 ? 0.75 * (1 - x * x) / bandwidth : 0;
-          // }
-          // bandwidth = 1;
-          // resultsArr = openingData.map(d => isWin(d.Result));
-          // console.log(resultsArr);
-          // density = kde(epanechnikov(bandwidth), thresholds, resultsArr);
-          // console.log(density);
-
     y = d3.scaleLinear()
-      // .domain([0, d3.max(bins, d => getWinRate(d))]).nice()
       .domain([0, 100]).nice()
       .range([height - margin.bottom, margin.top])
-
-    // line = d3.line()
-    //     .curve(d3.curveBasis)
-    //     .x(d => x(d[0]))
-    //     .y(d => y(d[1]));
 
     xAxis = g => g
       .attr("transform", `translate(0,${height-margin.bottom})`)
@@ -340,7 +513,6 @@ function analyze(val, chessColor) {
         .attr("fill", "currentColor")
         .attr("font-weight", "bold")
         .attr("text-anchor", "end"));
-//         .text("Rating (Elo)"))
 
     yAxis = g => g
       .attr("transform", `translate(${margin.left},0)`)
@@ -350,8 +522,7 @@ function analyze(val, chessColor) {
         .attr("x", 4)
         .attr("text-anchor", "start")
         .attr("font-weight", "bold"));
-//         .text("Win/Draw Rate (%)"))
-    
+
     svg.select("#xAxisLabel")
       .attr("transform", "rotate(-90)")
       .attr("y", margin.left/2)
@@ -360,8 +531,8 @@ function analyze(val, chessColor) {
       .attr("font-size", 10)
       .style("text-anchor", "middle")
       .attr("font-weight", "bold")
-      .text("Win/Draw Rate (%)");      
-      
+      .text("Win/Draw Rate (%)");
+
     svg.select("#yAxisLabel")
       .attr("y", height-margin.bottom/2)
       .attr("x", (width+margin.left)/2)
@@ -370,7 +541,7 @@ function analyze(val, chessColor) {
       .attr("font-size", 10)
       .style("text-anchor", "middle")
       .attr("font-weight", "bold")
-      .text("Rating (Elo)");      
+      .text("Rating (Elo)");
 
     wins = svg.select("#wins")
       .attr("fill", colorWin)
@@ -401,7 +572,6 @@ function analyze(val, chessColor) {
           .attr("y", d => y(getDrawRate(d)))
           .attr("height", d => y(0) - y(getDrawRate(d)))
           .delay(function(d,i){
-            // console.log(i) ;
             return(100)
           });
 
@@ -445,6 +615,9 @@ function analyze(val, chessColor) {
   });
 }
 
+/*
+CONFIGURE CHESSBOARD
+*/
 var config = {
   draggable: true,
   position: 'start',
@@ -454,6 +627,10 @@ var config = {
 }
 board = Chessboard('myBoard', config)
 
+
+/*
+STARTUP SCRIPTS
+*/
 updateStatus()
 
 svg = d3.select("#analysis");
@@ -467,3 +644,5 @@ svg.append("rect").attr("x", 390).attr("y", 14).attr("width",20).attr("height",1
 svg.append("rect").attr("x", 390).attr("y", 34).attr("width",20).attr("height",13).style("fill", colorDraw)
 svg.append("text").attr("x", 420).attr("y", 20).text("% Wins").style("font-size", "11px").attr("alignment-baseline","middle")
 svg.append("text").attr("x", 420).attr("y", 40).text("% Draws").style("font-size", "11px").attr("alignment-baseline","middle")
+
+plotOpeningsOverTime()

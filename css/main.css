@@ -82,6 +82,14 @@ h3 {
     /*align-items: center;*/
 }
 
+.openings-over-time-container {
+    /* max-width: 80%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding-bottom: 100px;
+}
+
 .graph-title {
     font-size: 20px;
     line-height: 0.65;
