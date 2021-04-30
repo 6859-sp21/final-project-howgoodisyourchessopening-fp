@@ -1,6 +1,6 @@
-# a4-howgoodisyourchessopening
+# Your Check Mate
 
-An interactive visualization of the utilization and success of chess openings over time.
+An interactive visualization of the utilization and success of chess openings over time. A final project for 6.859, Spring 2021.
 
 ## Build instructions
 
