@@ -22,7 +22,14 @@ var filenames = ["lichess_db_standard_rated_2013-01-cleaned.csv",
                  "lichess_db_standard_rated_2016-01-cleaned.csv",
                  "lichess_db_standard_rated_2016-07-cleaned.csv",
                  "lichess_db_standard_rated_2017-01-cleaned.csv",
-                 "lichess_db_standard_rated_2017-07-cleaned.csv"]
+                 "lichess_db_standard_rated_2017-07-cleaned.csv",
+                 "lichess_db_standard_rated_2018-01-cleaned.csv",
+                 "lichess_db_standard_rated_2018-07-cleaned.csv",
+                 "lichess_db_standard_rated_2019-01-cleaned.csv",
+                 "lichess_db_standard_rated_2019-07-cleaned.csv",
+                 "lichess_db_standard_rated_2020-01-cleaned.csv",
+                 "lichess_db_standard_rated_2020-07-cleaned.csv",
+                 "lichess_db_standard_rated_2021-01-cleaned.csv"]
 
 var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
@@ -53,7 +60,7 @@ var low_rating = 0;
 var high_rating = 9999;
 var input_rating = false;
 var start_date = new Date("2013-01-01")
-var end_date = new Date("2017-07-01")
+var end_date = new Date("2021-01-31")
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
