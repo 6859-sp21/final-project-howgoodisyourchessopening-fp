@@ -119,7 +119,7 @@ B16	Caro-Kann, Bronstein-Larsen Variation	1 e4 c6 2 d4 d5 3 Nc3 dxe4 4 Nxe4 Nf6 
 B17	Caro-Kann, Steinitz Variation	1 e4 c6 2 d4 d5 3 Nc3 dxe4 4 Nxe4 Nd7
 B18	Caro-Kann, Classical	1 e4 c6 2 d4 d5 3 Nc3 dxe4 4 Nxe4 Bf5
 B19	Caro-Kann, Classical	1 e4 c6 2 d4 d5 3 Nc3 dxe4 4 Nxe4 Bf5 5 Ng3 Bg6 6 h4 h6 7 Nf3 Nd7
-B20	Sicilian	1 e4 c5
+B20	Sicilian Defense	1 e4 c5
 B21	Sicilian, 2.f4 and 2.d4	1 e4 c5 2 f4
 B22	Sicilian, Alapin	1 e4 c5 2 c3
 B23	Sicilian, Closed	1 e4 c5 2 Nc3

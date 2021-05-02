@@ -41,10 +41,17 @@ var master_data = Promise.all(
 ).then(function(allData) {
   return d3.merge(allData);
 })
-console.log(master_data);
+// console.log(master_data);
 
 openingDatabaseFilename = "openingDatabase.tsv"
 openingDatabase = d3.tsv(filepath + openingDatabaseFilename, d3.autoType)
+openingDatabaseMap = {}
+openingDatabase.then(function(data) {
+  for (var i = 0; i < data.length; i++) {
+    openingDatabaseMap[data[i]['Name']] = data[i]['Opening Moves'];
+  }
+});
+// console.log(openingDatabaseMap);
 
 var num_games = master_data.length
 var first_move = getMostCommonMove(master_data, "")
@@ -279,7 +286,7 @@ function plotOpeningsOverTime() {
     }
     keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
     var openingsToPlot = keysSorted.slice(0, numOpenings);
-    console.log(openingsToPlot);
+    // console.log(openingsToPlot);
 
     function getOpeningFrequencies(data) {
       freqs = {}
@@ -311,7 +318,7 @@ function plotOpeningsOverTime() {
       .sortKeys(d3.ascending)
       .rollup(getOpeningFrequencies)
       .entries(openingData);
-    console.log(nested_data);
+    // console.log(nested_data);
     var keys = nested_data.map(function(d){ return d.key; });
     var dates = []
     for (var i = 0; i < keys.length; i++) {
@@ -331,7 +338,7 @@ function plotOpeningsOverTime() {
         "values": openingFreqs
       })
     }
-    console.log(linegraph_data);
+    // console.log(linegraph_data);
 
     const svg = d3.select("#openings-over-time-svg")
 
@@ -377,7 +384,6 @@ function plotOpeningsOverTime() {
         .attr("d", d => line(d.values));
 
     function hover(svg, path) {
-
       if ("ontouchstart" in document) svg
           .style("-webkit-tap-highlight-color", "transparent")
           .on("touchmove", moved)
@@ -422,8 +428,34 @@ function plotOpeningsOverTime() {
         dot.attr("display", "none");
       }
     }
-
     svg.call(hover, path);
+
+    const clickPath = svg.select("#openings-over-time-clickpaths")
+        .attr("fill", "none")
+        .attr('stroke', 'black').attr('stroke-width', 3)
+        .attr('stroke-opacity', 0)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .style("cursor", "pointer")
+      .selectAll("path")
+      .data(linegraph_data.series)
+      .join("path")
+        .style("mix-blend-mode", "multiply")
+        .attr("d", d => line(d.values));
+
+    clickPath.on('click', function(event, d) {
+      // FOR MATT
+      console.log(d);
+      console.log(openingDatabaseMap[d.name]);
+    })
+
+    clickPath.on("mouseover", function(event, d) {
+          d3.select(this).attr('stroke-opacity', 1);
+          })
+      .on("mouseout", function(event, d) {
+          d3.select(this).attr('stroke-opacity', 0);
+      });
+
   })
 }
 
@@ -670,5 +702,3 @@ svg.append("rect").attr("x", 390).attr("y", 14).attr("width",20).attr("height",1
 svg.append("rect").attr("x", 390).attr("y", 34).attr("width",20).attr("height",13).style("fill", colorDraw)
 svg.append("text").attr("x", 420).attr("y", 20).text("% Wins").style("font-size", "11px").attr("alignment-baseline","middle")
 svg.append("text").attr("x", 420).attr("y", 40).text("% Draws").style("font-size", "11px").attr("alignment-baseline","middle")
-
-plotOpeningsOverTime()
