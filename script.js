@@ -78,13 +78,13 @@ function filterByRating() {
   high_rating = document.getElementById("input-rating-high").value;
   // console.log(low_rating);
   // console.log(high_rating);
-  updateStatus();
+  updateStatus(true);
 }
 
 function filterByDate() {
   start_date = new Date(document.getElementById("start-date").value);
   end_date = new Date(document.getElementById("end-date").value);
-  updateStatus();
+  updateStatus(true);
 }
 
 $('#startBtn').on('click', function() {reset()})
@@ -146,9 +146,39 @@ function onSnapEnd () {
   board.position(game.fen())
 }
 
-function updateStatus () {
+
+// function filterData() {
+//   var filterColor = "WhiteElo"
+//   if (chessColor === 'black') {
+//     filterColor = "BlackElo"
+//   }
+
+//   // Filter games by rating and date.
+//   var openingData = opening_data.filter(function (d) {
+//     var elo = d.WhiteElo
+//     if (chessColor === 'black') {
+//       elo = d.BlackElo
+//     }
+//     var date_dot = d.Date
+//     var date_str = date_dot.replace(/\./g, "-");
+//     // console.log(date_str)
+//     var date = new Date(date_str)
+//     // console.log(date)
+
+//     return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+//   });
+//   return openingData   
+// }
+
+
+function updateStatus (update_time_graph=false) {
+
+  // var filter_data = filterData();
+
   analyze(game.pgn(), document.getElementById("chessColor").value)
-  plotOpeningsOverTime()
+  if (update_time_graph) {
+    plotOpeningsOverTime();
+  }
   var status = ''
 
   var moveColor = 'White'
@@ -703,7 +733,7 @@ board = Chessboard('myBoard', config)
 /*
 STARTUP SCRIPTS
 */
-updateStatus()
+updateStatus(true)
 
 svg = d3.select("#analysis");
 svg.append("rect")
