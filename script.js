@@ -54,7 +54,8 @@ openingDatabase.then(function(data) {
 // console.log(openingDatabaseMap);
 
 var num_games = master_data.length
-var first_move = getMostCommonMove(master_data, "")
+// var first_move = getMostCommonMove(master_data, "")
+var first_move ="e4"
 var common_move = first_move
 
 /*
