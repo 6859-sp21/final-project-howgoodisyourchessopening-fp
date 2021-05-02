@@ -4,7 +4,7 @@ import sys
 bsz = 50000
 max_games = 100000
 print("Getting %d games from %s.pgn" % (max_games, sys.argv[1]))
-pgn_path = sys.argv[1] + '.pgn'
+pgn_path = './rawfiles/' + sys.argv[1] + '.pgn'
 write_path = './datafiles/' + sys.argv[1] + '-cleaned.csv'
 n_moves = 4
 

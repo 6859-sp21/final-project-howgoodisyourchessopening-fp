@@ -124,6 +124,7 @@ function onSnapEnd () {
 
 function updateStatus () {
   analyze(game.pgn(), document.getElementById("chessColor").value)
+  plotOpeningsOverTime()
   var status = ''
 
   var moveColor = 'White'
