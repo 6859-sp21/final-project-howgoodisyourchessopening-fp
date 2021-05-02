@@ -44,7 +44,7 @@ var master_data = Promise.all(
 // console.log(master_data);
 var opening_data = master_data;
 
-openingDatabaseFilename = "openingDatabase.tsv"
+openingDatabaseFilename = "openingDatabaseClean.tsv"
 openingDatabase = d3.tsv(filepath + openingDatabaseFilename, d3.autoType)
 openingDatabaseMap = {}
 openingDatabase.then(function(data) {
@@ -110,7 +110,7 @@ function doMostCommon() {
 function loadPGN(pgn) {
   console.log("LOADING:   ", pgn);
 
-  console.log(game.load_pgn("1. e4 c5"));
+  console.log(game.load_pgn(pgn));
   onSnapEnd()
   updateStatus();
 }
