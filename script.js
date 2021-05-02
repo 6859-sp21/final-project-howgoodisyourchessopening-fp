@@ -42,6 +42,7 @@ var master_data = Promise.all(
   return d3.merge(allData);
 })
 // console.log(master_data);
+var opening_data = master_data;
 
 openingDatabaseFilename = "openingDatabase.tsv"
 openingDatabase = d3.tsv(filepath + openingDatabaseFilename, d3.autoType)
@@ -54,8 +55,8 @@ openingDatabase.then(function(data) {
 // console.log(openingDatabaseMap);
 
 var num_games = master_data.length
-// var first_move = getMostCommonMove(master_data, "")
-var first_move ="e4"
+var first_move = getMostCommonMove(opening_data, "")
+// var first_move ="e4"
 var common_move = first_move
 
 /*
@@ -104,6 +105,14 @@ function doMostCommon() {
   //console.log(move)
   onSnapEnd()
   updateStatus()
+}
+
+function loadPGN(pgn) {
+  console.log("LOADING:   ", pgn);
+
+  console.log(game.load_pgn("1. e4 c5"));
+  onSnapEnd()
+  updateStatus();
 }
 
 function onDragStart (source, piece, position, orientation) {
@@ -196,13 +205,13 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
   // console.log(pgn)
   try {
     var date_str = data[0].Date.replace(/\./g, "-");
-    console.log(date_str)
+    // console.log(date_str)
     var date = new Date(date_str)
-    console.log(date);
-    console.log(date >= start_date && date <= end_date);
+    // console.log(date);
+    // console.log(date >= start_date && date <= end_date);
   }
   catch(e) {
-    console.log(e);
+    // console.log(e);
   }
 
   for (var i=0; i < data.length; i++) {
@@ -254,7 +263,7 @@ d3.select("#openings-over-time-svg")
   .style("overflow", "visible");
 
 function plotOpeningsOverTime() {
-  master_data.then(function(data) {
+  opening_data.then(function(data) {
     var filterColor = "WhiteElo"
     if (chessColor === 'black') {
       filterColor = "BlackElo"
@@ -274,6 +283,8 @@ function plotOpeningsOverTime() {
 
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
+
+    // opening_data = openingData;
 
     // Get most common openings
     var openingFrequencies = {}
@@ -447,7 +458,9 @@ function plotOpeningsOverTime() {
     clickPath.on('click', function(event, d) {
       // FOR MATT
       console.log(d);
-      console.log(openingDatabaseMap[d.name]);
+      var opening_pgn = openingDatabaseMap[d.name];
+      console.log(opening_pgn);
+      loadPGN(opening_pgn);
     })
 
     clickPath.on("mouseover", function(event, d) {
@@ -475,8 +488,8 @@ const colorWin = "ForestGreen";
 const colorDraw = "LightSkyBlue";
 
 function analyze(val, chessColor) {
-  console.log(start_date)
-  console.log(end_date)
+  // console.log(start_date)
+  // console.log(end_date)
   master_data.then(function(data) {
     var filterColor = "WhiteElo"
     if (chessColor === 'black') {
