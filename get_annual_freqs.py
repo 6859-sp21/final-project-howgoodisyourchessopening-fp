@@ -13,11 +13,13 @@ for year in range(2013, 2021, 1):
     opening_freq = df['Opening'].str.split(':').str[0].value_counts().reset_index()
     opening_freq.columns = ['name', 'value']
     opening_freq['parent'] = 'Origin'
-    opening_freq.loc[len(opening_freq)] = ['Origin', None, None]
+    opening_freq = opening_freq.head(num_openings_per_year)
+    newrow = pd.DataFrame({'name': 'Origin', 'parent': None, 'value': None}, index=[0])
+    opening_freq = pd.concat((newrow, opening_freq)).reset_index(drop=True)
     print()
     print(year)
     print(opening_freq)
     write_fn = "~/final-project-howgoodisyourchessopening-fp/datafiles/" + str(year) + "-openings.csv"
     print("Writing to %s" % write_fn)
-    opening_freq.head(num_openings_per_year).to_csv(write_fn, index=False)
+    opening_freq.to_csv(write_fn, index=False)
 
