@@ -722,7 +722,7 @@ function analyze(val, chessColor) {
 TREEMAP (TEST)
 */
 width = 954
-height = 954
+height = 500
 color = d3.scaleOrdinal(d3.schemeCategory10)
 treemap = data => d3.treemap()
     .tile(d3.treemapSquarify)
