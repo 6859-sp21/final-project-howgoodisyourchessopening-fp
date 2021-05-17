@@ -18,25 +18,27 @@ GET DATA
 
 1. Cleaned databases of lichess games
 2. Opening reference file obtained from https://lichess.org/forum/general-chess-discussion/eco-code-csv-sheet
+3. Opening frequences per year
 */
 var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
-var filenames = ["lichess_db_standard_rated_2013-01-cleaned.csv",
-                 "lichess_db_standard_rated_2013-07-cleaned.csv",
-                 "lichess_db_standard_rated_2014-01-cleaned.csv",
-                 "lichess_db_standard_rated_2014-07-cleaned.csv",
-                 "lichess_db_standard_rated_2015-01-cleaned.csv",
-                 "lichess_db_standard_rated_2015-07-cleaned.csv",
-                 "lichess_db_standard_rated_2016-01-cleaned.csv",
-                 "lichess_db_standard_rated_2016-07-cleaned.csv",
-                 "lichess_db_standard_rated_2017-01-cleaned.csv",
-                 "lichess_db_standard_rated_2017-07-cleaned.csv",
-                 "lichess_db_standard_rated_2018-01-cleaned.csv",
-                 "lichess_db_standard_rated_2018-07-cleaned.csv",
-                 "lichess_db_standard_rated_2019-01-cleaned.csv",
-                 "lichess_db_standard_rated_2019-07-cleaned.csv",
-                 "lichess_db_standard_rated_2020-01-cleaned.csv",
-                 "lichess_db_standard_rated_2020-07-cleaned.csv",
-                 "lichess_db_standard_rated_2021-01-cleaned.csv"]
+var filenames = ["lichess_db_standard_rated_2013-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2013-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2014-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2014-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2015-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2015-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2016-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2016-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2017-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2017-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2018-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2018-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2019-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2019-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2020-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2020-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2021-01-cleaned-small.csv"]
+
 
 
 function fetchAndFilter(filename) {
@@ -47,7 +49,6 @@ var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
   data_promises = data_promises.concat(d3.tsv(filepath + filenames[i], d3.autoType))
 }
-
 var master_data = Promise.all(
   data_promises
 ).then(function(allData) {
@@ -67,12 +68,12 @@ openingDatabase.then(function(data) {
     openingDatabaseMap[data[i]['Name']] = data[i]['Opening Moves'];
   }
 });
-console.log(openingDatabaseMap);
 
-var num_games = master_data.length
+console.log(openingDatabaseMap);
 var first_move = getMostCommonMove(opening_data, "")
 // var first_move ="e4"
 var common_move = first_move
+
 
 /*
 USER INPUT
@@ -928,6 +929,62 @@ function analyze(val, chessColor, update_time=false) {
 
   });
 }
+
+/*
+TREEMAP (TEST)
+*/
+width = 954
+height = 500
+color = d3.scaleOrdinal(d3.schemeCategory10)
+treemap = data => d3.treemap()
+    .tile(d3.treemapSquarify)
+    .size([width, height])
+    .padding(1)
+    .round(true)
+  (d3.hierarchy(data)
+      .sum(d => d.value)
+      .sort((a, b) => b.value - a.value))
+
+d3.json("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/json_test.json").then(function(data) {
+  console.log(data);
+  const root = treemap(data);
+
+  const svg = d3.select("#openings-treemap-svg")
+      .attr("viewBox", [0, 0, width, height])
+      .style("font", "10px sans-serif");
+
+  const leaf = svg.selectAll("g")
+    .data(root.leaves())
+    .join("g")
+      .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+  leaf.append("title")
+      .text(d => d.name);
+
+  leaf.append("rect")
+      // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+      .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
+      .attr("fill-opacity", 0.6)
+      .attr("width", d => d.x1 - d.x0)
+      .attr("height", d => d.y1 - d.y0);
+
+  leaf.append("clipPath")
+      // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
+    .append("use")
+      // .attr("xlink:href", d => d.leafUid.href);
+
+  leaf.append("text")
+      .attr("clip-path", d => d.clipUid)
+    .selectAll("tspan")
+    .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value))
+    .join("tspan")
+      .attr("x", 3)
+      .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
+      .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
+      .text(d => d);
+
+})
+
 
 /*
 CONFIGURE CHESSBOARD

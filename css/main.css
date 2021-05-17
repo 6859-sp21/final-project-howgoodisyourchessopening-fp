@@ -5,6 +5,9 @@ body {
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
     background-color: azure;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top:50px;
 }
 
 h1 {
@@ -88,6 +91,12 @@ h3 {
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
+}
+
+.openings-treemap-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
 }
 
 .openings-over-time-container {
