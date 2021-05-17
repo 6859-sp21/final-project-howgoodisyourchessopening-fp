@@ -14,7 +14,8 @@ for year in range(2013, 2021, 1):
     opening_freq.columns = ['name', 'value']
     opening_freq['parent'] = 'Origin'
     opening_freq = opening_freq.head(num_openings_per_year)
-    opening_freq.loc[len(opening_freq)] = ['Origin', None, None]
+    newrow = pd.DataFrame({'name': 'Origin', 'parent': None, 'value': None}, index=[0])
+    opening_freq = pd.concat((newrow, opening_freq)).reset_index(drop=True)
     print()
     print(year)
     print(opening_freq)

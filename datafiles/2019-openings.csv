@@ -1,12 +1,12 @@
-name,value,parent
-Sicilian Defense,25033,Origin
-French Defense,12565,Origin
-Queen's Pawn Game,10508,Origin
-Scandinavian Defense,9022,Origin
-English Opening,7487,Origin
-King's Pawn Game,6698,Origin
-Caro-Kann Defense,6441,Origin
-Italian Game,6022,Origin
-Modern Defense,5054,Origin
-Ruy Lopez,4814,Origin
+name,parent,value
 Origin,,
+Sicilian Defense,Origin,25033
+French Defense,Origin,12565
+Queen's Pawn Game,Origin,10508
+Scandinavian Defense,Origin,9022
+English Opening,Origin,7487
+King's Pawn Game,Origin,6698
+Caro-Kann Defense,Origin,6441
+Italian Game,Origin,6022
+Modern Defense,Origin,5054
+Ruy Lopez,Origin,4814
