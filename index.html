@@ -30,7 +30,8 @@
 	<body>
 		<h1>Your Check Mate</h1>
 		<h2>How Good is Your Chess Opening? <a href="writeup.html">Writeup</a></h2>
-		<h3>Check out the win/draw rate by ranking for opening chess moves from <a href="https://database.lichess.org/" target="_blank">lichess.org</a>  game data!</h3>
+		<!--
+        <h3>Check out the win/draw rate by ranking for opening chess moves from <a href="https://database.lichess.org/" target="_blank">lichess.org</a>  game data!</h3> -->
 		<div class="filter-container">
 			<form>
 				<label for="input-rating">Go by Rating!</label><br>
@@ -48,14 +49,22 @@
 			</form>
 		</div>
 
+    <div class="openings-treemap-container">
+        <div id="openings-treemap">
+            <svg id="openings-treemap-svg">
+                <g id="openings-treemap-transform"></g>
+            </svg>
+        </div>
+    </div>
+
 		<div class="openings-over-time-container">
 			<div id="openings-over-time">
-					<svg id="openings-over-time-svg">
-						<g id='openings-over-time-xAxis'></g>
-						<g id='openings-over-time-yAxis'></g>
-						<g id='openings-over-time-paths'></g>
-						<g id='openings-over-time-clickpaths'></g>
-					</svg>
+                <svg id="openings-over-time-svg">
+                    <g id='openings-over-time-xAxis'></g>
+                    <g id='openings-over-time-yAxis'></g>
+                    <g id='openings-over-time-paths'></g>
+                    <g id='openings-over-time-clickpaths'></g>
+                </svg>
 			</div>
 		</div>
 
