@@ -840,6 +840,9 @@ function makeTreemap() {
         .attr("viewBox", [0, 0, width, height])
         .style("font", "18px sans-serif");
 
+    // Clear treemap before building new one.
+    svg.selectAll("g").remove();
+
     const leaf = svg.selectAll("g")
       .data(root.leaves())
       .join("g")
