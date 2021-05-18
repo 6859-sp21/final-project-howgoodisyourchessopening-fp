@@ -23,6 +23,10 @@
 		<script defer src="js/chess.js"></script>
 		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
 
+        <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+        <!-- <script defer src="js/jquery-ui.js"></script> -->
+		<script src=""></script>
+
 
 
 	    <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -30,7 +34,11 @@
 	<body>
 		<h1>Your Check Mate</h1>
 		<h2>How Good is Your Chess Opening? <a href="writeup.html">Writeup</a></h2>
-		<h3>Check out the win/draw rate by ranking for opening chess moves from <a href="https://database.lichess.org/" target="_blank">lichess.org</a>  game data!</h3>
+
+		<h3>In the game of chess, there are an infinite amounts of different games that can be played, but there are certain opening moves that are very popular, so popular that they have names!
+        <h3>Explore the most popular chess openings used by players at <a href="https://database.lichess.org/" target="_blank">lichess.org</a>!</h3>
+        <h4>Filter by Date and/or Rating (based on Lichess Elo)</h4>
+        <div id="slider"></div>
 		<div class="filter-container">
 			<form>
 				<label for="input-rating">Go by Rating!</label><br>
@@ -47,19 +55,28 @@
 			  </label>
 			</form>
 		</div>
+		<h4 style="text-align:center;">Hover over the map to see the opening, click to see even more data, or just scroll down to play some chess!</h4>
+    <div class="openings-treemap-container">
+        <div id="openings-treemap">
+            <svg id="openings-treemap-svg">
+                <g id="openings-treemap-transform"></g>
+								<g id='openings-treemap-clicknodes'></g>
+            </svg>
+        </div>
+    </div>
 
-		<div class="openings-over-time-container">
+		<!-- <div class="openings-over-time-container">
 			<div id="openings-over-time">
-					<svg id="openings-over-time-svg">
-						<g id='openings-over-time-xAxis'></g>
-						<g id='openings-over-time-yAxis'></g>
-						<g id='openings-over-time-paths'></g>
-						<g id='openings-over-time-clickpaths'></g>
-					</svg>
+                <svg id="openings-over-time-svg">
+                    <g id='openings-over-time-xAxis'></g>
+                    <g id='openings-over-time-yAxis'></g>
+                    <g id='openings-over-time-paths'></g>
+                    <g id='openings-over-time-clickpaths'></g>
+                </svg>
 			</div>
-		</div>
-
-		<div class="visual-container">
+		</div> -->
+		<h2 style="text-align:center;">See the opening and explore more by playing some chess yourself!</h2>
+		<div class="visual-container" id="vis1">
 			<div class="board-container">
 				<!-- <label>Status:</label> -->
 				<div id="status"></div>

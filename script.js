@@ -1,3 +1,10 @@
+var low_rating = 0;
+var high_rating = 9999;
+var input_rating = false;
+var start_date = new Date("2013-01-01")
+var end_date = new Date("2021-01-31")
+
+
 var board = null
 var game = new Chess()
 var $status = $('#status')
@@ -11,37 +18,46 @@ GET DATA
 
 1. Cleaned databases of lichess games
 2. Opening reference file obtained from https://lichess.org/forum/general-chess-discussion/eco-code-csv-sheet
+3. Opening frequences per year
 */
 var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
-var filenames = ["lichess_db_standard_rated_2013-01-cleaned.csv",
-                 "lichess_db_standard_rated_2013-07-cleaned.csv",
-                 "lichess_db_standard_rated_2014-01-cleaned.csv",
-                 "lichess_db_standard_rated_2014-07-cleaned.csv",
-                 "lichess_db_standard_rated_2015-01-cleaned.csv",
-                 "lichess_db_standard_rated_2015-07-cleaned.csv",
-                 "lichess_db_standard_rated_2016-01-cleaned.csv",
-                 "lichess_db_standard_rated_2016-07-cleaned.csv",
-                 "lichess_db_standard_rated_2017-01-cleaned.csv",
-                 "lichess_db_standard_rated_2017-07-cleaned.csv",
-                 "lichess_db_standard_rated_2018-01-cleaned.csv",
-                 "lichess_db_standard_rated_2018-07-cleaned.csv",
-                 "lichess_db_standard_rated_2019-01-cleaned.csv",
-                 "lichess_db_standard_rated_2019-07-cleaned.csv",
-                 "lichess_db_standard_rated_2020-01-cleaned.csv",
-                 "lichess_db_standard_rated_2020-07-cleaned.csv",
-                 "lichess_db_standard_rated_2021-01-cleaned.csv"]
+var filenames = ["lichess_db_standard_rated_2013-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2013-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2014-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2014-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2015-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2015-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2016-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2016-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2017-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2017-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2018-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2018-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2019-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2019-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2020-01-cleaned-small.csv",
+                 "lichess_db_standard_rated_2020-07-cleaned-small.csv",
+                 "lichess_db_standard_rated_2021-01-cleaned-small.csv"]
+
+
+
+function fetchAndFilter(filename) {
+
+}
 
 var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
   data_promises = data_promises.concat(d3.tsv(filepath + filenames[i], d3.autoType))
 }
-
 var master_data = Promise.all(
   data_promises
 ).then(function(allData) {
   return d3.merge(allData);
 })
-// console.log(master_data);
+
+// console.log("MASTER LOAD: ", master_data);
+// var nut = master_data.then(function(d) {console.log(d); return d;});
+// console.log(nut)
 var opening_data = master_data;
 
 openingDatabaseFilename = "openingDatabaseClean.tsv"
@@ -52,12 +68,12 @@ openingDatabase.then(function(data) {
     openingDatabaseMap[data[i]['Name']] = data[i]['Opening Moves'];
   }
 });
-// console.log(openingDatabaseMap);
 
-var num_games = master_data.length
+console.log(openingDatabaseMap);
 var first_move = getMostCommonMove(opening_data, "")
 // var first_move ="e4"
 var common_move = first_move
+
 
 /*
 USER INPUT
@@ -65,11 +81,9 @@ USER INPUT
 Instantiate user input parameters and create handlers
 */
 
-var low_rating = 0;
-var high_rating = 9999;
-var input_rating = false;
-var start_date = new Date("2013-01-01")
-var end_date = new Date("2021-01-31")
+$( function() {
+  $( "#slider" ).slider();
+} );
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
@@ -147,37 +161,43 @@ function onSnapEnd () {
 }
 
 
-// function filterData() {
-//   var filterColor = "WhiteElo"
-//   if (chessColor === 'black') {
-//     filterColor = "BlackElo"
-//   }
+function filterData() {
+  var openingData = opening_data;
+  var filterColor = "WhiteElo"
+  if (chessColor === 'black') {
+    filterColor = "BlackElo"
+  }
+  opening_data.then(function(data) {
 
-//   // Filter games by rating and date.
-//   var openingData = opening_data.filter(function (d) {
-//     var elo = d.WhiteElo
-//     if (chessColor === 'black') {
-//       elo = d.BlackElo
-//     }
-//     var date_dot = d.Date
-//     var date_str = date_dot.replace(/\./g, "-");
-//     // console.log(date_str)
-//     var date = new Date(date_str)
-//     // console.log(date)
+    // Filter games by rating and date.
+    openingData = data.filter(function (d) {
+      var elo = d.WhiteElo
+      if (chessColor === 'black') {
+        elo = d.BlackElo
+      }
+      var date_dot = d.Date
+      var date_str = date_dot.replace(/\./g, "-");
+      // console.log(date_str)
+      var date = new Date(date_str)
+      // console.log(date)
 
-//     return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
-//   });
-//   return openingData   
-// }
+      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+    });
+    console.log("WOAH: ", openingData)
+    return openingData;
+  });
+}
 
 
 function updateStatus (update_time_graph=false) {
 
   // var filter_data = filterData();
+  // console.log("FILTERED: ", filter_data)
 
-  analyze(game.pgn(), document.getElementById("chessColor").value)
+  analyze(game.pgn(), document.getElementById("chessColor").value, update_time_graph)
   if (update_time_graph) {
-    plotOpeningsOverTime();
+    // plotOpeningsOverTime();
+    makeTreemap();
   }
   var status = ''
 
@@ -235,13 +255,10 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
   // console.log(pgn)
   try {
     var date_str = data[0].Date.replace(/\./g, "-");
-    // console.log(date_str)
     var date = new Date(date_str)
-    // console.log(date);
-    // console.log(date >= start_date && date <= end_date);
   }
   catch(e) {
-    // console.log(e);
+    console.log(e);
   }
 
   for (var i=0; i < data.length; i++) {
@@ -251,13 +268,10 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
       offset = 1
     }
     var game_pgn = data[i].Moves.slice(pgn.length+offset, pgn.length+10)
-    // console.log(game_pgn)
     var first_space = game_pgn.indexOf(" ")
     var next_move = game_pgn.substring(0, first_space)
     if (next_move.includes(".")) {
-      // console.log("NO NUT")
       var move_pgn = game_pgn.substring(first_space+1)
-      // console.log(move_pgn)
       var second_space = move_pgn.indexOf(" ")
       next_move = game_pgn.substring(first_space+1, first_space + second_space+1)
     }
@@ -285,14 +299,15 @@ OPENINGS OVER TIME
 Create plot of common openings over time. Reference: https://observablehq.com/@d3/multi-line-chart
 */
 
-width = 500;
-height = 200;
+width_time = 500;
+height_time = 200;
 margin = ({top: 20, right: 20, bottom: 30, left: 30});
 d3.select("#openings-over-time-svg")
-  .attr("viewBox", [0, 0, width, height])
+  .attr("viewBox", [0, 0, width_time, height_time])
   .style("overflow", "visible");
 
 function plotOpeningsOverTime() {
+  var a = performance.now()
   opening_data.then(function(data) {
     var filterColor = "WhiteElo"
     if (chessColor === 'black') {
@@ -301,24 +316,28 @@ function plotOpeningsOverTime() {
 
     // Filter games by rating and date.
     var openingData = data.filter(function (d) {
+      var a = performance.now()
       var elo = d.WhiteElo
       if (chessColor === 'black') {
         elo = d.BlackElo
       }
       var date_dot = d.Date
       var date_str = date_dot.replace(/\./g, "-");
-      // console.log(date_str)
       var date = new Date(date_str)
-      // console.log(date)
+
+      var b = performance.now()
+
+      // console.log(b-a + 'ms')
 
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
 
-    // opening_data = openingData;
+    var b = performance.now()
+    // console.log(b-a + 'ms')
 
     // Get most common openings
     var openingFrequencies = {}
-    var numOpenings = 20;
+    var numOpenings = 10;
     for (var i = 0; i < openingData.length; i++) {
       openingName = openingData[i].Opening.split(':')[0];
       if (!(openingName in openingFrequencies)) {
@@ -386,13 +405,13 @@ function plotOpeningsOverTime() {
 
     x = d3.scaleUtc()
         .domain(d3.extent(linegraph_data.dates))
-        .range([margin.left, width - margin.right])
+        .range([margin.left, width_time - margin.right])
     y = d3.scaleLinear()
         .domain([0, d3.max(linegraph_data.series, d => d3.max(d.values))]).nice()
-        .range([height - margin.bottom, margin.top])
+        .range([height_time - margin.bottom, margin.top])
     xAxis = g => g
-        .attr("transform", `translate(0,${height - margin.bottom})`)
-        .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
+        .attr("transform", `translate(0,${height_time - margin.bottom})`)
+        .call(d3.axisBottom(x).ticks(width_time / 80).tickSizeOuter(0))
     yAxis = g => g
         .attr("transform", `translate(${margin.left},0)`)
         .call(d3.axisLeft(y))
@@ -490,6 +509,9 @@ function plotOpeningsOverTime() {
       console.log(d);
       var opening_pgn = openingDatabaseMap[d.name];
       console.log(opening_pgn);
+      // $(window).scrollTop($('#visual-container').position().top);
+      $('html, body').animate({scrollTop: $("#vis1").offset().top
+            }, 2000);
       loadPGN(opening_pgn);
     })
 
@@ -510,6 +532,13 @@ WIN/DRAW RATES
 Create graph with win/draw rate based on moves played.
 */
 
+width_time = 400;
+height_time = 200;
+margin = ({top: 20, right: 20, bottom: 30, left: 30});
+d3.select("#openings-over-time-svg")
+  .attr("viewBox", [0, 0, width_time, height_time])
+  .style("overflow", "visible");
+
 var div = d3.select("#win-graph").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
@@ -517,26 +546,27 @@ var div = d3.select("#win-graph").append("div")
 const colorWin = "ForestGreen";
 const colorDraw = "LightSkyBlue";
 
-function analyze(val, chessColor) {
-  // console.log(start_date)
-  // console.log(end_date)
-  master_data.then(function(data) {
+function analyze(val, chessColor, update_time=false) {
+  opening_data.then(function(data) {
     var filterColor = "WhiteElo"
     if (chessColor === 'black') {
       filterColor = "BlackElo"
     }
-    var openingData = data.filter(function (d) {
+    var openingData1 = data.filter(function (d) {
       var elo = d.WhiteElo
       if (chessColor === 'black') {
         elo = d.BlackElo
       }
       var date_dot = d.Date
       var date_str = date_dot.replace(/\./g, "-");
-      // console.log(date_str)
       var date = new Date(date_str)
-      // console.log(date)
 
-      return elo >= low_rating && elo <= high_rating && d.Moves.startsWith(val) && date >= start_date && date <= end_date;
+      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+    });
+
+
+    var openingData = openingData1.filter(function (d) {
+      return d.Moves.startsWith(val);
     });
 
     num_games = openingData.length
@@ -545,16 +575,18 @@ function analyze(val, chessColor) {
 
     $games.html(String(openingData.length) + "  (" + String(proportion) + "%)")
 
-    height = 270;
-    width = 500;
+    height_move = 270;
+    width_move = 500;
     margin = ({top: 20, right: 20, bottom: 60, left: 50});
 
+    var a = performance.now()
+
     const svg = d3.select("#analysis")
-      .attr("viewBox", [0, 0, width, height]);
+      .attr("viewBox", [0, 0, width_move, height_move]);
 
     x = d3.scaleLinear()
       .domain([500, 3200]).nice()
-      .range([margin.left, width - margin.right])
+      .range([margin.left, width_move - margin.right])
 
 
     function getWinRate(d) {
@@ -604,13 +636,13 @@ function analyze(val, chessColor) {
 
     y = d3.scaleLinear()
       .domain([0, 100]).nice()
-      .range([height - margin.bottom, margin.top])
+      .range([height_move - margin.bottom, margin.top])
 
     xAxis = g => g
-      .attr("transform", `translate(0,${height-margin.bottom})`)
-      .call(d3.axisBottom(x).ticks(width / 80 ).tickSizeOuter(0))
+      .attr("transform", `translate(0,${height_move-margin.bottom})`)
+      .call(d3.axisBottom(x).ticks(width_move / 80 ).tickSizeOuter(0))
       .call(g => g.append("text")
-        .attr("x", width - margin.right)
+        .attr("x", width_move - margin.right)
         .attr("y", -4)
         .attr("fill", "currentColor")
         .attr("font-weight", "bold")
@@ -618,7 +650,7 @@ function analyze(val, chessColor) {
 
     yAxis = g => g
       .attr("transform", `translate(${margin.left},0)`)
-      .call(d3.axisLeft(y).ticks(height / 40))
+      .call(d3.axisLeft(y).ticks(height_move / 40))
       .call(g => g.select(".domain").remove())
       .call(g => g.select(".tick:last-of-type text").clone()
         .attr("x", 4)
@@ -628,7 +660,7 @@ function analyze(val, chessColor) {
     svg.select("#xAxisLabel")
       .attr("transform", "rotate(-90)")
       .attr("y", margin.left/2)
-      .attr("x", 0 - ((height-margin.bottom)/ 2))
+      .attr("x", 0 - ((height_move-margin.bottom)/ 2))
       .attr("dy", "-0.5em")
       .attr("font-size", 10)
       .style("text-anchor", "middle")
@@ -636,8 +668,8 @@ function analyze(val, chessColor) {
       .text("Win/Draw Rate (%)");
 
     svg.select("#yAxisLabel")
-      .attr("y", height-margin.bottom/2)
-      .attr("x", (width+margin.left)/2)
+      .attr("y", height_move-margin.bottom/2)
+      .attr("x", (width_move+margin.left)/2)
       .attr("dy", "0.4em")
       .attr("dx", "-0.7em")
       .attr("font-size", 10)
@@ -713,9 +745,161 @@ function analyze(val, chessColor) {
     svg.select("#yAxis")
       .call(yAxis);
 
+    var b = performance.now()
+    // console.log(b-a + 'ms');
 
   });
 }
+
+/*
+TREEMAP (TEST)
+*/
+width = 954
+height = 500
+color = d3.scaleOrdinal(d3.schemeCategory10)
+treemap = data => d3.treemap()
+    .tile(d3.treemapSquarify)
+    .size([width, height])
+    .padding(1)
+    .round(true)
+  (d3.hierarchy(data)
+      .sum(d => d.value)
+      .sort((a, b) => b.value - a.value))
+
+
+function makeTreemap() {
+  // Filter games by rating and date.
+  opening_data.then(function(data) {
+
+    var openingData = data.filter(function (d) {
+      var a = performance.now()
+      var elo = d.WhiteElo
+      if (chessColor === 'black') {
+        elo = d.BlackElo
+      }
+      var date_dot = d.Date
+      var date_str = date_dot.replace(/\./g, "-");
+      var date = new Date(date_str)
+
+      var b = performance.now()
+
+      // console.log(b-a + 'ms')
+
+      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+    });
+
+    // Get most common openings
+    var openingFrequencies = {}
+    var numOpenings = 10;
+    for (var i = 0; i < openingData.length; i++) {
+      openingName = openingData[i].Opening.split(':')[0];
+      if (!(openingName in openingFrequencies)) {
+        openingFrequencies[openingName] = 0;
+      }
+      openingFrequencies[openingName] += 1;
+    }
+    keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
+    var openingsToPlot = keysSorted.slice(0, numOpenings);
+    console.log(openingFrequencies);
+    console.log(openingsToPlot);
+
+    data = [
+      {
+        name: "Origin",
+        parent: null,
+        value: null
+      }
+    ]
+
+    for (var i=0; i < numOpenings; i++) {
+      data.push({
+        name: openingsToPlot[i],
+        parent: "Origin",
+        value: (100 * openingFrequencies[openingsToPlot[i]] / openingData.length).toFixed(1)
+      })
+    }
+
+    console.log(data);
+
+    // d3.csv("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/2020-openings.csv").then(function(data) {
+    // console.log(data);
+    // stratify the data: reformatting for d3.js
+    var root = d3.stratify()
+      .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
+      .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
+      (data);
+    root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
+
+    d3.treemap()
+    .size([width, height])
+    .padding(4)
+    (root)
+
+    // const root = treemap(data);
+
+    const svg = d3.select("#openings-treemap-svg")
+        .attr("viewBox", [0, 0, width, height])
+        .style("font", "14px sans-serif");
+
+    const leaf = svg.selectAll("g")
+      .data(root.leaves())
+      .join("g")
+        .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+    leaf.append("title")
+        .text(d => d.name);
+
+    leaf.append("rect")
+        // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+        .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
+        .attr("fill-opacity", 0.6)
+        .attr("width", d => d.x1 - d.x0)
+        .attr("height", d => d.y1 - d.y0)
+        .attr('stroke', 'black').attr('stroke-width', 1)
+        .attr('stroke-opacity', 0)
+        .style("cursor", "pointer")
+        .on('mouseover', function(d, i) {
+          d3.select(this).attr('stroke-opacity', 2);
+          div.transition()
+              .duration(200)
+              .style("opacity", .9);
+        })
+        .on('mouseout', function(d, i) {
+          d3.select(this).attr('stroke-opacity', 0);
+          div.transition()
+              .duration(500)
+              .style("opacity", 0);
+        });
+
+    leaf.append("clipPath")
+        // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
+      .append("use")
+        // .attr("xlink:href", d => d.leafUid.href);
+
+    leaf.append("text")
+        .attr("clip-path", d => d.clipUid)
+      .selectAll("tspan")
+      .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value + "%"))
+      .join("tspan")
+        .attr("x", 3)
+        .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
+        .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
+        .text(d => d);
+
+    var clickTreeNode = leaf.selectAll("rect")
+    clickTreeNode.on('click', function(event, d) {
+      // FOR MATT
+      console.log(d);
+      var opening_pgn = openingDatabaseMap[d.data.name];
+      console.log(opening_pgn);
+      // $(window).scrollTop($('#visual-container').position().top);
+      $('html, body').animate({scrollTop: $("#vis1").offset().top
+            }, 2000);
+      loadPGN(opening_pgn);
+    })
+  });
+}
+
 
 /*
 CONFIGURE CHESSBOARD
