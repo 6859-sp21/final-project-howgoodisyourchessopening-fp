@@ -58,5 +58,5 @@ declare -a arr=("lichess_db_standard_rated_2021-01"
 for filename in "${arr[@]}"
 do
     echo "Subsampling $filename"
-    head -n 1000 ./datafiles/${filename}-cleaned.csv > ./datafiles/${filename}-cleaned-small.csv
+    head -n 2000 ./datafiles/${filename}-cleaned.csv > ./datafiles/${filename}-cleaned-small.csv
 done

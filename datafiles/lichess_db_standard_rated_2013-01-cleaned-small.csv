@@ -998,3 +998,1003 @@ Date	Result	WhiteElo	BlackElo	Opening	Moves
 2013.01.01	1-0	1627	1541	King's Gambit	1. e4 e5 2. f4 d6 3. f5 Nf6 4. d3 h6
 2013.01.01	1-0	1778	1672	Queen's Gambit Accepted: Saduleto Variation	1. d4 d5 2. c4 dxc4 3. e4 e6 4. Bxc4 h6
 2013.01.01	0-1	1302	1551	Elephant Gambit	1. e4 e5 2. Nf3 d5 3. Nc3 d4 4. Nb5 Bb4
+2013.01.01	1-0	1470	1405	Queen's Pawn Game: Veresov Attack, Alburt Defense	1. d4 d5 2. Nc3 Bf5 3. Bf4 a6 4. e3 Nc6
+2013.01.01	1-0	1500	1510	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 e6 3. a3 Nf6 4. Bf4 b6
+2013.01.01	0-1	1394	1553	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Nf3 Nf6 4. Nc3 O-O
+2013.01.01	0-1	1499	1605	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Bd6
+2013.01.01	0-1	1384	1403	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. a3 dxc4 4. Nc3 Nf6
+2013.01.01	1-0	1958	1614	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Bc4 Bc5 4. O-O Ne7
+2013.01.01	1-0	1036	1249	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nf6
+2013.01.01	1-0	1766	1664	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 Nc6 4. dxe5 Nxe5
+2013.01.01	0-1	1639	1830	Alekhine Defense	1. e4 Nf6 2. Nc3 Nc6 3. d4 d6 4. h3 a6
+2013.01.01	1-0	1472	1560	Modern Defense	1. e4 g6 2. Nc3 Bg7 3. b3 Nf6 4. Bb2 O-O
+2013.01.01	0-1	1735	1574	Hungarian Opening	1. g3 Nc6 2. Bg2 b6 3. c3 Bb7 4. Qb3 e6
+2013.01.01	0-1	1641	1710	Sicilian Defense: Delayed Alapin	1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. d3 e6
+2013.01.01	1-0	1508	1234	King's Gambit Declined: Keene's Defense #2	1. e4 e5 2. f4 Qh4+ 3. g3 Qf6 4. Nf3 exf4
+2013.01.01	1-0	1433	1374	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d5 4. dxe5 d4
+2013.01.01	1-0	1641	1730	Horwitz Defense	1. d4 e6 2. a3 Nf6 3. c4 b6 4. Nc3 Bb7
+2013.01.01	1-0	1387	1546	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. e5 Nf6
+2013.01.01	1/2-1/2	1387	1546	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. e5 e6 4. Nc3 d6
+2013.01.01	0-1	1786	1630	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. e3 Nc6 4. a3 Bf5
+2013.01.01	1-0	2097	1717	Queen's Gambit Refused: Chigorin Defense, Exchange Variation	1. d4 d5 2. c4 Nc6 3. cxd5 Qxd5 4. e3 e5
+2013.01.01	1-0	1313	1281	Hippopotamus Defense #2	1. e4 Nh6 2. Nc3 d6 3. Bc4 f6 4. Nf3 Bg4
+2013.01.01	1-0	1903	1642	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Nf3 e6 4. c4 c6
+2013.01.01	1-0	1534	1611	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nc6 3. Bf4 Bf5 4. Nb5 Rc8
+2013.01.01	0-1	1528	1798	Pirc Defense #4	1. e4 d6 2. Bc4 e6 3. d3 c6 4. Nf3 d5
+2013.01.01	1-0	1392	1530	Owen Defense	1. e4 b6 2. d4 Bb7 3. d5 e6 4. c4 exd5
+2013.01.01	1-0	1228	1072	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Nxe5 Qe7 4. d3 Qxe5
+2013.01.01	1-0	1491	1597	Philidor Defense: Exchange Variation #3	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Qxd4 Bg4
+2013.01.01	1-0	1450	1364	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 h6 3. e4 Nf6 4. Bd3 Nc6
+2013.01.01	0-1	1364	1297	Queen's Gambit Refused: Chigorin Defense #3	1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. d5 Nb4
+2013.01.01	0-1	1656	1695	King's Pawn Game	1. e4 e5 2. Be2 Nc6 3. d3 d6 4. h3 Nf6
+2013.01.01	1-0	1596	1712	English Opening: Great Snake Variation	1. c4 g6 2. Nc3 Bg7 3. d4 e6 4. e4 d6
+2013.01.01	1-0	1597	1532	Center Game: Normal Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qa4 d5
+2013.01.01	1/2-1/2	1500	1388	French Defense #2	1. e4 e6
+2013.01.01	1-0	1634	1230	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. Nxd4 Qh4
+2013.01.01	1-0	1322	1390	French Defense: Queen's Knight	1. e4 e6 2. Nc3 b6 3. g3 Bb7 4. Bg2 g6
+2013.01.01	1-0	1672	1637	English Defense #2	1. d4 b6 2. e4 Bb7 3. Nc3 g6 4. Nf3 e6
+2013.01.01	1-0	1700	1774	Danish Gambit Accepted, Chigorin Defense	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2
+2013.01.01	1-0	1444	1509	Queen's Pawn Game #2	1. d4 d5 2. e3 e6 3. Bb5+ c6 4. Ba4 b5
+2013.01.01	1-0	1771	1505	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. a3 Nf6 4. Nf3 b6
+2013.01.01	1-0	1644	1482	Hungarian Opening	1. g3 e5 2. Bg2 Nc6 3. b3 d6 4. Bb2 Bf5
+2013.01.01	1-0	1644	1482	Hungarian Opening	1. g3 e5 2. Bg2 Nc6 3. f3 d6 4. d3 Be6
+2013.01.01	0-1	1312	1356	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O a6
+2013.01.01	1-0	1659	1476	Hungarian Opening	1. g3 e5 2. Bg2 Nc6 3. b3 d6 4. d3 Bf5
+2013.01.01	0-1	1408	1238	French Defense: Winawer Variation, Advance Variation #3	1. e4 d5 2. e5 e6 3. d4 Bb4+ 4. Nc3 c5
+2013.01.01	0-1	1228	1636	Sicilian Defense	1. e4 c5 2. Qh5 e6 3. Nf3 Nc6 4. d3 Nf6
+2013.01.01	0-1	1612	1647	Queen's Pawn Game	1. d4 d5 2. a3 e6 3. b4 h6 4. Bb2 Nf6
+2013.01.01	0-1	1369	1334	Van't Kruijs Opening	1. e3 e5 2. g3 b6 3. Bg2 Nc6 4. b3 Bb7
+2013.01.01	0-1	1512	1459	Rat Defense: Harmonist	1. e4 d6 2. f4 Nf6 3. Nc3 Nc6 4. h3 e5
+2013.01.01	1-0	1908	1836	Alekhine Defense: Four Pawns Attack, Trifunovic Variation	1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6
+2013.01.01	0-1	1705	1655	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. b4 e6
+2013.01.01	0-1	1484	1592	Scandinavian Defense	1. e4 d5 2. d3 dxe4 3. dxe4 Qxd1+ 4. Kxd1 e5
+2013.01.01	1-0	1638	1225	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d5 4. dxe5 Nxe5
+2013.01.01	1-0	1731	1761	Italian Game: Classical Variation, Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6
+2013.01.01	0-1	1524	1619	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. Qh5 e6 4. d3 Nf6
+2013.01.01	1-0	1455	1465	Queen's Pawn Game #2	1. d4 d5 2. e3 c6 3. Be2 Bf5 4. Nf3 Be4
+2013.01.01	0-1	1827	1918	King's Gambit Declined: Classical, Soldatenkov Variation	1. e4 e5 2. f4 Bc5 3. Nf3 d6 4. fxe5 dxe5
+2013.01.01	0-1	1486	1594	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. c3 a6 4. a3 b5
+2013.01.01	1-0	1690	1615	Ruy Lopez: Bird Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4
+2013.01.01	0-1	1259	1289	Queen's Pawn Game: Zukertort Variation	1. Nf3 d5 2. d4 f5 3. Nc3 e6 4. h3 Bd6
+2013.01.01	1-0	1720	1598	Van't Kruijs Opening	1. e3 Nf6 2. d4 e6 3. c4 c5 4. dxc5 Bxc5
+2013.01.01	0-1	1727	1590	Saragossa Opening	1. c3 g6 2. e3 Bg7 3. Bc4 Nf6 4. Qb3 O-O
+2013.01.01	1-0	1523	1606	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 d5 3. exd5 Qxd5 4. Nc3 Qd8
+2013.01.01	0-1	1801	2033	Hungarian Opening: Reversed Modern Defense	1. g3 c5 2. Bg2 d5 3. b3 Nc6 4. Bb2 e5
+2013.01.01	0-1	1749	1743	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. Bc4 Bc5
+2013.01.01	0-1	1686	1632	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 e6 3. Nf3 Nc6 4. Bc4 d5
+2013.01.01	1-0	1516	1837	Petrov's Defense #2	1. e4 e5 2. Nf3 Nf6 3. Nxe5 Bd6 4. d4 Nxe4
+2013.01.01	0-1	1606	1712	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 d6 3. Nf3 c5 4. Be2 b6
+2013.01.01	0-1	2079	1714	Queen's Gambit Refused: Chigorin Defense	1. d4 d5 2. c4 Nc6 3. g3 e5 4. dxe5 d4
+2013.01.01	1-0	1705	1603	Center Game #2	1. e4 e5 2. d4 Bd6 3. Nf3 Nc6 4. Bb5 exd4
+2013.01.01	0-1	1186	1223	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. Nf3 Nc6 4. c3 b5
+2013.01.01	0-1	1363	1582	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Bc4 Ne7 4. O-O c6
+2013.01.01	1-0	1775	1794	Indian Game: East Indian Defense	1. d4 Nf6 2. c4 e6 3. e3 c5 4. Nf3 d5
+2013.01.01	0-1	1353	1640	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 e6 3. d3 Nc6 4. a3 d5
+2013.01.01	1-0	1822	1598	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 Bf5 3. Bf4 Nf6 4. e3 h6
+2013.01.01	1-0	2038	1796	Modern Defense	1. d4 g6 2. c4 Bg7 3. e4 b6 4. Nc3 Bb7
+2013.01.01	1-0	1893	1656	Philidor Defense: Hanham Variation	1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. dxe5 dxe5
+2013.01.01	1-0	1720	1593	Mieses Opening	1. d3 e6 2. c4 b6 3. b3 Bb7 4. Bb2 f6
+2013.01.01	1-0	1299	1250	Mikenas Defense	1. d4 Nc6 2. Nf3 e5 3. d5 Nb4 4. Nxe5 Qf6
+2013.01.01	0-1	1652	1599	Scandinavian Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 e6 4. d3 Be7
+2013.01.01	0-1	1466	1629	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Qf3 a6 4. a3 b5
+2013.01.01	1/2-1/2	1787	1782	Queen's Gambit Declined: Semi-Tarrasch Defense, Pillsbury Variation	1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. e3 d5
+2013.01.01	1-0	2168	1961	Nimzowitsch Defense: Kennedy Variation, Main Line	1. e4 Nc6 2. d4 e5 3. dxe5 Nxe5 4. f4 Ng6
+2013.01.01	1-0	1754	1738	Italian Game: Giuoco Pianissimo, Normal	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6
+2013.01.01	1-0	1499	1472	King's Gambit Declined, Queen's Knight Defense	1. e4 Nc6 2. f4 e5 3. Nf3 d6 4. Bc4 h5
+2013.01.01	1-0	1674	1681	Sicilian Defense: Myers Attack #2	1. e4 c5 2. a4 d6 3. Bc4 e6 4. Nc3 a6
+2013.01.01	0-1	1234	1173	King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit	1. e4 e5 2. Qh5 Nf6 3. Qxe5+ Be7 4. Nf3 Nc6
+2013.01.01	0-1	1346	1351	French Defense: Queen's Knight	1. e4 e6 2. Nc3 b6 3. g3 Bb7 4. Bg2 Bb4
+2013.01.01	0-1	1955	2174	Ruy Lopez: Open Variations, Bernstein Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6
+2013.01.01	0-1	1585	1598	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 Nf6
+2013.01.01	1-0	1787	1588	Queen's Gambit Accepted: Central Variation, Modern Defense	1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. d5 Ne5
+2013.01.01	1-0	1246	1308	Scandinavian Defense	1. e4 d5 2. Qf3 c6 3. c3 dxe4 4. Qxe4 e6
+2013.01.01	0-1	1241	1308	Queen's Pawn Game: Zukertort Variation	1. Nf3 d5 2. d4 e6 3. b3 b5 4. a4 b4
+2013.01.01	0-1	1450	1655	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Qf3 Nc6 4. c3 Ne5
+2013.01.01	0-1	1928	1705	Ruy Lopez: Cozio Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O Ng6
+2013.01.01	0-1	1593	1826	Van't Kruijs Opening	1. e3 d5 2. e4 dxe4 3. Be2 b6 4. Bc4 Bb7
+2013.01.01	0-1	1667	1683	Horwitz Defense	1. d4 e6 2. a3 d5 3. c4 dxc4 4. Nc3 a6
+2013.01.01	0-1	1609	1574	King's Gambit Declined, Queen's Knight Defense	1. e4 e5 2. f4 Nc6 3. Nf3 d6 4. Bb5 Bg4
+2013.01.01	0-1	1614	1529	Queen's Pawn Game: Colle System	1. d4 d5 2. e3 Nf6 3. Nf3 Nc6 4. g3 Bg4
+2013.01.01	1-0	2180	1950	Ruy Lopez: Schliemann Defense	1. e4 Nc6 2. Bb5 e5 3. Nf3 f5 4. d3 fxe4
+2013.01.01	0-1	1476	1665	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. h3 g6 4. d4 cxd4
+2013.01.01	1-0	1750	1627	Owen Defense	1. e4 b6 2. d4 Bb7 3. d5 g6 4. Nf3 Bg7
+2013.01.01	0-1	1422	1529	Queen's Pawn Game: Chigorin Variation	1. Nf3 d5 2. d4 Nc6 3. e3 Bg4 4. Be2 Bxf3
+2013.01.01	0-1	1189	1220	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. Nf3 Qf6 4. Qe2 Bb4+
+2013.01.01	1-0	1547	1601	Queen's Gambit Declined: Queen's Knight Variation	1. d4 d5 2. c4 e6 3. Nc3 dxc4 4. e4 a6
+2013.01.01	0-1	1587	1596	Scandinavian Defense	1. e4 d5 2. e5 Nc6 3. Nf3 d4 4. Bd3 Bg4
+2013.01.01	1-0	1894	1660	Slav Defense: Quiet Variation	1. d4 c6 2. c4 Nf6 3. Nf3 d5 4. e3 e6
+2013.01.01	0-1	1589	1564	Nimzo-Larsen Attack: Modern Variation #3	1. b3 e5 2. Bb2 Nc6 3. e4 Nf6 4. d3 Bc5
+2013.01.01	0-1	1437	1675	Franco-Benoni Defense	1. e4 c5 2. d4 e6 3. d5 e5 4. c4 d6
+2013.01.01	1-0	1792	1755	Queen's Gambit Accepted: Central Variation, Modern Defense	1. d4 d5 2. c4 dxc4 3. e4 Nc6 4. d5 Ne5
+2013.01.01	1-0	1854	1453	Philidor Defense: Philidor Countergambit	1. e4 e5 2. Nf3 d6 3. d4 f5 4. dxe5 fxe4
+2013.01.01	0-1	1921	1815	Caro-Kann Defense: Classical Variation	1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5
+2013.01.01	1-0	1608	1576	Italian Game: Schilling-Kostic Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4 4. O-O Nxf3+
+2013.01.01	1/2-1/2	1579	1577	Queen's Gambit Declined: Queen's Knight Variation	1. d4 d5 2. c4 e6 3. Nc3 dxc4 4. e4 a6
+2013.01.01	0-1	1540	1414	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. Nf3 a6 4. Ng5 e6
+2013.01.01	1-0	1639	1588	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nf6 3. h3 Bc5 4. Be2 d6
+2013.01.01	0-1	1355	1231	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 e4 3. Nh3 d5 4. Nf4 c6
+2013.01.01	1/2-1/2	1427	1691	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 e5
+2013.01.01	0-1	1526	1632	Pirc Defense	1. e4 d6 2. d4 Nf6 3. Bg5 g6 4. Bxf6 exf6
+2013.01.01	1-0	1800	1685	Goldsmith Defense	1. e4 h5 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qe6+
+2013.01.01	0-1	1911	2185	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. Nf3 f5 4. Nc3 c6
+2013.01.01	1-0	1405	1551	Caro-Kann Defense	1. e4 c6 2. d4 e6 3. Nf3 a6 4. Nc3 h6
+2013.01.01	1-0	1671	1526	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. h3 d6
+2013.01.01	1-0	1848	1778	Four Knights Game	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d3 d5
+2013.01.01	1-0	1441	1213	Nimzowitsch Defense: Scandinavian Variation, Advance Variation	1. e4 Nc6 2. d4 d5 3. e5 Bf5 4. Bb5 Qd7
+2013.01.01	1-0	1277	1260	Queen's Pawn	1. d4 d6 2. Nc3 Nf6 3. d5 c5 4. e4 Nbd7
+2013.01.01	1-0	1791	1822	Alekhine Defense: The Squirrel	1. e4 Nf6 2. e5 Nd5 3. c4 Nf4 4. d4 Ng6
+2013.01.01	1-0	1442	1424	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. Nc3 c5 4. e3 c4
+2013.01.01	1-0	1470	1707	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+2013.01.01	0-1	1543	1908	Queen's Pawn Game	1. d4 d5 2. c3 Bf5 3. Nd2 e6 4. Ngf3 Nf6
+2013.01.01	0-1	1476	1564	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. Qf3 Nf6 4. d3 Nd4
+2013.01.01	0-1	1374	1670	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd1 Nf6
+2013.01.01	0-1	1810	1804	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. c4 e6 4. d4 cxd4
+2013.01.01	0-1	1808	1701	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. Nc3 Nf6
+2013.01.01	1-0	1577	1534	Benoni Defense: Benoni Gambit Accepted	1. d4 c5 2. dxc5 e6 3. b4 Nc6 4. Bb2 Nxb4
+2013.01.01	1/2-1/2	1518	1421	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. Nf3 h6
+2013.01.01	1-0	1317	1232	Queen's Pawn Game	1. d4 d5 2. f4 e6 3. e3 c6 4. Bd3 Nd7
+2013.01.01	0-1	1266	1514	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 h6 3. Qh5 d6 4. Qe2 Nf6
+2013.01.01	0-1	1543	1500	Queen's Gambit Declined: Normal Defense	1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. c5 b6
+2013.01.01	0-1	1758	1606	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. c4 Nbd7 4. d4 Nb6
+2013.01.01	0-1	1687	1488	English Opening: Symmetrical Variation, Normal Variation	1. c4 c5 2. Nc3 e6 3. e4 b6 4. Nf3 Bb7
+2013.01.01	1-0	1587	1491	Old Benoni Defense	1. d4 c5 2. e3 cxd4 3. Qxd4 d6 4. Qd1 Nc6
+2013.01.01	1-0	1723	1620	Modern Defense	1. e4 g6 2. Bc4 Bg7 3. Qf3 e6 4. Nh3 b6
+2013.01.01	0-1	1519	1712	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 Be7
+2013.01.01	0-1	1340	1342	Van't Kruijs Opening	1. e3 e5 2. Qf3 Nf6 3. Nh3 Bc5 4. Nc3 Nc6
+2013.01.01	1-0	1292	1414	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O Nf6
+2013.01.01	1-0	1474	1522	Englund Gambit Complex: Hartlaub-Charlick Gambit	1. d4 e5 2. dxe5 d6 3. exd6 Bxd6 4. Nc3 Nf6
+2013.01.01	0-1	1384	1237	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. h3 Nf6 4. Nc3 c6
+2013.01.01	0-1	1515	1573	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 Bd7
+2013.01.01	1-0	1911	1536	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 c6
+2013.01.01	0-1	1815	1799	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 Nh6 3. Nf3 Be7 4. d4 O-O
+2013.01.01	0-1	1467	1764	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. c3 Bc5 4. Qf3 Qe7
+2013.01.01	1-0	1784	2160	Caro-Kann Defense: Panov Attack, Modern Defense, Mieses Line	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6
+2013.01.01	1-0	1612	1319	Queen's Pawn Game: Veresov Attack, Classical Defense	1. d4 Nf6 2. Bg5 e6 3. Nc3 d5 4. Nf3 Nc6
+2013.01.01	0-1	1644	1657	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 e6
+2013.01.01	0-1	1594	1697	Colle System	1. d4 Nf6 2. e3 d5 3. Nf3 e6 4. Be2 Be7
+2013.01.01	1-0	1857	1710	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 Bd6
+2013.01.01	1-0	1375	1255	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 d5
+2013.01.01	1-0	1541	1424	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Nf3 Bg4 4. h3 Bh5
+2013.01.01	0-1	1724	1793	English Opening: King's English Variation, Reversed Closed Sicilian	1. c4 e5 2. Nc3 Nc6 3. g3 Bc5 4. Bg2 Nf6
+2013.01.01	1-0	1740	1596	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. h3 Nc6
+2013.01.01	0-1	2087	2042	Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense	1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2013.01.01	0-1	1806	1914	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2013.01.01	0-1	1315	1571	French Defense: Mediterranean Defense	1. e4 e6 2. d4 Nf6 3. e5 Nd5 4. c4 Ne7
+2013.01.01	0-1	1480	1511	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nxe5 Qe7
+2013.01.01	1-0	2006	1655	Pirc Defense #4	1. e4 d6 2. Nc3 Nf6 3. d3 g6 4. Be3 Bg7
+2013.01.01	0-1	1510	1900	King's Gambit, Falkbeer Countergambit Accepted	1. e4 e5 2. f4 d5 3. exd5 Qxd5 4. Qf3 Qxf3
+2013.01.01	1-0	1367	1452	King's Pawn Game: Maroczy Defense	1. d4 e5 2. e4 d6 3. f3 Nc6 4. Nh3 Nxd4
+2013.01.01	1-0	1703	1604	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nc6 3. Nf3 Nf6 4. e3 Nh5
+2013.01.01	0-1	1329	1354	Van't Kruijs Opening	1. e3 e5 2. c3 e4 3. a4 d5 4. b4 Nf6
+2013.01.01	1-0	1647	1537	Ponziani Opening	1. e4 e5 2. Nf3 Nc6 3. c3 Bc5 4. d4 exd4
+2013.01.01	0-1	1582	1342	King's Pawn Game: Macleod Attack	1. e4 e5 2. c3 Bd6 3. d4 Nc6 4. d5 Na5
+2013.01.01	1-0	1506	1433	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. Bc4 a6 4. O-O e6
+2013.01.01	1-0	1485	1214	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 Nc6 2. d4 e5 3. d5 Nd4 4. c3 Nb5
+2013.01.01	1-0	1388	1520	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. O-O Nxe4
+2013.01.01	1-0	1588	1552	Colle System	1. d4 d5 2. e3 e6 3. Nf3 Nf6 4. g3 a6
+2013.01.01	1-0	1464	1299	Ware Opening	1. a4 d5 2. d4 Nc6 3. e3 e6 4. Nf3 h6
+2013.01.01	0-1	1470	2140	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nf6
+2013.01.01	0-1	1691	1633	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. Nc3 a6 3. d4 Nf6 4. e4 Bg4
+2013.01.01	0-1	1461	1535	Queen's Pawn Game: Chigorin Variation	1. Nf3 d5 2. d4 Nc6 3. Bf4 e6 4. c3 Bd6
+2013.01.01	1-0	1667	1276	King's Gambit Accepted, Modern Defense	1. e4 e5 2. f4 exf4 3. Nf3 d5 4. e5 Bf5
+2013.01.01	0-1	1568	1674	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2013.01.01	0-1	1469	2140	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Bxe6 fxe6
+2013.01.01	1-0	1486	1204	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Bc5 3. Nf3 Bb6 4. Nc3 Qe7
+2013.01.01	1-0	2101	1863	Benoni Defense	1. d4 Nf6 2. c4 c5 3. dxc5 e5 4. Nc3 Bxc5
+2013.01.01	0-1	1365	1453	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Bd7
+2013.01.01	0-1	1655	1294	Indian Game	1. d4 Nf6 2. b3 b6 3. Nd2 Bb7 4. Ngf3 c5
+2013.01.01	0-1	1273	1673	Pirc Defense: Classical Variation	1. e4 d6 2. Nf3 Nf6 3. Nc3 g6 4. d4 Bg7
+2013.01.01	0-1	1768	1675	Giuoco Piano	1. e4 e5 2. Bc4 Nc6 3. Nf3 Bc5 4. Nc3 d6
+2013.01.01	0-1	1521	1439	Queen's Pawn Game: Zukertort Variation	1. Nf3 d5 2. d4 e6 3. e3 Nc6 4. Bd3 Nf6
+2013.01.01	0-1	1584	1532	Van't Kruijs Opening	1. e3 c5 2. Nf3 d5 3. Nc3 Nf6 4. Bb5+ Nc6
+2013.01.01	1-0	1490	1247	Center Game #2	1. e4 e5 2. d4 Nf6 3. Nc3 c6 4. dxe5 Ng4
+2013.01.01	0-1	2012	2073	Three Knights Opening	1. e4 e5 2. Nc3 Nc6 3. Nf3 Bc5 4. Nxe5 Bxf2+
+2013.01.01	0-1	1923	1798	Nimzowitsch Defense: Scandinavian Variation, Advance Variation	1. e4 Nc6 2. d4 d5 3. e5 Bf5 4. c3 e6
+2013.01.01	1-0	1643	1623	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 d5 4. exd5 Nxd5
+2013.01.01	1-0	1545	1461	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nf6 3. d3 d6 4. Bg5 Qd7
+2013.01.01	0-1	1857	2107	Sicilian Defense: Grand Prix Attack	1. e4 c5 2. Nc3 Nc6 3. f4 d6 4. Nf3 f5
+2013.01.01	0-1	1531	1666	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d6 4. Be2 Be7
+2013.01.01	1-0	1597	1552	Indian Game	1. d4 Nf6 2. e3 e6 3. g3 Be7 4. Bg2 O-O
+2013.01.01	1-0	1803	1710	French Defense: Advance Variation, Nimzowitsch System	1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 Qb6
+2013.01.01	1-0	1545	1470	French Defense: Advance Variation	1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2013.01.01	0-1	1508	1899	Rat Defense: Harmonist	1. e4 d6 2. f4 c5 3. Nf3 Nc6 4. Bc4 Nf6
+2013.01.01	1-0	1470	1615	French Defense: Advance Variation #3	1. e4 d5 2. e5 e6 3. d4 Ne7 4. Nh3 h6
+2013.01.01	1-0	1607	1542	Indian Game	1. d4 Nf6 2. e3 e6 3. g3 c5 4. Bg2 cxd4
+2013.01.01	1-0	1589	1189	Nimzowitsch Defense	1. e4 Nc6 2. Bc4 e6 3. d4 d5 4. exd5 exd5
+2013.01.01	1-0	1429	1545	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 d6 4. Nf3 h6
+2013.01.01	1-0	1994	1678	Sicilian Defense: Closed Variation, Fianchetto Variation	1. e4 c5 2. Nc3 Nc6 3. g3 d6 4. Bg2 Nf6
+2013.01.01	1-0	1595	1618	Queen's Pawn	1. d4 c6 2. a3 d5 3. h3 Bf5 4. Nf3 Nf6
+2013.01.01	0-1	1593	1714	Hungarian Opening: Sicilian Invitation	1. g3 c5 2. Bg2 Nc6 3. f3 e5 4. Nh3 d5
+2013.01.01	1-0	1500	1674	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. Bf4 c5 4. c3 h6
+2013.01.01	0-1	2113	1851	Benoni Defense	1. d4 Nf6 2. c4 c5 3. dxc5 e5 4. Nc3 Bxc5
+2013.01.01	0-1	1791	1673	Van't Kruijs Opening	1. e3 e5 2. Be2 e4 3. d3 Nf6 4. dxe4 Nxe4
+2013.01.01	0-1	1505	2089	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 d6 4. Bb5 a6
+2013.01.01	1-0	1681	1616	Four Knights Game: Italian Variation	1. e4 Nc6 2. Nf3 Nf6 3. Nc3 e5 4. Bc4 h6
+2013.01.01	1-0	1616	1532	Indian Game	1. d4 Nf6 2. e3 e6 3. g3 c6 4. Bg2 d5
+2013.01.01	0-1	1407	1366	Van't Kruijs Opening	1. e3 e5 2. Bc4 d5 3. Be2 e4 4. f3 f5
+2013.01.01	1-0	1688	1754	Italian Game: Classical Variation, Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5
+2013.01.01	1-0	1452	1670	Pirc Defense #4	1. e4 d6 2. Nf3 Nf6 3. Nc3 g6 4. Bc4 Bg7
+2013.01.01	0-1	1560	1813	Ruy Lopez: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. Bxc6 dxc6
+2013.01.01	0-1	2000	1831	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2013.01.01	1-0	1709	1811	Queen's Gambit Declined: Modern Variation	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 dxc4
+2013.01.01	0-1	1494	1589	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 e5 2. d4 Nc6 3. d5 Nd4 4. c3 Qf6
+2013.01.01	0-1	1454	1500	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. d3 Nd4 4. Nf3 Nxf3+
+2013.01.01	0-1	1606	1606	Slav Defense	1. d4 d5 2. c4 c6 3. Bf4 dxc4 4. e3 b5
+2013.01.01	0-1	1515	1724	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6
+2013.01.01	0-1	1453	1554	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. Bd3 Bc5 4. O-O d6
+2013.01.01	0-1	1724	1583	English Opening: King's English Variation, Two Knights Variation	1. c4 e5 2. Nc3 Nf6 3. Nf3 e4 4. Ng5 Qe7
+2013.01.01	1-0	1336	1300	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 b6
+2013.01.01	0-1	1624	1523	Queen's Pawn Game #3	1. d4 Nf6 2. e3 d5 3. g3 e6 4. Bg2 Be7
+2013.01.01	0-1	1507	1726	Sicilian Defense: Smith-Morra Gambit Accepted, Paulsen Formation	1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 Nc6
+2013.01.01	1-0	1646	1568	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Bg5 h6
+2013.01.01	1-0	1366	1257	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 c5 4. d5 Qa5
+2013.01.01	0-1	1673	1500	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 d5 3. e5 Nh6 4. d4 c5
+2013.01.01	1-0	2090	1440	Queen's Gambit Refused: Chigorin Defense #3	1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. e3 b5
+2013.01.01	1-0	1454	1247	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 g6 3. Nc3 Bh6 4. e3 Bxf4
+2013.01.01	0-1	1654	1925	Horwitz Defense	1. d4 e6 2. Nf3 d5 3. Bg5 c5 4. Bxd8 Kxd8
+2013.01.01	0-1	1319	1331	Queen's Pawn Game: Anti-Torre	1. Nf3 d5 2. d4 Bg4 3. h3 Bxf3 4. exf3 Nc6
+2013.01.01	0-1	1858	1699	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 e6
+2013.01.01	1-0	1741	1701	King's Pawn Game	1. e4 e5 2. Be2 Nc6 3. Bc4 Bc5 4. Nf3 Nf6
+2013.01.01	1-0	1422	1373	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bb5 g6 4. Qf3 Qf6
+2013.01.01	1-0	1610	1230	Sicilian Defense: Smith-Morra Gambit Declined, Push Variation	1. e4 c5 2. d4 cxd4 3. c3 d3 4. Bxd3 d6
+2013.01.01	0-1	1439	2091	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e5 3. d3 d6 4. Nf3 h6
+2013.01.01	0-1	1367	1654	Van't Kruijs Opening	1. e3 e5 2. g3 Nf6 3. b3 Bb4 4. Ba3 a5
+2013.01.01	1-0	1810	1617	Ruy Lopez	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bd6 4. O-O Nce7
+2013.01.01	0-1	1500	1534	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 Nf6 3. Bd3 d5 4. exd5 Qxd5
+2013.01.01	1-0	1604	1255	Queen's Pawn	1. d4 a6 2. Bg5 h6 3. Bh4 f6 4. Bg3 d6
+2013.01.01	0-1	1380	1394	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 e5 2. d4 Nc6 3. d5 Nb8 4. c4 Bc5
+2013.01.01	1-0	1498	1423	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Bc5
+2013.01.01	1-0	1311	1261	Polish Opening	1. b4 e5 2. Bb2 Nc6 3. b5 Nd4 4. e3 Nf5
+2013.01.01	1-0	1846	1803	Queen's Indian Accelerated	1. d4 Nf6 2. c4 b6 3. Nf3 Bb7 4. e3 e6
+2013.01.01	0-1	1929	1610	English Opening: Anglo-Scandinavian Defense	1. c4 d5 2. cxd5 Qxd5 3. Nc3 Qd8 4. b3 e6
+2013.01.01	0-1	1437	1637	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d3 c6
+2013.01.01	1-0	1555	1560	Ruy Lopez: Bird Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4
+2013.01.01	1-0	2091	1370	Queen's Gambit Refused: Chigorin Defense #3	1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. e3 Bf5
+2013.01.01	0-1	1549	1411	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nf6 3. Nc3 e6 4. Nb5 Na6
+2013.01.01	0-1	1629	1909	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. g3 g6 4. Bg2 Bg7
+2013.01.01	0-1	1422	1440	Van't Kruijs Opening	1. e3 Nf6 2. c3 e6 3. b4 d5 4. Nf3 Nbd7
+2013.01.01	1-0	1605	1265	Queen's Pawn Game	1. d4 d5 2. Nd2 Nf6 3. c4 e6 4. c5 Be7
+2013.01.01	0-1	1427	1496	Modern Defense	1. e4 g6 2. Bc4 e6 3. d3 Bg7 4. Nf3 Ne7
+2013.01.01	0-1	1320	1729	Polish Opening: Czech Defense	1. b4 e5 2. Bb2 d6 3. c4 Nc6 4. b5 Na5
+2013.01.01	1-0	1907	1767	Philidor Defense: Hanham Variation	1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. Bc4 h6
+2013.01.01	0-1	1567	1685	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. O-O Nxe4
+2013.01.01	1-0	1601	1549	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nf6
+2013.01.01	1-0	1565	1664	Queen's Gambit Declined: Semi-Tarrasch Defense, Exchange Variation	1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 Nxd5
+2013.01.01	1-0	1913	1625	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 e6
+2013.01.01	0-1	1603	1704	English Opening: Symmetrical Variation, Normal Variation	1. c4 c5 2. Nc3 e5 3. d3 d6 4. e4 Bd7
+2013.01.01	1/2-1/2	1660	1728	Vienna Game: Max Lange Defense	1. e4 Nc6 2. Nc3 e5 3. a3 Bc5 4. h3 Nf6
+2013.01.01	0-1	1506	1409	Van't Kruijs Opening	1. e3 e5 2. c3 Nc6 3. Qf3 d6 4. d4 Nf6
+2013.01.01	0-1	1469	1685	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 dxe4 3. Ng5 Nf6 4. Bc4 e6
+2013.01.01	1-0	1611	1612	English Opening: The Whale	1. c4 e5 2. e4 d6 3. d3 f5 4. Be2 f4
+2013.01.01	0-1	1621	1917	Hungarian Opening: Sicilian Invitation	1. g3 c5 2. Bg2 Nc6 3. d4 cxd4 4. c3 dxc3
+2013.01.01	0-1	1404	1433	Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit	1. e4 d5 2. exd5 Qxd5 3. d4 Nc6 4. Nc3 Qxd4
+2013.01.01	1-0	1541	1340	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bd7 4. d3 Be7
+2013.01.01	0-1	1463	1722	French Defense: Knight Variation	1. e4 e6 2. Nf3 b6 3. d4 Bb7 4. Nc3 Bb4
+2013.01.01	1-0	1591	1248	Bishop's Opening	1. e4 e5 2. Bc4 Qh4 3. Qf3 f6 4. Nc3 Bc5
+2013.01.01	1-0	1612	1486	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 e6 3. a3 Nf6 4. Bg5 Be7
+2013.01.01	0-1	1502	1562	King's Gambit Accepted, Fischer Defense	1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6
+2013.01.01	0-1	1481	1517	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 e6 3. a3 a6 4. b4 cxb4
+2013.01.01	1-0	1618	1538	Indian Game	1. d4 Nf6 2. e3 e6 3. g3 c5 4. Bg2 cxd4
+2013.01.01	0-1	1459	1491	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 e6 4. d4 Ne7
+2013.01.01	1-0	1672	1612	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Nc6
+2013.01.01	1-0	1479	1632	Scandinavian Defense	1. e4 d5 2. e5 a6 3. d4 Nc6 4. c3 Bf5
+2013.01.01	0-1	1714	1593	Sicilian Defense: Closed Variation, Traditional	1. e4 c5 2. Nc3 Nc6 3. Bc4 d6 4. d3 Na5
+2013.01.01	1-0	1364	1343	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 c6 4. h3 e6
+2013.01.01	1/2-1/2	1921	1749	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 c6 3. g3 Nf6 4. Bg2 Bg4
+2013.01.01	0-1	1351	1768	English Opening: The Whale	1. c4 e5 2. e4 Nc6 3. Nc3 Bc5 4. d3 d6
+2013.01.01	0-1	1600	1731	French Defense: MacCutcheon, Advance Variation	1. d4 d5 2. Nc3 Nf6 3. Bg5 e6 4. e4 Bb4
+2013.01.01	1-0	1719	1731	Sicilian Defense: French Variation, Open	1. d4 e6 2. e4 c5 3. Nf3 cxd4 4. Qxd4 Nc6
+2013.01.01	1-0	1560	1554	Philidor Defense: Exchange Variation #2	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 a6
+2013.01.01	1-0	1405	1368	Kadas Opening	1. h4 e5 2. d4 e4 3. h5 d5 4. f3 f5
+2013.01.01	1-0	1258	1318	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nf6
+2013.01.01	0-1	1682	1686	Italian Game: Hungarian Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. a3 Nf6
+2013.01.01	1-0	1777	1916	Queen's Pawn Game: Torre Attack, Gossip Variation	1. d4 d5 2. Nf3 Nf6 3. Bg5 Ne4 4. Bh4 h6
+2013.01.01	1-0	1374	1332	Queen's Gambit Declined	1. d4 e6 2. c4 d5 3. a3 dxc4 4. Nc3 Nc6
+2013.01.01	0-1	1393	1726	Ruy Lopez: Berlin Defense, Beverwijk Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6
+2013.01.01	0-1	1410	1197	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nf6 3. f4 exf4 4. Bxf4 d5
+2013.01.01	1-0	1626	1502	Modern Defense	1. d4 g6 2. e3 Bg7 3. g3 e6 4. Bg2 Ne7
+2013.01.01	1-0	1409	1728	Vienna Game: Stanley Variation, Reversed Spanish	1. e4 e5 2. Bc4 Nf6 3. Nc3 Bb4 4. d4 Bxc3+
+2013.01.01	1-0	1601	1622	King's Pawn Game: Nimzowitsch Defense	1. e4 Nc6 2. d4 e6 3. Nc3 Bb4 4. Ne2 Nf6
+2013.01.01	0-1	1529	1852	Van't Kruijs Opening	1. e3 d5 2. Nf3 c6 3. Be2 Nf6 4. O-O Bg4
+2013.01.01	1-0	1305	1275	Polish Opening	1. b4 e5 2. Bb2 Bxb4 3. Bxe5 Nh6 4. Bxg7 Rg8
+2013.01.01	0-1	1448	1634	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nf3 Qd8 4. Nc3 e6
+2013.01.01	0-1	1738	1783	Nimzo-Indian Defense #2	1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 d6
+2013.01.01	1/2-1/2	1760	1679	Alekhine Defense	1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Qf3 dxe5
+2013.01.01	1-0	1866	1526	Torre Attack #2	1. Nf3 Nf6 2. d4 e6 3. c3 Be7 4. g3 O-O
+2013.01.01	0-1	1458	1384	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d5 4. dxe5 dxe4
+2013.01.01	0-1	1635	1451	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Bb5+ Bd7 4. Nc3 c6
+2013.01.01	1-0	1639	1442	Queen's Pawn Game: Colle System, Anti-Colle	1. d4 d5 2. e3 Bf5 3. Nf3 Nf6 4. Bd3 Bxd3
+2013.01.01	0-1	1399	1397	Ruy Lopez	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bd6 4. d4 exd4
+2013.01.01	0-1	1523	1878	Hungarian Opening	1. g3 e6 2. Bg2 c6 3. Nf3 d5 4. O-O Bd6
+2013.01.01	0-1	1909	1914	Queen's Gambit Declined: Normal Defense	1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. e3 c6
+2013.01.01	1-0	1262	1315	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Qf6
+2013.01.01	0-1	1592	1729	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nc6 3. Bg5 Bf5 4. Nf3 f6
+2013.01.01	1-0	1611	1695	King's Pawn Game: Mengarini's Opening	1. e4 e5 2. a3 Nf6 3. d3 d5 4. exd5 Nxd5
+2013.01.01	1-0	1347	1616	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. cxd5 Nxd5 4. e4 Nf6
+2013.01.01	1-0	1514	1494	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Nc3 f6 4. d4 e6
+2013.01.01	1-0	1391	1389	King's Gambit Accepted, Bishop's Gambit, Maurian Defense	1. e4 e5 2. f4 Nc6 3. Bc4 exf4 4. d4 Qh4+
+2013.01.01	1-0	1492	1644	Sicilian Defense: Smith-Morra Gambit	1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 Nc6
+2013.01.01	0-1	1471	1530	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 e6 3. a3 a6 4. b4 cxb4
+2013.01.01	1-0	1889	1520	Alekhine Defense: Krejcik Variation	1. e4 Nf6 2. Bc4 Nxe4 3. d3 Nf6 4. Ne2 e6
+2013.01.01	1-0	1729	1547	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qd1 Nf6
+2013.01.01	0-1	1594	1460	Bishop's Opening: Boi Variation	1. e4 e5 2. Bc4 Bc5 3. Nf3 d6 4. O-O h6
+2013.01.01	0-1	1429	1769	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. Nc3 Bc5 4. d4 exd4
+2013.01.01	1-0	1792	1728	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2013.01.01	1-0	2065	1735	Queen's Pawn Game #2	1. d4 d5 2. e3 Nc6 3. c4 Bf5 4. a3 Bxb1
+2013.01.01	1-0	1597	1370	Sicilian Defense: Lasker-Pelikan Variation, Retreat Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6
+2013.01.01	0-1	1517	1899	Zukertort Opening: Queen's Gambit Invitation	1. Nf3 e6 2. e3 d5 3. Be2 c5 4. O-O Nf6
+2013.01.01	1-0	1403	1415	King's Pawn Game: Nimzowitsch Defense	1. e4 Nc6 2. d4 e6 3. e5 d5 4. exd6 Qxd6
+2013.01.01	1-0	1629	1537	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. c3 Bg4 4. d4 exd4
+2013.01.01	0-1	1407	1582	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2013.01.01	1-0	1427	1425	Queen's Pawn Game: Chigorin Variation	1. Nf3 d5 2. d4 Nc6 3. Nc3 Bg4 4. Be3 Bxf3
+2013.01.01	1-0	1907	1484	Modern Defense	1. d4 g6 2. Bg5 f6 3. Bh4 g5 4. Bg3 Nh6
+2013.01.01	0-1	1481	1914	Van't Kruijs Opening	1. e3 d5 2. Qf3 Nf6 3. c4 dxc4 4. Bxc4 c6
+2013.01.01	1-0	1436	1514	Russian Game: Three Knights Game	1. e4 Nf6 2. Nc3 e5 3. Nf3 d6 4. Bc4 Be7
+2013.01.01	1-0	1719	1801	Nimzo-Indian Defense #2	1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 d6
+2013.01.01	1/2-1/2	1645	1757	Queen's Pawn Game	1. d4 d5 2. Nd2 c5 3. dxc5 Qa5 4. c3 Qxc5
+2013.01.01	1-0	1651	1476	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. Bf4 Nf6 4. e3 Be7
+2013.01.01	0-1	1585	1762	Modern Defense: Standard Defense	1. d4 d6 2. Nc3 g6 3. e4 Bg7 4. Bd3 Nf6
+2013.01.01	0-1	1855	1732	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. e3 Bf5 4. Bd3 Bxd3
+2013.01.01	1-0	1678	1628	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. g3 Bb4+ 4. c3 Bd6
+2013.01.01	1/2-1/2	1921	1645	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 e6
+2013.01.01	1-0	1424	1407	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Ne5
+2013.01.01	1-0	1671	1719	Horwitz Defense	1. d4 e6 2. h3 c5 3. Nf3 cxd4 4. Nxd4 Bc5
+2013.01.01	1-0	1414	1404	French Defense: Steinitz Attack	1. e4 e6 2. e5 Nc6 3. d4 d6 4. Bb5 Bd7
+2013.01.01	0-1	1509	1630	King's Gambit Accepted, Schallopp Defense	1. e4 e5 2. f4 exf4 3. Nf3 Nf6 4. d3 g6
+2013.01.01	1-0	1841	1785	Sicilian Defense: Closed	1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. d3 Bg7
+2013.01.01	0-1	1579	1903	French Defense #2	1. e4 e6 2. Bc4 d5 3. exd5 exd5 4. Bb3 Nf6
+2013.01.01	1/2-1/2	1616	1690	English Opening: Caro-Kann Defensive System	1. c4 c6 2. Nc3 e5 3. d4 e4 4. Nxe4 d5
+2013.01.01	1-0	1499	1450	Zukertort Opening: Black Mustang Defense	1. Nf3 Nc6 2. e3 e5 3. Be2 d5 4. d4 e4
+2013.01.01	1-0	1451	1449	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. Nc3 c5 4. e3 c4
+2013.01.01	0-1	1708	1903	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 Nc6 3. g3 e5 4. Bg2 Be6
+2013.01.01	0-1	1788	1733	King's Gambit Declined, Keene Defense	1. e4 e5 2. f4 Qh4+ 3. g3 Qe7 4. d3 d5
+2013.01.01	1-0	1879	1711	Indian Game: East Indian Defense	1. d4 Nf6 2. c4 e6 3. e3 c5 4. d5 d6
+2013.01.01	1-0	1459	1601	Owen Defense	1. e4 b6 2. d4 Bb7 3. Nc3 Nf6 4. Bd3 e6
+2013.01.01	0-1	1414	1439	King's Pawn Game: Damiano Defense	1. e4 e5 2. Nf3 f6 3. Bc4 Ne7 4. d4 Nbc6
+2013.01.01	1-0	1397	1345	Queen's Gambit Declined: Normal Defense	1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. a3 b6
+2013.01.01	1-0	1565	1763	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6
+2013.01.01	0-1	1393	1425	King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit	1. e4 e5 2. Qh5 Nf6 3. Qxe5+ Qe7 4. Qxe7+ Bxe7
+2013.01.01	1-0	1670	1769	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. Nc3 Ne7 4. d3 g6
+2013.01.01	0-1	1499	1718	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. Nc3 d6 4. d3 Be7
+2013.01.01	1-0	1440	1510	Alekhine Defense: John Tracy Gambit	1. e4 Nf6 2. Nf3 Nxe4 3. Bc4 Nd6 4. Bb3 e6
+2013.01.01	1-0	1791	1714	Hungarian Opening: Catalan Formation	1. g3 d5 2. Bg2 e6 3. b3 b6 4. Bb2 Bb7
+2013.01.01	0-1	1449	1404	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 a6 3. Bf4 Bg4 4. e3 Nc6
+2013.01.01	0-1	1746	1775	Benoni Defense: King's Pawn Line	1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5
+2013.01.01	1-0	1474	1583	Owen Defense	1. e4 b6 2. d3 Bb7 3. a3 g6 4. Nc3 Bg7
+2013.01.01	0-1	1508	1597	Queen's Gambit Accepted: Rosenthal Variation	1. d4 d5 2. c4 e6 3. Nf3 dxc4 4. e4 b5
+2013.01.01	0-1	1495	1454	Van't Kruijs Opening	1. e3 e5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7
+2013.01.01	0-1	1602	1610	King's Pawn Game: Nimzowitsch Defense	1. e4 Nc6 2. d4 e6 3. f4 Be7 4. Nf3 Bh4+
+2013.01.01	1-0	1754	1434	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 Nc6 3. Nc3 e5 4. Nd5 Nf6
+2013.01.01	1-0	1566	1489	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 Qf6 4. Nf3 Bc5
+2013.01.01	0-1	1403	1706	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 a6 3. e5 e6 4. f4 Nc6
+2013.01.01	1-0	1785	1735	King's Pawn Game: Tayler Opening	1. e4 e5 2. Nf3 Nc6 3. Be2 Bc5 4. O-O d6
+2013.01.01	0-1	1467	1482	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 Bc5 4. Nc3 O-O
+2013.01.01	0-1	1494	1462	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. f4 d6 4. Ne2 Nf6
+2013.01.01	1-0	1714	1374	Danish Gambit Accepted, Classical Defense	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2
+2013.01.01	1/2-1/2	1576	1607	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 Nc6 3. Bb5 d6 4. Ne2 Nf6
+2013.01.01	0-1	1841	1800	Modern Defense	1. d4 g6 2. c4 Bg7 3. Nf3 b6 4. e3 Bb7
+2013.01.01	0-1	1525	1543	Italian Game: Two Knights Defense, Knight Attack, Normal Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5
+2013.01.01	0-1	1621	1591	English Opening: The Whale	1. c4 e5 2. e4 Bc5 3. d3 d6 4. Nc3 f5
+2013.01.01	1-0	1575	1418	Russian Game: Urusov Gambit	1. e4 e5 2. Bc4 Nf6 3. Nf3 Nxe4 4. Qe2 Ng5
+2013.01.01	1-0	1579	1586	Indian Game	1. d4 Nf6 2. Nc3 e6 3. Bg5 Bb4 4. e4 Bxc3+
+2013.01.01	1-0	1797	1681	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 Nc6 4. Bc4 d6
+2013.01.01	1-0	1493	1456	Ruy Lopez: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O d6
+2013.01.01	1-0	1603	1609	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. d3 a6
+2013.01.01	0-1	1437	1630	Van't Kruijs Opening	1. e3 e6 2. Qf3 d5 3. d3 c5 4. Nc3 Qb6
+2013.01.01	1-0	1757	1901	Queen's Gambit Declined: Normal Defense	1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. e3 dxc4
+2013.01.01	1-0	1884	1772	Slav Defense #2	1. d4 c6 2. c4 d5 3. Nc3 Nf6 4. cxd5 cxd5
+2013.01.01	0-1	1575	1482	Pirc Defense #2	1. e4 d6 2. d4 Nf6 3. Nc3 Bd7 4. Nf3 c5
+2013.01.01	1-0	1798	1909	Queen's Pawn Game: Chigorin Variation	1. Nc3 d5 2. d4 c6 3. Bf4 a6 4. e3 Bf5
+2013.01.01	0-1	1906	1752	Philidor Defense: Exchange Variation	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6
+2013.01.01	1-0	1531	1500	Indian Game: Anti-Nimzo-Indian	1. d4 Nf6 2. Nf3 e6 3. c4 Be7 4. Nc3 O-O
+2013.01.01	1-0	1717	1568	French Defense: Normal Variation	1. e4 e6 2. d4 Na6 3. Nc3 b6 4. Bd3 Bb7
+2013.01.01	0-1	1534	1528	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bh5
+2013.01.01	1-0	1486	1339	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Qf3 Nc6 4. d3 g6
+2013.01.01	0-1	1900	1757	English Opening: Symmetrical Variation, Two Knights Variation	1. c4 c5 2. Nc3 Nc6 3. b3 Nf6 4. Bb2 g6
+2013.01.01	1-0	1684	1652	Horwitz Defense	1. d4 e6 2. h3 d5 3. Nf3 Nf6 4. c3 c5
+2013.01.01	1-0	1773	1884	Italian Game: Hungarian Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. O-O Nf6
+2013.01.01	1-0	1435	1517	French Defense: Advance Variation #2	1. e4 e6 2. e5 d5 3. d4 c5 4. c3 Qb6
+2013.01.01	0-1	1558	1495	Queen's Pawn Game: Krause Variation	1. d4 d5 2. Nf3 c5 3. dxc5 Nc6 4. e3 Qa5+
+2013.01.01	1-0	1468	1589	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. f4 Bf5 4. h3 e6
+2013.01.01	0-1	1765	1893	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Nf6
+2013.01.01	1-0	1598	1615	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nf6
+2013.01.01	1-0	1505	1532	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Nc3 d5 4. exd5 Bg4
+2013.01.01	1-0	1505	1496	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 e6 3. e5 Bc5 4. d4 Bb6
+2013.01.01	1-0	1869	1787	Bird Opening	1. f4 c6 2. Nf3 d5 3. d3 g6 4. Be3 Bg7
+2013.01.01	1-0	1757	1628	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 e6 3. Nc3 Nc6 4. Nf3 Bd6
+2013.01.01	0-1	1461	1583	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 d6 3. h3 Qf6 4. Bc4 Be6
+2013.01.01	1-0	1519	1521	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nge7
+2013.01.01	0-1	1264	1492	Queen's Gambit Accepted: Deferred Variation	1. d4 d5 2. c4 Nf6 3. Nf3 dxc4 4. e4 Bg4
+2013.01.01	1-0	1811	1703	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 d6 4. Ng5 e6
+2013.01.01	0-1	1895	1888	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. e3 Nf6 4. cxd5 exd5
+2013.01.01	1-0	1435	1590	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. d4 Bc5
+2013.01.01	0-1	1308	1336	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 Nc6 3. c3 d6 4. Nf3 exd4
+2013.01.01	0-1	1401	1515	Franco-Benoni Defense	1. e4 e6 2. d4 c5 3. d5 d6 4. dxe6 Bxe6
+2013.01.01	0-1	1663	1540	King's Gambit	1. e4 e5 2. f4 d6 3. Nf3 Bg4 4. Bc4 Nc6
+2013.01.01	1-0	1692	1819	Indian Game	1. d4 Nf6 2. h3 e6 3. Nf3 c5 4. c3 d5
+2013.01.01	1-0	1412	1370	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. Bc4 h6
+2013.01.01	1-0	1661	1762	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 Bc5 3. g3 a6 4. Bg2 c6
+2013.01.01	0-1	1779	1878	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 cxd4
+2013.01.01	0-1	1603	1610	Nimzowitsch Defense	1. e4 Nc6 2. f4 b6 3. Nf3 a5 4. a3 Ba6
+2013.01.01	1-0	1519	1751	Center Game: Berger Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6
+2013.01.01	0-1	1674	1586	King's Pawn Game	1. e4 e5 2. g3 Nf6 3. Bg2 Bc5 4. Nc3 c6
+2013.01.01	1-0	1906	1675	Sicilian Defense: Canal Attack, Main Line	1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7
+2013.01.01	1-0	1797	1485	English Opening: Anglo-Scandinavian Defense	1. c4 d5 2. b3 dxc4 3. bxc4 e6 4. Nc3 Bc5
+2013.01.01	0-1	1826	1794	Sicilian Defense: Lasker-Dunne Attack	1. e4 c5 2. g3 Nc6 3. Bg2 e6 4. d3 d5
+2013.01.01	1-0	1451	1629	King's Gambit Declined, Queen's Knight Defense	1. e4 e5 2. f4 Nc6 3. Nf3 d6 4. fxe5 Nxe5
+2013.01.01	0-1	1501	1678	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 Bc5 3. Nf3 Nf6 4. d4 Bb6
+2013.01.01	0-1	1894	1844	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2013.01.01	0-1	1400	1494	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. h3 e6 4. e3 Nf6
+2013.01.01	1-0	1901	1867	French Defense: Advance Variation, Paulsen Attack	1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2013.01.01	0-1	1531	1574	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. b3 Bc5 4. Bb2 d6
+2013.01.01	0-1	1620	1592	Reti Opening	1. Nf3 d5 2. h3 Bf5 3. a3 e6 4. Nc3 Nc6
+2013.01.01	0-1	1390	1422	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Ne7
+2013.01.01	1-0	1397	1357	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. d3 a6 4. c4 Bc5
+2013.01.01	0-1	1482	1800	Sicilian Defense	1. e4 c5 2. d3 b6 3. f4 Bb7 4. Be2 Nc6
+2013.01.01	1-0	1649	1600	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. h3 c6
+2013.01.01	0-1	1844	1912	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. e3 Nf6 4. cxd5 exd5
+2013.01.01	1-0	1467	1612	Nimzowitsch Defense: Scandinavian Variation, Advance Variation	1. e4 d5 2. e5 Nc6 3. d4 Bf5 4. Bb5 e6
+2013.01.01	1-0	1346	1298	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 g6 4. Nc3 Bg7
+2013.01.01	0-1	1707	1804	Indian Game	1. d4 Nf6 2. h3 e6 3. Nf3 c5 4. c3 d5
+2013.01.01	1-0	1884	1812	Robatsch (Modern) Defense	1. d4 g6 2. e4 Bg7 3. c4 b6 4. Nc3 Bb7
+2013.01.01	1-0	1432	1392	King's Gambit	1. e4 e5 2. f4 d6 3. Nf3 f6 4. Bc4 exf4
+2013.01.01	1-0	1521	1669	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Nc3 c6 4. b3 f5
+2013.01.01	1-0	1607	1793	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 g6 3. Nf3 Bg7 4. d4 d6
+2013.01.01	1/2-1/2	1474	1539	French Defense: Normal Variation	1. d4 e6 2. e4 Nc6 3. e5 d5 4. Nf3 Be7
+2013.01.01	1-0	1625	1634	Owen Defense	1. e4 b6 2. c3 Ba6 3. d3 e5 4. Nf3 Qf6
+2013.01.01	1/2-1/2	1682	1748	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 Bf5 4. Bg5 e6
+2013.01.01	0-1	1500	1478	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nc3 Bc5
+2013.01.01	1-0	1577	1403	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 f6 3. Bc4 Nc6 4. c3 Bb4
+2013.01.01	1-0	1591	1593	English Defense #2	1. d4 b6 2. e4 Bb7 3. Bd3 e6 4. Nf3 Qf6
+2013.01.01	1-0	1599	1659	Sicilian Defense: Delayed Alapin	1. e4 d6 2. Nf3 c5 3. c3 Nc6 4. Bb5 Qc7
+2013.01.01	1-0	1483	1425	Sicilian Defense	1. e4 c5 2. Bb5 a6 3. Bc4 Nc6 4. Bd5 Nb4
+2013.01.01	0-1	1770	1708	King's Gambit Accepted, King's Knight Gambit	1. e4 e5 2. f4 exf4 3. Nf3 Qe7 4. e5 d6
+2013.01.01	1-0	1666	1911	King's Indian Defense: Normal Variation, Rare Defenses	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 d6
+2013.01.01	0-1	1538	1820	Ruy Lopez: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. Bxc6 bxc6
+2013.01.01	0-1	1710	1938	King's Pawn Game	1. e4 e5 2. g3 Nc6 3. Bg2 Bc5 4. d3 d6
+2013.01.01	1/2-1/2	1538	1620	Sicilian Defense: Snyder Variation	1. e4 c5 2. b3 e6 3. Bb2 Nc6 4. Nf3 Nf6
+2013.01.01	1-0	1495	1222	Dutch Defense: Classical Variation	1. d4 f5 2. c4 e6 3. a3 d5 4. c5 b6
+2013.01.01	0-1	1673	1479	Grob Opening	1. g4 d6
+2013.01.01	1-0	1591	1658	Philidor Defense: Hanham Variation	1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. Bc4 h6
+2013.01.01	1-0	1727	1502	Caro-Kann Defense: Breyer Variation	1. d3 c6 2. e4 d6 3. f3 e6 4. g3 f6
+2013.01.01	0-1	1576	1500	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Bb5+ c6
+2013.01.01	0-1	1487	1774	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. Ne2 Nf6 4. Ng3 O-O
+2013.01.01	1-0	1500	1687	Italian Game: Two Knights Defense, Modern Bishop's Opening	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7
+2013.01.01	1-0	1717	1566	Owen Defense	1. e4 b6 2. Bc4 Bb7 3. d3 e6 4. Ne2 Nf6
+2013.01.01	1-0	1636	1495	Mieses Opening	1. d3 c6 2. c3 d6 3. b3 e6 4. Bb2 d5
+2013.01.01	0-1	1794	1806	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 e6 4. Bb5 a6
+2013.01.01	1-0	1495	1245	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Bc4 c6 4. Nxe5 Qf6
+2013.01.01	0-1	1497	1665	Ware Opening	1. a4 e5 2. e4 Nf6 3. Nc3 a6 4. Bc4 Bc5
+2013.01.01	1-0	1585	1604	King's Gambit Declined, Queen's Knight Defense	1. e4 e5 2. f4 Nc6 3. Nf3 Bc5 4. Bc4 d6
+2013.01.01	1-0	1651	1446	Hungarian Opening	1. g3 e5 2. e3 Nc6 3. Bg2 d5 4. Qe2 Bf5
+2013.01.01	0-1	1816	1784	Alekhine Defense: Two Pawn Attack	1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. Nf3 Nc6
+2013.01.01	0-1	1559	1792	French Defense #2	1. e4 e6 2. Qf3 b6 3. Bc4 Bb7 4. c3 Nf6
+2013.01.01	0-1	1662	1440	Saragossa Opening	1. c3 e5 2. d4 c6 3. dxe5 Bc5 4. f4 d6
+2013.01.01	0-1	1557	1506	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. Nf3 e5 4. O-O d6
+2013.01.01	1-0	1653	1537	Bird Opening	1. f4 d6 2. e3 Nf6 3. d4 Ne4 4. Nd2 Nxd2
+2013.01.01	0-1	1571	1345	Horwitz Defense	1. d4 e6 2. a3 b6 3. Nc3 Bb7 4. Bf4 f6
+2013.01.01	1-0	1627	1458	Mieses Opening	1. d3 d5 2. b3 Nc6 3. Bb2 Bf5 4. e3 e6
+2013.01.01	0-1	1602	1896	French Defense: Burn Variation	1. d4 d5 2. Nc3 Nf6 3. Bg5 e6 4. e4 dxe4
+2013.01.01	1-0	1720	1388	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Ng5 d5
+2013.01.01	0-1	1564	1582	English Defense #2	1. d4 b6 2. e4 Bb7 3. d5 e6 4. Nf3 exd5
+2013.01.01	1/2-1/2	1356	1364	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 Nc6 3. d4 cxd4 4. c4 Nf6
+2013.01.01	1-0	1722	1604	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. g3 c6
+2013.01.01	1/2-1/2	1486	1836	Bird Opening: Dutch Variation	1. f4 d5 2. Nf3 Nc6 3. e3 Bg4 4. Be2 e6
+2013.01.01	1-0	1639	1451	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 Nc6 3. d5 Nce7 4. e4 Ng6
+2013.01.01	0-1	1385	1724	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2013.01.01	1-0	1639	1451	Saragossa Opening	1. c3 e5 2. d4 c5 3. d5 d6 4. e4 Bd7
+2013.01.01	1-0	1767	1495	Semi-Bononi	1. d4 c5 2. d5 d6 3. e4 e5 4. Nf3 f5
+2013.01.01	1-0	1650	1445	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 Nc6 3. d5 Nce7 4. e4 Ng6
+2013.01.01	1-0	2068	1483	Englund Gambit Complex: Hartlaub-Charlick Gambit	1. d4 e5 2. dxe5 d6 3. exd6 Bxd6 4. Nf3 Nf6
+2013.01.01	1/2-1/2	1726	1860	Queen's Gambit Declined: Modern Variation, Normal Line	1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Be7
+2013.01.01	1-0	1544	1542	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. Bf4 Bd6 4. Bxd6 Qxd6
+2013.01.01	0-1	1389	1391	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. Qf3 e6 4. Nh3 h6
+2013.01.01	1-0	1584	1066	Scandinavian Defense	1. e4 d5 2. e5 f6 3. exf6 exf6 4. Bd3 g6
+2013.01.01	1-0	1527	1772	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Bf4 Bf5 4. Nb5 Na6
+2013.01.01	1-0	1345	1400	Queen's Gambit Refused: Chigorin Defense, Janowski Variation	1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 b5
+2013.01.01	1/2-1/2	1696	1491	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 e6 4. e3 Bb4
+2013.01.01	0-1	1553	1500	Caro-Kann Defense: Advance Variation, Short Variation	1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6
+2013.01.01	0-1	1266	1428	Sicilian Defense	1. e4 c5
+2013.01.01	1-0	1824	1644	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. a3 a6
+2013.01.01	0-1	1556	1664	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. c3 e6 4. Nf3 Na5
+2013.01.01	1/2-1/2	1719	1630	Modern Defense	1. d4 g6 2. c4 Bg7 3. Nc3 c6 4. e4 d5
+2013.01.01	0-1	1659	1796	Mieses Opening	1. d3 d5 2. e4 c6 3. exd5 Qxd5 4. c4 Qd8
+2013.01.01	1-0	1796	1804	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 e6 4. e5 d5
+2013.01.01	0-1	1541	1625	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 g6
+2013.01.01	1-0	2069	1482	Queen's Pawn Game #2	1. d4 d5 2. e3 e6 3. c4 Nf6 4. Nc3 Bd7
+2013.01.01	0-1	1732	1796	Mieses Opening	1. d3 d5 2. e4 c6 3. exd5 Qxd5 4. c4 Qd8
+2013.01.01	1-0	1355	1317	Owen Defense	1. e4 b6 2. g3 e5 3. Nf3 Bb7 4. Bg2 Bxe4
+2013.01.01	0-1	1201	1476	Four Knights Game: Spanish Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 d6
+2013.01.01	1-0	1534	1460	King's Knight Opening	1. e4 e5 2. Nf3 h6 3. Bc4 d6 4. O-O Qf6
+2013.01.01	0-1	1500	1850	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 Nxd5
+2013.01.01	0-1	1571	1768	Philidor Defense: Exchange Variation #2	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 c5
+2013.01.01	1-0	1724	1500	Gedult's Opening	1. f3 e6 2. e4 d6 3. b3 c6 4. Bb2 Nf6
+2013.01.01	1-0	1628	1344	Pirc Defense #2	1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. d5 Bd7
+2013.01.01	0-1	1369	1544	King's Pawn Game: King's Head Opening #2	1. e4 e5 2. f3 Qf6 3. Ne2 g6 4. c3 Bg7
+2013.01.01	0-1	1406	1403	Englund Gambit Complex Declined	1. d4 e5 2. d5 Nf6 3. c4 Bc5 4. a3 Ng4
+2013.01.01	1-0	1500	1355	Indian Game	1. d4 Nf6 2. e3 g6 3. Nf3 Bg7 4. Be2 c6
+2013.01.01	1-0	1807	1642	Queen's Pawn Game: Stonewall Attack	1. d4 d5 2. e3 Nf6 3. Bd3 c5 4. c3 Bg4
+2013.01.01	1-0	1755	1550	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Bb3 Bxb3
+2013.01.01	1-0	1855	1730	Van Geet Opening	1. Nc3 d5 2. e4 d4 3. Nce2 e5 4. d3 f5
+2013.01.01	0-1	1436	1867	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. e3 c6
+2013.01.01	1-0	1500	1421	Center Game Accepted	1. e4 e5 2. d4 exd4 3. Bf4 Qf6 4. Qf3 Bd6
+2013.01.01	1-0	1880	1399	Horwitz Defense	1. d4 e6 2. Nf3 f5 3. Bg5 Nf6 4. e3 Be7
+2013.01.01	0-1	1564	1766	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. c4 c6 4. b3 Bf5
+2013.01.01	0-1	1592	1598	Italian Game: Giuoco Pianissimo, Normal	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6
+2013.01.01	1-0	1573	1500	Horwitz Defense	1. d4 e6 2. Nc3 Bd6 3. a3 Qf6 4. e4 c5
+2013.01.01	0-1	1802	1535	Modern Defense: Averbakh Variation	1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 e5
+2013.01.01	1-0	1674	1619	Queen's Pawn Game: Krause Variation	1. d4 d5 2. Nf3 c5 3. Nc3 e6 4. dxc5 Bxc5
+2013.01.01	0-1	1566	1922	Ruy Lopez: Exchange Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6
+2013.01.01	1-0	2141	1374	Horwitz Defense	1. d4 e6 2. Nf3 f5 3. e3 Nf6 4. b3 d5
+2013.01.01	0-1	1596	1729	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Be2 Bc5 4. O-O d6
+2013.01.01	1-0	1793	1807	Alekhine Defense: Two Pawn Attack	1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. Nc3 e6
+2013.01.01	0-1	1440	1943	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nc6
+2013.01.01	0-1	1683	1544	King's Pawn Game: Macleod Attack	1. e4 e5 2. c3 Bc5 3. b3 Nf6 4. Ba3 Bxa3
+2013.01.01	1-0	2142	1370	Neo-Gruenfeld Defense: Classical Variation, Original Defense	1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 O-O
+2013.01.01	1-0	1717	1633	Benoni Defense: Benoni Gambit Accepted	1. d4 c5 2. dxc5 e5 3. Nc3 Nc6 4. g3 Nf6
+2013.01.01	0-1	1532	1500	Queen's Gambit Declined: Modern Variation, Heral Variation	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7
+2013.01.01	1-0	1814	1381	Queen's Pawn Game #2	1. d4 d5 2. e3 e6 3. f4 Nf6 4. Nd2 Bb4
+2013.01.01	1-0	1364	1343	Sicilian Defense: Katalimov Variation	1. e4 c5 2. Nf3 b6 3. Bc4 Nc6 4. Ng5 Bb7
+2013.01.01	0-1	1784	1593	English Defense #2	1. d4 b6 2. c4 Bb7 3. e3 e6 4. a3 Qf6
+2013.01.01	0-1	1723	1863	Queen's Gambit Declined: 4.Bg5 Be7	1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Be7
+2013.01.01	0-1	1240	1242	King's Knight Opening	1. e4 e5 2. Nf3 Bb4 3. Nxe5 Qe7 4. a3 Bc5
+2013.01.01	0-1	1528	1365	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 c6
+2013.01.01	1-0	1633	1613	Queen's Pawn Game: Veresov Attack, Classical Defense	1. d4 d5 2. Nc3 Nf6 3. Bg5 e6 4. Nf3 h6
+2013.01.01	0-1	1829	1747	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. Bf4 Bf5 4. e3 e6
+2013.01.01	0-1	1288	1240	Van't Kruijs Opening	1. e3 e5 2. g3 d5 3. Bg2 e4 4. Ne2 f5
+2013.01.01	0-1	1532	1499	King's Pawn Game: Maroczy Defense	1. e4 e5 2. d4 d6 3. dxe5 dxe5 4. Qxd8+ Kxd8
+2013.01.01	1-0	1305	1365	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. f4 g6 4. Nf3 Bg7
+2013.01.01	1-0	1731	1500	Queen's Gambit Accepted: Old Variation	1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 f6
+2013.01.01	1-0	1601	1343	Pirc Defense #4	1. e4 d6 2. Nf3
+2013.01.01	1/2-1/2	1395	1393	Queen's Gambit Refused: Chigorin Defense #3	1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. d5 Ne5
+2013.01.01	0-1	1642	1705	Nimzo-Indian Defense	1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bd2 c5
+2013.01.01	0-1	1684	1638	Franco-Benoni Defense	1. d4 c5 2. d5 e6 3. e4 Bd6 4. dxe6 dxe6
+2013.01.01	0-1	1542	2142	Slav Defense: Exchange Variation	1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6
+2013.01.01	1-0	1851	1729	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nf3 Nf6
+2013.01.01	0-1	1563	1483	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Nc3 c5 4. Be2 a6
+2013.01.01	0-1	1796	1804	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 e6 4. Bb5 d6
+2013.01.01	1-0	1830	1695	Owen Defense	1. e4 b6 2. Nf3 f6 3. Nc3 c6 4. Bc4 h6
+2013.01.01	0-1	1524	1527	Old Indian Defense	1. d4 d6 2. c4 Nf6 3. d5 g6 4. Nc3 Bg7
+2013.01.01	0-1	1608	1686	English Opening: Symmetrical Variation, Normal Variation	1. c4 c5 2. Nc3 e6 3. d3 d6 4. e4 Bd7
+2013.01.01	0-1	1534	1500	Dutch Defense: Queen's Knight Variation	1. d4 f5 2. c4 Nf6 3. Nc3 g6 4. g3 Bg7
+2013.01.01	1-0	1767	1816	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. e3 e6 4. Nf3 b6
+2013.01.01	1-0	1815	1785	Alekhine Defense: Two Pawn Attack	1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. Nc3 d6
+2013.01.01	1-0	1837	1688	French Defense: Knight Variation	1. e4 e6 2. Nf3 b6 3. Nc3 Bb7 4. Bc4 h6
+2013.01.01	0-1	1571	1417	Alekhine Defense: Mokele Mbembe	1. e4 Nf6 2. e5 Ne4 3. d4 d5 4. c3 e6
+2013.01.01	0-1	1320	1485	Modern Defense	1. e4 g6 2. Bd3 Bg7 3. f3 e6 4. Ne2 Ne7
+2013.01.01	0-1	1519	1658	Nimzowitsch Defense: Kennedy Variation, de Smet Gambit	1. e4 e5 2. d4 d6 3. dxe5 Nc6 4. exd6 Bxd6
+2013.01.01	0-1	1557	1338	Pirc Defense #4	1. e4 d6 2. Bc4 Nf6 3. d3 g6 4. Bg5 Bg7
+2013.01.01	1-0	1229	1254	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. g3 c6 4. Bg2 Qa5
+2013.01.01	1-0	1647	1358	Queen's Gambit Accepted: Old Variation	1. d4 d5 2. c4 dxc4 3. e3 b5 4. a4 c6
+2013.01.01	0-1	1812	1925	Ruy Lopez: Closed Variations, Chigorin Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6
+2013.01.01	0-1	1633	1705	Caro-Kann Defense: Advance Variation	1. e4 c6 2. d4 d5 3. e5 Bf5 4. h3 e6
+2013.01.01	1-0	1544	1442	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2013.01.01	0-1	1780	1497	Old Indian Defense	1. d4 d6 2. c4 e6 3. e4 c6 4. Nf3 h6
+2013.01.01	0-1	1775	1825	Sicilian Defense: Lasker-Dunne Attack	1. e4 c5 2. g3 b6 3. Bg2 Bb7 4. Ne2 e6
+2013.01.01	1-0	1669	1728	English Opening: Great Snake Variation	1. c4 g6 2. d4 Bg7 3. Nc3 e5 4. dxe5 Bxe5
+2013.01.01	0-1	1816	1652	French Defense: Exchange Variation	1. d4 e6 2. e4 d5 3. exd5 Qxd5 4. Nc3 Bb4
+2013.01.01	1/2-1/2	1545	1307	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 f6 4. Bxc6 bxc6
+2013.01.01	0-1	1496	1475	French Defense #2	1. e4 e6 2. a4 d5 3. Nc3 d4 4. Nb1 e5
+2013.01.01	0-1	1432	1555	Queen's Pawn Game: Anti-Torre	1. Nf3 d5 2. d4 Bg4 3. Nc3 Bxf3 4. gxf3 e6
+2013.01.01	1-0	1602	1643	Blackmar-Diemer Gambit: Rasa-Studier Gambit	1. e4 d5 2. d4 dxe4 3. Nc3 Nf6 4. Be3 c6
+2013.01.01	0-1	1379	1703	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. d4 c6 4. Nc3 Qa5
+2013.01.01	0-1	1538	1665	Queen's Pawn Game	1. d4 d5 2. h3 c6 3. Bf4 Na6 4. e3 Nf6
+2013.01.01	0-1	1538	1394	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. e5 e6 4. Nf3 b6
+2013.01.01	0-1	1761	1816	Indian Game: Budapest Defense	1. d4 Nf6 2. c4 e5 3. d5 Ng4 4. h3 Nxf2
+2013.01.01	0-1	1494	1661	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Be6 4. Bxe6 fxe6
+2013.01.01	0-1	1674	1798	English Opening: Agincourt Defense #2	1. Nf3 e6 2. c4 d5 3. cxd5 exd5 4. d4 Nf6
+2013.01.01	0-1	1696	1560	Queen's Pawn Game: Colle System	1. d4 d5 2. Nf3 Nf6 3. e3 Bg4 4. c4 e6
+2013.01.01	0-1	1663	1852	Sicilian Defense	1. e4 c5 2. d3 Nc6 3. h3 g6 4. Nf3 Bg7
+2013.01.01	0-1	1897	1645	Philidor Defense: Hanham Variation	1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. dxe5 dxe5
+2013.01.01	0-1	1543	1718	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Bg5 d6
+2013.01.01	1-0	1350	1064	Scandinavian Defense	1. e4 d5 2. e5 g6 3. d4 h5 4. f4 e6
+2013.01.01	1/2-1/2	1844	1681	Owen Defense	1. e4 b6 2. Nf3 Bb7 3. Nc3 Nf6 4. e5 Nd5
+2013.01.01	1-0	1376	1567	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nf6 3. d3 d6 4. Nf3 e5
+2013.01.01	0-1	1500	1603	Queen's Pawn Game #2	1. e3 d5 2. d4 e6 3. Qf3 Bb4+ 4. c3 Ba5
+2013.01.01	0-1	1563	1425	Scandinavian Defense	1. e4 d5 2. e5 f6 3. exf6 Nxf6 4. d4 Bg4
+2013.01.01	1-0	1834	1766	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 d5 4. exd5 Qxd5
+2013.01.01	0-1	1672	1547	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. cxd5 exd5 4. a3 Nf6
+2013.01.01	0-1	1538	1743	French Defense #2	1. e4 e6 2. Bc4 d5 3. exd5 exd5 4. Bb3 c6
+2013.01.01	1/2-1/2	1399	1500	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. h3 Bf5 4. a3 c5
+2013.01.01	1-0	1806	1664	Horwitz Defense	1. d4 e6 2. e3 c5 3. Bd3 cxd4 4. exd4 Nc6
+2013.01.01	0-1	1528	1554	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bh5
+2013.01.01	1-0	1752	1578	Queen's Gambit Accepted: Saduleto Variation	1. d4 d5 2. c4 dxc4 3. e4 Nd7 4. Bxc4 Nb6
+2013.01.01	1/2-1/2	1805	1677	Sicilian Defense: Paulsen Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6
+2013.01.01	1-0	1682	1339	Pirc Defense #4	1. e4 d6 2. Bc4 Nf6 3. d3 Bg4 4. Ne2 Nbd7
+2013.01.01	1-0	1484	1500	Queen's Pawn Game #2	1. d4 d5 2. e3 e6 3. a4 Bb4+ 4. c3 Ba5
+2013.01.01	0-1	1758	1843	English Opening: Symmetrical Variation, Hedgehog Defense	1. c4 Nf6 2. Nc3 b6 3. g3 Bb7 4. Nf3 e6
+2013.01.01	1-0	1589	1562	Indian Game	1. d4 Nf6 2. Nc3 e6 3. a3 d5 4. Bf4 c5
+2013.01.01	0-1	1394	1516	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bh5
+2013.01.01	1-0	1522	1302	Italian Game: Classical Variation, Giuoco Pianissimo	1. e4 e5 2. Bc4 Nc6 3. d3 Nf6 4. c3 Bc5
+2013.01.01	1-0	1552	1533	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Bc4 Bd6 4. c3 c6
+2013.01.01	1-0	1611	1606	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 d6 3. f4 e5 4. f5 Be7
+2013.01.01	0-1	1746	1761	Queen's Pawn Game	1. d4 d5 2. c3 Nc6 3. Nf3 Bf5 4. Nbd2 e6
+2013.01.01	1-0	1615	1527	Owen Defense	1. e4 b6 2. d4 Bb7 3. Bd3 g6 4. c3 e6
+2013.01.01	1-0	1762	1409	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 d5 4. exd5 Nxd5
+2013.01.01	0-1	1440	1548	Zukertort Opening: Wade Defense	1. Nf3 d6 2. e4 Bg4 3. Bb5+ c6 4. Be2 e5
+2013.01.01	1/2-1/2	1279	1363	Ware Opening	1. a4 c6 2. h4 Qc7 3. b3 d5 4. g3 Bf5
+2013.01.01	0-1	1758	1857	Queen's Gambit Accepted: Central Variation, Rubinstein Defense	1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 e6
+2013.01.01	1-0	1395	1321	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. a3 Be7 4. c5 Nc6
+2013.01.01	1-0	1609	1367	Portuguese Opening	1. e4 e5 2. Bb5 c6 3. Ba4 Nf6 4. d3 b5
+2013.01.01	0-1	1613	1622	Modern Defense	1. d4 g6 2. Nc3 Bg7 3. Bf4 d6 4. Qd2 Nd7
+2013.01.01	1-0	1393	1634	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 Nf6
+2013.01.01	1-0	1386	1540	Philidor Defense #4	1. e4 e5 2. Nf3 d6 3. Bc4 Be7 4. h3 Nf6
+2013.01.01	0-1	1495	2144	Van't Kruijs Opening	1. e3 d5 2. d3 c6 3. c3 g6 4. b4 Bg7
+2013.01.01	1-0	1824	1657	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. O-O Nf6
+2013.01.01	0-1	1725	1653	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. d4 d6 4. d5 Nf6
+2013.01.01	0-1	1568	1803	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 b6 3. d4 cxd4 4. Qxd4 Bb7
+2013.01.01	1-0	1351	1614	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Qg6
+2013.01.01	0-1	1539	1497	Bird Opening: Dutch Variation	1. f4 d5 2. Nf3 Nc6 3. b3 Qd6 4. e3 e5
+2013.01.01	1-0	1633	1562	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. d3 d5 4. exd5 exd5
+2013.01.01	1-0	1859	1771	Three Knights Opening	1. e4 e5 2. Nc3 Nc6 3. Nf3 Bc5 4. Nxe5 Bxf2+
+2013.01.01	0-1	1804	2055	Hungarian Opening: Slav Formation	1. g3 d5 2. Bg2 c6 3. b3 g6 4. Bb2 Nf6
+2013.01.01	1-0	1495	1795	Van't Kruijs Opening	1. e3 e5 2. e4 Nc6 3. d3 Nf6 4. Bg5 Bc5
+2013.01.01	0-1	1535	1667	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 d6 3. Nf3 f5 4. Bg5 Nf6
+2013.01.01	0-1	1320	1686	English Opening: The Whale	1. e4 e5 2. c4 c5 3. Nf3 Nc6 4. Bd3 Nf6
+2013.01.01	1-0	1241	1058	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 g5
+2013.01.01	0-1	1750	1612	Polish Defense	1. d4 b5 2. c4 bxc4 3. e4 Bb7 4. Nc3 e6
+2013.01.01	0-1	1710	1524	Center Game #2	1. e4 e5 2. d4 Qh4 3. dxe5 Qxe4+ 4. Be3 Bb4+
+2013.01.01	0-1	1180	1740	Van't Kruijs Opening	1. e3 d5 2. Qh5 Nf6 3. Qe5 Nbd7 4. Qd4 e6
+2013.01.01	1-0	1674	1527	Bird Opening: Dutch Variation	1. f4 d5 2. e3 e6 3. Nf3 Nf6 4. d4 Nc6
+2013.01.01	0-1	1553	1612	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Bd6
+2013.01.01	0-1	1657	1563	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 h6
+2013.01.01	1-0	1771	1362	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Nf3 Bg4
+2013.01.01	0-1	1765	1714	Caro-Kann Defense: Hillbilly Attack	1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb3 Nf6
+2013.01.01	1-0	2092	1504	Budapest Defense	1. d4 Nf6 2. c4 e5 3. dxe5 Ng4 4. e3 Nxe5
+2013.01.01	0-1	1642	1651	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d3 Nf6
+2013.01.01	0-1	1466	1689	Ponziani Opening: Jaenisch Counterattack	1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d3 Bc5
+2013.01.01	1-0	1520	1351	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. Nf3 Bc5 4. Be2 Nf6
+2013.01.01	1-0	1763	1799	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 b6 4. O-O Bb7
+2013.01.01	0-1	1519	1857	Hungarian Opening	1. g3 d5 2. Bg2 Nf6 3. Nf3 Nc6 4. O-O e5
+2013.01.01	1-0	1780	1774	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 Nc6 4. cxd4 Bb4+
+2013.01.01	1/2-1/2	1735	1606	Gruenfeld Defense	1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. c5 Bg7
+2013.01.01	1-0	1450	1527	Russian Game: Cozio (Lasker) Attack	1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4
+2013.01.01	0-1	1257	1375	King's Gambit Accepted, Bishop's Gambit, Maurian Defense	1. e4 e5 2. f4 exf4 3. Bc4 Nc6 4. d4 d6
+2013.01.01	1-0	1868	1806	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3 Nf6
+2013.01.01	1-0	1760	1791	Van Geet Opening: Gruenfeld Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. Nf3 Nc6
+2013.01.01	1/2-1/2	1596	1411	Portuguese Opening	1. e4 e5 2. Bb5 Nf6 3. d3 a6 4. Ba4 b5
+2013.01.01	1-0	2093	1349	Polish Defense	1. d4 b5 2. e3 Bb7 3. Nf3 d5 4. Bxb5+ c6
+2013.01.01	1-0	1518	1434	Queen's Pawn Game: Colle System, Anti-Colle	1. d4 d5 2. Nf3 Nf6 3. e3 Bf5 4. Bd2 e6
+2013.01.01	1-0	1825	1662	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nd7 4. d3 h6
+2013.01.01	0-1	1866	1851	Queen's Indian Accelerated	1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. e3 e6
+2013.01.01	0-1	1609	1854	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. d3 Nc6 4. a3 g6
+2013.01.01	1-0	1644	1454	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Bc4 Nf6
+2013.01.01	0-1	1779	1775	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 c2
+2013.01.01	0-1	1555	1595	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Qf3 Nf6 4. d3 h6
+2013.01.01	1-0	1513	1775	Italian Game: Giuoco Pianissimo, Normal	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6
+2013.01.01	1/2-1/2	1686	1839	Nimzo-Larsen Attack: Modern Variation #3	1. b3 e5 2. Bb2 Nc6 3. Nf3 f6 4. d4 Bb4+
+2013.01.01	1-0	1741	1179	Horwitz Defense	1. d4 e6 2. Nf3 Bb4+ 3. c3 Bd6 4. e4 c6
+2013.01.01	0-1	1425	1530	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4 d6
+2013.01.01	0-1	1594	1627	St. George Defense	1. e4 a6 2. d4 b5 3. c4 Bb7 4. Nc3 b4
+2013.01.01	1-0	1779	1647	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. Bc4 Bxc3
+2013.01.01	1-0	1572	1541	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bh5
+2013.01.01	0-1	1789	1768	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nc3 Nc6
+2013.01.01	1-0	1693	1091	Owen Defense	1. e4 b6 2. d4 Bb7 3. Nc3 d5 4. exd5 Bxd5
+2013.01.01	0-1	1283	2094	English Opening: Symmetrical Variation, Two Knights Variation	1. c4 c5 2. Nc3 Nc6 3. d3 d6 4. e4 e5
+2013.01.01	1-0	1689	1305	King's Indian Defense: Orthodox Variation	1. c4 Nf6 2. d4 g6 3. Nc3 d6 4. e4 Bg7
+2013.01.01	1-0	1757	1532	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O Nf6
+2013.01.01	0-1	1564	1857	Sicilian Defense	1. e4 c5 2. d3 Nc6 3. Be3 d6 4. Be2 h6
+2013.01.01	1-0	1702	1343	French Defense: Advance Variation #3	1. e4 d5 2. e5 e6 3. d4 Nc6 4. Bb5 Bd7
+2013.01.01	0-1	1445	1523	Sicilian Defense: Franco-Sicilian Variation	1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. d5 exd5
+2013.01.01	1-0	1780	1775	Danish Gambit Accepted, Copenhagen Defense	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2
+2013.01.01	0-1	1814	1858	Queen's Pawn Game: Stonewall Attack	1. d4 d5 2. e3 Nf6 3. Bd3 Bg4 4. Nf3 e6
+2013.01.01	0-1	1402	1442	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Nf3 Nf6 4. d3 d5
+2013.01.01	0-1	1842	2060	Slav Defense #2	1. d4 c6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Nbd7
+2013.01.01	0-1	1178	1743	Van't Kruijs Opening	1. e3 e5 2. b3 d5 3. Bb5+ c6 4. Qe2 cxb5
+2013.01.01	0-1	1808	1527	English Opening: King's English Variation	1. c4 e5 2. b3 d5 3. Bb2 dxc4 4. bxc4 f6
+2013.01.01	1-0	1139	?	Owen Defense	1. e4 b6 2. d3 Ba6 3. Nc3 Nc6 4. Nf3 Bb7
+2013.01.01	1/2-1/2	1480	1514	English Defense #2	1. d4 b6 2. e4 Bb7 3. e5 g6 4. Nf3 d6
+2013.01.01	1-0	1762	1790	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nc3 a6
+2013.01.01	0-1	1279	1578	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 Qf6 4. d4 g6
+2013.01.01	0-1	1544	1621	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Nf6
+2013.01.01	1-0	1649	1208	Bishop's Opening: Boi Variation	1. e4 e5 2. Bc4 Bc5 3. d3 d6 4. Qh5 Qf6
+2013.01.01	0-1	1262	2094	Sicilian Defense	1. e4 c5 2. d3 Nc6 3. c4 e5 4. Nc3 d6
+2013.01.01	1-0	1642	1698	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. cxd5 exd5 4. Nf3 Nc6
+2013.01.01	1-0	1945	1677	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. O-O f5
+2013.01.01	1-0	1779	1776	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 Bb4
+2013.01.01	1-0	1934	1860	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 exd4
+2013.01.01	1-0	1540	1418	Queen's Pawn Game: Krause Variation	1. d4 d5 2. Nf3 c5 3. dxc5 e6 4. e3 Bxc5
+2013.01.01	0-1	2062	2145	French Defense: Normal Variation	1. e4 e6 2. d4 b6 3. e5 Bb7 4. Nf3 c5
+2013.01.01	1-0	1691	1589	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 d6 3. e4 Nf6 4. Nf3 c5
+2013.01.01	1-0	1395	1503	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 e6 3. e3 Nf6 4. Bd2 Be7
+2013.01.01	0-1	1577	1543	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 e6 3. d4 cxd4 4. cxd4 a6
+2013.01.01	1-0	2094	1262	Slav Defense #3	1. d4 d5 2. c4 c6 3. Nc3 dxc4 4. e3 f6
+2013.01.01	1-0	1586	1531	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. h3 h6 4. Bc4 a5
+2013.01.01	1-0	1763	1789	Van Geet Opening: Gruenfeld Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. Ng3 Nf6
+2013.01.01	1-0	2052	1729	Sicilian Defense: Modern Variations, Tartakower	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. c3 Nc6
+2013.01.01	1/2-1/2	1727	1751	Queen's Gambit Refused: Baltic Defense	1. d4 d5 2. c4 Bf5 3. e3 e6 4. a3 a6
+2013.01.01	1-0	1744	1177	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 Qf6 3. d4 Qxd4 4. Qxd4
+2013.01.01	0-1	1512	1501	Center Game: Berger Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6
+2013.01.01	0-1	1801	1460	Latvian Gambit: Clam Gambit	1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5 d5
+2013.01.01	0-1	1176	1745	Van't Kruijs Opening	1. e3 e5 2. Qg4 d5 3. Qa4+ Bd7 4. Qa5 Nf6
+2013.01.01	0-1	1605	1546	Three Knights Opening	1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Bb5 d6
+2013.01.01	1-0	1506	1357	Queen's Gambit Accepted: Accelerated Mannheim Variation	1. d4 d5 2. c4 dxc4 3. Qa4+ Nc6 4. Qxc4 Nxd4
+2013.01.01	0-1	1868	1803	Queen's Gambit Declined: 4.Bg5 Be7	1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Be7
+2013.01.01	1-0	1731	1582	Old Indian Defense	1. d4 d6 2. c4 a6 3. e4 Nc6 4. Nf3 Bg4
+2013.01.01	0-1	1583	1673	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 d6
+2013.01.01	0-1	1546	1790	Sicilian Defense: Katalimov Variation	1. e4 c5 2. Nf3 b6 3. Bc4 Bb7 4. d4 cxd4
+2013.01.01	1-0	1778	1777	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 Bc5 4. cxd4 Bb4+
+2013.01.01	1-0	1629	1582	Modern Defense	1. d4 g6 2. e3 Bg7 3. Nf3 b6 4. a3 Bb7
+2013.01.01	0-1	1712	1851	Italian Game: Classical Variation, Albin Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6
+2013.01.01	0-1	1410	1550	King's Gambit Accepted, Cunningham Defense	1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. g3 fxg3
+2013.01.01	1-0	1753	1817	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 d5 4. exd5 Nxd5
+2013.01.01	0-1	1610	1662	King's Gambit, Falkbeer Countergambit Accepted	1. e4 e5 2. f4 d5 3. exd5 Qxd5 4. fxe5 Qxe5+
+2013.01.01	1-0	1709	1476	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 a6
+2013.01.01	1/2-1/2	1764	1789	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nc3 Nf6
+2013.01.01	0-1	1662	1763	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 Qc7 4. d3 a6
+2013.01.01	1-0	1283	1333	Scandinavian Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 Bf5 4. Bd3 Qd4
+2013.01.01	0-1	1350	1513	King's Pawn Game: Maroczy Defense	1. e4 e5 2. d4 d6 3. d5 f5 4. f3 c6
+2013.01.01	1-0	1788	1765	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 d5
+2013.01.01	1-0	2095	1726	Dutch Defense: Queen's Knight Variation	1. d4 f5 2. c4 Nf6 3. Nc3 e6 4. e3 d5
+2013.01.01	0-1	1392	1513	Owen Defense	1. e4 b6 2. d4 Bb7 3. e5 e6 4. Nf3 d6
+2013.01.01	0-1	1358	1522	Queen's Pawn Game #2	1. d4 d5 2. e3 Nc6 3. Bb5 Bf5 4. c3 Qd6
+2013.01.01	0-1	1583	1395	Nimzowitsch Defense: Neo-Mongoloid Defense	1. e4 f6 2. d4 Nc6 3. Bc4 e6 4. f4 d5
+2013.01.01	1-0	1398	1296	Bishop's Opening	1. e4 e5 2. Bc4 Nh6 3. Nf3 d6 4. c3 c5
+2013.01.01	0-1	1818	1855	Queen's Pawn Game: Stonewall Attack	1. d4 d5 2. e3 Nf6 3. Bd3 Bg4 4. Nf3 e6
+2013.01.01	1-0	1830	1532	Sicilian Defense: Open #2	1. e4 c5 2. d4 cxd4 3. Nf3 Nc6 4. Bc4 h6
+2013.01.01	0-1	1789	1576	King's Pawn Game: Tayler Opening	1. e4 e5 2. Nf3 Nc6 3. Be2 Nf6 4. Nc3 Bb4
+2013.01.01	0-1	1385	2099	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. e3 f5 4. Nf3 Nf6
+2013.01.01	0-1	1500	1530	Horwitz Defense	1. d4 e6
+2013.01.01	1-0	1738	1575	Old Indian Defense	1. d4 d6 2. c4 Nc6 3. Nf3 a6 4. a3 Nf6
+2013.01.01	1-0	1754	1798	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Qe2 Nf6
+2013.01.01	1/2-1/2	1560	1403	Queen's Pawn Game: Krause Variation	1. d4 d5 2. Nf3 c5 3. e3 e6 4. dxc5 Bxc5
+2013.01.01	0-1	1541	1671	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 g5 4. d3 g4
+2013.01.01	0-1	1787	1903	Lasker Simul Special	1. g3 h5 2. h3 h4 3. g4 Nc6 4. Bg2 b6
+2013.01.01	0-1	1528	1351	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. e5 c6 4. Bd3 g6
+2013.01.01	1-0	1529	1411	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 Nh6 3. Nc3 f5 4. exf5 Nxf5
+2013.01.01	1-0	1786	1767	Nimzowitsch Defense: Kennedy Variation	1. e4 e5 2. d4 Nc6 3. c3 exd4 4. cxd4 d5
+2013.01.01	0-1	1572	1638	Van't Kruijs Opening	1. e3 e5 2. Bc4 c6 3. d4 d5 4. Bb3 e4
+2013.01.01	0-1	1500	1617	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 e6
+2013.01.01	1-0	1778	1528	Sicilian Defense: Open #3	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nxd4
+2013.01.01	0-1	1500	1521	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Qf6 3. Bc4 Bc5 4. d3 Qxf2+
+2013.01.01	1-0	2099	1382	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 c6 4. e3 Bf5
+2013.01.01	1-0	1538	1540	Scandinavian Defense	1. e4 d5 2. exd5 e5 3. dxe6 Bd6 4. d3 Bxe6
+2013.01.01	1-0	1807	1949	Queen's Pawn Game #2	1. d4 d5 2. e3 Nc6 3. f4 f6 4. Nf3 e5
+2013.01.01	0-1	1874	1561	King's Gambit	1. e4 e5 2. f4 d6 3. Nf3 Bg4 4. fxe5 dxe5
+2013.01.01	1/2-1/2	1794	1865	English Opening: Anglo-Indian Defense	1. c4 Nf6 2. b3 e6 3. Bb2 d5 4. cxd5 exd5
+2013.01.01	0-1	1384	1481	Ruy Lopez: Berlin Defense #2	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6
+2013.01.01	0-1	1581	1700	Richter-Veresov Attack	1. d4 d5 2. Nc3 Nf6 3. Bg5 e6 4. h4 Be7
+2013.01.01	1-0	1834	1708	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6
+2013.01.01	1-0	1335	1500	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 g6 3. Qf3 Bg7 4. Bc4 Nf6
+2013.01.01	1-0	1467	1525	Van't Kruijs Opening	1. e3 f5 2. d3 d5 3. Nf3 e5 4. e4 Be7
+2013.01.01	0-1	1416	1552	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 Qe7 4. Nf3 d6
+2013.01.01	1-0	1500	1796	Queen's Pawn Game: Chigorin Variation	1. d4 Nf6 2. Nc3 d5 3. Bf4 Bf5 4. Nb5 Na6
+2013.01.01	1-0	1591	1641	Hungarian Opening: Slav Formation	1. g3 c6 2. Bg2 d5 3. e4 e6 4. e5 Ne7
+2013.01.01	1-0	1651	1358	Bishop's Opening: Vienna Hybrid, Spielmann Attack	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Nc3 O-O
+2013.01.01	0-1	1655	1499	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. Bf4 c5 4. dxc5 Bxc5
+2013.01.01	0-1	1910	1786	French Defense: Marshall Variation	1. d4 e6 2. e4 d5 3. Nc3 c5 4. Be3 cxd4
+2013.01.01	0-1	1536	1519	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Nf6
+2013.01.01	0-1	1408	1554	King's Gambit Accepted, Fischer Defense	1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 Be7
+2013.01.01	0-1	1524	1783	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. d3 Bc5 4. Nc3 d6
+2013.01.01	1-0	1482	1508	Horwitz Defense	1. d4 e6 2. e3 Be7 3. c4 d5 4. Nc3 e5
+2013.01.01	1-0	1634	1220	Indian Game	1. d4 Nf6 2. e3 g6 3. c4 Bg7 4. c5 Nc6
+2013.01.01	1-0	1558	1241	Alekhine Defense: Mokele Mbembe	1. e4 Nf6 2. e5 Ne4 3. d4 c6 4. h4 h5
+2013.01.01	1-0	1678	1762	Vienna Game: Max Lange Defense	1. e4 e5 2. Nc3 Nc6 3. a3 Bc5 4. g4 h6
+2013.01.01	0-1	1493	1495	French Defense	1. d4 e6 2. e4 d5 3. Be2 dxe4 4. Be3 f5
+2013.01.01	1-0	1525	1593	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qd8
+2013.01.01	1-0	1464	1499	French Defense #2	1. e4 e6 2. Qh5 Nf6 3. Qf3 d5 4. e5 Nfd7
+2013.01.01	0-1	1744	1804	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. e3 Nf6 4. a3 c5
+2013.01.01	0-1	1427	1471	Modern Defense	1. d4 g6 2. e3 Bg7 3. c4 d6 4. Nc3 a6
+2013.01.01	1-0	1507	1479	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 f6 3. Nf3 g6 4. Bc4 f5
+2013.01.01	0-1	1479	1507	Zukertort Opening: Reversed Mexican Defense	1. Nc3 d5 2. Nf3 d4 3. e4 dxc3 4. dxc3 Qxd1+
+2013.01.01	1-0	1519	1466	Hungarian Opening	1. g3 e6 2. Bg2 d6 3. Bxb7 d5 4. Bxa8
+2013.01.01	1-0	1519	1466	Rat Defense: Antal Defense	1. e4 d6 2. d4 Nd7 3. f3 Nb8 4. Bc4 Nd7
+2013.01.01	1-0	1744	1831	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Nf6
+2013.01.01	0-1	1454	1529	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. Ng1 e5 3. Nf3 f5 4. Ng1 e4
+2013.01.01	0-1	1375	1624	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. Nf3 Nf6 4. c3 Nxe4
+2013.01.01	1-0	1538	1444	Nimzo-Larsen Attack	1. b3 Nc6 2. Bb2 Nb4 3. c4 b6 4. d4 e5
+2013.01.01	1-0	1817	1901	Slav Defense: Three Knights Variation	1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 Bg4
+2013.01.01	1-0	1655	1278	Bishop's Opening	1. e4 e5 2. Bc4 Qf6 3. Nc3 Bc5 4. f3 Qh4+
+2013.01.01	0-1	1354	1414	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Bc4 h6 3. Nf3 Nc6 4. d4 exd4
+2013.01.01	0-1	1444	1538	Zukertort Opening: Queen's Gambit Invitation	1. Nf3 e6 2. d3 d5 3. Bg5 Be7 4. Bf4 Nf6
+2013.01.01	1-0	1737	1531	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. b3 Nc6 4. Bb2 Be6
+2013.01.01	1-0	1547	1434	Van't Kruijs Opening	1. e3 Nc6 2. d4 Nf6 3. c4 d5 4. c5 a6
+2013.01.01	1-0	1770	1757	Latvian Gambit Accepted	1. e4 e5 2. Nf3 f5 3. exf5 e4 4. Qe2 Nf6
+2013.01.01	1-0	1562	1401	Queen's Pawn Game: Krause Variation	1. d4 d5 2. Nf3 c5 3. dxc5 Nc6 4. e3 e5
+2013.01.01	0-1	1842	1784	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nc6
+2013.01.01	0-1	1824	1933	Queen's Pawn Game #2	1. d4 d5 2. e3 Nc6 3. f4 f6 4. Nf3 e5
+2013.01.01	0-1	1623	1728	Caro-Kann Defense	1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Bf4 Bf5
+2013.01.01	1-0	1709	1574	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 d6 3. e4 Nf6 4. Be2 b6
+2013.01.01	0-1	1425	1555	Gedult's Opening	1. f3 d5 2. e3 e5 3. d3 c5 4. g3 f5
+2013.01.01	1-0	1567	1254	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nh6
+2013.01.01	1-0	1657	1486	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. h3 d6
+2013.01.01	1-0	1417	1563	Van't Kruijs Opening	1. e3 e6 2. Be2 c6 3. e4 d5 4. d3 dxe4
+2013.01.01	0-1	1858	1944	Goldsmith Defense	1. e4 h5 2. Nf3 h4 3. d4 h3 4. gxh3 d6
+2013.01.01	1-0	1565	1487	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nh6 4. Nc3 a6
+2013.01.01	1-0	1547	1435	King's Pawn Game: King's Head Opening #2	1. f3 e5 2. e4 d5 3. Ne2 Bd6 4. exd5 Bd7
+2013.01.01	1-0	1526	1742	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Be2 Bc5 4. O-O h6
+2013.01.01	1-0	1581	1538	Modern Defense	1. d4 g6 2. e3 Bg7 3. a4 b6 4. a5 Nc6
+2013.01.01	1-0	1955	1850	Kadas Opening	1. h4 e5 2. h5 Nc6 3. d3 f5 4. Nc3 Nf6
+2013.01.01	1-0	1426	1555	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 Nc6 3. Be3 d6 4. Be2 cxd4
+2013.01.01	1-0	1664	1334	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. h3 d5
+2013.01.01	0-1	1582	1691	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 g5 4. d3 g4
+2013.01.01	1-0	1941	1815	French Defense: Marshall Variation	1. e4 e6 2. d4 d5 3. Nc3 c5 4. Nf3 cxd4
+2013.01.01	0-1	1944	1650	Sicilian Defense: Canal Attack, Main Line	1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7
+2013.01.01	0-1	1735	1837	Benoni Defense: Old Benoni	1. d4 c5 2. d5 d6 3. c4 e6 4. e4 Nf6
+2013.01.01	0-1	1371	1667	Ruy Lopez: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6
+2013.01.01	1-0	1539	1443	Mieses Opening	1. d3 d6 2. e3 e5 3. f4 Be6 4. fxe5 dxe5
+2013.01.01	1-0	1842	1964	Alekhine Defense: Two Pawn Attack	1. e4 Nf6 2. e5 Nd5 3. c4 d6 4. cxd5 dxe5
+2013.01.01	0-1	1733	1721	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. d4 cxd4 4. Qxd4 Nc6
+2013.01.01	0-1	1780	1943	Hungarian Opening: Indian Defense	1. g3 Nf6 2. Bg2 g6 3. b3 Bg7 4. Bb2 O-O
+2013.01.01	1-0	1434	1548	Zukertort Opening: Kingside Fianchetto	1. Nf3 g6 2. Ng5 Bg7 3. d4 h6 4. Nf3 f5
+2013.01.01	0-1	1500	1409	King's Pawn Game	1. e4 e5 2. g3 Nf6 3. Bg2 Nc6 4. c3 Bc5
+2013.01.01	0-1	1361	1696	French Defense	1. d4 e6 2. e4 d5 3. f3 Nf6 4. Qe2 Bb4+
+2013.01.01	0-1	1833	1534	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. Be5 e6
+2013.01.01	1-0	1867	1561	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 a6
+2013.01.01	1-0	1573	1537	Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5
+2013.01.01	1-0	1795	1945	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 exd4 3. exd4 Nc6 4. d5 Nb8
+2013.01.01	1-0	1946	1857	Kadas Opening	1. h4 e5 2. g4 Nc6 3. g5 f6 4. d4 Nxd4
+2013.01.01	0-1	1528	1647	Queen's Pawn Game #2	1. d4 d5 2. e3 h6 3. Na3 e6 4. c3 a6
+2013.01.01	0-1	1531	1570	Bishop's Opening: Philidor Counterattack	1. e4 e5 2. Bc4 c6 3. Nf3 d6 4. d4 exd4
+2013.01.01	1-0	1533	1450	Pirc Defense #4	1. e4 d6 2. Bc4 Bd7 3. d4 Be6 4. Bxe6 fxe6
+2013.01.01	1-0	1570	1343	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 f6 4. d3 c5
+2013.01.01	1-0	1736	1615	Queen's Gambit Refused: Albin Countergambit	1. d4 d5 2. c4 e5 3. dxe5 Be6 4. e3 Nc6
+2013.01.01	0-1	1724	1544	Petrov's Defense	1. e4 e5 2. Nf3 Nf6 3. b3 Nxe4 4. Qe2 Nf6
+2013.01.01	0-1	1440	1541	Mieses Opening	1. d3 d6 2. Kd2 e5 3. c3 Be7 4. Kc2 Bg5
+2013.01.01	1-0	1807	1336	Caro-Kann Defense: Exchange Variation	1. d4 c6 2. e4 d5 3. exd5 Qa5+ 4. c3 Qxd5
+2013.01.01	1-0	1671	1693	Nimzo-Indian Defense	1. c4 Nf6 2. Nc3 e6 3. d4 Bb4 4. Bd2 Bxc3
+2013.01.01	0-1	1848	1956	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Nc3 f5 4. exf5 Nf6
+2013.01.01	0-1	1600	1974	Queen's Gambit Declined: Normal Defense	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. e3 Nbd7
+2013.01.01	1-0	1796	1928	Danish Gambit	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 Nc6
+2013.01.01	0-1	1529	1590	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 Qxd5 4. Nc3 Bb4
+2013.01.01	1-0	1539	1500	Van't Kruijs Opening	1. e3 g6 2. c4 Bg7 3. Nc3 Bxc3 4. bxc3 e6
+2013.01.01	1/2-1/2	1854	1793	Sicilian Defense: Najdorf Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2013.01.01	1-0	1550	1432	Van't Kruijs Opening	1. e3 e6 2. d4 Be7 3. c4 c6 4. c5 b6
+2013.01.01	1-0	1667	1699	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. Qh5 g6 4. Qf3 Qf6
+2013.01.01	1-0	1547	1205	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d4 Nc6
+2013.01.01	0-1	1914	1857	Queen's Gambit Declined: 4.Bg5 Be7	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7
+2013.01.01	0-1	1423	1557	Zukertort Opening: Kingside Fianchetto	1. Nf3 g6 2. Ng1 Bg7 3. Nf3 Bxb2 4. Bxb2 f6
+2013.01.01	1-0	1965	1841	Saragossa Opening	1. c3 d6 2. d4 e5 3. h4 exd4 4. h5 dxc3
+2013.01.01	1-0	1535	1409	Horwitz Defense	1. d4 e6 2. a3 Nf6 3. Nc3 d5 4. Bf4 Be7
+2013.01.01	1-0	1832	1624	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Nc3 d6 4. Bc4 Nd7
+2013.01.01	1-0	1565	1416	Van't Kruijs Opening	1. e3 Nc6 2. Bb5 a6 3. Bxc6 bxc6 4. d4 c5
+2013.01.01	0-1	1727	1794	Indian Game: West Indian Defense	1. d4 Nf6 2. c4 g6 3. e3 d5 4. b3 Bg7
+2013.01.01	0-1	1810	1913	Zukertort Opening: Old Indian Attack	1. d3 d5 2. Nf3 e5 3. Bg5 f6 4. Bh4 g5
+2013.01.01	0-1	1833	1974	Alekhine Defense: Two Pawn Attack	1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. d4 d6
+2013.01.01	0-1	1408	1572	Van't Kruijs Opening	1. e3 d5 2. Qf3 c6 3. Qe2 Nf6 4. Qd3 g6
+2013.01.01	0-1	1367	1591	French Defense: Advance Variation, Nimzowitsch System	1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 Nc6
+2013.01.01	0-1	1749	1722	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Bd7
+2013.01.01	0-1	1578	1402	Pirc Defense #4	1. e4 d6 2. e5 f6 3. exf6 Nxf6 4. Bc4 Bg4
+2013.01.01	0-1	1561	1708	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Be2 Bc5 4. O-O h6
+2013.01.01	1-0	1681	1683	Sicilian Defense: Grand Prix Attack	1. e4 c5 2. Nc3 Nc6 3. f4 e5 4. f5 Nf6
+2013.01.01	0-1	1343	1723	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 d6 3. Nf3 Nf6 4. O-O e6
+2013.01.01	0-1	1419	1561	Van't Kruijs Opening	1. e3 b6 2. Be2 Bb7 3. Bf3 c6 4. Be2 d5
+2013.01.01	1-0	1654	1735	Queen's Pawn Game	1. d4 d5 2. a3 e6 3. b4 Ne7 4. Bb2 b6
+2013.01.01	1-0	1561	1419	Old Indian Defense	1. d4 d6 2. c4 Bd7 3. e4 a5 4. f4 Na6
+2013.01.01	0-1	1338	1575	Center Game: Paulsen Attack Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nge7
+2013.01.01	1/2-1/2	1809	1682	Caro-Kann Defense: Exchange Variation	1. d4 c6 2. e4 d5 3. exd5 cxd5 4. Bd3 Nc6
+2013.01.01	0-1	1412	1569	Gedult's Opening	1. f3 e5 2. g3 d5 3. h3 c5 4. g4 d4
+2013.01.01	0-1	1519	1921	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 h6
+2013.01.01	1-0	1500	1481	Queen's Pawn Game	1. d4 d5 2. f4 Bf5 3. Nf3 Nf6 4. Nc3 e6
+2013.01.01	0-1	1803	1949	Queen's Gambit Refused: Chigorin Defense, Tartakower Gambit	1. d4 d5 2. c4 Nc6 3. Nc3 e5 4. cxd5 Nxd4
+2013.01.01	0-1	1362	1598	French Defense: Advance Variation, Nimzowitsch System	1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 Nc6
+2013.01.01	1-0	1575	1405	Bird Opening: From's Gambit	1. f4 e5 2. Nf3 d5 3. fxe5 Qd7 4. d4 c5
+2013.01.01	0-1	1398	1582	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 e6
+2013.01.01	1-0	1246	1401	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. Bc4 h6
+2013.01.01	1/2-1/2	1671	1693	Alekhine Defense: Two Pawn Attack, Lasker Variation	1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5
+2013.01.01	1-0	1715	1554	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. b3 d6 4. Bb2 Be6
+2013.01.01	1-0	1692	1667	Scotch Game: Goering Gambit, Double Pawn Sacrifice	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3 dxc3
+2013.01.01	0-1	1687	1580	Vienna Game: Mengarini Variation	1. e4 e5 2. Nc3 Nf6 3. a3 Nc6 4. h3 d5
+2013.01.01	0-1	1588	1392	Mieses Opening	1. d3 a6 2. f3 a5 3. e4 Ra6 4. d4 Re6
+2013.01.01	0-1	1247	1325	King's Knight Opening	1. e4 e5 2. Nf3 g5 3. Nxe5 Nc6 4. Nxc6 dxc6
+2013.01.01	0-1	1519	1509	Queen's Gambit Accepted: Accelerated Mannheim Variation	1. d4 d5 2. c4 dxc4 3. Qa4+ Nc6 4. Qxc4 Nf6
+2013.01.01	1-0	1307	1726	Italian Game: Giuoco Pianissimo	1. e4 e5 2. Bc4 Nc6 3. Nf3 Bc5 4. d3 d6
+2013.01.01	1-0	1410	1570	Kadas Opening	1. h4 e5 2. Rh3 d5 3. e4 d4 4. Rd3 c5
+2013.01.01	1-0	1570	1410	St. George Defense	1. e4 a6 2. d4 a5 3. c4 Ra6 4. f4 d6
+2013.01.01	1-0	1679	1357	Pirc Defense: Austrian Attack	1. e4 d6 2. f4 Nf6 3. Nc3 g6 4. d4 Bg7
+2013.01.01	1-0	1813	1722	Modern Defense	1. d4 g6 2. c4 Bg7 3. Nf3 e6 4. e3 Ne7
+2013.01.01	1-0	1576	1492	French Defense #2	1. e4 e6 2. Bc4 b6 3. d4 Bb7 4. d5 exd5
+2013.01.01	0-1	1403	1554	Zukertort Opening: Slav Invitation	1. Nf3 c6 2. Ne5 f6 3. Nf3 e5 4. Ng1 d5
+2013.01.01	1-0	1599	1519	Queen's Pawn Game #2	1. d4 d5 2. e3 Bf5 3. h4 e6 4. g4 Be4
+2013.01.01	0-1	1248	1236	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qg4 d5
+2013.01.01	1-0	1923	1352	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 Qe7 4. d3 c5
+2013.01.01	0-1	1561	1396	Owen Defense	1. e4 b6 2. e5 a5 3. f4 a4 4. d4 h5
+2013.01.01	0-1	1238	1334	Ponziani Opening	1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. exd5 Qxd5
+2013.01.01	0-1	1748	1794	Alekhine Defense: Scandinavian Variation, Geschev Gambit	1. e4 d5 2. exd5 Nf6 3. Nc3 c6 4. dxc6 Nxc6
+2013.01.01	0-1	1413	1544	Van't Kruijs Opening	1. e3 d5 2. Be2 d4 3. exd4 Qxd4 4. c3 Qd8
+2013.01.01	0-1	1583	1752	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 Nc6 3. d4 cxd4 4. cxd4 e6
+2013.01.01	1-0	1664	1518	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qd8
+2013.01.01	1-0	1357	1500	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 d6 3. Nf3 a6 4. c3 b5
+2013.01.01	1-0	1552	1405	Hungarian Opening	1. g3 c6 2. Bg2 b6 3. b3 Bb7 4. Bb2 d6
+2013.01.01	0-1	1521	1502	Philidor Defense: Nimzowitsch Variation, Klein Variation	1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. d4 exd4
+2013.01.01	0-1	1657	1155	French Defense #2	1. e4 e6 2. Bc4 d5 3. exd5 exd5 4. Qe2+ Be7
+2013.01.01	1-0	1547	1721	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Be2 Bc5 4. O-O h6
+2013.01.01	1-0	1788	1563	French Defense: Normal Variation	1. e4 e6 2. d4 g6 3. Nf3 Bg7 4. Bc4 b6
+2013.01.01	0-1	1718	1747	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. e3 e6 4. a3 Be7
+2013.01.01	0-1	1662	1702	English Opening: Symmetrical Variation, Two Knights Variation	1. c4 c5 2. Nc3 Nc6 3. e3 e6 4. Nge2 b6
+2013.01.01	0-1	1398	1559	Zukertort Opening: Queenside Fianchetto Variation	1. Nf3 b6 2. Nd4 Bb7 3. Nb5 a6 4. Nb5c3 d5
+2013.01.01	0-1	1982	1924	Kadas Opening	1. h4 e5 2. h5 d5 3. d3 c5 4. c3 Nc6
+2013.01.01	1-0	1686	1863	Queen's Indian Accelerated	1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. d5 e6
+2013.01.01	1-0	1805	1652	Queen's Pawn Game #2	1. d4 d5 2. e3 c5 3. c3 e6 4. Bd3 Nf6
+2013.01.01	1-0	1559	1398	Rat Defense: Harmonist	1. f4 d6 2. e4 h5 3. Nf3 Bg4 4. d4 Bd7
+2013.01.01	1-0	1804	1739	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. d4 d5
+2013.01.01	1-0	1692	1672	King's Gambit, Falkbeer Countergambit Accepted	1. e4 e5 2. f4 d5 3. exd5 Qxd5 4. Nf3 exf4
+2013.01.01	1-0	1635	1555	English Opening: The Whale	1. e4 e5 2. c4 Nf6 3. d3 Bc5 4. Na3 d6
+2013.01.01	0-1	1647	1412	Queen's Gambit Refused: Chigorin Defense, Janowski Variation	1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3 Bf5
+2013.01.01	0-1	1391	1565	Zukertort Opening: Queen's Gambit Invitation	1. Nf3 e6 2. g3 d5 3. Bg2 c6 4. Kf1 Bd7
+2013.01.01	1-0	1508	1210	Sicilian Defense: Modern Variations, Main Line	1. e4 c5 2. Nf3 Nf6 3. d4 cxd4 4. Nxd4 d6
+2013.01.01	0-1	1445	1678	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. Nc3 Be7
+2013.01.01	0-1	1513	1564	Sicilian Defense: Open #3	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 h6
+2013.01.01	0-1	1572	1385	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Qd6
+2013.01.01	0-1	1402	1555	Mieses Opening	1. d3 d5 2. Kd2 e5 3. Ke1 d4
+2013.01.01	0-1	1645	1812	English Opening: Agincourt Defense	1. c4 e6 2. Nc3 d5 3. b3 Nf6 4. Bb2 c5
+2013.01.01	0-1	1354	1683	Queen's Pawn	1. d4 c6 2. h3 Qc7 3. Nf3 b5 4. c3 Bb7
+2013.01.01	0-1	1479	1555	French Defense #2	1. e4 e6 2. Bc4 c6 3. d4 d5 4. exd5 cxd5
+2013.01.01	0-1	1762	1938	Slav Defense: Three Knights Variation	1. d4 d5 2. c4 Nf6 3. Nc3 c6 4. Nf3 Bf5
+2013.01.01	1-0	1877	1773	Modern Defense	1. e4 g6 2. Nc3 Bg7 3. d3 b6 4. Be3 Bb7
+2013.01.01	1-0	1616	1525	Indian Game	1. d4 Nf6 2. Nc3 e6 3. a3 d5 4. Bf4 c5
+2013.01.01	1-0	1504	1671	Philidor Defense #3	1. e4 e5 2. Bc4 d6 3. Nf3 h6 4. c3 c6
+2013.01.01	1-0	1367	1456	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. d4 c6 4. Nc3 Qd8
+2013.01.01	1-0	1797	1558	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. h3 Bd7
+2013.01.01	1/2-1/2	1518	1533	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 c6 3. h3 e6 4. e3 a6
+2013.01.01	1-0	1417	1561	Van't Kruijs Opening	1. e3 e6 2. d3 c6 3. Be2 d5 4. Bd2 c5
+2013.01.01	1-0	1686	1390	Queen's Pawn Game: Veresov Attack, Alburt Defense	1. d4 d5 2. Nc3 Bf5 3. Bf4 Nc6 4. Nb5 Rc8
+2013.01.01	0-1	1944	1756	Queen's Gambit Declined: Orthodox Defense	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7
+2013.01.01	1-0	1730	1036	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qxe2+
+2013.01.01	0-1	1501	1573	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 c6 4. Bc4 Be7
+2013.01.01	1-0	1437	1250	King's Pawn Game: Wayward Queen Attack	1. e4 e5 2. Qh5 Nc6 3. Bc4 g6 4. Qf3 Nd4
+2013.01.01	0-1	1260	1354	French Defense: Queen's Knight	1. e4 e6 2. Nc3 a6 3. Nf3 b5 4. a3 Bb7
+2013.01.01	1-0	1563	1704	Bishop's Opening	1. e4 e5 2. Bc4 Qf6 3. c3 d6 4. Nf3 Bg4
+2013.01.01	1-0	1546	1594	Sicilian Defense: Closed Variation, Traditional	1. e4 c5 2. Nc3 Nc6 3. d3 e6 4. Nf3 a6
+2013.01.01	0-1	1757	1880	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nf6
+2013.01.01	0-1	1509	1547	Van't Kruijs Opening	1. e3 e6 2. d3 d5 3. Be2 c5 4. Bd2 Nc6
+2013.01.01	1-0	1580	1333	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 f6 4. c3 Nc6
+2013.01.01	0-1	1511	1502	Horwitz Defense	1. d4 e6 2. c4 c5 3. e3 cxd4 4. exd4 Bb4+
+2013.01.01	0-1	1243	1320	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 a6 3. f4 Qc7 4. d3 Nf6
+2013.01.01	1-0	1773	1927	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5
+2013.01.01	1-0	1495	1558	French Defense: Mediterranean Defense	1. d4 e6 2. e4 Nf6 3. Nc3 Bb4 4. Bd3 Bxc3+
+2013.01.01	1-0	1885	1821	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2013.01.01	1-0	1708	1750	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. b4 e6 4. a3 Be7
+2013.01.01	0-1	1459	1557	Alekhine Defense: Brooklyn Variation	1. e4 Nf6 2. e5 Ng8 3. Bc4 d6 4. Qf3 d5
+2013.01.01	1-0	1956	1765	Modern Defense: Three Pawns Attack	1. e4 g6 2. d4 Bg7 3. f4 b6 4. Nf3 Bb7
+2013.01.01	1-0	1686	1350	Pirc Defense: Austrian Attack, Weiss Variation	1. e4 d6 2. f4 Nf6 3. Nc3 g6 4. d4 Bg7
+2013.01.01	1-0	1382	1356	Scandinavian Defense	1. e4 d5 2. e5 c5 3. d4 cxd4 4. Qxd4 Nc6
+2013.01.01	1-0	1910	1789	Queen's Gambit Declined: Three Knights Variation	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7
+2013.01.01	1-0	1750	1513	Bishop's Opening: Boi Variation	1. e4 e5 2. Bc4 Bc5 3. h3 Qf6 4. Nf3 Ne7
+2013.01.01	0-1	1760	1962	Hungarian Opening	1. g3 d5 2. Bg2 e5 3. b3 Nc6 4. Bb2 Nf6
+2013.01.01	1-0	1464	1470	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Nf6
+2013.01.01	0-1	1611	1484	Horwitz Defense	1. d4 e6 2. e3 b6 3. c4 Bb7 4. c5 Nf6
+2013.01.01	0-1	1811	2054	Sicilian Defense: Smith-Morra Gambit	1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 d6
+2013.01.01	1-0	1654	1535	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. h3 Be6
+2013.01.01	1-0	1865	1565	Sicilian Defense: Paulsen Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6
+2013.01.01	0-1	1853	1722	Sicilian Defense: Najdorf Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2013.01.01	0-1	1782	1918	Slav Defense: Three Knights Variation	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bg4
+2013.01.01	0-1	2059	1806	Englund Gambit Complex: Hartlaub-Charlick Gambit	1. d4 e5 2. dxe5 d6 3. exd6 Bxd6 4. e4 Nf6
+2013.01.01	0-1	1423	1498	French Defense #2	1. e4 e6 2. Bc4 Bc5 3. d4 Bb6 4. Nf3 a6
+2013.01.01	1-0	1730	1433	Nimzowitsch Defense: Scandinavian Variation, Advance Variation	1. e4 Nc6 2. d4 d5 3. e5 e6 4. Nf3 Nce7
+2013.01.01	0-1	1824	2038	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. Bb5 Nc6 4. Bxc6 bxc6
+2013.01.01	0-1	1345	1605	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. e5 c5 4. c4 d4
+2013.01.01	0-1	1925	1774	Queen's Gambit Declined: Orthodox Defense	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7
+2013.01.01	0-1	1418	1431	Four Knights Game: Spanish Variation, Classical Variation	1. Nc3 e5 2. e4 Nf6 3. Nf3 Nc6 4. Bb5 Bc5
+2013.01.01	1-0	1689	1579	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. b3 Bc5 4. Bb2 Nf6
+2013.01.01	1-0	1388	1312	French Defense #2	1. e4 e6 2. Bc4 Nc6 3. d4 b6 4. d5 Bb7
+2013.01.01	0-1	1720	1583	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. cxd5 exd5 4. e3 c6
+2013.01.01	0-1	1337	1550	English Opening: The Whale	1. e4 e5 2. c4 Nf6 3. Nc3 Bc5 4. d3 d6
+2013.01.01	0-1	1790	1909	Slav Defense: Three Knights Variation	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bg4
+2013.01.01	1-0	1847	1788	Italian Game: Classical Variation, Albin Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2013.01.01	0-1	1895	1812	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2013.01.01	1-0	1644	1533	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 c6
+2013.01.01	1-0	1393	1239	Ruy Lopez: Morphy Defense, Caro Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5
+2013.01.01	0-1	1332	1689	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 c6 3. h3 Nf6 4. e3 Bf5
+2013.01.01	1-0	1634	1537	English Opening: King's English Variation, Two Knights Variation	1. c4 Nf6 2. Nc3 e5 3. d4 Nc6 4. e3 exd4
+2013.01.01	0-1	1510	1670	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2013.01.01	1-0	1416	1236	French Defense #2	1. e4 e6 2. Bc4 Nc6 3. d4 b6 4. d5 Ne5
+2013.01.01	1-0	1658	1404	Ruy Lopez	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bd6 4. Nc3 a6
+2013.01.01	0-1	1571	1697	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Bc4 Bc5 4. Nc3 c6
+2013.01.01	0-1	1289	1589	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. Nc3 Nc6 4. Bd2 e5
+2013.01.01	0-1	1459	1640	Bishop's Opening: Vienna Hybrid	1. e4 e5 2. Bc4 Nc6 3. Nc3 Nf6 4. d3 g6
+2013.01.01	1-0	1500	1515	Pirc Defense #4	1. e4 d6 2. Qh5 Be6 3. d4 g6 4. Qf3 h5
+2013.01.01	1-0	1734	1372	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Bc4 Nc6 4. d3 a6
+2013.01.01	1-0	1757	1310	English Defense #2	1. d4 b6 2. c4 Bb7 3. d5 d6 4. e4 c5
+2013.01.01	0-1	1492	1514	Center Game: Paulsen Attack Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 b6
+2013.01.01	1/2-1/2	1542	1524	Nimzowitsch Defense: Franco-Nimzowitsch Variation	1. e4 e6 2. Nf3 Nc6 3. Bb5 b6 4. Bxc6 dxc6
+2013.01.01	0-1	1535	1917	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 Be7 4. d5 Nb8
+2013.01.01	1-0	1509	1508	Queen's Pawn Game #2	1. d4 d5 2. e3 b6 3. Bb5+ c6 4. Bd3 c5
+2013.01.01	0-1	1598	1598	French Defense: Classical Variation, Burn Variation, Main Line	1. d4 d5 2. Nc3 e6 3. Nf3 Nf6 4. Bg5 Be7
+2013.01.01	0-1	1689	1574	Bishop's Opening: Boi Variation	1. e4 e5 2. Bc4 Bc5 3. Qh5 Qf6 4. Nf3 g6
+2013.01.01	1-0	1469	1843	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 Nc6 3. d3 e5 4. Nf3 h6
+2013.01.01	1-0	1919	1527	Slav Defense: Three Knights Variation	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bg4
+2013.01.01	0-1	1680	1221	French Defense #2	1. e4 e6 2. Bc4 d5 3. Bb5+ c6 4. Ba4 a5
+2013.01.01	0-1	1475	1520	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Nc3 Nc6 4. Bb5 Bd7
+2013.01.01	1-0	1881	1845	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 b6 3. g3 Bb7 4. Bg2 e5
+2013.01.01	0-1	1678	1498	Queen's Gambit Refused: Chigorin Defense	1. d4 d5 2. c4 Nc6 3. e3 e6 4. cxd5 Qxd5
