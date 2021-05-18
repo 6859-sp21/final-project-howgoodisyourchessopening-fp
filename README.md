@@ -8,7 +8,13 @@ Run the following command to gather our dataset of games from the lichess.org op
 ```
 bash get_data.sh
 ```
-It downloads the complete dataset of games across several years, unpacks it, preprocesses it using `preprocess.py`, and then writes a compressed version of the first 100,000 games in each month into the `datafiles` folder. Note that some of these downloads are very large (up to 30GB), and the unpacked versions can take up to 200GB of disk space. 
+It downloads the complete dataset of games across several years, unpacks it, preprocesses it using `preprocess.py`, and then writes a compressed version of the first 50,000 games in each month into the `datafiles` folder. Note that some of these downloads are very large (up to 30GB), and the unpacked versions can take up to 200GB of disk space. 
+
+For the actual deployed version of our visualization, we take the first 2,000 games from each of these preprocessed files. These are obtained by running the following command:
+```
+bash reduce_data.sh
+```
+These writes files of the form `lichess_db_standard_rated_2016-09-cleaned-small.csv` to the `datafiles/` folder, and this is what is used in `script.py`.
 
 ## Writeup
 
