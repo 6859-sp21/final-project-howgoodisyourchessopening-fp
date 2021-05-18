@@ -30,7 +30,7 @@ h2 {
 h3 {
     color: #000;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #chessColor {
@@ -110,7 +110,7 @@ h3 {
 }
 
 .graph-title {
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 0.65;
 }
 

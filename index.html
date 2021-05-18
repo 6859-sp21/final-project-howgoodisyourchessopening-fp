@@ -35,26 +35,33 @@
 		<h1>Your Check Mate</h1>
 		<h2>How Good is Your Chess Opening? <a href="writeup.html">Writeup</a></h2>
 
-		<h3>In the game of chess, there are an infinite amounts of different games that can be played, but there are certain opening moves that are very popular, so popular that they have names!
-        <h3>Explore the most popular chess openings used by players at <a href="https://database.lichess.org/" target="_blank">lichess.org</a>!</h3>
-        <h4>Filter by Date and/or Rating (based on Lichess Elo)</h4>
-        <div id="slider"></div>
+		<h3>In the game of chess, there are an infinite amounts of different games that can be played, but there are certain opening moves that are very popular, so popular that they have names!</h3>
+    <h3>Explore the most popular chess openings used by players at <a href="https://database.lichess.org/" target="_blank">lichess.org</a>!</h3>
+
+
+
+		<hr>
+		<h4>Filter by...</h4>
+    <div id="slider"></div>
+
 		<div class="filter-container">
-			<form>
-				<label for="input-rating">Go by Rating!</label><br>
-				<input type="number" id="input-rating-low" name="input-rating-low"><br>
-				<input type="number" id="input-rating-high" name="input-rating-high"><br>
-				<input type="button" value="Submit" onclick="filterByRating()">
-			</form>
-			<form>
-			  <label>
-			    Go by Date
-			    <input type="date" id="start-date" name="start-date">
-			    <input type="date" id="end-date" name="end-date">
-			    <input type="button" value="Submit" onclick="filterByDate()">
-			  </label>
-			</form>
+				<form>
+					<label for="input-rating">..Player Rating (based on Lichess Elo):</label><br>
+					<input type="number" id="input-rating-low" name="input-rating-low">
+					<input type="number" id="input-rating-high" name="input-rating-high">
+					<input type="button" value="Submit" onclick="filterByRating()">
+				</form>
+				<form>
+				  <label>..Date:</label><br>
+				    <input type="date" id="start-date" name="start-date">
+				    <input type="date" id="end-date" name="end-date">
+				    <input type="button" value="Submit" onclick="filterByDate()">
+				</form>
 		</div>
+
+		<br>
+
+		<hr>
 		<h4 style="text-align:center;">Hover over the map to see the opening, click to see even more data, or just scroll down to play some chess!</h4>
     <div class="openings-treemap-container">
         <div id="openings-treemap">
@@ -78,7 +85,7 @@
                 </svg>
 			</div>
 		</div> -->
-		<h2 style="text-align:center;">See the opening and explore more by playing some chess yourself!</h2>
+		<h4 style="text-align:center;">See the opening and explore more by playing some chess yourself!</h2>
 		<div class="visual-container" id="vis1">
 			<div class="board-container">
 				<!-- <label>Status:</label> -->
