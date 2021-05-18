@@ -64,10 +64,10 @@
 98	A98	Dutch, Ilyin-Genevsky Variation with Qc2	1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Be7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. Qc2
 99	A99	Dutch, Ilyin-Genevsky Variation with b3	1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Be7 5. Nf3 O-O 6. O-O d6 7. Nc3 Qe8 8. b3
 100	B00	Uncommon King's Pawn Opening	1. e4
-101	B01	Scandinavian	1. e4 d5
+101	B01	Scandinavian Defense	1. e4 d5
 102	B02	Alekhine's Defense	1. e4 Nf6
 104	B04	Alekhine's Defense, Modern	1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3
-106	B06	Robatsch	1. e4 g6
+106	B06	Modern Defense	1. e4 g6
 107	B07	Pirc	1. e4 d6 2. d4 Nf6
 108	B08	Pirc, Classical	1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3
 109	B09	Pirc, Austrian Attack	1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4
@@ -302,3 +302,4 @@
 496	E96	King's Indian, Orthodox, 7...Nbd7, Main line	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nbd7 8. Re1 c6 9. Bf1 a5
 498	E98	King's Indian, Orthodox, Taimanov, 9.Ne1	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1
 499	E99	King's Indian, Orthodox, Taimanov	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10 f3 f5
+500	XX	Italian Game	1.e4 e5 2.Nf3 Nc6 3.Bc4

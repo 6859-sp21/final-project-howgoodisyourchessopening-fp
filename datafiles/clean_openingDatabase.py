@@ -19,4 +19,11 @@ for index, row in data.iterrows():
     data.loc[index]['Opening Moves'] = s_clean
     if data.loc[index]['Name'] in ['Sicilian', 'English']:
         data.loc[index]['Name'] += ' Opening'
+    if data.loc[index]['Name'] in ['Scandinavian']:
+        data.loc[index]['Name'] += ' Defense'
+    if data.loc[index]['Name'] in ['Robatsch']:
+        data.loc[index]['Name'] = 'Modern Defense'
+
+indices_to_take.append(len(data))
+data.loc[len(data)] = {'ECO Code': 'XX', 'Name': 'Italian Game', 'Opening Moves': '1.e4 e5 2.Nf3 Nc6 3.Bc4'}
 data.iloc[indices_to_take].to_csv("openingDatabaseClean.tsv", sep='\t')
