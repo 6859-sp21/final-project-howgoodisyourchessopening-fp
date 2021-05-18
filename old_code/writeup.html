@@ -10,36 +10,11 @@
 	<body>
 		<h1>Your Check Mate</h1>
 		<h2>How Good is Your Chess Opening? <a href="index.html">Back to Visualization</a></h2>
-		<h4 style="text-align:center;">Team Members: Justin Lim and Matthew Tung</h4>
-		<!-- <div class="github">
-			<b>All code is on the GitHub repository <a href="https://github.com/6859-sp21/final-project-howgoodisyourchessopening-fp">here</a>.</b>
-		</div> -->
-
-		<div class="summary-image">
-			TODO add summary image.
+		<div class="github">
+			<b>All code is on the GitHub repository <a href="https://github.com/6859-sp21/a4-howgoodisyourchessopening">here</a>.</b>
 		</div>
 
-		<!-- <div class="team-members">
-			<h3> Team members </h3>
-			Justin Lim and Matthew Tung.
-		</div> -->
-
-		<div class="abstract">
-			<h3> Abstract </h3>
-			TODO paste abstract.
-		</div>
-
-		<div class="link-to-paper-and-video">
-			<h3> Paper and Video </h3>
-			A complete exposition of this project can be found <a href="FinalPaper.pdf">here (UPLOAD WRITEUP)</a>. A teaser video demonstrating our visualization can be found <a href="TODO">here (ADD LINK)</a>.
-		</div>
-
-		<div class="software-instructions">
-			<h3> Instructions to Run Software </h3>
-			All code is on the GitHub repository <a href="https://github.com/6859-sp21/final-project-howgoodisyourchessopening-fp">here</a>.
-		</div>
-
-		<!-- <div class="words">
+		<div class="words">
 			<p>For our interactive visualization, we wanted to explore the open source lichess.org database, which keeps data of all of its games. The main thing we wanted to explore were chess openings. Chess is an extremely complex and expanding game, whereas after several moves, virtually every game is unique, so we decided to focus on the opening and see if there were any trends or interesting observations that could be seen about different opening moves and their success rate across chess rating (a metric of Elo used by lichess). Using a sample from the most recent games from lichess, we were able to create such a visualization.</p>
 
 			<p>Being an interactive visualization, we thought it would be super interesting and engaging to the user if they could actually see the board and play through a game of chess, so we spent part of our time integrating JS libraries to create a chess board. Matthew spent about 3 hours exploring chessboard.js and chess.js and integrating it into the site, whereas one could play through a game of chess and create a PGN, or Portable Game Notation, which is a standard way to record the series of moves made. This PGN then gets sent to our actual visualization to filter by, as the dataset of games has the PGN for the entire game. This way the user could make moves on the board and see info about their opening/move-set in real time, as the PGN for graph updates with every move! Another feature that we thought would be important and improve the user experience would be to add buttons that make moves for you. One is a reset button that would reset the board and the PGN that gets sent to the graph. The other is one that will play the next most common move based off of the dataset. It looks through the set or subset of the data being used by the graph and looks at each PGN, parsing and finding the next move in order to find the next most common move so that, when the button is pressed, it will automatically play that move, updating the board and subsequently, the graph. Matthew also added a status string on top of the board to help guide the user in what they can do, such as prompting them to make a move or informing them when there’s no common move or no games that have the given opening. These additional features (along with some styling) took an additional 2 or so hours for Matthew. Overall, we wanted the users to be able to effectively visualize and have fun with our chess-based visualization, so our main way of user-interaction was through a chess board itself, along with some additional data that could hopefully help them learn how to use it and indicate what was happening every time they made a move!</p>
@@ -49,7 +24,7 @@
 	    	<p>The chessboard and graph components were made in parallel, which is why we designed them to only need a simple input/output. The PGN being a widely used notation in the chess board and being readily usable in the library and dataset made it the obvious choice. The chessboard outputs a PGN based off the user input, which then gets sent to a function that filters the dataset to every game with a PGN that starts with the said PGN, then calculates the most common move and everything needed for the graph, which it then creates via D3. This way integration was easy and we could style and increment on top of it with relative ease.</p>
 
 			<p>Given a sequence of opening moves, our visualization looks through the data to identify games matching that opening. Because the complete dataset of chess games from February 2021 has size 24.4GB, we had to reduce it for efficiency, preferably under 100MB to host it in the same Github repository. Justin spent 1 hour on a Python script to parse the first 1,000,000 games, keeping information on each player’s rating, the result, and the sequence of moves played. We used regular expressions to filter out irrelevant information, such as clock status and move evaluations. If we are able to continue this as a final project we would like to be able to work with more of the data. For the sake of efficiency, we only used a small fraction, but if it were to become a more significant project we would want to work with more. We would also like to add more features like allowing the user to input their own rating to see the most common move for their rating, making the experience more personal, and providing more metadata about the moves that they are making, such as explaining if it is part of a specific opening.</p>
-		</div> -->
+		</div>
   	</body>
 
 
