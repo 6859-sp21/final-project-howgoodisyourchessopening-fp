@@ -854,7 +854,22 @@ function makeTreemap() {
         .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
         .attr("fill-opacity", 0.6)
         .attr("width", d => d.x1 - d.x0)
-        .attr("height", d => d.y1 - d.y0);
+        .attr("height", d => d.y1 - d.y0)
+        .attr('stroke', 'black').attr('stroke-width', 1)
+        .attr('stroke-opacity', 0)
+        .style("cursor", "pointer")
+        .on('mouseover', function(d, i) {
+          d3.select(this).attr('stroke-opacity', 2);
+          div.transition()
+              .duration(200)
+              .style("opacity", .9);
+        })
+        .on('mouseout', function(d, i) {
+          d3.select(this).attr('stroke-opacity', 0);
+          div.transition()
+              .duration(500)
+              .style("opacity", 0);
+        });
 
     leaf.append("clipPath")
         // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
@@ -870,6 +885,18 @@ function makeTreemap() {
         .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
         .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
         .text(d => d);
+
+    var clickTreeNode = leaf.selectAll("rect")
+    clickTreeNode.on('click', function(event, d) {
+      // FOR MATT
+      console.log(d);
+      var opening_pgn = openingDatabaseMap[d.data.name];
+      console.log(opening_pgn);
+      // $(window).scrollTop($('#visual-container').position().top);
+      $('html, body').animate({scrollTop: $("#vis1").offset().top
+            }, 2000);
+      loadPGN(opening_pgn);
+    })
   });
 }
 
