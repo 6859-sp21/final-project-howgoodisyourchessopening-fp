@@ -81,6 +81,10 @@ USER INPUT
 Instantiate user input parameters and create handlers
 */
 
+$( function() {
+  $( "#slider" ).slider();
+} );
+
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
 function filterByRating() {
@@ -322,13 +326,13 @@ function plotOpeningsOverTime() {
 
       var b = performance.now()
 
-      console.log(b-a + 'ms')
+      // console.log(b-a + 'ms')
 
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
 
     var b = performance.now()
-    console.log(b-a + 'ms')
+    // console.log(b-a + 'ms')
 
     // Get most common openings
     var openingFrequencies = {}
@@ -504,6 +508,9 @@ function plotOpeningsOverTime() {
       console.log(d);
       var opening_pgn = openingDatabaseMap[d.name];
       console.log(opening_pgn);
+      // $(window).scrollTop($('#visual-container').position().top);
+      $('html, body').animate({scrollTop: $("#vis1").offset().top
+            }, 2000);
       loadPGN(opening_pgn);
     })
 
@@ -925,7 +932,7 @@ function analyze(val, chessColor, update_time=false) {
       .call(yAxis);
 
     var b = performance.now()
-    console.log(b-a + 'ms');
+    // console.log(b-a + 'ms');
 
   });
 }
@@ -946,7 +953,7 @@ treemap = data => d3.treemap()
       .sort((a, b) => b.value - a.value))
 
 d3.json("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/json_test.json").then(function(data) {
-  console.log(data);
+  // console.log(data);
   const root = treemap(data);
 
   const svg = d3.select("#openings-treemap-svg")
