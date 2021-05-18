@@ -18,7 +18,6 @@ GET DATA
 
 1. Cleaned databases of lichess games
 2. Opening reference file obtained from https://lichess.org/forum/general-chess-discussion/eco-code-csv-sheet
-3. Opening frequences per year
 */
 var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
 
@@ -330,239 +329,6 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
   // console.log(maxEl)
   return maxEl
 }
-
-/*
-OPENINGS OVER TIME
-
-Create plot of common openings over time. Reference: https://observablehq.com/@d3/multi-line-chart
-*/
-
-width_time = 500;
-height_time = 200;
-margin = ({top: 20, right: 20, bottom: 30, left: 30});
-d3.select("#openings-over-time-svg")
-  .attr("viewBox", [0, 0, width_time, height_time])
-  .style("overflow", "visible");
-
-function plotOpeningsOverTime() {
-  var a = performance.now()
-  opening_data.then(function(data) {
-    var filterColor = "WhiteElo"
-    if (chessColor === 'black') {
-      filterColor = "BlackElo"
-    }
-
-    // Filter games by rating and date.
-    var openingData = data.filter(function (d) {
-      var a = performance.now()
-      var elo = d.WhiteElo
-      if (chessColor === 'black') {
-        elo = d.BlackElo
-      }
-      var date_dot = d.Date
-      var date_str = date_dot.replace(/\./g, "-");
-      var date = new Date(date_str)
-
-      var b = performance.now()
-
-      // console.log(b-a + 'ms')
-
-      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
-    });
-
-    var b = performance.now()
-    // console.log(b-a + 'ms')
-
-    // Get most common openings
-    var openingFrequencies = {}
-    var numOpenings = 10;
-    for (var i = 0; i < openingData.length; i++) {
-      openingName = openingData[i].Opening.split(':')[0];
-      if (!(openingName in openingFrequencies)) {
-        openingFrequencies[openingName] = 0;
-      }
-      openingFrequencies[openingName] += 1;
-    }
-    keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
-    var openingsToPlot = keysSorted.slice(0, numOpenings);
-    // console.log(openingsToPlot);
-
-    function getOpeningFrequencies(data) {
-      freqs = {}
-      for (var i = 0; i < data.length; i++) {
-        openingName = data[i].Opening.split(':')[0];
-        if (!(openingName in freqs)) {
-          freqs[openingName] = 0;
-        }
-        freqs[openingName] += 1;
-      }
-      freqsToPlot = []
-      for (var i = 0; i < openingsToPlot.length; i++) {
-        freqsToPlot.push(100 * freqs[openingsToPlot[i]] / data.length);
-        // freqsToPlot.push(freqs[openingsToPlot[i]]);
-      }
-      return freqsToPlot;
-    }
-
-    // Group data by month
-    // Reference: https://stackoverflow.com/questions/40847912/group-data-by-calendar-month
-    var nested_data = d3.nest()
-      // .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
-      .key(function(d) {
-        var incDate = new Date(d.Date.replace(/\./g, "-"));
-        incDate.setDate(incDate.getDate()+1);
-        // console.log(incDate);
-        return incDate.getUTCFullYear() + "." + (incDate.getUTCMonth()+1);
-      })
-      .sortKeys(d3.ascending)
-      .rollup(getOpeningFrequencies)
-      .entries(openingData);
-    // console.log(nested_data);
-    var keys = nested_data.map(function(d){ return d.key; });
-    var dates = []
-    for (var i = 0; i < keys.length; i++) {
-      dates.push(new Date(keys[i].replace(/\./g, "-")));
-    }
-    var linegraph_data = {
-      "dates": dates,
-      "series": []
-    }
-    for (var i = 0; i < openingsToPlot.length; i++) {
-      openingFreqs = []
-      for (var j = 0; j < keys.length; j++) {
-        openingFreqs.push(nested_data[j].value[i]);
-      }
-      linegraph_data["series"].push({
-        "name": openingsToPlot[i],
-        "values": openingFreqs
-      })
-    }
-    // console.log(linegraph_data);
-
-    const svg = d3.select("#openings-over-time-svg")
-
-    x = d3.scaleUtc()
-        .domain(d3.extent(linegraph_data.dates))
-        .range([margin.left, width_time - margin.right])
-    y = d3.scaleLinear()
-        .domain([0, d3.max(linegraph_data.series, d => d3.max(d.values))]).nice()
-        .range([height_time - margin.bottom, margin.top])
-    xAxis = g => g
-        .attr("transform", `translate(0,${height_time - margin.bottom})`)
-        .call(d3.axisBottom(x).ticks(width_time / 80).tickSizeOuter(0))
-    yAxis = g => g
-        .attr("transform", `translate(${margin.left},0)`)
-        .call(d3.axisLeft(y))
-        .call(g => g.select(".domain").remove())
-        .call(g => g.select(".tick:last-of-type text").clone()
-            .attr("x", 3)
-            .attr("text-anchor", "start")
-            .attr("font-weight", "bold")
-            .text("% Games"))
-
-    line = d3.line()
-        .defined(d => !isNaN(d))
-        .x((d, i) => x(linegraph_data.dates[i]))
-        .y(d => y(d))
-
-    svg.select("#openings-over-time-xAxis")
-        .call(xAxis);
-    svg.select("#openings-over-time-yAxis")
-        .call(yAxis);
-
-    const path = svg.select("#openings-over-time-paths")
-        .attr("fill", "none")
-        .attr("stroke", "steelblue")
-        .attr("stroke-width", 1.5)
-        .attr("stroke-linejoin", "round")
-        .attr("stroke-linecap", "round")
-      .selectAll("path")
-      .data(linegraph_data.series)
-      .join("path")
-        .style("mix-blend-mode", "multiply")
-        .attr("d", d => line(d.values));
-
-    function hover(svg, path) {
-      if ("ontouchstart" in document) svg
-          .style("-webkit-tap-highlight-color", "transparent")
-          .on("touchmove", moved)
-          .on("touchstart", entered)
-          .on("touchend", left)
-      else svg
-          .on("mousemove", moved)
-          .on("mouseenter", entered)
-          .on("mouseleave", left);
-
-      const dot = svg.append("g")
-          .attr("display", "none");
-
-      dot.append("circle")
-          .attr("r", 2.5);
-
-      dot.append("text")
-          .attr("font-family", "sans-serif")
-          .attr("font-size", 10)
-          .attr("text-anchor", "middle")
-          .attr("y", -8);
-
-      function moved(event) {
-        event.preventDefault();
-        const pointer = d3.pointer(event, this);
-        const xm = x.invert(pointer[0]);
-        const ym = y.invert(pointer[1]);
-        const i = d3.bisectCenter(linegraph_data.dates, xm);
-        const s = d3.least(linegraph_data.series, d => Math.abs(d.values[i] - ym));
-        path.attr("stroke", d => d === s ? null : "#ddd").filter(d => d === s).raise();
-        dot.attr("transform", `translate(${x(linegraph_data.dates[i])},${y(s.values[i])})`);
-        dot.select("text").text(s.name);
-      }
-
-      function entered() {
-        path.style("mix-blend-mode", null).attr("stroke", "#ddd");
-        dot.attr("display", null);
-      }
-
-      function left() {
-        path.style("mix-blend-mode", "multiply").attr("stroke", null);
-        dot.attr("display", "none");
-      }
-    }
-    svg.call(hover, path);
-
-    const clickPath = svg.select("#openings-over-time-clickpaths")
-        .attr("fill", "none")
-        .attr('stroke', 'black').attr('stroke-width', 3)
-        .attr('stroke-opacity', 0)
-        .attr("stroke-linejoin", "round")
-        .attr("stroke-linecap", "round")
-        .style("cursor", "pointer")
-      .selectAll("path")
-      .data(linegraph_data.series)
-      .join("path")
-        .style("mix-blend-mode", "multiply")
-        .attr("d", d => line(d.values));
-
-    clickPath.on('click', function(event, d) {
-      // FOR MATT
-      console.log(d);
-      var opening_pgn = openingDatabaseMap[d.name];
-      console.log(opening_pgn);
-      // $(window).scrollTop($('#visual-container').position().top);
-      $('html, body').animate({scrollTop: $("#vis1").offset().top
-            }, 2000);
-      loadPGN(opening_pgn);
-    })
-
-    clickPath.on("mouseover", function(event, d) {
-          d3.select(this).attr('stroke-opacity', 1);
-          })
-      .on("mouseout", function(event, d) {
-          d3.select(this).attr('stroke-opacity', 0);
-      });
-
-  })
-}
-
 
 /*
 WIN/DRAW RATES
@@ -889,37 +655,6 @@ function makeTreemap() {
     leaf.append("title")
         .text(d => d.name);
 
-    // Make tooltips
-    // const tooltip = d3.select("#openings-treemap-tooltip")
-    //     .attr("viewBox", [0, 0, width, height])
-    //
-    // const tooltip_leaf = svg.selectAll("g")
-    //   .data(root.leaves())
-    //   .join("div")
-    //     .attr("transform", d => `translate(${d.x0},${d.y0})`);
-    //
-    // tooltip_leaf.append("div")
-    //     // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
-    //     // .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
-    //     // .attr("fill-opacity", 0.6)
-    //     .attr("width", d => d.x1 - d.x0)
-    //     .attr("height", d => d.y1 - d.y0)
-    //     .attr('stroke', 'black').attr('stroke-width', 1)
-    //     .attr('stroke-opacity', 0)
-    //     .attr('id', d => "openings-treemap-tooltip"+d.data.name)
-    //     .style("cursor", "pointer")
-    //     .style("position", "relative")
-    //
-    // for (var i=0; i < data.length; i++) {
-    //   if (data[i].name != "Origin") {
-    //     console.log("openings-treemap-tooltip"+data[i].name);
-    //     tooltipBoard = Chessboard("openings-treemap-tooltip"+data[i].name);
-    //     tooltipGame = new Chess();
-    //     tooltipGame.load_pgn(openingDatabaseMap[data[i].name]);
-    //     tooltipBoard.position(tooltipGame.fen());
-    //   }
-    // }
-
     leaf.append("rect")
         .attr("id", d => "openings-treemap-node-"+d.data.name)
         .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
@@ -957,10 +692,10 @@ function makeTreemap() {
           tooltipBoard.position(tooltipGame.fen())
           boardTooltipDiv.transition()
               .duration(200)
-              .style("opacity", 1.0);
+              .style("opacity", .9);
 
-          boardTooltipDiv.style("left", offsetLeft + (elemRect.right-elemRect.left)*.4 + "px")
-                         .style("top", offsetTop + (elemRect.bottom-elemRect.top)*.4 + "px");
+          boardTooltipDiv.style("left", offsetLeft + Math.max((elemRect.right-elemRect.left)*.4, 100) + "px")
+                         .style("top", offsetTop - (elemRect.bottom-elemRect.top)*.1 + "px");
         })
         .on('mouseout', function(event, d) {
           d3.select(this).attr('stroke-opacity', 0);
