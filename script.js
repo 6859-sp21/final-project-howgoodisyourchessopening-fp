@@ -815,7 +815,7 @@ function makeTreemap() {
       data.push({
         name: openingsToPlot[i],
         parent: "Origin",
-        value: openingFrequencies[openingsToPlot[i]]
+        value: (100 * openingFrequencies[openingsToPlot[i]] / openingData.length).toFixed(1)
       })
     }
 
@@ -864,7 +864,7 @@ function makeTreemap() {
     leaf.append("text")
         .attr("clip-path", d => d.clipUid)
       .selectAll("tspan")
-      .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value))
+      .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value + "%"))
       .join("tspan")
         .attr("x", 3)
         .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
