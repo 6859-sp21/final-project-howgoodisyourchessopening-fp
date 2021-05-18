@@ -1,0 +1,1001 @@
+Date	Result	WhiteElo	BlackElo	Opening	Moves
+2019.12.01	0-1	1438	1446	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 d6 4. Ng5 e6
+2019.12.01	0-1	1449	1487	Queen's Indian Accelerated	1. d4 Nf6 2. c4 b6 3. Nc3 Bb7 4. Nf3 d6
+2019.12.01	0-1	1487	1491	Indian Game	1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Bd3 d6
+2019.12.01	0-1	1306	1115	English Opening: Symmetrical Variation	1. c4 c5 2. d4 b6 3. d5 d6 4. Nc3 Nf6
+2019.12.01	1-0	1601	1611	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Bf4 e6 4. Nf3 Bb4
+2019.12.01	1-0	1573	1572	Bird Opening: Dutch Variation	1. f4 d5 2. e3 a6 3. b3 Bf5 4. Bb2 e6
+2019.12.01	1-0	1510	1546	French Defense: Mediterranean Defense	1. e4 e6 2. d4 Nf6 3. Nc3 Bb4 4. e5 Bxc3+
+2019.12.01	0-1	1669	1658	Alekhine Defense: Scandinavian Variation	1. e4 Nf6 2. Nc3 d5 3. exd5 Nxd5 4. Nxd5 Qxd5
+2019.12.01	0-1	2037	2049	Caro-Kann Defense: Panov Attack, Modern Defense, Mieses Line	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6
+2019.12.01	1-0	1829	1848	Torre Attack	1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. e3 O-O
+2019.12.01	0-1	1993	1985	French Defense: Paulsen Variation	1. e4 e6 2. d4 d5 3. Nc3 c6 4. e5 c5
+2019.12.01	0-1	1748	1773	Dutch Defense: Raphael Variation	1. d4 f5 2. Nc3 Nf6 3. Bg5 g6 4. e4 fxe4
+2019.12.01	0-1	1853	1849	Bird Opening	1. f4 c5 2. Nf3 a6 3. c3 g6 4. Qc2 Bg7
+2019.12.01	1-0	2056	2082	Modern Defense	1. d4 g6 2. g3 Bg7 3. Bg2 d6 4. Nf3 Nc6
+2019.12.01	1/2-1/2	1950	1949	Caro-Kann Defense: Advance Variation, Short Variation	1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6
+2019.12.01	1-0	1911	1889	Sicilian Defense: Open	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	0-1	1679	1584	Trompowsky Attack: Classical Defense, Big Center Variation	1. e4 e6 2. d4 Nf6 3. Bg5 Be7 4. e5 Nd5
+2019.12.01	1-0	1976	1964	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. b3 e5 4. Bb2 Nf6
+2019.12.01	0-1	1470	1393	Scandinavian Defense	1. e4 d5 2. e5 Be6 3. Nf3 Nc6 4. Bb5 f6
+2019.12.01	0-1	1567	1534	Bishop's Opening: Philidor Counterattack	1. e4 e5 2. Bc4 c6 3. Nf3 d5 4. exd5 cxd5
+2019.12.01	0-1	1822	1799	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 c6
+2019.12.01	1-0	2107	2110	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. Nc3 d5
+2019.12.01	1/2-1/2	1702	1735	Dutch Defense: Rubinstein Variation	1. d4 e6 2. c4 f5 3. Nc3 Nf6 4. Nf3 c6
+2019.12.01	1-0	2149	2130	Catalan Opening: Closed Variation	1. d4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 Be7
+2019.12.01	1-0	1581	1576	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 d6 3. Bc4 a6 4. a4 b6
+2019.12.01	0-1	1940	1950	Bird Opening: Dutch Variation	1. f4 d5 2. Nf3 Nc6 3. e3 Bg4 4. Bb5 e6
+2019.12.01	1-0	2013	2086	Grob Opening	1. g4 h5 2. g5 h4 3. h3 e5 4. d3 Ne7
+2019.12.01	1-0	2423	2112	Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5
+2019.12.01	1-0	1717	1719	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 c6 3. Bf4 Bg4 4. e3 Nf6
+2019.12.01	0-1	2225	2249	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Bd6
+2019.12.01	0-1	2260	2270	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6
+2019.12.01	1-0	2068	2050	Indian Game: Przepiorka Variation	1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d6
+2019.12.01	1-0	2233	2215	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7
+2019.12.01	0-1	2165	2202	Sicilian Defense: Najdorf Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	2037	2019	Benko Gambit Accepted, Modern Variation	1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6
+2019.12.01	1/2-1/2	2072	2052	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6
+2019.12.01	1-0	1992	2013	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. c3 Nf6
+2019.12.01	0-1	1910	1936	English Opening: Anglo-Dutch Defense	1. c4 f5 2. g3 Nf6 3. Bg2 e6 4. d3 Be7
+2019.12.01	0-1	2115	2136	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 c6
+2019.12.01	1-0	1500	1244	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 Nf6 4. e4 Nc6
+2019.12.01	1-0	1921	1948	Sicilian Defense: Kan Variation	1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6
+2019.12.01	0-1	2074	2079	French Defense: Normal Variation	1. e4 e6 2. d4 c6 3. e5 d5 4. c3 c5
+2019.12.01	0-1	1758	1816	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. e3 Bd6 4. Bg3 Bxg3
+2019.12.01	0-1	2018	2016	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 c5 4. O-O a6
+2019.12.01	0-1	1745	1791	Indian Game	1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. Bd3 Nc6
+2019.12.01	1-0	2087	2085	Ruy Lopez: Schliemann Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. d3 fxe4
+2019.12.01	1-0	1845	1844	Sicilian Defense: Loewenthal Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	1/2-1/2	2424	2648	Catalan Opening: Closed, 7.Qc2 c6 8.b3	1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 c6
+2019.12.01	1-0	1958	1948	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d4 Bg4
+2019.12.01	1-0	1839	1840	Indian Game	1. d4 Nf6 2. e3 d6 3. Bd3 g6 4. b3 Bg7
+2019.12.01	0-1	1797	1800	Van Geet Opening	1. Nc3 e6 2. d4 d6 3. Bf4 Nc6 4. e3 g6
+2019.12.01	0-1	1641	1636	Italian Game: Two Knights Defense, Modern Bishop's Opening	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 d5
+2019.12.01	0-1	2379	2280	Queen's Gambit Refused: Marshall Defense	1. d4 Nf6 2. c4 d5 3. cxd5 Nxd5 4. Nf3 g6
+2019.12.01	1-0	1726	1753	Four Knights Game: Italian Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Be7
+2019.12.01	0-1	1684	1655	Benoni Defense: Benoni Gambit Accepted	1. d4 c5 2. dxc5 e5 3. e4 Bxc5 4. Nf3 Nc6
+2019.12.01	0-1	1456	1520	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nc3 Nf6
+2019.12.01	0-1	1856	1851	Modern Defense	1. e4 g6 2. f4 Bg7 3. e5 d6 4. d4 dxe5
+2019.12.01	0-1	1905	1898	Queen's Gambit Declined: Cambridge Springs Variation	1. d4 d5 2. Nf3 c6 3. c4 Nf6 4. Bg5 e6
+2019.12.01	1-0	1966	1966	Modern Defense	1. e4 g6 2. d3 Bg7 3. f4 c5 4. Nf3 Nc6
+2019.12.01	1-0	1809	1825	Scotch Game: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+2019.12.01	1/2-1/2	1788	1770	French Defense: King's Indian Attack	1. e4 e6 2. d3 c5 3. Nd2 b5 4. Ngf3 a5
+2019.12.01	0-1	1431	1427	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. f4 exf4 4. Nf3 d6
+2019.12.01	0-1	1716	1719	Italian Game: Hungarian Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. O-O Nf6
+2019.12.01	1-0	1757	1765	Caro-Kann Defense: Exchange Variation	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nf6
+2019.12.01	1-0	1983	1998	Indian Game	1. d4 Nf6 2. Nc3 e6 3. Bg5 d5 4. h4 Be7
+2019.12.01	0-1	1850	1830	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 Nf6 3. g3 Nc6 4. Bg2 e5
+2019.12.01	1-0	1871	1875	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Be3 d6 4. Bd3 Nd7
+2019.12.01	1-0	1895	1889	Sicilian Defense: Alapin Variation, Barmen Defense	1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. Nf3 Bg4
+2019.12.01	1/2-1/2	1390	1338	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. e3 Nc6
+2019.12.01	1-0	1620	1623	Queen's Gambit Declined: Normal Defense	1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. e3 Bb4
+2019.12.01	1-0	1917	1908	Sicilian Defense: French Variation, Normal	1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1613	1613	French Defense: La Bourdonnais Variation	1. f4 e6 2. e4 g6 3. Nf3 Bg7 4. d4 Nc6
+2019.12.01	1-0	1702	1687	Bird Opening	1. f4 c6 2. Nf3 d5 3. e3 h6 4. b3 Nf6
+2019.12.01	1-0	1329	1310	Polish Opening	1. b4 e5 2. b5 b6 3. e3 d6 4. Qf3 Nf6
+2019.12.01	0-1	1948	1921	Caro-Kann Defense: Karpov Variation	1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7
+2019.12.01	1-0	1416	1401	Ruy Lopez: Berlin Defense, Rio Gambit Accepted	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4
+2019.12.01	1-0	1612	1548	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d6 4. Bb5 Bd7
+2019.12.01	1-0	1292	1049	Ruy Lopez: Vinogradov Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Qe7 4. Bxc6 dxc6
+2019.12.01	1-0	1816	1814	Italian Game: Giuoco Pianissimo, Normal	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5
+2019.12.01	1-0	1469	1434	King's Knight Opening	1. e4 e5 2. Nf3 Bd6 3. Bc4 h6 4. O-O Nf6
+2019.12.01	1-0	1710	1673	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 f5 3. e4 Nf6 4. Nf3 d6
+2019.12.01	1-0	1632	1630	Queen's Pawn	1. d4 c6 2. Nf3 d6 3. e4 g6 4. c3 Bg7
+2019.12.01	0-1	1418	1399	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. e5 e6 4. Nf3 d6
+2019.12.01	0-1	1562	1556	French Defense: King's Indian Attack	1. e4 e6 2. d3 d5 3. exd5 exd5 4. Nc3 d4
+2019.12.01	0-1	1276	1349	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. e5 c5 4. Bd3 Nc6
+2019.12.01	1-0	1884	1790	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nc3 c5
+2019.12.01	1-0	2109	2102	Sicilian Defense: Delayed Alapin	1. e4 c5 2. Nf3 d6 3. c3 Nc6 4. d4 cxd4
+2019.12.01	0-1	1500	1521	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 dxe4 3. Ng5 Nf6 4. Nc3 h6
+2019.12.01	1-0	2292	2132	Owen Defense	1. e4 b6 2. Nc3 Bb7 3. Nf3 d5 4. Bc4 dxe4
+2019.12.01	1-0	1564	1609	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Nxe4 4. Nxe4 d5
+2019.12.01	0-1	1012	861	Vienna Game: Falkbeer Variation	1. e4 e5 2. Nc3 Nf6 3. d4 exd4 4. Qxd4 d6
+2019.12.01	1/2-1/2	2354	2238	Bogo-Indian Defense: Grünfeld Variation	1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 b6
+2019.12.01	0-1	1307	1290	Hungarian Opening	1. g3 d5 2. Bg2 e5 3. Nf3 e4 4. Nd4 Bc5
+2019.12.01	0-1	1244	1291	Horwitz Defense	1. d4 e6 2. g3 d5 3. Bg2 Nf6 4. b3 c6
+2019.12.01	1-0	1987	1939	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 dxe4 3. Ng5 h6 4. Nxe4 Nc6
+2019.12.01	0-1	1794	1870	Modern Defense: Three Pawns Attack	1. e4 g6 2. d4 Bg7 3. f4 b6 4. Nf3 Bb7
+2019.12.01	0-1	1583	1569	French Defense #2	1. e4 e6 2. Bc4 d6 3. Qf3 Bd7 4. d4 Be7
+2019.12.01	0-1	1414	1460	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bc5 4. a3 Nc6
+2019.12.01	1-0	1549	1566	Hungarian Opening: Catalan Formation	1. g3 e6 2. Bg2 d5 3. a3 Nf6 4. d3 c5
+2019.12.01	0-1	1626	1765	Scandinavian Defense	1. e4 d5 2. exd5 Bg4 3. Nf3 Nf6 4. Bc4 Nxd5
+2019.12.01	0-1	1160	1174	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. Bg5 Bf5 4. e3 Nb4
+2019.12.01	0-1	2213	2241	Russian Game: Modern Attack, Symmetrical Variation #2	1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. dxe5 d5
+2019.12.01	1-0	2069	2095	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nf3 Bg4 4. Be2 c6
+2019.12.01	0-1	1885	1878	English Defense #2	1. d4 b6 2. c4 Bb7 3. Nc3 e6 4. e4 Nf6
+2019.12.01	0-1	1532	1494	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. g3 Nf6 3. Bg2 g6 4. d3 Bg7
+2019.12.01	1/2-1/2	1580	1598	King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit	1. e4 e5 2. Qh5 Nf6 3. Qxe5+ Qe7 4. Qxe7+ Bxe7
+2019.12.01	0-1	1664	1661	Queen's Gambit Accepted: Classical Defense	1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 c5
+2019.12.01	1-0	1147	1084	Hungarian Opening	1. g3 d5 2. b3 c5 3. Bb2 f6 4. Nf3 e5
+2019.12.01	1-0	1961	1925	Sicilian Defense: Grand Prix Attack	1. e4 c5 2. Nc3 Nc6 3. f4 e6 4. Nf3 d5
+2019.12.01	1-0	1897	1916	Queen's Pawn Game	1. d4 d5 2. c3 c5 3. e3 cxd4 4. exd4 Nf6
+2019.12.01	0-1	1492	1504	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 f6 4. dxe5 fxe5
+2019.12.01	0-1	1861	1851	Queen's Pawn Game #3	1. d4 Nf6 2. e3 d5 3. f4 Bf5 4. Nf3 e6
+2019.12.01	1-0	1397	1377	Sicilian Defense	1. e4 c5 2. Qh5 g6 3. Qxc5 e6 4. Qe5 Qf6
+2019.12.01	1-0	1658	1629	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d4 Be7
+2019.12.01	1-0	844	692	French Defense #2	1. e4 e6 2. Qh5 d5 3. exd5 exd5 4. c4 c6
+2019.12.01	0-1	1450	1409	Nimzo-Larsen Attack: Modern Variation #2	1. b3 e5 2. Bb2 Qf6 3. Nf3 Bc5 4. Nxe5 Qxf2#
+2019.12.01	0-1	1691	1669	Sicilian Defense: Dragon Variation, Yugoslav Attack #2	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6
+2019.12.01	0-1	1790	1818	Italian Game: Two Knights Defense	1. e4 e5 2. Nf3 Nf6 3. Bc4 Nc6 4. O-O Bc5
+2019.12.01	1/2-1/2	1405	1351	Nimzowitsch Defense	1. e4 Nc6 2. Bc4 e6 3. c3 d5 4. exd5 exd5
+2019.12.01	0-1	1093	1227	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 Nc6 3. Bc4 Nf6 4. d3 Bc5
+2019.12.01	0-1	2100	2083	Franco-Benoni Defense	1. e4 e6 2. d4 c5 3. d5 d6 4. c4 Nf6
+2019.12.01	0-1	1851	1773	Caro-Kann Defense: Panov Attack, Modern Defense, Mieses Line	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6
+2019.12.01	1-0	2270	2261	English Opening: Anglo-Indian Defense, Queen's Knight Variation	1. c4 Nf6 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7
+2019.12.01	0-1	883	1195	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 e6 3. Nf3 Nf6 4. Bf4 Nc6
+2019.12.01	1-0	1915	1565	French Defense: Rubinstein Variation	1. Nc3 d5 2. d4 e6 3. e4 dxe4 4. Be3 Nf6
+2019.12.01	0-1	2340	2433	English Opening: Symmetrical Variation	1. c4 c5 2. g3 Nc6 3. Bg2 Nf6 4. Nc3 d6
+2019.12.01	1-0	2003	2084	Queen's Gambit Declined: Neo-Orthodox Variation, Main Line	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7
+2019.12.01	1-0	1554	1556	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O a6
+2019.12.01	0-1	1259	1320	Queen's Gambit Refused: Chigorin Defense, Janowski Variation	1. d4 Nc6 2. Nf3 d5 3. c4 dxc4 4. Nc3 Nb4
+2019.12.01	0-1	1582	1708	Sicilian Defense: Loewenthal Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	0-1	2096	2260	Queen's Gambit Declined: Exchange Variation, Reshevsky Variation	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5
+2019.12.01	0-1	1538	1563	Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5
+2019.12.01	0-1	1604	1580	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 Nc6 2. d4 e5 3. d5 Nce7 4. c4 Ng6
+2019.12.01	0-1	855	994	Scandinavian Defense: Gubinsky-Melts Defense	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 e5
+2019.12.01	0-1	1154	996	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. c4 Bg4 4. Be2 Bxe2
+2019.12.01	1-0	1805	1743	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 Nc6 3. d4 cxd4 4. cxd4 d6
+2019.12.01	1-0	1657	1617	Queen's Gambit Accepted: Classical Defense, Steinitz Variation, Development Variation	1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 Nf6
+2019.12.01	0-1	1328	1296	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d6 4. d5 Nb4
+2019.12.01	1-0	1429	1384	Queen's Gambit Declined: Queen's Knight Variation	1. d4 d5 2. c4 e6 3. Nc3 dxc4 4. e4 Nc6
+2019.12.01	0-1	1364	1370	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Nc3 d6 4. Bc4 c6
+2019.12.01	0-1	2142	2205	Bird Opening	1. f4 b6 2. Nf3 Bb7 3. e3 e6 4. d4 f5
+2019.12.01	1/2-1/2	1849	1877	Philidor Defense #3	1. e4 d6 2. Nf3 e5 3. Bc4 Nc6 4. c3 Nf6
+2019.12.01	1-0	1631	1728	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 Bf5 3. e3 a6 4. Bd3 Bxd3
+2019.12.01	1-0	2304	2249	Alekhine Defense: Sämisch Attack	1. e4 Nf6 2. e5 Nd5 3. Nc3 Nb6 4. Nf3 d5
+2019.12.01	1-0	1068	1223	Blackmar-Diemer Gambit	1. e4 d5 2. d4 dxe4 3. d5 Nf6 4. Bb5+ Bd7
+2019.12.01	1-0	1879	1786	Pirc Defense #3	1. d4 Nf6 2. Nc3 g6 3. e4 d6 4. e5 dxe5
+2019.12.01	0-1	1474	1495	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Bc4 Nc6 3. Nf3 h6 4. O-O Nf6
+2019.12.01	1-0	1895	1420	King's Pawn	1. e4
+2019.12.01	0-1	1429	1278	Four Knights Game: Italian Variation	1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. Bc4 Bc5
+2019.12.01	0-1	941	1132	Queen's Gambit Declined: Vienna Variation	1. d4 d5 2. c4 dxc4 3. Nc3 Nf6 4. Nf3 e6
+2019.12.01	1-0	1145	1166	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d4 Nxe4
+2019.12.01	0-1	1199	1197	French Defense: King's Indian Attack	1. e4 e6 2. d3 d5 3. exd5 Nf6 4. Nc3 exd5
+2019.12.01	1-0	1449	1468	Hungarian Opening: Sicilian Invitation	1. g3 c5 2. Bg2 Nf6 3. Nf3 Nc6 4. O-O d5
+2019.12.01	0-1	2108	2045	Alekhine Defense: Exchange Variation	1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6
+2019.12.01	1-0	1549	1539	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. Nc3 c6 4. e3 Nd7
+2019.12.01	1-0	1842	1851	Caro-Kann Defense	1. e4 c6 2. f4 d5 3. exd5 cxd5 4. d4 Bf5
+2019.12.01	1/2-1/2	1925	1893	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. Nc3 Qd8
+2019.12.01	0-1	1949	1929	Blackmar-Diemer Gambit: Gedult Gambit	1. d4 d5 2. e4 dxe4 3. f3 exf3 4. Nxf3 Nf6
+2019.12.01	0-1	1756	1780	Sicilian Defense: Hyperaccelerated Fianchetto	1. e4 c5 2. Nf3 g6 3. d4 cxd4 4. Qxd4 Nf6
+2019.12.01	0-1	2026	2052	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nc6
+2019.12.01	1-0	1815	1818	Ruy Lopez: Berlin Defense, Beverwijk Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O Nf6
+2019.12.01	1-0	1718	1707	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7
+2019.12.01	1-0	1794	1805	Philidor Defense: Exchange Variation #2	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Be7
+2019.12.01	1-0	1988	1959	Queen's Gambit Declined: Harrwitz Attack	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bf4 Bb4
+2019.12.01	1-0	1328	1171	Three Knights Opening: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Nc3 g6 4. d3 Nf6
+2019.12.01	1-0	1611	1635	Englund Gambit Declined, Reversed Krebs	1. d4 e5 2. Nf3 e4 3. Bg5 f6 4. Ne5 Be7
+2019.12.01	0-1	1947	1876	English Opening: Anglo-Scandinavian Defense	1. c4 d5 2. cxd5 Bf5 3. Nc3 e6 4. e4 Bg6
+2019.12.01	0-1	1965	1948	Van't Kruijs Opening	1. e3 e5 2. Be2 d6 3. d3 Be7 4. Bd2 f5
+2019.12.01	0-1	2080	2008	Mikenas Defense	1. d4 Nc6 2. c4 e6 3. Nc3 Nge7 4. e4 g6
+2019.12.01	1-0	1805	1794	Nimzo-Larsen Attack: Indian Variation	1. b3 Nf6 2. Bb2 e6 3. Bxf6 Qxf6 4. c3 d5
+2019.12.01	0-1	2117	2159	Benko Gambit Accepted, Pawn Return Variation	1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6
+2019.12.01	0-1	1878	1957	King's Gambit Accepted, Abbazia Defense	1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Nf6
+2019.12.01	0-1	1740	1787	Nimzo-Larsen Attack: Modern Variation #2	1. b3 e5 2. Bb2 d6 3. d3 Be7 4. Nd2 Bf6
+2019.12.01	0-1	1305	1431	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. a3 Be7
+2019.12.01	1-0	1415	1573	Sicilian Defense: Najdorf Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1643	1710	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 d5 3. Nf3 dxe4 4. Ng5 Nc6
+2019.12.01	0-1	1649	1652	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 e6
+2019.12.01	0-1	1814	1860	Queen's Pawn Game: Colle System	1. d4 d5 2. e3 Nf6 3. Nf3 c6 4. a3 h6
+2019.12.01	1-0	1845	1845	Queen's Gambit Declined: Semi-Tarrasch Defense	1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 c5
+2019.12.01	0-1	1536	1467	Saragossa Opening	1. c3 Nf6 2. e3 g6 3. Ne2 Nc6 4. d4 d5
+2019.12.01	1-0	1675	1565	Caro-Kann Defense	1. e4 c6 2. d4 d5 3. Nc3 Nf6 4. e5 Ne4
+2019.12.01	1-0	2087	2086	King's Pawn	1. e4
+2019.12.01	0-1	2325	2191	Caro-Kann Defense: Two Knights Attack	1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6
+2019.12.01	1-0	1868	1861	King's Indian Defense: Smyslov Variation	1. d4 d6 2. c4 Nf6 3. Nc3 g6 4. Nf3 Bg7
+2019.12.01	1-0	2370	2451	Van't Kruijs Opening	1. e3 g6 2. d4 Bg7 3. Nf3 c5 4. dxc5 Nf6
+2019.12.01	0-1	1997	1977	Pirc Defense: Classical Variation	1. e4 Nf6 2. Nc3 d6 3. Nf3 g6 4. d4 Bg7
+2019.12.01	1-0	1736	1718	Ponziani Opening	1. e4 e5 2. Nf3 Nc6 3. c3 h6 4. d4 exd4
+2019.12.01	0-1	1576	1591	Caro-Kann Defense: Advance Variation	1. e4 c6 2. d4 d5 3. e5 e6 4. Nf3 c5
+2019.12.01	1-0	1619	1616	Dutch Defense: Rubinstein Variation	1. d4 f5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7
+2019.12.01	1-0	1631	1621	King's Pawn	1. e4
+2019.12.01	1-0	1405	1395	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd7 4. Bb5 c6
+2019.12.01	0-1	1386	1391	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 Nc6 3. e5 cxd4 4. Nf3 d5
+2019.12.01	1/2-1/2	2410	2477	Van't Kruijs Opening	1. e3 d5 2. Nf3 Nf6 3. c4 dxc4 4. Bxc4 e6
+2019.12.01	0-1	1419	1370	King's Gambit Accepted, Fischer Defense	1. e4 e5 2. f4 d6 3. Nf3 exf4 4. Bc4 Be7
+2019.12.01	1-0	1629	1591	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Nf3 Bd6
+2019.12.01	0-1	1870	1855	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. c3 Nf6
+2019.12.01	1-0	1171	1179	Queen's Pawn Game #2	1. d4 d5 2. e3 Nc6 3. Nf3 e6 4. Nc3 Qf6
+2019.12.01	0-1	1689	1731	French Defense: Advance Variation, Nimzowitsch System	1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 Nc6
+2019.12.01	0-1	1912	1913	Italian Game: Two Knights Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O d5
+2019.12.01	1-0	2069	2230	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 g6 3. d3 Bg7 4. Be3 d6
+2019.12.01	1-0	1909	1938	Sicilian Defense: Smith-Morra Gambit	1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 Nc6
+2019.12.01	1-0	1433	1395	Three Knights Opening #2	1. e4 e5 2. Nf3 Nc6 3. Nc3 Bb4 4. a3 Bxc3
+2019.12.01	1-0	1082	1213	Van Geet Opening	1. Nc3 d5 2. d3 d4 3. Nb1 e5 4. Nf3 Nc6
+2019.12.01	1-0	1786	1863	Queen's Pawn	1. d4 c6 2. g3 e6 3. Bg2 d5 4. Nf3 c5
+2019.12.01	0-1	1592	1561	Pirc Defense #5	1. d4 d6 2. e4 c6 3. Nf3 g6 4. Be3 Bg7
+2019.12.01	1-0	2119	2130	Sicilian Defense: Closed Variation, Traditional	1. e4 c5 2. Nc3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2019.12.01	0-1	1601	1735	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2019.12.01	0-1	1333	1299	Queen's Pawn Game #2	1. d4 d5 2. e3 c5 3. dxc5 b6 4. cxb6 axb6
+2019.12.01	0-1	1968	1990	Scotch Game #3	1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. c4 dxc3
+2019.12.01	1-0	1226	1259	English Opening: Carls-Bremen System	1. c4 e5 2. Nc3 Nf6 3. g3 Nc6 4. Bg2 d5
+2019.12.01	0-1	1962	1905	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Nc6
+2019.12.01	0-1	1874	1888	Queen's Pawn Game	1. d4 d5 2. c3 Nf6 3. e3 e6 4. Qb3 Nbd7
+2019.12.01	1-0	2229	2156	Van't Kruijs Opening	1. e3 d5 2. b3 c5 3. Bb2 Nc6 4. Bb5 Bd7
+2019.12.01	1-0	1474	1508	Polish Opening	1. b4 e5 2. Bb2 Bd6 3. a3 a6 4. h3 Nc6
+2019.12.01	1-0	1674	1716	Horwitz Defense	1. d4 e6 2. Bf4 Qf6 3. e3 h6 4. Nf3 d6
+2019.12.01	1-0	1776	1787	Zukertort Opening: Old Indian Attack	1. Nf3 d5 2. d3 c5 3. Nbd2 Nc6 4. g3 e5
+2019.12.01	1-0	1649	1646	Queen's Pawn Game: Anti-Torre	1. d4 d5 2. Nf3 Bg4 3. h3 Bh5 4. g4 Bg6
+2019.12.01	0-1	1167	1198	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 f6 4. d5 f5
+2019.12.01	0-1	1881	1880	Sicilian Defense: Najdorf, Lipnitsky Attack	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1617	1607	Modern Defense	1. d4 g6 2. c4 Bg7 3. Nf3 d6 4. Nc3 Nd7
+2019.12.01	0-1	1432	1397	Pirc Defense #5	1. e4 d6 2. d4 g6 3. Nf3 Bg7 4. c4 Nc6
+2019.12.01	0-1	1486	1595	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 e6 3. d3 Nc6 4. a3 a6
+2019.12.01	0-1	1953	2157	Indian Game	1. d4 Nf6 2. Bf4 e6 3. Nc3 b6 4. e4 Bb7
+2019.12.01	1-0	1839	1757	Vienna Game: Paulsen Variation	1. e4 e5 2. Nc3 Nc6 3. g3 f5 4. Bg2 Nf6
+2019.12.01	0-1	2358	2416	Indian Game: Anti-Grünfeld, Alekhine Variation	1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 Bg7
+2019.12.01	0-1	1318	1390	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O d6
+2019.12.01	0-1	1792	1767	Nimzo-Indian Defense: Normal Line	1. d4 Nf6 2. e3 e6 3. c4 Bb4+ 4. Nc3 Bxc3+
+2019.12.01	1-0	1909	1794	Sodium Attack	1. Na3 d5 2. Nf3 Nf6 3. g3 Bg4 4. Bg2 e6
+2019.12.01	1-0	1605	1436	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Nc3 c6 4. Bc4 b5
+2019.12.01	1-0	1052	988	Scandinavian Defense	1. e4 d5 2. d3 b6 3. Ne2 Bb7 4. Nbc3 e6
+2019.12.01	0-1	2212	2338	Bishop's Opening: Vienna Hybrid	1. e4 e5 2. Bc4 Nc6 3. Nc3 Nf6 4. d3 Na5
+2019.12.01	1-0	1142	1096	Modern Defense	1. e4 g6 2. d3 Bg7 3. Nf3 e6 4. c3 d5
+2019.12.01	1-0	1519	1502	English Opening: King's English Variation	1. c4 e5 2. g3 Nf6 3. Bg2 Bb4 4. Nc3 Nc6
+2019.12.01	0-1	1521	1541	Italian Game: Two Knights Defense, Polerio Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5
+2019.12.01	0-1	1338	1418	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 e5 2. d4 Nc6 3. d5 Nb8 4. Bc4 Nf6
+2019.12.01	0-1	1946	2030	Queen's Pawn Game: Symmetrical Variation	1. Nf3 d5 2. d4 Nf6 3. c3 Bg4 4. Nbd2 e6
+2019.12.01	1-0	1602	1606	Four Knights Game: Scotch Variation Accepted	1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4
+2019.12.01	1-0	1473	1480	Ware Defense	1. e4 a5 2. Nf3 b6 3. Bc4 c5 4. d4 d6
+2019.12.01	1-0	1231	1239	Hungarian Opening	1. g3 e5 2. Bg2 Nc6 3. e3 d6 4. Ne2 Nf6
+2019.12.01	1-0	1773	1729	Owen Defense	1. e4 b6 2. Nf3 Bb7 3. d3 d6 4. g3 e6
+2019.12.01	1-0	1794	1782	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd7 4. Nf3 Nf6
+2019.12.01	0-1	1881	2186	Slav Defense: Exchange Variation	1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. cxd5 cxd5
+2019.12.01	0-1	755	1455	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 d6 3. Nf3 Nf6 4. Bc4 e6
+2019.12.01	0-1	1529	2111	King's Gambit Accepted, Hanstein Gambit	1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7
+2019.12.01	0-1	2503	2558	Caro-Kann Defense: Main Line	1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nf6
+2019.12.01	1-0	2148	1903	Queen's Gambit Declined: Exchange Variation	1. c4 d5 2. Nc3 e6 3. cxd5 Nf6 4. d4 exd5
+2019.12.01	0-1	1748	1729	King's Pawn Game	1. e4 e5
+2019.12.01	0-1	1897	1936	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. b3 c6 4. Bb2 d5
+2019.12.01	0-1	1823	1842	King's Gambit Accepted, Bishop's Gambit	1. e4 e5 2. f4 exf4 3. Bc4 Be7 4. d4 Bh4+
+2019.12.01	1-0	1178	1028	English Opening: Four Knights System, Nimzowitsch Variation	1. c4 e5 2. Nc3 Nf6 3. e4 Nc6 4. Nf3 d6
+2019.12.01	1-0	2115	2049	Sicilian Defense: Kalashnikov Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	1-0	1299	1347	Ruy Lopez: Exchange Variation, Lutikov Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6
+2019.12.01	1-0	1208	1242	Sicilian Defense: Open	1. e4 c5 2. Nf3 Nc6 3. d4 b6 4. d5 Na5
+2019.12.01	0-1	1661	1661	Scotch Game: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+2019.12.01	1-0	897	830	Modern Defense	1. e4 g6 2. c4 b6 3. d3 c6 4. b3 b5
+2019.12.01	0-1	1994	2045	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Bd6
+2019.12.01	0-1	1681	1667	Sicilian Defense: French Variation, Open	1. e4 e6 2. Nf3 c5 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	1-0	1413	1353	Hungarian Opening	1. g3 e5 2. Bg2 Bc5 3. b3 Nf6 4. Bb2 d6
+2019.12.01	0-1	1773	1786	French Defense: Steinitz Attack	1. e4 e6 2. e5 Ne7 3. d4 g6 4. f4 Bg7
+2019.12.01	0-1	1463	1552	Queen's Pawn Game: Colle System	1. d4 d5 2. e3 Nf6 3. Nf3 Bg4 4. Be2 e6
+2019.12.01	1-0	1438	1453	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 a6 4. Ng5 d5
+2019.12.01	1/2-1/2	1660	1654	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O a6
+2019.12.01	0-1	1332	1210	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 d6 3. dxe5 dxe5 4. Qxd8+ Kxd8
+2019.12.01	0-1	1664	1676	Scotch Game: Schmidt Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6
+2019.12.01	1-0	1160	1029	Scandinavian Defense	1. e4 d5 2. e5 Nh6 3. h3 f6 4. exf6 exf6
+2019.12.01	1-0	1711	1785	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Nc3 Be7
+2019.12.01	0-1	1539	1504	Queen's Pawn	1. d4 c6 2. e3 d5 3. Nf3 e6 4. Nc3 Nd7
+2019.12.01	0-1	1934	2036	Queen's Pawn Game: Stonewall Attack	1. d4 d5 2. e3 Nf6 3. Bd3 c5 4. c3 Nc6
+2019.12.01	0-1	1380	1401	Indian Game: Wade-Tartakower Defense	1. Nf3 d6 2. d4 Nf6 3. e3 g6 4. a3 Bg7
+2019.12.01	0-1	1829	1808	Four Knights Game: Scotch Variation Accepted	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4
+2019.12.01	1-0	2160	2185	Van Geet Opening: Novosibirsk Variation	1. d4 c5 2. Nc3 cxd4 3. Qxd4 Nc6 4. Qh4 Nf6
+2019.12.01	0-1	2245	2583	Zukertort Opening: Quiet System	1. e3 Nf6 2. Nf3 g6 3. d4 Bg7 4. c3 O-O
+2019.12.01	1-0	1926	2007	Owen Defense	1. e4 b6 2. Nf3 Bb7 3. Nc3 e6 4. Bc4 Bb4
+2019.12.01	1-0	1703	1733	English Opening	1. c4 d6 2. Nc3 Nf6 3. g3 e6 4. Bg2 c6
+2019.12.01	1/2-1/2	1550	1619	Ponziani Opening: Jaenisch Counterattack	1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d4 exd4
+2019.12.01	1-0	1778	1741	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. Bd3 Be7 4. Be2 Nc6
+2019.12.01	1-0	1883	1917	Caro-Kann Defense	1. e4 c6 2. Nc3 d5 3. e5 e6 4. d4 c5
+2019.12.01	1-0	1463	1105	Philidor Defense #3	1. e4 e5 2. Bc4 d6 3. Nf3 f6 4. O-O h6
+2019.12.01	1-0	1675	1482	Queen's Gambit Accepted: Normal Variation	1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Nd5
+2019.12.01	1-0	2151	1920	Mieses Opening	1. d3 d6 2. d4 Nf6 3. c3 g6 4. Nf3 Bg7
+2019.12.01	1-0	2493	2255	Slav Defense: Chameleon Variation	1. d4 Nf6 2. Nf3 d5 3. c4 c6 4. Nc3 a6
+2019.12.01	0-1	1679	2171	Indian Game: Przepiorka Variation	1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O
+2019.12.01	1-0	1885	1454	French Defense: Advance Variation #2	1. e4 e6 2. d4 d5 3. e5 c5 4. c3 cxd4
+2019.12.01	0-1	2011	2036	Pirc Defense: Classical Variation	1. d4 g6 2. Nf3 Nf6 3. Nc3 Bg7 4. e4 d6
+2019.12.01	1-0	1952	2006	English Opening: Anglo-Dutch Defense	1. c4 f5 2. Nc3 e5 3. d4 Nf6 4. dxe5 Ng4
+2019.12.01	1-0	2231	2214	Queen's Pawn Game: Krause Variation	1. d4 c5 2. Nf3 d5 3. dxc5 Nc6 4. e3 Nf6
+2019.12.01	0-1	2080	2077	English Opening: King's English Variation, Four Knights Variation, Fianchetto Line	1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Nd4
+2019.12.01	1-0	1993	1987	Nimzowitsch Defense: Scandinavian Variation, Exchange Variation	1. e4 d5 2. exd5 Qxd5 3. d4 Nc6 4. Nf3 Bg4
+2019.12.01	1-0	1572	1605	Hungarian Opening	1. g3 e5 2. Nh3 d5 3. Bg2 Nf6 4. O-O Bc5
+2019.12.01	0-1	2202	2228	Vienna Game	1. e4 e5 2. Nc3 Be7 3. f4 d6 4. Nf3 Nc6
+2019.12.01	0-1	2067	2128	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Be7 4. f4 d6
+2019.12.01	1/2-1/2	1747	1622	Indian Game	1. d4 Nf6 2. Bf4 d6 3. Nf3 g6 4. e3 Bg7
+2019.12.01	1-0	993	1048	King's Gambit Declined, Petrov's Defense	1. e4 e5 2. f4 Nf6 3. Nf3 Nxe4 4. Bd3 d5
+2019.12.01	0-1	1751	1733	Sicilian Defense: Open #3	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6
+2019.12.01	0-1	1550	1607	King's Pawn Game	1. e4 e5 2. Na3 Nf6 3. d3 Bc5 4. f4 d5
+2019.12.01	1-0	1380	1396	Van't Kruijs Opening	1. e3 e5 2. Be2 Nf6 3. Nf3 d6 4. d3 Nc6
+2019.12.01	0-1	1730	1680	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. d3 Nd6
+2019.12.01	0-1	1432	1411	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 b6
+2019.12.01	1-0	1319	1327	Four Knights Game: Italian Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6
+2019.12.01	0-1	1197	1312	Ware Opening	1. a4 Nf6 2. f4 g6 3. d4 Bg7 4. h4 O-O
+2019.12.01	1-0	1424	1283	Nimzo-Larsen Attack: Modern Variation #2	1. b3 e5 2. Bb2 d6 3. c3 f6 4. f3 Be7
+2019.12.01	1-0	2206	2291	Hungarian Opening: Reversed Modern Defense	1. g3 c5 2. Bg2 d5 3. b3 Nc6 4. Bb2 e5
+2019.12.01	0-1	2093	2154	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nc6 3. Nf3 Bg4 4. Ne5 Nxe5
+2019.12.01	0-1	1365	1596	English Opening: Agincourt Defense	1. c4 e6 2. Nc3 b6 3. Nf3 Nc6 4. g3 Bb7
+2019.12.01	0-1	1581	1488	Three Knights Opening #2	1. e4 e5 2. Nf3 Nc6 3. Nc3 Bb4 4. a3 Bc5
+2019.12.01	1/2-1/2	1614	1654	Queen's Gambit Refused: Chigorin Defense	1. d4 Nc6 2. c4 d5 3. e3 dxc4 4. Bxc4 e6
+2019.12.01	1-0	1593	1584	King's Indian Defense: Normal Variation, King's Knight Variation	1. d4 g6 2. c4 Nf6 3. Nf3 Bg7 4. e3 O-O
+2019.12.01	0-1	1317	1295	Four Knights Game: Scotch Variation	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 d6
+2019.12.01	1-0	1365	1375	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 e6 4. e4 f5
+2019.12.01	0-1	1775	1808	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. d4 cxd4
+2019.12.01	0-1	1722	1729	English Opening: King's English Variation, Two Knights Variation	1. c4 e5 2. Nc3 Nf6 3. d3 Bb4 4. g3 O-O
+2019.12.01	0-1	2158	2114	Sicilian Defense: Accelerated Dragon, Maróczy Bind, Breyer Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6
+2019.12.01	1-0	1249	1282	Anderssen Opening	1. a3 d5 2. c3 e5 3. e3 Nc6 4. g3 d4
+2019.12.01	1-0	2091	2033	Pirc Defense #4	1. e4 d6 2. e5 dxe5 3. f4 e6 4. fxe5 Nc6
+2019.12.01	1-0	1168	1628	Caro-Kann Defense: Breyer Variation	1. e4 c6 2. d3 d5 3. exd5 cxd5 4. Nf3 Bf5
+2019.12.01	1-0	2390	2180	Mieses Opening	1. d3 c6 2. Nd2 d5 3. Ngf3 Nf6 4. e4 e6
+2019.12.01	0-1	1646	1720	Bishop's Opening	1. e4 e5 2. Bc4 d6 3. d3 g6 4. Ne2 Bg7
+2019.12.01	1-0	2255	2148	King's Indian Attack	1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. O-O Bxf3
+2019.12.01	1-0	1579	1642	Englund Gambit	1. d4 e5 2. c4 exd4 3. Qxd4 Nc6 4. Qd1 Bb4+
+2019.12.01	1-0	1960	1978	French Defense: Queen's Knight	1. e4 e6 2. Nc3 Be7 3. d4 d5 4. Nf3 dxe4
+2019.12.01	0-1	1564	1523	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. b3 Bg4
+2019.12.01	0-1	1675	1661	Sicilian Defense: Big Clamp Formation	1. e4 c5 2. d3 Nc6 3. c3 d6 4. f4 e6
+2019.12.01	1-0	2199	2062	Franco-Benoni Defense	1. e4 e6 2. d4 c5 3. d5 exd5 4. exd5 d6
+2019.12.01	1-0	1780	1811	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. O-O Bd7
+2019.12.01	0-1	2087	2098	Indian Game: London System	1. d4 Nf6 2. Nf3 e6 3. Bf4 Be7 4. e3 O-O
+2019.12.01	1-0	1723	1726	Queen's Pawn Game #3	1. d4 Nf6 2. e3 d5 3. Nc3 c6 4. f3 e6
+2019.12.01	1-0	2034	2049	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. c3 b6 4. Bd3 Bb7
+2019.12.01	0-1	2385	2263	Sicilian Defense: Nimzo-American Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d5
+2019.12.01	0-1	1441	1413	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4 Bd6
+2019.12.01	1-0	2299	2122	French Defense: MacCutcheon Variation, Lasker Variation	1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4
+2019.12.01	1-0	1459	1275	Pirc Defense #5	1. d4 d6 2. e4 a6 3. d5 e6 4. c4 exd5
+2019.12.01	1-0	1440	1270	King's Indian Defense: Orthodox Variation	1. d4 g6 2. c4 d6 3. e4 Nf6 4. Nc3 Bg7
+2019.12.01	0-1	1953	2114	Sicilian Defense: Dragon Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1550	1589	Scandinavian Defense	1. e4 d5 2. e5 d4 3. d3 c5 4. Bf4 Nc6
+2019.12.01	0-1	1495	1482	Old Benoni Defense	1. d4 c5 2. c4 cxd4 3. Qxd4 Nc6 4. Qc5 Nf6
+2019.12.01	1-0	1880	1903	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. e5 Nd7 4. d4 e6
+2019.12.01	1-0	1682	1614	King's Indian Defense: 3.Nc3	1. d4 Nf6 2. c4 g6 3. Nc3 d6 4. e4 b6
+2019.12.01	1-0	1244	1251	Scandinavian Defense: Main Line, Mieses Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6
+2019.12.01	0-1	1899	1939	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 Qxd5 4. c4 Bb4+
+2019.12.01	0-1	1807	1790	Sicilian Defense: French Variation, Normal	1. e4 e6 2. d4 c5 3. Nf3 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1169	1130	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e5 3. dxe5 d4 4. Nxd4 Nc6
+2019.12.01	1-0	1529	1513	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. d4 Bd7 4. dxc5 dxc5
+2019.12.01	1-0	1505	1542	Owen Defense	1. e4 b6 2. Nf3 Bb7 3. Nc3 g6 4. Bc4 Bg7
+2019.12.01	1-0	2083	2111	Queen's Gambit Refused: Chigorin Defense #2	1. d4 d5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6
+2019.12.01	0-1	1245	1215	Vienna Game: Stanley Variation, Three Knights Variation	1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6 4. a3 d5
+2019.12.01	1-0	1494	1498	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. Nc3 Nc6
+2019.12.01	0-1	1365	1369	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Nc6
+2019.12.01	1-0	928	794	Pirc Defense #4	1. e4 d6 2. Qh5 Nc6 3. Bc4 e5 4. Qxf7#
+2019.12.01	0-1	1703	1917	Vienna Game: Vienna Gambit	1. e4 e5 2. Nc3 Nc6 3. f4 d6 4. Nf3 Be7
+2019.12.01	1-0	1832	1832	King's Gambit Accepted, Bishop's Gambit	1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 Nc6
+2019.12.01	1-0	1989	1941	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Bg4 4. h3 Bh5
+2019.12.01	1-0	1403	1489	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2019.12.01	0-1	1637	1561	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nf6 3. e3 Nc6 4. c3 Bf5
+2019.12.01	1-0	1150	1315	Russian Game: Damiano Variation	1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Qe2 d5
+2019.12.01	1-0	1429	1337	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Nf3 d6 4. g3 Nd7
+2019.12.01	0-1	1579	1502	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 Bg4 4. dxe5 Bxf3
+2019.12.01	1-0	1826	1815	Dutch Defense: Queen's Knight Variation	1. d4 f5 2. c4 Nf6 3. Nc3 e6 4. Bg5 c6
+2019.12.01	1-0	1772	1751	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 e6
+2019.12.01	1-0	1720	1426	French Defense: Normal Variation	1. e4 e6 2. d4 b6 3. c4 Bb4+ 4. Nc3 Bxc3+
+2019.12.01	0-1	998	1162	Englund Gambit Complex: Hartlaub-Charlick Gambit	1. d4 e5 2. dxe5 d6 3. Nf3 Nd7 4. Bf4 Be7
+2019.12.01	0-1	1585	1716	Four Knights Game: Spanish Variation	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 a6
+2019.12.01	1-0	1989	1962	French Defense: Tarrasch Variation, Closed Variation	1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7
+2019.12.01	0-1	1798	1774	Scotch Game: Scotch Gambit	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 d6
+2019.12.01	1-0	1469	1430	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. c4 Qd8
+2019.12.01	1-0	974	938	Englund Gambit	1. d4 e5 2. dxe5 Bb4+ 3. Bd2 Bxd2+ 4. Nxd2 Qe7
+2019.12.01	0-1	832	849	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nc6 3. e3 e5 4. Bg3 exd4
+2019.12.01	0-1	1188	1236	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 d6
+2019.12.01	0-1	1765	1699	Sicilian Defense: Smith-Morra Gambit Deferred	1. e4 c5 2. d4 cxd4 3. c3 e6 4. Nf3 Nc6
+2019.12.01	1-0	1878	1849	Four Knights Game: Italian Variation	1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bc4 Bc5
+2019.12.01	0-1	1113	1014	Center Game: Normal Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 d6
+2019.12.01	1-0	1412	1410	Englund Gambit	1. d4 e5 2. Nc3 Nc6 3. dxe5 Nxe5 4. Bf4 Qe7
+2019.12.01	1-0	1545	1513	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+2019.12.01	0-1	1395	1397	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. O-O Nf6
+2019.12.01	0-1	1734	1814	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. c3 Bc5 4. Qc2 d6
+2019.12.01	1-0	1452	1419	Queen's Pawn Game: London System	1. d4 d5 2. Bf4 Nf6 3. Nf3 Bf5 4. e3 Nh5
+2019.12.01	0-1	1605	1649	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 e5 3. Nf3 Nc6 4. d4 cxd4
+2019.12.01	0-1	1204	1208	Scotch Game: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+2019.12.01	1-0	1668	1683	Horwitz Defense	1. d4 e6 2. e3 Nf6 3. Bd3 c5 4. c4 Be7
+2019.12.01	1-0	1506	1555	Bishop's Opening	1. e4 e5 2. Bc4 Qf6 3. d3 Bc5 4. Qf3 h6
+2019.12.01	0-1	1846	1888	Semi-Slav Defense: Anti-Moscow Gambit	1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6
+2019.12.01	0-1	1243	1243	Scandinavian Defense	1. e4 d5 2. Qf3 dxe4 3. Qxe4 Nf6 4. Qe5 Nc6
+2019.12.01	0-1	1925	1931	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 d6 3. Nf3 g6 4. g3 Bg7
+2019.12.01	0-1	1167	1191	Queen's Pawn Game	1. d4 d5
+2019.12.01	1-0	1279	1581	Italian Game: Classical Variation, Giuoco Pianissimo	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6
+2019.12.01	1-0	1683	1742	Nimzowitsch Defense: Williams Variation	1. e4 d6 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bg4
+2019.12.01	0-1	953	913	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nc6 3. Nf3 Nf6 4. e3 Bf5
+2019.12.01	0-1	1326	1349	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Nf3 Nc6 4. d5 Ne5
+2019.12.01	1-0	1499	1499	Nimzo-Larsen Attack	1. b3 e6 2. Bb2 c5 3. e3 Nc6 4. Be2 Nf6
+2019.12.01	0-1	1310	1347	Rat Defense: Harmonist	1. e4 d6 2. f4 Nf6 3. Nf3 e5 4. Bb5+ c6
+2019.12.01	0-1	2008	1979	Slav Defense: Modern	1. d4 c6 2. c4 d5 3. Nf3 Nf6 4. g3 dxc4
+2019.12.01	1-0	1513	1584	Zukertort Opening: Ross Gambit	1. Nf3 e5 2. d3 d6 3. Nbd2 Bd7 4. b3 Bg4
+2019.12.01	1-0	1215	1198	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Qf6 3. Nf3 Bc5 4. Nc3 Qb6
+2019.12.01	1-0	2071	2071	Caro-Kann Defense	1. e4 c6 2. f4 d5 3. e5 e6 4. Nf3 c5
+2019.12.01	1-0	2302	2310	Queen's Pawn Game: London System	1. d4 d5 2. Nf3 Nf6 3. Bf4 c5 4. c3 Nc6
+2019.12.01	0-1	956	1121	Scandinavian Defense	1. e4 d5 2. f3 d4 3. d3 Nc6 4. Ne2 Nf6
+2019.12.01	1-0	1416	1673	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. d4 Qd8 4. Nf3 Nf6
+2019.12.01	0-1	1357	1346	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2019.12.01	1-0	1898	1889	French Defense: La Bourdonnais Variation	1. e4 e6 2. f4 d5 3. e5 c5 4. Nf3 Nc6
+2019.12.01	1-0	1266	1249	Saragossa Opening	1. c3 d5 2. e3 e5 3. a3 Nc6 4. c4 d4
+2019.12.01	0-1	1271	1314	Barnes Defense	1. e4 f6 2. Bc4 c6 3. Qh5+ g6 4. Qc5 b5
+2019.12.01	1-0	1673	1593	King's Gambit Accepted, Fischer Defense	1. e4 e5 2. f4 d6 3. Nf3 exf4 4. Bc4 f6
+2019.12.01	1-0	1298	1280	Slav Defense	1. d4 d5 2. c4 c6 3. Bf4 Nf6 4. Nc3 g6
+2019.12.01	1-0	1636	1578	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. O-O d5
+2019.12.01	1-0	1538	1531	Queen's Gambit Accepted: Accelerated Mannheim Variation	1. d4 d5 2. c4 dxc4 3. Qa4+ Nc6 4. Qxc4 Qxd4
+2019.12.01	0-1	1123	1115	Three Knights Opening #2	1. e4 e5 2. Nc3 Bb4 3. Nf3 Nc6 4. Bc4 Bxc3
+2019.12.01	0-1	1233	1221	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Be2 Nf6
+2019.12.01	0-1	1391	1440	French Defense: Two Knights Variation	1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7
+2019.12.01	0-1	1184	2208	Scotch Game: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+2019.12.01	0-1	1892	1770	Philidor Defense #3	1. e4 e5 2. Nf3 d6 3. Bc4 Qf6 4. h3 h6
+2019.12.01	1-0	2026	2014	Old Benoni Defense	1. d4 c5 2. c3 cxd4 3. cxd4 d5 4. Nc3 Nf6
+2019.12.01	1-0	1582	1702	Robatsch (Modern) Defense	1. d4 g6 2. e4 Bg7 3. e5 e6 4. Nf3 Ne7
+2019.12.01	1-0	1155	1118	Sicilian Defense	1. e4 c5 2. e5 d6 3. f4 Nc6 4. c3 dxe5
+2019.12.01	1-0	1746	1575	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2019.12.01	0-1	1925	1940	King's Gambit Accepted, Fischer Defense	1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 g5
+2019.12.01	1-0	1899	1873	Grünfeld Defense: Exchange Variation, Modern Exchange Variation	1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7
+2019.12.01	1-0	1256	1236	Queen's Gambit Declined: Exchange Variation, Positional Variation	1. d4 d5 2. c4 e6 3. cxd5 exd5 4. Nc3 c6
+2019.12.01	1-0	1553	1540	Horwitz Defense	1. d4 e6 2. e3 d5 3. Nf3 c6 4. c4 dxc4
+2019.12.01	1-0	1426	1348	Van't Kruijs Opening	1. e3 d5 2. b3 e6 3. Bb2 c5 4. Qg4 Nf6
+2019.12.01	0-1	1457	1539	Van't Kruijs Opening	1. e3 e5 2. a3 Qe7 3. b4 e4 4. Bb2 f5
+2019.12.01	1-0	1877	1763	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 d6 3. dxc5 dxc5 4. Qxd8+ Kxd8
+2019.12.01	0-1	1826	1827	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 d4 3. e3 c5 4. exd4 cxd4
+2019.12.01	1-0	1569	1618	Polish Opening: King's Indian Variation	1. b4 Nf6 2. Bb2 g6 3. a3 Bg7 4. Nf3 O-O
+2019.12.01	1/2-1/2	1347	1365	Four Knights Game: Italian Variation	1. e4 e5 2. Bc4 Nc6 3. Nf3 Nf6 4. Nc3 Bb4
+2019.12.01	1-0	1926	2090	Caro-Kann Defense: Two Knights Attack	1. e4 c6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Ne4
+2019.12.01	0-1	1190	1205	Philidor Defense #2	1. e4 d6 2. Nf3 e5 3. Nc3 Nc6 4. Be2 Bg4
+2019.12.01	1-0	1674	1710	Slav Defense: Winawer Countergambit	1. d4 d5 2. c4 c6 3. Nc3 e5 4. dxe5 d4
+2019.12.01	0-1	1897	1896	English Opening: Anglo-Dutch Defense	1. c4 f5 2. Nc3 Nf6 3. g3 e5 4. Bg2 d6
+2019.12.01	1-0	1490	1477	French Defense: Tarrasch Variation	1. d4 e6 2. e4 d5 3. Nd2 Bb4 4. c3 Ba5
+2019.12.01	0-1	1776	1773	Ruy Lopez: Cozio Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. O-O d6
+2019.12.01	1-0	1536	1570	Elephant Gambit	1. e4 e5 2. Nf3 d5 3. d3 dxe4 4. Nxe5 Bd6
+2019.12.01	1-0	1164	1128	Italian Game: Classical Variation #2	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 a6
+2019.12.01	0-1	1603	1813	Owen Defense	1. e4 b6 2. f4 Bb7 3. Nc3 e6 4. Nf3 Qe7
+2019.12.01	1-0	1057	1089	Sicilian Defense	1. e4 c5 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qd8
+2019.12.01	0-1	1981	2009	Mieses Opening	1. d3 c6 2. Nd2 d5 3. e3 Nf6 4. f3 d4
+2019.12.01	0-1	1694	1555	Modern Defense	1. e4 g6 2. Nc3 Bg7 3. Nf3 Nf6 4. d4 O-O
+2019.12.01	1-0	1233	1194	Vienna Game: Anderssen Defense	1. e4 e5 2. Nc3 Bc5 3. d3 Bxf2+ 4. Kxf2 Qh4+
+2019.12.01	1-0	2135	1824	Horwitz Defense	1. d4 e6 2. e3 Ne7 3. Be2 Ng6 4. Nf3 Be7
+2019.12.01	1-0	1707	1705	Center Game: Paulsen Attack Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 d6
+2019.12.01	1-0	1245	1218	Sicilian Defense: Staunton-Cochrane Variation	1. e4 c5 2. c4 Nc6 3. Nc3 e6 4. Nf3 Nf6
+2019.12.01	0-1	1435	1358	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 e6
+2019.12.01	0-1	1096	1017	Bishop's Opening	1. e4 e5 2. Bc4 d6 3. Qh5 g6 4. Qf3 Nf6
+2019.12.01	0-1	1849	1709	Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations	1. d4 c5 2. Nf3 cxd4 3. Nxd4 g6 4. e4 d6
+2019.12.01	1/2-1/2	1546	1594	Caro-Kann Defense	1. e4 c6 2. c3 d5 3. exd5 cxd5 4. d4 Bf5
+2019.12.01	1-0	1510	1518	Indian Game: Wade-Tartakower Defense	1. d4 Nf6 2. Nf3 d6 3. Nc3 g6 4. Bg5 Bg7
+2019.12.01	0-1	2203	2143	Italian Game: Classical Variation, Greco Gambit	1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. Bc4 Bc5
+2019.12.01	0-1	1865	1937	Pirc Defense #3	1. d4 Nf6 2. Nc3 g6 3. e4 d6 4. f3 Bg7
+2019.12.01	0-1	1123	1152	King's Pawn Game: Dresden Opening	1. e4 e5 2. Nf3 Nc6 3. c4 Bc5 4. d3 Nf6
+2019.12.01	1-0	1310	1351	Barnes Defense	1. e4 f6 2. d4 e5 3. Bc4 h5 4. dxe5 fxe5
+2019.12.01	0-1	1556	1674	Scandinavian Defense	1. e4 d5 2. e5 c5 3. d4 Nc6 4. Nf3 Bg4
+2019.12.01	0-1	1462	1446	Alekhine Defense: Scandinavian Variation	1. e4 d5 2. Nc3 Nf6 3. exd5 Nxd5 4. Nxd5 Qxd5
+2019.12.01	0-1	1298	1247	Scotch Game	1. e4 Nc6 2. Nf3 e5 3. d4 exd4 4. Nxd4 f5
+2019.12.01	1-0	1073	1223	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. f4 exf4 4. Bxf4 g5
+2019.12.01	1-0	1518	1552	Center Game: Normal Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd3 Nb4
+2019.12.01	0-1	1418	1418	Caro-Kann Defense: Advance Variation	1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6
+2019.12.01	1-0	1972	1803	Indian Game: King's Indian Variation, Fianchetto Variation	1. c4 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O
+2019.12.01	0-1	1569	1558	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 Nc6 3. c3 e5 4. d3 d4
+2019.12.01	0-1	1641	1910	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5
+2019.12.01	0-1	2102	2049	English Opening: King's English Variation, Four Knights Variation #2	1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d4 exd4
+2019.12.01	0-1	1615	1612	Old Indian Defense	1. d4 d6 2. c4 e6 3. Nc3 c6 4. g3 Qc7
+2019.12.01	1-0	2159	2205	Caro-Kann Defense: Classical, Spassky Variation	1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5
+2019.12.01	1-0	1947	1928	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. f4 e6 4. Nf3 Nf6
+2019.12.01	0-1	2119	2150	Zukertort Opening: Slav Invitation	1. Nf3 c6 2. c4 d5 3. cxd5 cxd5 4. d4 e6
+2019.12.01	1-0	2430	2470	Queen's Pawn Game	1. d4 d5 2. c3 e5 3. dxe5 Nc6 4. Bf4 f6
+2019.12.01	1-0	2107	2136	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. d4 d6 4. Bc4 Nf6
+2019.12.01	1-0	1912	1785	Caro-Kann Defense	1. e4 c6 2. f4 d5 3. e5 h5 4. Nf3 Bf5
+2019.12.01	0-1	1637	1720	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. d4 Nf6 4. Nf3 Bg4
+2019.12.01	0-1	1223	1264	King's Pawn Game: Damiano Defense	1. e4 e5 2. Nf3 f6 3. Nxe5 fxe5 4. f4 exf4
+2019.12.01	0-1	1815	1740	Nimzo-Indian Defense: Ragozin Variation	1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Bb4
+2019.12.01	1-0	1442	1381	Nimzo-Larsen Attack: Symmetrical Variation	1. b3 b6 2. Bb2 Bb7 3. Nf3 e6 4. e3 d5
+2019.12.01	1-0	1074	1074	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. e3 Nc6 4. c3 g6
+2019.12.01	1-0	1087	1044	English Opening: King's English Variation, Reversed Closed Sicilian	1. c4 e5 2. Nc3 Nc6 3. g3 Nf6 4. Bg2 Nd4
+2019.12.01	1-0	2076	2055	Indian Game: Spielmann-Indian	1. d4 Nf6 2. Nf3 c5 3. e3 cxd4 4. exd4 d5
+2019.12.01	1-0	1160	1092	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 Nc6 3. Bc4 Nf6 4. c3 d6
+2019.12.01	1-0	1755	1753	Bishop's Opening: Berlin Defense	1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Be3 Bb6
+2019.12.01	1-0	1534	1678	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 c6 3. Nc3 Nf6 4. e3 Bg4
+2019.12.01	1-0	1276	1296	English Opening: Anglo-Indian Defense, Anti-Anti-Grünfeld	1. c4 Nf6 2. Nc3 g6 3. e4 Bg7 4. Nf3 d6
+2019.12.01	0-1	1503	1514	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Nxe5 d6 4. Nd3 Bb6
+2019.12.01	1-0	960	1035	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 Qxd5 4. Qe2 Nf6
+2019.12.01	1-0	1712	1707	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 d6 3. f4 Nf6 4. Nf3 Bg4
+2019.12.01	0-1	1336	1305	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 Bd7
+2019.12.01	0-1	1948	1905	Pirc Defense #4	1. e4 d6 2. Nf3 Nf6 3. Nc3 e5 4. Bc4 Be7
+2019.12.01	1-0	2090	2105	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 Bg4 4. Nf3 Bxf3
+2019.12.01	0-1	1835	1865	English Opening: King's English Variation, Nimzowitsch-Flohr Variation	1. Nf3 e5 2. c4 e4 3. Ne5 d6 4. Nxf7 Kxf7
+2019.12.01	1-0	2298	2282	Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1651	1644	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. cxd5 Nxd5 4. e4 Nb6
+2019.12.01	0-1	2178	2052	Sicilian Defense: Grand Prix Attack	1. e4 c5 2. Nc3 Nc6 3. f4 d6 4. Nf3 f6
+2019.12.01	1-0	1814	1780	English Opening: Anglo-Indian Defense, Queen's Knight Variation	1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O
+2019.12.01	0-1	2030	2042	Neo-Grünfeld Defense: Classical Variation, Original Defense	1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 O-O
+2019.12.01	1-0	1641	1622	Queen's Gambit Refused: Baltic Defense	1. d4 d5 2. c4 Bf5 3. Nf3 Nc6 4. g3 Qd7
+2019.12.01	0-1	2010	2230	Queen's Pawn Game: Symmetrical Variation	1. d4 Nf6 2. Nf3 d5 3. c4 Bf5 4. Nc3 e6
+2019.12.01	0-1	1357	1615	Vienna Game: Anderssen Defense	1. e4 e5 2. Nc3 Bc5 3. Bc4 Qf6 4. Nf3 Qb6
+2019.12.01	0-1	1430	1258	Van't Kruijs Opening	1. e3 e6 2. c4 d5 3. Nc3 c5 4. d4 Qa5
+2019.12.01	0-1	1767	1708	Petrov's Defense	1. e4 e5 2. Nf3 Nf6 3. d3 Nc6 4. g3 d6
+2019.12.01	0-1	1113	1128	Australian Defense	1. d4 Na6 2. c3 d5 3. e3 Bf5 4. Na3 c6
+2019.12.01	0-1	2243	2450	Pirc Defense: Classical Variation	1. d4 g6 2. e4 Bg7 3. Nf3 d6 4. Nc3 Nf6
+2019.12.01	0-1	1881	1882	Scandinavian Defense: Gubinsky-Melts Defense	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Bg4
+2019.12.01	1-0	2054	1951	Scandinavian Defense: Main Line, Mieses Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6
+2019.12.01	0-1	1380	1436	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Bc4 d6 4. c3 Be6
+2019.12.01	1-0	1861	1963	Nimzo-Larsen Attack: English Variation	1. b3 c5 2. Bb2 Nc6 3. e3 d5 4. d3 e5
+2019.12.01	1/2-1/2	1955	2043	Indian Game	1. d4 Nf6 2. e3 g6 3. c4 Bg7 4. Nf3 O-O
+2019.12.01	1-0	2149	2038	Pirc Defense #4	1. e4 d6 2. Nc3 e5 3. Bc4 Qe7 4. d3 c6
+2019.12.01	1-0	1860	1905	Grünfeld Defense: Exchange Variation, Spassky Variation	1. d4 Nf6 2. c4 d5 3. Nc3 g6 4. cxd5 Nxd5
+2019.12.01	0-1	1536	1488	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7
+2019.12.01	1-0	1305	1289	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 Nf6 3. Bf4 a6 4. a3 Nc6
+2019.12.01	0-1	1136	1262	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 b6 3. Ne2 Qe7 4. g3 Bb7
+2019.12.01	0-1	1709	1794	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nf6 3. e5 Nd5 4. c4 Nxf4
+2019.12.01	1-0	1115	1077	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. e3 g6 4. c4 e6
+2019.12.01	0-1	1521	1395	Horwitz Defense	1. d4 e6 2. Bf4 d5 3. e3 c5 4. Nf3 Nc6
+2019.12.01	1-0	1255	1282	King's Indian Attack	1. Nf3 d5 2. g3 d4 3. Bg2 d3 4. cxd3
+2019.12.01	1-0	1703	1699	Queen's Gambit Refused: Albin Countergambit	1. d4 d5 2. c4 e5 3. cxd5 Qxd5 4. dxe5 Qxe5
+2019.12.01	1-0	2124	2024	Modern Defense	1. d4 g6 2. Nf3 Bg7 3. Bg5 d5 4. h3 Nf6
+2019.12.01	0-1	1752	1703	Horwitz Defense	1. d4 e6 2. c4 d6 3. Nc3 Be7 4. Nf3 b6
+2019.12.01	1/2-1/2	1542	1455	English Opening: Agincourt Defense	1. c4 e6 2. b3 c5 3. Bb2 d5 4. Nc3 d4
+2019.12.01	0-1	1538	1460	Scotch Game: Göring Gambit, Double Pawn Sacrifice	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3 dxc3
+2019.12.01	1-0	1630	1663	Queen's Gambit Declined	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6
+2019.12.01	1-0	1701	1784	Queen's Pawn Opening: Veresov Attack, Irish Gambit	1. d4 d5 2. Nc3 c5 3. dxc5 Nc6 4. Qxd5 Qxd5
+2019.12.01	0-1	1543	1531	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 Nc6 2. d4 e5 3. d5 Nb8 4. Nf3 d6
+2019.12.01	0-1	1564	1554	Bird Opening	1. f4 d6 2. Nf3 e5 3. fxe5 dxe5 4. e4 Nc6
+2019.12.01	0-1	917	794	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. h3 Nc6 4. g4 d5
+2019.12.01	1-0	1211	976	Borg Defense: Borg Gambit	1. d4 g5 2. h3 f6 3. g4 Bg7 4. e3 d5
+2019.12.01	1-0	1605	1611	Mieses Opening	1. d3 e6 2. g3 d5 3. Nf3 c5 4. Bg2 Nc6
+2019.12.01	0-1	1260	1455	Caro-Kann Defense: Advance Variation	1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6
+2019.12.01	1-0	2285	1876	Sicilian Defense: Alapin Variation	1. e4 c5 2. c3 e6 3. d4 d5 4. exd5 exd5
+2019.12.01	0-1	1598	1625	Philidor Defense: Exchange Variation #2	1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 c5
+2019.12.01	1/2-1/2	1747	1716	Italian Game: Classical Variation, La Bourdonnais Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6
+2019.12.01	0-1	1738	1707	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2019.12.01	0-1	2079	2066	Old Indian Defense	1. d4 d6 2. c4 f5 3. Nc3 Nf6 4. Nf3 g6
+2019.12.01	0-1	2042	1994	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Bc4 Nf6
+2019.12.01	0-1	1357	1430	Modern Defense	1. d4 g6 2. Bf4 Bg7 3. Nf3 Nf6 4. e3 e6
+2019.12.01	1/2-1/2	2116	2289	Scotch Game: Lolli Variation	1. e4 Nc6 2. d4 e5 3. Nf3 Nxd4 4. Nxd4 exd4
+2019.12.01	1-0	1241	1232	Center Game #2	1. e4 e5 2. d4 f6 3. c3 c6 4. Nf3 d5
+2019.12.01	1-0	1466	1559	Hungarian Opening	1. g3 d5 2. Bg2 Nf6 3. e3 c6 4. Ne2 e5
+2019.12.01	0-1	1597	1562	King's Indian Defense: Larsen Variation	1. e4 g6 2. Nf3 Bg7 3. d4 Nf6 4. c4 O-O
+2019.12.01	0-1	1850	1776	Hungarian Opening	1. g3 e6 2. Bg2 Nf6 3. e3 d5 4. Ne2 Bc5
+2019.12.01	1-0	1955	1950	Queen's Pawn	1. d4 c6 2. Bf4 d5 3. e3 Nf6 4. a3 g6
+2019.12.01	0-1	1637	1674	Bishop's Opening	1. e4 e5 2. Bc4 d6 3. Qf3 Nf6 4. d3 Be7
+2019.12.01	0-1	1613	1612	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Bg5 h6
+2019.12.01	0-1	1542	1568	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 Nc6 3. exd5 Qxd5 4. Nc3 Qd6
+2019.12.01	0-1	1749	2035	King's Gambit Accepted, Cunningham Defense	1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. h4 Nc6
+2019.12.01	1-0	2064	2099	Queen's Gambit Refused: Albin Countergambit	1. d4 d5 2. c4 e5 3. e3 e4 4. cxd5 Qxd5
+2019.12.01	1-0	1357	1321	French Defense: Advance Variation #4	1. e4 e6 2. d4 d5 3. e5 c5 4. c4 f6
+2019.12.01	1/2-1/2	1293	1309	Bishop's Opening	1. e4 e5 2. Bc4 Qf6 3. Qh5 g6 4. Qf3 d6
+2019.12.01	1-0	1680	1724	King's Gambit	1. e4 e5 2. f4 d6 3. Nf3 Nc6 4. Bb5 Nf6
+2019.12.01	0-1	1669	1647	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. f4 d6 4. Qf3 Be7
+2019.12.01	0-1	2133	2269	Dutch Defense: Staunton Gambit	1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5 g6
+2019.12.01	1-0	1741	1735	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 Nc6 4. dxe5 dxe5
+2019.12.01	0-1	1512	1497	Scandinavian Defense: Boehnke Gambit	1. e4 d5 2. exd5 e6 3. dxe6 Bxe6 4. Nc3 Bb4
+2019.12.01	0-1	1867	1857	Nimzo-Indian Defense: Three Knights Variation, Duchamp Variation	1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6
+2019.12.01	1-0	2042	2057	Nimzo-Indian Defense #2	1. d4 Nf6 2. c4 e6 3. Nc3 b6 4. e4 d6
+2019.12.01	0-1	1798	1827	English Opening: Anglo-Indian Defense	1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. Nf3 c5
+2019.12.01	0-1	1728	1732	Sicilian Defense: Wing Gambit	1. e4 c5 2. b4 cxb4 3. Bc4 e6 4. Qf3 Nf6
+2019.12.01	1-0	2148	2110	Sicilian Defense: Accelerated Dragon, Modern Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6
+2019.12.01	0-1	1952	1914	Italian Game: Giuoco Pianissimo, Italian Four Knights Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6
+2019.12.01	0-1	2039	1911	Ruy Lopez: Berlin Defense, Improved Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O d6
+2019.12.01	1-0	1320	1360	French Defense: Normal Variation	1. e4 e6 2. d4 b6 3. Nf3 Bb7 4. Nc3 g6
+2019.12.01	0-1	1722	1715	Queen's Pawn Game: London System	1. d4 d5 2. Nf3 Nf6 3. Bf4 Nc6 4. e3 a6
+2019.12.01	1-0	1227	1219	Mikenas Defense	1. d4 Nc6 2. c4 e5 3. Nf3 Bb4+ 4. Nc3 Qe7
+2019.12.01	1-0	1695	1547	Nimzo-Larsen Attack: Modern Variation #3	1. b3 Nc6 2. Bb2 e5 3. Nf3 d6 4. e3 Bg4
+2019.12.01	0-1	1034	1367	Russian Game: Cozio (Lasker) Attack	1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4
+2019.12.01	1-0	1893	1889	Horwitz Defense	1. d4 e6 2. c4 g6 3. b3 Bg7 4. Bb2 Nf6
+2019.12.01	0-1	1500	1471	Queen's Pawn	1. d4 h5 2. Nf3 d6 3. e3 e6 4. c4 h4
+2019.12.01	1-0	1420	1448	Sicilian Defense: Smith-Morra Gambit #2	1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 g6
+2019.12.01	1-0	1771	1767	Torre Attack	1. Nf3 Nf6 2. d4 g6 3. Bg5 Bg7 4. Nc3 O-O
+2019.12.01	0-1	1305	1314	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bc5 4. g3 d6
+2019.12.01	1-0	1548	1597	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 Nc6 3. Nf3 d6 4. h3 Nf6
+2019.12.01	0-1	1790	1791	Modern Defense	1. d4 g6 2. Nf3 Bg7 3. g3 e6 4. Bg2 Ne7
+2019.12.01	1-0	1210	1152	Vienna Game: Stanley Variation, Three Knights Variation	1. e4 e5 2. Bc4 Nf6 3. Nc3 Nc6 4. Nce2 Nxe4
+2019.12.01	0-1	1619	1500	Scandinavian Defense	1. e4 d5 2. d3 dxe4 3. dxe4 Qxd1+ 4. Kxd1 Nf6
+2019.12.01	1-0	1500	1365	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. d3 c5 4. Bd2 Bxb2
+2019.12.01	1-0	2200	1894	Pirc Defense: Austrian Attack	1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4 Bg7
+2019.12.01	1-0	2085	2142	Sicilian Defense: Smith-Morra Gambit	1. e4 c5 2. d4 cxd4 3. c3 dxc3 4. Nxc3 a6
+2019.12.01	0-1	1997	1648	Blackmar-Diemer Gambit: Gedult Gambit	1. e4 d5 2. d4 dxe4 3. f3 e6 4. fxe4 Qh4+
+2019.12.01	1-0	1759	1663	Sicilian Defense: Open	1. e4 c5 2. Nf3 Nc6 3. d4 Nxd4 4. Nxd4 cxd4
+2019.12.01	1-0	1522	1621	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. c3 h6
+2019.12.01	1-0	2190	2095	Scotch Game: Scotch Gambit, Göring Gambit Declined	1. e4 e5 2. d4 exd4 3. Nf3 Nc6 4. c3 d5
+2019.12.01	0-1	1088	1506	Queen's Gambit Declined	1. d4 e6 2. c4 d5 3. g3 dxc4 4. Bg2 Nf6
+2019.12.01	1/2-1/2	1463	1890	Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line	1. e4 e5 2. Nf3 Nf6 3. Bc4 Nc6 4. Ng5 d5
+2019.12.01	0-1	1831	2008	English Opening: Anglo-Scandinavian Defense	1. c4 d5 2. cxd5 c6 3. dxc6 Nxc6 4. Nc3 Nf6
+2019.12.01	0-1	1162	1384	Nimzowitsch Defense: Kennedy Variation	1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qd5 Qe7
+2019.12.01	0-1	1334	1334	Sicilian Defense: Open	1. e4 c5 2. Nf3 Nc6 3. d4 Nf6 4. dxc5 e6
+2019.12.01	0-1	2407	2450	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5
+2019.12.01	1-0	1991	1983	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 d6 3. g3 Be6 4. Bg2 a6
+2019.12.01	1-0	1500	1537	King's Pawn Game	1. e4 e5
+2019.12.01	1-0	2174	2203	English Opening: Anglo-Indian Defense, King's Indian Formation	1. Nf3 Nf6 2. c4 g6 3. b3 Bg7 4. Bb2 d6
+2019.12.01	1-0	2057	2147	Nimzo-Larsen Attack	1. b3 a5 2. Bb2 a4 3. bxa4 Nf6 4. d4 g6
+2019.12.01	1-0	1940	1954	Caro-Kann Defense	1. e4 c6 2. Nc3 d5 3. b3 d4 4. Nce2 c5
+2019.12.01	0-1	1808	1763	King's Gambit Accepted, MacLeod Defense	1. e4 Nc6 2. f4 e5 3. Nf3 exf4 4. d4 d6
+2019.12.01	1-0	1717	1605	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. d3 d6 4. Be2 Nf6
+2019.12.01	0-1	2031	2037	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe6+ 4. Qe2 Qg6
+2019.12.01	1-0	2151	2197	Queen's Pawn Game: Colle System	1. d4 Nf6 2. Nf3 d5 3. e3 g6 4. b3 Bg7
+2019.12.01	0-1	1478	1547	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 d6 4. Be3 Nf6
+2019.12.01	0-1	1445	1475	Scandinavian Defense	1. e4 d5 2. e5 Bf5 3. Bd3 Bxd3 4. cxd3 e6
+2019.12.01	0-1	1561	1599	Sicilian Defense #2	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	0-1	1495	1409	Bishop's Opening	1. e4 e5 2. Bc4 Nc6 3. Qh5 g6 4. Qf3 Nf6
+2019.12.01	1-0	1865	1869	English Opening: King's English Variation, Reversed Sicilian	1. c4 e5 2. Nc3 c6 3. d4 exd4 4. Qxd4 d5
+2019.12.01	1-0	1947	2004	Caro-Kann Defense	1. e4 c6 2. e5 d5 3. f4 c5 4. Nf3 Nc6
+2019.12.01	0-1	1339	1368	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. b3 g6
+2019.12.01	0-1	1406	1407	Sicilian Defense: Dragon Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1296	1305	Van Geet Opening	1. Nc3 Nf6 2. e4 g6 3. Bc4 Bg7 4. Nf3 d6
+2019.12.01	0-1	1805	2065	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Qe2 Bf5 4. Qb5+ Qxb5
+2019.12.01	0-1	1802	1819	Caro-Kann Defense: Hillbilly Attack	1. e4 c6 2. Bc4 d5 3. exd5 cxd5 4. Bb5+ Bd7
+2019.12.01	0-1	1961	1992	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. d4 c6 3. e4 Qb6 4. Bd3 g6
+2019.12.01	1-0	1537	1253	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 Bg4
+2019.12.01	0-1	1990	1981	Queen's Pawn Game	1. d4 d5 2. c3 e6 3. Nf3 Nf6 4. Nbd2 c5
+2019.12.01	0-1	2391	2364	Benoni Defense: Taimanov Variation	1. d4 Nf6 2. c4 e6 3. Nc3 c5 4. d5 exd5
+2019.12.01	0-1	892	995	French Defense: Knight Variation	1. e4 e6 2. Nf3 c6 3. Nc3 d5 4. exd5 cxd5
+2019.12.01	0-1	1388	1318	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. Be2 c5
+2019.12.01	1-0	1988	1965	Sicilian Defense: Lasker-Pelikan Variation, Exchange Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1193	1263	Alekhine Defense	1. e4 Nf6 2. Nc3 Nc6 3. d4 Nxd4 4. Nf3 Nxf3+
+2019.12.01	1-0	1661	1718	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6
+2019.12.01	0-1	1921	1902	Sicilian Defense: Kan Variation, Wing Attack	1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. d4 cxd4
+2019.12.01	0-1	2403	2463	Old Indian Defense: Tartakower-Indian	1. d4 Nf6 2. Nf3 d6 3. c4 Bg4 4. Qb3 Bxf3
+2019.12.01	0-1	1764	1786	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 e5 4. Nf3 exd4
+2019.12.01	1/2-1/2	2242	2163	Italian Game: Two Knights Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Nxe4
+2019.12.01	1-0	1443	1463	Ware Opening	1. a4 e5 2. b3 g6 3. Ba3 Bg7 4. c3 Nf6
+2019.12.01	0-1	1815	1800	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 e6 4. Nc3 Bd7
+2019.12.01	0-1	2300	2286	Sicilian Defense: Najdorf, Lipnitsky Attack	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	0-1	2013	1996	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nf6
+2019.12.01	0-1	1250	1248	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. Bc4 Nc6 4. Bb5 a6
+2019.12.01	1/2-1/2	1571	1661	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Be2 Bg4 4. O-O Bxf3
+2019.12.01	1-0	1457	1522	Sicilian Defense: Franco-Sicilian Variation	1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. d5 exd5
+2019.12.01	0-1	1866	1883	Indian Game: Spielmann-Indian	1. d4 Nf6 2. Nf3 c5 3. Bg5 g6 4. dxc5 Bg7
+2019.12.01	1-0	1391	1342	Italian Game: Hungarian Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. c3 Nf6
+2019.12.01	0-1	1904	1928	Sicilian Defense: Accelerated Dragon	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6
+2019.12.01	1-0	1730	1762	Queen's Pawn Game: Stonewall Attack	1. d4 d5 2. e3 Nf6 3. Bd3 Ne4 4. f4 f5
+2019.12.01	1-0	1780	1827	Grob Opening: Grob Gambit	1. g4 d5 2. Bg2 Nf6 3. c4 c6 4. g5 Nfd7
+2019.12.01	1-0	2128	1989	Englund Gambit Declined, Reversed Alekhine	1. d4 e5 2. Nf3 f6 3. dxe5 fxe5 4. e4 c6
+2019.12.01	1-0	2174	2164	Scandinavian Defense	1. e4 d5 2. e5 c5 3. d4 cxd4 4. Qxd4 Nc6
+2019.12.01	1-0	1931	1973	Réti Opening #2	1. Nf3 Nf6 2. Nc3 d5 3. d4 Nc6 4. Bg5 e6
+2019.12.01	1-0	2399	2265	Zukertort Opening: Kingside Fianchetto	1. Nf3 g6 2. d3 Bg7 3. g3 d5 4. Bg2 c6
+2019.12.01	1-0	1835	1779	Bird Opening	1. f4 Nf6 2. Nf3 d5 3. e3 Nc6 4. b3 Bf5
+2019.12.01	1-0	1547	1611	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d3 Bf5
+2019.12.01	1-0	1257	1353	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nf6 3. Nf3 Nc6 4. Be3 Bc5
+2019.12.01	1-0	2438	2286	Slav Defense: Alekhine Variation	1. d4 c6 2. Nf3 d5 3. c4 Nf6 4. Nc3 dxc4
+2019.12.01	0-1	1201	1237	Hungarian Opening	1. g3 e5 2. f4 Nf6 3. fxe5 Ng4 4. Bh3 Nxe5
+2019.12.01	1-0	1594	1536	Duras Gambit	1. e4 f5 2. exf5 Nf6 3. Nc3 d6 4. d4 Bxf5
+2019.12.01	1-0	1421	1384	King's Indian Attack: Omega-Delta Gambit	1. g3 d5 2. Nf3 e5 3. Nxe5 Nf6 4. Bg2 Bg4
+2019.12.01	1-0	1937	1953	Scandinavian Defense: Modern Variation, Gipslis Variation	1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. Nf3 Bg4
+2019.12.01	0-1	1933	1919	Old Benoni Defense	1. d4 c5 2. e3 cxd4 3. exd4 d5 4. Be3 e6
+2019.12.01	1-0	1599	1771	Van't Kruijs Opening	1. e3 c5 2. g3 Nc6 3. Bg2 d6 4. Ne2 g6
+2019.12.01	1-0	1453	1456	Englund Gambit	1. d4 e5 2. dxe5 Be7 3. Nf3 d6 4. exd6 Bxd6
+2019.12.01	0-1	1459	1473	Van Geet Opening	1. Nc3 c6 2. b3 d5 3. Bb2 e5 4. e3 f6
+2019.12.01	1-0	1803	1880	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Nc3 d6 4. Bc4 Ne7
+2019.12.01	1-0	1957	1964	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Bc4 Nf6
+2019.12.01	1-0	1865	1837	Colle System	1. e3 d5 2. d4 e6 3. Nf3 Nf6 4. c4 Be7
+2019.12.01	1-0	1699	1793	Modern Defense	1. d4 g6 2. c4 Bg7 3. e4 c6 4. Nf3 d6
+2019.12.01	0-1	1793	1931	Sicilian Defense: Open #3	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 d6
+2019.12.01	1-0	1742	1833	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 d6
+2019.12.01	1-0	1712	1724	Nimzowitsch Defense: Scandinavian Variation, Advance Variation	1. e4 d5 2. e5 Nc6 3. d4 Bf5 4. Nf3 e6
+2019.12.01	1-0	2080	2318	French Defense: Advance Variation, Lputian Variation	1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2019.12.01	1-0	1465	1483	Sicilian Defense: Najdorf Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	0-1	1500	1562	Modern Defense	1. e4 g6 2. Nc3 Bg7 3. Nf3 e6 4. d4 Ne7
+2019.12.01	1/2-1/2	1582	1640	Queen's Pawn	1. d4 c6 2. Bf4 d6 3. Nf3 Bg4 4. e3 Qc7
+2019.12.01	1-0	1329	1268	Alekhine Defense: Modern Variation, Main Line	1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4
+2019.12.01	1-0	1873	1870	Queen's Pawn Game: Anti-Torre	1. d4 d5 2. Nf3 Bg4 3. c4 Bxf3 4. exf3 Nf6
+2019.12.01	1-0	1610	1848	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. c5 Nc6 4. e3 e6
+2019.12.01	1-0	1772	1740	Semi-Slav Defense: Anti-Moscow Gambit	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 e6
+2019.12.01	1-0	1398	1350	Queen's Pawn Game	1. d4 d5 2. c3 Nc6 3. e3 Nf6 4. h4 Bg4
+2019.12.01	1-0	2088	2080	Polish Opening: King's Indian Variation, Schiffler Attack	1. b4 Nf6 2. Bb2 g6 3. e4 d6 4. Nf3 Bg4
+2019.12.01	1-0	1519	1543	Blumenfeld Countergambit #2	1. d4 Nf6 2. Nf3 e6 3. c4 c5 4. e3 Nc6
+2019.12.01	0-1	1869	1847	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nf6 3. e3 Bf5 4. c3 e6
+2019.12.01	1-0	1604	1515	Hungarian Opening: Slav Formation	1. g3 d5 2. Bg2 c6 3. b3 Nd7 4. Bb2 Ngf6
+2019.12.01	0-1	1765	1790	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Nf3 Nf6
+2019.12.01	1-0	1574	1541	Vienna Game	1. e4 e5 2. Nc3 c5 3. Nf3 d6 4. Bc4 Ne7
+2019.12.01	0-1	2066	2081	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack	1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2019.12.01	0-1	1957	2008	Four Knights Game	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d3 Bb4
+2019.12.01	0-1	1511	1502	Scandinavian Defense	1. e4 d5 2. exd5 e6 3. Nc3 exd5 4. d4 Bb4
+2019.12.01	1-0	1584	1552	Sicilian Defense: Hyperaccelerated Pterodactyl	1. e4 c5 2. Nf3 g6 3. d4 Bg7 4. Be3 cxd4
+2019.12.01	1-0	1604	1600	Slav Defense: Three Knights Variation	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 Bf5
+2019.12.01	0-1	1352	1165	St. George Defense	1. e4 a6 2. Nf3 b5 3. d4 Bb7 4. c3 Bxe4
+2019.12.01	0-1	1517	1518	Horwitz Defense	1. d4 e6 2. Bf4 c5 3. e3 b6 4. c3 Nc6
+2019.12.01	0-1	1650	1801	Hungarian Opening: Catalan Formation	1. g3 e6 2. Bg2 d5 3. Nf3 Nf6 4. O-O g6
+2019.12.01	1-0	1889	1875	Slav Defense: Modern Line	1. d4 c6 2. c4 d5 3. Nf3 Bf5 4. e3 e6
+2019.12.01	0-1	1500	1386	East Indian Defense	1. d4 Nf6 2. Nf3 g6 3. Be3 Bg7 4. c3 O-O
+2019.12.01	0-1	1856	1853	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. f4 Bc5 4. fxe5 Nxe5
+2019.12.01	1-0	2032	1927	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 e6 3. c4 g6 4. e3 Bg7
+2019.12.01	1-0	985	883	Van't Kruijs Opening	1. e3 e5 2. e4 Nc6 3. d3 d6 4. Be3 Nf6
+2019.12.01	1-0	1388	1377	Indian Game: East Indian Defense	1. d4 Nf6 2. c4 e6 3. a3 d5 4. Nc3 dxc4
+2019.12.01	0-1	1567	1496	Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense	1. e4 c6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2019.12.01	1-0	1653	1620	English Defense #2	1. d4 b6 2. e4 Bb7 3. d5 e6 4. c4 exd5
+2019.12.01	0-1	1812	1747	Italian Game: Schilling-Kostic Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4 4. Nxd4 exd4
+2019.12.01	1-0	1893	1907	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. c4 e5 4. Be2 e4
+2019.12.01	1-0	1463	1389	Italian Game: Giuoco Pianissimo, Canal Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6
+2019.12.01	0-1	1889	1948	Van't Kruijs Opening	1. e3 c5 2. d4 cxd4 3. Qxd4 d5 4. Nc3 Nf6
+2019.12.01	0-1	1745	1782	Caro-Kann Defense: Advance Variation, Short Variation	1. e4 c6 2. Nf3 d5 3. e5 Bf5 4. d4 e6
+2019.12.01	1-0	2148	2167	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 e6
+2019.12.01	1-0	1985	2019	Modern Defense: Averbakh Variation	1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 Nd7
+2019.12.01	1-0	1511	1534	Indian Game	1. d4 Nf6 2. e3 Nc6 3. c4 d5 4. cxd5 Qxd5
+2019.12.01	1-0	1315	1325	Horwitz Defense	1. d4 e6 2. f4 Nc6 3. Nf3 f6 4. e3 Bb4+
+2019.12.01	1-0	2159	2021	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 c6 3. Ng5 h6 4. Nf3 Bg4
+2019.12.01	0-1	1589	1694	Queen's Pawn Game: Levitsky Attack	1. d4 d5 2. Bg5 c5 3. e3 Nc6 4. Bb5 Bd7
+2019.12.01	0-1	1751	1712	Italian Game: Schilling-Kostic Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4 4. Nxe5 Qg5
+2019.12.01	1/2-1/2	1216	1204	Caro-Kann Defense: Exchange Variation	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nf3 e6
+2019.12.01	1-0	1582	1557	Sicilian Defense: Marshall Counterattack	1. e4 c5 2. Nf3 e6 3. d4 d5 4. Nc3 h6
+2019.12.01	0-1	1928	1969	Queen's Pawn Game: Levitsky Attack	1. d4 d5 2. Bg5 Bf5 3. e3 Qd6 4. c3 Nd7
+2019.12.01	0-1	1508	1550	Scandinavian Defense: Blackburne-Kloosterboer Gambit	1. e4 d5 2. exd5 c6 3. Nf3 Nf6 4. Nc3 e6
+2019.12.01	1-0	1822	1657	Vienna Game: Stanley Variation, Three Knights Variation	1. e4 e5 2. Bc4 Nc6 3. Nc3 Nf6 4. a3 Bc5
+2019.12.01	0-1	2039	2032	Modern Defense: Standard Defense	1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Be3 Nc6
+2019.12.01	0-1	1396	1510	Caro-Kann Defense: Exchange Variation	1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Be3 Nf6
+2019.12.01	0-1	2177	2144	Queen's Gambit Declined: Orthodox Defense	1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Nbd7
+2019.12.01	1-0	1673	1677	Nimzo-Indian Defense: Three Knights Variation	1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 Ne4
+2019.12.01	1-0	1785	1831	Queen's Pawn	1. d4
+2019.12.01	0-1	1677	1691	Scotch Game: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+2019.12.01	0-1	1946	1987	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. h3 f5 4. exf5 Bxf5
+2019.12.01	1-0	1602	1631	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. f4 Bf5 4. Nf3 e6
+2019.12.01	0-1	1932	1937	Scotch Game: Benima Defense	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Be7
+2019.12.01	0-1	1930	1860	Sicilian Defense: Closed Variation, Traditional	1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. d3 Bg7
+2019.12.01	0-1	1501	1429	Van't Kruijs Opening	1. e3 d5 2. g3 Nf6 3. Bg2 Bg4 4. Ne2 Nc6
+2019.12.01	1-0	1933	1914	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. Nf3 Nxd5 4. d4 Nc6
+2019.12.01	0-1	1548	1521	King's Knight Opening	1. e4 e5 2. Nf3 Bd6 3. Bc4 Nf6 4. Nc3 O-O
+2019.12.01	0-1	1989	1892	Carr Defense	1. e4 h6 2. d4 d6 3. f4 c6 4. c3 e6
+2019.12.01	0-1	1419	1501	Nimzo-Indian Defense	1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e4 c5
+2019.12.01	1-0	2258	2286	English Opening	1. c4 g5 2. Nc3 Bg7 3. g3 c5 4. Bg2 Nc6
+2019.12.01	0-1	1630	1557	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. Be2 Nf6
+2019.12.01	1-0	1374	1395	Nimzowitsch Defense: Kennedy Variation, Paulsen Attack	1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Nf3 Nxf3+
+2019.12.01	1/2-1/2	1297	1212	French Defense: King's Indian Attack	1. e4 e6 2. d3 Be7 3. Nf3 d6 4. Nc3 Nf6
+2019.12.01	0-1	997	1122	Queen's Pawn Game #2	1. e3 d5 2. d4 Nc6 3. c4 Nf6 4. cxd5 Nxd5
+2019.12.01	0-1	1332	1355	Scandinavian Defense	1. e4 d5 2. Nc3 d4 3. Nce2 e5 4. f3 Nc6
+2019.12.01	1-0	1953	1894	Nimzo-Larsen Attack: Indian Variation	1. b3 Nf6 2. Bb2 b6 3. e3 Bb7 4. d4 e6
+2019.12.01	1/2-1/2	1866	1826	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 Nc6 3. d3 e5 4. Nd2 d4
+2019.12.01	1-0	2622	2415	Torre Attack #2	1. d4 Nf6 2. Nf3 e6 3. Nbd2 d5 4. Ne5 c5
+2019.12.01	1-0	1796	1672	Modern Defense	1. d4 g6 2. h3 Bg7 3. Nc3 e5 4. dxe5 Bxe5
+2019.12.01	1-0	1628	1631	Van't Kruijs Opening	1. e3 b6 2. b3 Bb7 3. Bb2 f6 4. Nc3 e5
+2019.12.01	0-1	1736	1718	Vienna Game: Stanley Variation	1. e4 e5 2. Bc4 Nf6 3. Nc3 c6 4. Nf3 d6
+2019.12.01	1-0	1862	1852	Sicilian Defense: Closed Variation, Traditional	1. e4 c5 2. Nc3 Nc6 3. b3 e5 4. Bb2 Nf6
+2019.12.01	0-1	1459	1392	Horwitz Defense	1. d4 e6 2. c4 Qf6 3. Nf3 c5 4. dxc5 Bxc5
+2019.12.01	0-1	1483	1445	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O Nf6
+2019.12.01	0-1	1988	1940	Sicilian Defense: French Variation	1. e4 c5 2. Nf3 e6 3. Bc4 a6 4. d3 b5
+2019.12.01	1-0	1436	1452	Sicilian Defense: Paulsen Variation, Normal Variation	1. e4 e6 2. Nc3 c5 3. Nf3 Nc6 4. d4 cxd4
+2019.12.01	1-0	1166	1200	French Defense	1. e4 e6 2. d4 d5 3. Qf3 f6 4. Nc3 g6
+2019.12.01	1-0	1073	991	Nimzowitsch Defense	1. e4 Nc6 2. Bd3 e5 3. Nf3 Nf6 4. O-O d5
+2019.12.01	0-1	2006	1936	French Defense: Exchange Variation, Monte Carlo Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Nf6
+2019.12.01	1-0	1095	1081	Ruy Lopez: Morphy Defense, Anderssen Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 a6
+2019.12.01	0-1	1337	1381	French Defense: Advance Variation #4	1. e4 e6 2. d4 d5 3. e5 c5 4. Bb5+ Bd7
+2019.12.01	0-1	904	857	Englund Gambit	1. d4 e5 2. dxe5 Nc6 3. c4 Nxe5 4. f4 Nxc4
+2019.12.01	0-1	2057	2068	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. d3 g6
+2019.12.01	0-1	1713	1758	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nc3 e6 3. Nf3 Bb4 4. Bg5 f6
+2019.12.01	0-1	1666	1583	English Opening: King's English Variation	1. c4 e5 2. g3 Nc6 3. Bg2 d6 4. Nc3 Bd7
+2019.12.01	1-0	1312	1304	King's Pawn Game: Damiano Defense	1. e4 e5 2. Nf3 f6 3. d4 Ne7 4. dxe5 fxe5
+2019.12.01	1-0	1269	1208	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bg5 Nbd7
+2019.12.01	0-1	1057	1126	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 d5 4. Bd3 d4
+2019.12.01	1-0	1893	1978	French Defense: Two Knights Variation	1. e4 e6 2. Nf3 d5 3. Nc3 Nf6 4. e5 Nfd7
+2019.12.01	0-1	1493	1380	French Defense #2	1. e4 e6 2. Ne2 Nc6 3. d4 g6 4. Nbc3 Nf6
+2019.12.01	1-0	1599	1538	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6
+2019.12.01	1-0	2228	2154	Saragossa Opening	1. c3 g6 2. d3 c6 3. Nd2 Bg7 4. Qc2 Nf6
+2019.12.01	1-0	1860	1863	Old Indian Defense	1. d4 d6 2. c4 Nd7 3. e3 c6 4. Nf3 e5
+2019.12.01	0-1	1328	1296	King's Indian Defense: Normal Variation	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6
+2019.12.01	1-0	2279	2270	Ruy Lopez: Morphy Defense, Graz Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5
+2019.12.01	1-0	1712	1831	Russian Game: Urusov Gambit	1. e4 e5 2. Bc4 Nf6 3. Nf3 Be7 4. Ng5 O-O
+2019.12.01	0-1	1146	1142	Latvian Gambit Accepted	1. e4 e5 2. Nf3 f5 3. exf5 Nf6 4. Bc4 d5
+2019.12.01	0-1	1269	1298	Sicilian Defense: Canal-Sokolsky Attack	1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6
+2019.12.01	1/2-1/2	1526	1455	Van't Kruijs Opening	1. e3 e5 2. d3 d5 3. e4 dxe4 4. dxe4 Qxd1+
+2019.12.01	1-0	1762	1492	Semi-Slav Defense: Accelerated Move Order	1. d4 d5 2. c4 e6 3. Nc3 c6 4. cxd5 cxd5
+2019.12.01	0-1	2155	2000	Vienna Game	1. e4 e5 2. Nc3 f5 3. exf5 Nf6 4. d4 exd4
+2019.12.01	1-0	1659	1562	Horwitz Defense	1. d4 e6 2. Nf3 f6 3. e4 d5 4. exd5 Qxd5
+2019.12.01	0-1	1738	1815	Slav Defense	1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 Bf5
+2019.12.01	0-1	1197	1228	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d3 Nc6
+2019.12.01	1/2-1/2	936	707	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 f6 4. d4 d6
+2019.12.01	0-1	1731	1659	Benko Gambit	1. d4 Nf6 2. c4 c5 3. d5 b5 4. b3 g6
+2019.12.01	0-1	1654	1586	Indian Game: King's Indian Variation, Fianchetto Variation	1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 d6
+2019.12.01	1-0	962	1069	Sicilian Defense: Myers Attack	1. e4 c5 2. h4 h5 3. Bc4 Nf6 4. e5 Ng4
+2019.12.01	0-1	1236	1304	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. Nc3 Nxd5 4. Nxd5 Qxd5
+2019.12.01	1-0	2101	2078	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Bf5
+2019.12.01	1-0	2018	1941	Queen's Gambit Declined: Tarrasch Defense, Pseudo-Tarrasch	1. d4 e6 2. c4 d5 3. Nf3 c5 4. e3 cxd4
+2019.12.01	0-1	1932	2339	Sicilian Defense: Hyperaccelerated Pterodactyl	1. e4 g6 2. Nf3 Bg7 3. d4 c5 4. Be3 Qb6
+2019.12.01	0-1	1814	1732	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Nf3 Nf6
+2019.12.01	1-0	1639	1616	King's Pawn Game: Gunderam Gambit	1. e4 e5 2. Nf3 c6 3. d4 exd4 4. Nxd4 Nf6
+2019.12.01	0-1	1794	1729	Sicilian Defense: Closed Variation	1. e4 c5 2. Nc3 d6 3. Nf3 Bd7 4. a3 Nc6
+2019.12.01	0-1	1419	1209	Horwitz Defense	1. d4 e6 2. Nc3 g6 3. Nf3 Bg7 4. Bg5 f6
+2019.12.01	0-1	1727	1766	Dutch Defense	1. d4 f5 2. e3 Nf6 3. Nf3 e6 4. Bd3 Be7
+2019.12.01	0-1	1386	1395	Sicilian Defense: Bowdler Attack	1. e4 c5 2. Bc4 g6 3. Nf3 Bg7 4. Nc3 d6
+2019.12.01	0-1	1214	1177	Center Game: Berger Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Nf6
+2019.12.01	1-0	2379	2237	Indian Game: Wade-Tartakower Defense	1. d4 d6 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7
+2019.12.01	1-0	2349	2145	Colle System #2	1. d4 Nf6 2. Nf3 e6 3. e3 d5 4. Bd3 c5
+2019.12.01	0-1	1148	1172	English Opening: Symmetrical Variation	1. c4 c5 2. e3 d6 3. Nf3 Nc6 4. Na3 Nf6
+2019.12.01	0-1	2013	2018	English Opening: Symmetrical Variation, Anti-Benoni Variation	1. d4 Nf6 2. c4 c5 3. Nf3 g6 4. Nc3 cxd4
+2019.12.01	0-1	1786	1848	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. Nc3 Bf5 4. Bf4 c6
+2019.12.01	0-1	1436	1389	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 d6 3. Bg5 Nf6 4. Bxf6 Qxf6
+2019.12.01	1-0	1241	1218	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qe5+ 4. Be2 Be6
+2019.12.01	0-1	1350	1320	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bf4 e6
+2019.12.01	0-1	1616	1669	King's Pawn Game: Macleod Attack	1. e4 e5 2. c3 d6 3. d4 exd4 4. cxd4 Nf6
+2019.12.01	0-1	1967	1954	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Bc4 d6 4. O-O Bg4
+2019.12.01	1-0	1736	1755	English Opening: King's English Variation	1. c4 e5 2. e3 Nf6 3. Nc3 d5 4. cxd5 Nxd5
+2019.12.01	0-1	1811	1747	Sicilian Defense: Nimzowitsch Variation, Closed Variation	1. e4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bc4 e5
+2019.12.01	0-1	2045	2446	Hungarian Opening	1. g3 e5 2. Bg2 d5 3. d3 Nf6 4. Nf3 Be6
+2019.12.01	0-1	1158	1172	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 dxe4 3. Ng1 e6 4. f3 Nf6
+2019.12.01	0-1	931	1169	Four Knights Game: Italian Variation	1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bc4 Bc5
+2019.12.01	0-1	2436	2521	French Defense: MacCutcheon Variation, Janowski Variation	1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4
+2019.12.01	1-0	1390	1391	Modern Defense	1. e4 g6 2. Bc4 Bg7 3. Qf3 Nc6 4. Qxf7#
+2019.12.01	1-0	2040	2023	Queen's Pawn Game: Zukertort Variation	1. d4 d5 2. Nf3 b6 3. Bg5 g6 4. e3 f6
+2019.12.01	1-0	1719	1626	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. Nf3 Nf6 4. Be3 d6
+2019.12.01	0-1	1725	1737	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. e5 Ne7 4. d4 c5
+2019.12.01	0-1	1532	1526	Alekhine Defense: Krejcik Variation	1. e4 Nf6 2. Bc4 Nxe4 3. d4 Nf6 4. Qf3 g6
+2019.12.01	0-1	1497	1521	Bird Opening	1. f4 c5 2. e3 e6 3. Nf3 Nc6 4. Nc3 d5
+2019.12.01	0-1	2062	2116	King's Gambit Declined, Petrov's Defense	1. e4 e5 2. f4 Nf6 3. Nf3 Nxe4 4. fxe5 Nc6
+2019.12.01	1-0	1583	1575	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d4 Bxc3+
+2019.12.01	1-0	1161	1126	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. e5 d5 4. Bf4 Be6
+2019.12.01	1-0	1613	1407	Italian Game: Hungarian Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7 4. d4 d6
+2019.12.01	1-0	2281	2354	Ruy Lopez: Exchange Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6
+2019.12.01	0-1	1143	1198	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. e3 e6 4. Nc3 Nc6
+2019.12.01	1-0	1727	1680	Four Knights Game: Italian Variation	1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Bc4 Nf6
+2019.12.01	0-1	1459	1821	Ruy Lopez: Schliemann Defense, Exchange Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 f5 4. Bxc6 dxc6
+2019.12.01	1-0	1613	1595	Nimzo-Larsen Attack	1. b3 e6 2. Bb2 d5 3. c3 Nf6 4. d4 c5
+2019.12.01	0-1	1929	1876	Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation	1. e4 Nc6 2. d4 e5 3. d5 Nce7 4. c4 Ng6
+2019.12.01	1-0	1499	1399	French Defense: Normal Variation	1. e4 e6 2. d4 c6 3. c4 h6 4. Nf3 Qa5+
+2019.12.01	0-1	1549	1557	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. e3 Bd6 4. Bg3 Nf6
+2019.12.01	1-0	1777	1861	Queen's Pawn Game #3	1. d4 d5 2. e3 Nf6 3. c3 Bf5 4. f4 e6
+2019.12.01	0-1	1578	1608	English Opening: Anglo-Indian Defense, Hedgehog System	1. c4 e6 2. Nc3 Nf6 3. g3 d5 4. Bg2 c6
+2019.12.01	0-1	1542	1530	Alekhine Defense: Scandinavian Variation, Geschev Gambit	1. e4 d5 2. exd5 c6 3. Nc3 Nf6 4. dxc6 e6
+2019.12.01	1-0	1176	1126	Slav Defense #2	1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Bf4 Bf5
+2019.12.01	1-0	1623	1744	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. g3 d5 4. Bg2 dxe4
+2019.12.01	0-1	1327	1336	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. Bb2 e6 3. e3 Nc6 4. c4 dxc4
+2019.12.01	1/2-1/2	1390	1375	English Defense #2	1. d4 b6 2. c4 Bb7 3. Bg5 Nc6 4. Nf3 f6
+2019.12.01	0-1	1619	1622	Mieses Opening	1. d3 d5 2. Bd2 d4 3. f3 e5 4. g3 c5
+2019.12.01	1-0	1624	1581	Three Knights Opening #2	1. e4 e5 2. Nc3 Nc6 3. Nf3 Bb4 4. Be2 Nf6
+2019.12.01	0-1	1756	1985	Queen's Gambit Refused: Austrian Defense	1. d4 d5 2. c4 c5 3. cxd5 Qxd5 4. Nf3 cxd4
+2019.12.01	0-1	1712	1698	Queen's Gambit Accepted	1. d4 d5 2. c4 dxc4 3. Nc3 Nf6 4. e3 e5
+2019.12.01	1-0	1562	1418	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. c4 Bg4 4. f3 Bf5
+2019.12.01	0-1	1397	1369	King's Gambit Accepted, MacLeod Defense	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. d4 Nf6
+2019.12.01	1-0	1789	1817	Old Benoni Defense	1. d4 c5 2. e3 cxd4 3. exd4 d5 4. Nf3 Bf5
+2019.12.01	1-0	1776	1763	Queen's Gambit Declined: Queen's Knight Variation	1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. Bf4 Bxc3+
+2019.12.01	0-1	1303	1163	King's Indian Defense: Normal Variation, King's Knight Variation	1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. Nc3 O-O
+2019.12.01	1-0	1828	1720	Scandinavian Defense: Modern Variation #2	1. e4 d5 2. exd5 Nf6 3. Nf3 Nxd5 4. Bc4 Nb6
+2019.12.01	0-1	1749	1674	Pirc Defense #4	1. e4 d6 2. Bc4 g6 3. Qf3 e6 4. Qb3 Nf6
+2019.12.01	0-1	2602	2606	Scandinavian Defense	1. e4 d5 2. Nc3 dxe4 3. b3 f5 4. f3 exf3
+2019.12.01	0-1	1620	1712	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Bf5
+2019.12.01	1-0	1637	1660	Italian Game: Giuoco Pianissimo, Italian Four Knights Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6
+2019.12.01	1-0	1517	1535	Ruy Lopez: Steinitz Defense	1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6
+2019.12.01	1-0	1616	1586	Caro-Kann Defense	1. d4 c6 2. e4 d6 3. Nc3 Qc7 4. Nf3 Bg4
+2019.12.01	1-0	1233	1226	Van't Kruijs Opening	1. e3 e5 2. g3 e4 3. c3 d5 4. b4 a6
+2019.12.01	0-1	1736	1748	Grünfeld Defense: Exchange Variation	1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5
+2019.12.01	0-1	1863	1959	Nimzo-Indian Defense: Ragozin Variation	1. d4 e6 2. Nf3 d5 3. c4 Nf6 4. Nc3 Bb4
+2019.12.01	0-1	1219	1202	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 Nf6 3. Bc4 Bc5 4. Qb3 O-O
+2019.12.01	0-1	1903	1920	French Defense: Exchange Variation, Monte Carlo Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 Nf6
+2019.12.01	0-1	1760	1792	King's Gambit Accepted, Becker Defense	1. e4 e5 2. f4 exf4 3. Nf3 h6 4. Bc4 d6
+2019.12.01	1-0	1438	1468	Queen's Gambit Accepted: Old Variation	1. d4 d5 2. c4 dxc4 3. e3 b5 4. a4 c6
+2019.12.01	1-0	2067	1996	Ruy Lopez: Classical Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. O-O a6
+2019.12.01	1-0	1845	1840	Queen's Pawn	1. d4 d6 2. f4 Nf6 3. Nf3 Bg4 4. e3 Nc6
+2019.12.01	1-0	1994	1997	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Bd6
+2019.12.01	0-1	1735	1757	Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation	1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6
+2019.12.01	0-1	1040	1018	King's Pawn Game: Damiano Defense	1. e4 e5 2. Nf3 f6 3. d4 Nc6
+2019.12.01	1-0	2301	2167	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. g3 g6 3. Bg2 Bg7 4. O-O Nf6
+2019.12.01	1-0	1370	1345	St. George Defense	1. e4 a6 2. Nf3 d6 3. Bc4 Nd7 4. Ng5 Nh6
+2019.12.01	1-0	1808	1828	Van Geet Opening: Grünfeld Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. Nf3 f5
+2019.12.01	0-1	1558	1572	Modern Defense	1. e4 g6 2. d4 e6 3. c4 c6 4. Nc3 a6
+2019.12.01	0-1	1583	1655	London System	1. d4 Nf6 2. Nf3 g6 3. Bf4 d5 4. e3 Bg7
+2019.12.01	0-1	2150	2145	Queen's Pawn	1. d4 d6 2. Nf3 c6 3. e4 Qc7 4. Bf4 e5
+2019.12.01	0-1	1443	1550	Bishop's Opening: Vienna Hybrid, Spielmann Attack	1. e4 e5 2. Nc3 Nf6 3. Bc4 Bc5 4. d3 d6
+2019.12.01	0-1	1900	1980	Slav Defense: Alekhine Variation	1. d4 c6 2. c4 d5 3. Nf3 Nf6 4. e3 dxc4
+2019.12.01	1-0	1639	1822	Sicilian Defense: Grand Prix Attack	1. e4 c5 2. Nc3 Nc6 3. f4 d6 4. Nf3 g6
+2019.12.01	1-0	1567	1590	King's Gambit Accepted, Blachly Gambit	1. e4 e5 2. f4 Nc6 3. Nf3 exf4 4. Bc4 g5
+2019.12.01	0-1	1417	1363	Scotch Game	1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+2019.12.01	1/2-1/2	1164	1039	Modern Defense: Bishop Attack	1. e4 g6 2. Bc4 Bg7 3. d4 d6 4. d5 e5
+2019.12.01	1-0	2203	2203	Pirc Defense	1. e4 d6 2. d4 Nf6 3. Bd3 Nbd7 4. Nf3 e5
+2019.12.01	0-1	1939	2150	Scandinavian Defense: Marshall Variation	1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. g3 g6
+2019.12.01	1-0	1508	1455	French Defense: Exchange Variation	1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6
+2019.12.01	1-0	2121	2106	Scandinavian Defense: Blackburne-Kloosterboer Gambit	1. e4 d5 2. exd5 c6 3. dxc6 Nf6 4. h3 Nxc6
+2019.12.01	1-0	1550	1523	English Opening: King's English Variation, Four Knights Variation, Fianchetto Line	1. c4 e5 2. Nc3 Nc6 3. g3 Nf6 4. Nf3 e4
+2019.12.01	0-1	1178	1314	Queen's Pawn Game	1. d4 d5 2. a3 Nc6 3. e3 e5 4. Nf3 Bd6
+2019.12.01	1-0	1694	1691	Scandinavian Defense: Gubinsky-Melts Defense	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. Nf3 Nf6
+2019.12.01	1-0	2179	2153	Zukertort Opening: Queenside Fianchetto Variation	1. Nf3 b6 2. c4 e6 3. e3 Bb7 4. Nc3 f5
+2019.12.01	1-0	1425	1285	Queen's Pawn Game	1. d4 d5 2. g3 Bf5 3. Bg2 Be6 4. Nf3 f6
+2019.12.01	0-1	1527	1472	Indian Game: Budapest Defense	1. d4 Nf6 2. c4 e5 3. d5 Bc5 4. Bg5 O-O
+2019.12.01	0-1	1280	1345	King's Pawn Game	1. e4 e5 2. g4 d6 3. c4 Be6 4. d3 Qd7
+2019.12.01	0-1	1317	1407	King's Gambit Accepted, Schallopp Defense	1. e4 e5 2. f4 exf4 3. Nf3 Nf6 4. e5 Nd5
+2019.12.01	1-0	1845	1418	Queen's Pawn Game: Chigorin Variation	1. d4 d5 2. Nf3 Nc6 3. c4 e6 4. Nc3 Nf6
+2019.12.01	1/2-1/2	2291	2176	Richter-Veresov Attack	1. d4 d5 2. Nc3 Nf6 3. Bg5 c5 4. e3 Nc6
+2019.12.01	0-1	1742	2046	Old Benoni Defense	1. d4 c5 2. c4 cxd4 3. Qxd4 Nc6 4. Qd1 Nf6
+2019.12.01	1-0	1892	1748	Latvian Gambit Accepted	1. e4 e5 2. Nf3 f5 3. exf5 d6 4. d3 Bxf5
+2019.12.01	0-1	2149	2167	Ruy Lopez: Exchange Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6
+2019.12.01	1-0	1488	1507	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Nc6 3. f4 exf4 4. Bxf4 Qh4+
+2019.12.01	1-0	1770	1786	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. d4 Nf6
+2019.12.01	1-0	1302	1287	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Nc6 3. e3 Nf6 4. Nc3 e6
+2019.12.01	1-0	2067	2014	Pirc Defense #4	1. e4 d6 2. Bc4 Nf6 3. Nc3 g6 4. d3 Bg7
+2019.12.01	1-0	1097	1127	Caro-Kann Defense	1. d4 d5 2. Nc3 c6 3. e4 f6 4. e5 fxe5
+2019.12.01	1-0	2183	2276	Caro-Kann Defense: Classical Variation, Lobron System	1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5
+2019.12.01	1-0	1518	1548	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. d3 Bg4
+2019.12.01	1-0	1860	1859	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Nf6
+2019.12.01	0-1	1997	1962	Queen's Gambit Refused: Marshall Defense	1. d4 Nf6 2. c4 d5 3. Nc3 c6 4. Bg5 Bf5
+2019.12.01	0-1	1279	1283	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. c3 Nf6 4. d4 exd4
+2019.12.01	1-0	1014	1002	Scandinavian Defense	1. e4 d5 2. f3 e6 3. Bb5+ Nc6 4. d3 Bd7
+2019.12.01	0-1	1683	1707	Queen's Gambit Declined: Three Knights Variation	1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Nf3 Nc6
+2019.12.01	1-0	2632	2569	Scandinavian Defense: Blackburne-Kloosterboer Gambit	1. e4 d5 2. exd5 c6 3. Nf3 cxd5 4. d4 Nc6
+2019.12.01	1-0	1963	1824	Indian Game: Anti-Nimzo-Indian	1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. g3 c5
+2019.12.01	0-1	1681	1673	Van't Kruijs Opening	1. e3 d6 2. h3 c6 3. Be2 Nd7 4. Bf1 Qc7
+2019.12.01	1-0	1726	1646	English Opening	1. c4 d6 2. Nc3 Bg4 3. g3 c6 4. Bg2 g6
+2019.12.01	1-0	1609	1523	Sicilian Defense #2	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 a6
+2019.12.01	1-0	2132	2244	Old Indian Defense	1. d4 d6 2. c4 Nf6 3. Nf3 g6 4. Nc3 Bg7
+2019.12.01	1-0	2025	1989	Queen's Gambit Declined: Semi-Tarrasch, 5.cxd5	1. Nf3 e6 2. d4 d5 3. c4 Nf6 4. Nc3 c5
+2019.12.01	0-1	1753	1739	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 Nc6 3. Nf3 g6 4. d4 cxd4
+2019.12.01	0-1	1171	1134	Hungarian Opening	1. g3 d5 2. d3 e5 3. c3 Nc6 4. e4 Nf6
+2019.12.01	1-0	1434	1419	Mieses Opening	1. d3 d5 2. c3 Nc6 3. e3 Nf6 4. f3 e6
+2019.12.01	0-1	1866	1930	Three Knights Opening	1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. d4 Bg4
+2019.12.01	1-0	1773	1763	Scandinavian Defense	1. e4 d5 2. Nc3 dxe4 3. Nxe4 Bf5 4. Ng3 Bg6
+2019.12.01	1/2-1/2	1615	1563	King's Indian Attack: Sicilian Variation	1. Nf3 c5 2. g3 d5 3. Bg2 e6 4. c4 Nf6
+2019.12.01	1/2-1/2	1060	1160	English Opening: King's English Variation	1. c4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Nf6
+2019.12.01	1-0	1358	1320	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 Bf5 3. Nf3 e6 4. e3 Nd7
+2019.12.01	0-1	1219	1302	Trompowsky Attack	1. d4 Nf6 2. Bg5 d6 3. Bxf6 exf6 4. e4 Nc6
+2019.12.01	0-1	1676	1649	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Nf6
+2019.12.01	1-0	2116	2098	Queen's Gambit Declined	1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 dxc4
+2019.12.01	1-0	1006	1033	Sicilian Defense: Jalalabad Variation	1. e4 e5 2. Nf3 c5 3. Nxe5 Qg5 4. Nf3 d5
+2019.12.01	1-0	1767	1755	Sicilian Defense: Loewenthal Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	1-0	1206	1186	Russian Game: Urusov Gambit	1. e4 e5 2. Nf3 Nf6 3. Bc4 d5 4. Bb3 dxe4
+2019.12.01	1-0	2028	2014	Caro-Kann Defense: Two Knights Attack	1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Bf5
+2019.12.01	0-1	2176	2537	Sicilian Defense: Smith-Morra Gambit Declined, Push Variation	1. e4 c5 2. d4 cxd4 3. c3 d3 4. Bxd3 Nc6
+2019.12.01	0-1	1149	1250	King's Pawn Game: Leonardis Variation	1. e4 e5 2. d3 Bc5 3. f3 Nf6 4. Nh3 d5
+2019.12.01	1-0	1567	1458	Sicilian Defense: Old Sicilian	1. e4 c5 2. Nf3 Nc6 3. c3 g6 4. d4 cxd4
+2019.12.01	1-0	1900	1837	Englund Gambit Declined, Reversed French	1. e3 e5 2. d4 exd4 3. exd4 Nf6 4. c4 Bb4+
+2019.12.01	0-1	1428	1432	Nimzo-Larsen Attack: Modern Variation #2	1. b3 e5 2. Bb2 d6 3. c3 Nf6 4. f3 Be7
+2019.12.01	1-0	1815	1843	Indian Game: Anti-Nimzo-Indian	1. d4 e6 2. c4 Nf6 3. Nf3 g6 4. Nc3 Bg7
+2019.12.01	0-1	1221	1248	French Defense: Knight Variation	1. e4 e6 2. Nf3 d5 3. exd5 exd5 4. c3 Nf6
+2019.12.01	1-0	1813	1836	Sicilian Defense	1. e4 c5 2. Nf3 d6 3. Bc4 Nf6 4. Nc3 e6
+2019.12.01	0-1	2634	2502	Sicilian Defense: Alapin Variation, Barmen Defense	1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 e6
+2019.12.01	0-1	1996	1973	Queen's Pawn Game	1. d4 d5 2. c3 a5 3. Nd2 e6 4. Ndf3 c5
+2019.12.01	1-0	1766	1818	Horwitz Defense	1. d4 e6 2. c4 c5 3. Nc3 cxd4 4. Bg5 Nc6
+2019.12.01	0-1	2112	2227	King's Indian Defense: Four Pawns Attack, Normal Attack	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6
+2019.12.01	1-0	1413	1303	Hungarian Opening	1. g3 e5 2. Bg2 d5 3. d3 f5 4. Nf3 e4
+2019.12.01	1-0	2397	2381	Four Knights Game: Spanish Variation	1. Nc3 e5 2. e4 Nf6 3. Nf3 Nc6 4. Bb5 d6
+2019.12.01	1-0	1636	1576	Queen's Pawn Game: Mason Attack	1. d4 d5 2. Bf4 e6 3. Nc3 Bd6 4. Qd2 f5
+2019.12.01	0-1	1574	1546	Zukertort Opening: Pirc Invitation	1. Nf3 d6 2. d4 g6 3. c3 Bg7 4. Bg5 Nf6
+2019.12.01	1-0	2248	2285	Van Geet Opening	1. Nc3 d5 2. e4 dxe4 3. Nxe4 Nf6 4. Nxf6+ gxf6
+2019.12.01	0-1	1998	1979	Modern Defense: Averbakh Variation	1. d4 g6 2. c4 Bg7 3. Nc3 d6 4. e4 c5
+2019.12.01	1-0	1302	1296	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d3 e6
+2019.12.01	0-1	905	1039	Sicilian Defense	1. e4 c5 2. d3 Nc6 3. Nf3 e5 4. Nc3 a6
+2019.12.01	0-1	1439	1404	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. h3 Nf6 4. Nc3 g6
+2019.12.01	1-0	1329	1226	Queen's Pawn Game: Veresov Attack, Alburt Defense	1. d4 d5 2. Nc3 Bf5 3. h3 Nc6 4. g4 Bg6
+2019.12.01	1-0	1927	1867	Scotch Game: Haxo Gambit	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d4 exd4
+2019.12.01	1-0	936	937	Borg Defense	1. e4 g5 2. d4 d6 3. Nf3 e5 4. Nxg5 Qxg5
+2019.12.01	0-1	1849	1807	Sicilian Defense: McDonnell Attack	1. e4 c5 2. f4 d6 3. Nf3 Nf6 4. e5 dxe5
+2019.12.01	0-1	1022	1143	Horwitz Defense	1. d4 e6 2. Nf3 Be7 3. g3 Nf6 4. Bg2 d5
+2019.12.01	1-0	1990	1958	Modern Defense: Standard Defense	1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Bd3 Nf6
+2019.12.01	0-1	1674	1785	Italian Game: Giuoco Pianissimo, Italian Four Knights Variation	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Nc3 Nf6
+2019.12.01	1-0	1537	1504	King's Pawn Game: McConnell Defense	1. e4 e5 2. Nf3 Qf6 3. Nc3 c6 4. b3 d6
+2019.12.01	0-1	1500	1477	Center Game: Normal Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Bc5
+2019.12.01	1-0	1350	1410	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. b3 Nf6
+2019.12.01	1-0	1472	1460	Sicilian Defense #2	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	1-0	2256	2204	King's Indian Attack: French Variation	1. g3 c5 2. Bg2 Nc6 3. Nf3 d5 4. O-O e5
+2019.12.01	1-0	1113	885	Caro-Kann Defense	1. e4 c6 2. Nf3 d5 3. e5 Bg4 4. d4 e6
+2019.12.01	1-0	1271	1221	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. e3 Nc6 4. Nf3 e6
+2019.12.01	1-0	1613	1676	King's Gambit Declined: Keene's Defense #2	1. e4 e5 2. f4 Qh4+ 3. g3 Qf6 4. Nc3 exf4
+2019.12.01	1/2-1/2	1533	1612	Zukertort Opening: Tennison Gambit	1. e4 d5 2. Nf3 dxe4 3. Ng5 f5 4. Bc4 Nc6
+2019.12.01	0-1	2087	2048	French Defense: Horwitz Attack	1. e4 e6 2. b3 d5 3. Nc3 Nf6 4. e5 Nfd7
+2019.12.01	0-1	1445	1447	Queen's Pawn Game	1. d4 d5 2. c3 Nf6 3. e3 e6 4. a3 c5
+2019.12.01	0-1	1302	1282	Petrov's Defense #2	1. e4 e5 2. Nf3 Nf6 3. Nxe5 Qe7 4. d4 d6
+2019.12.01	0-1	1169	1172	Giuoco Piano	1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Ng5 Nh6
+2019.12.01	1-0	1482	1433	Scandinavian Defense: Mieses-Kotroc Variation	1. e4 d5 2. exd5 Qxd5 3. Nf3 Nf6 4. Nc3 Qc6
+2019.12.01	1-0	2099	2153	Hungarian Opening: Indian Defense	1. g3 Nf6 2. Bg2 g6 3. c4 Bg7 4. Nc3 O-O
+2019.12.01	1/2-1/2	1221	1266	French Defense: Winawer Variation, Winckelmann-Riemer Gambit	1. d4 d5 2. Nc3 e6 3. e4 Bb4 4. a3 Bxc3+
+2019.12.01	1-0	1294	1268	Italian Game: Anti-Fried Liver Defense	1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O f5
+2019.12.01	1-0	1037	1131	King's Knight Opening: Normal Variation	1. e4 e5 2. Nf3 Nc6 3. d3 Nf6 4. Nc3 Bc5
+2019.12.01	1-0	2087	1980	Indian Game: Anti-Nimzo-Indian	1. d4 Nf6 2. c4 e6 3. Nf3 Be7 4. Nc3 O-O
+2019.12.01	1-0	1694	1762	Nimzo-Larsen Attack: Classical Variation	1. b3 d5 2. e3 c5 3. Bb2 Nc6 4. Bb5 Bd7
+2019.12.01	1-0	979	959	Center Game: Hall Variation	1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qc4 Ne5
+2019.12.01	0-1	1562	1555	Philidor Defense	1. e4 e5 2. Nf3 d6 3. d4 f6 4. Bc4 c6
+2019.12.01	0-1	1617	1685	Russian Game: Three Knights Game	1. e4 e5 2. Nc3 Nf6 3. Nf3 Bc5 4. Bc4 c6
+2019.12.01	1-0	1805	1834	English Opening: Anglo-Indian Defense	1. c4 Nf6 2. Qc2 Nc6 3. e3 e5 4. a3 d5
+2019.12.01	1-0	2619	2416	King's Indian Defense: Fianchetto Variation, Classical Fianchetto	1. d4 Nf6 2. Nf3 d6 3. g3 g6 4. Bg2 Bg7
+2019.12.01	1-0	1373	1375	Queen's Pawn Game	1. d4 d5 2. c3 f6 3. Be3 e5 4. dxe5 fxe5
+2019.12.01	1-0	1968	1956	Scandinavian Defense	1. e4 d5 2. Nc3 d4 3. Nce2 c5 4. Ng3 Nc6
+2019.12.01	1-0	1949	1856	Modern Defense: Pseudo-Austrian Attack	1. e4 g6 2. Nc3 Bg7 3. d4 d6 4. f4 e5
+2019.12.01	1-0	1196	1179	Ruy Lopez: Exchange Variation, Normal Variation	1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6
+2019.12.01	1-0	1323	1214	French Defense: Knight Variation	1. e4 e6 2. Nf3 Be7 3. d4 d6 4. c4 Nf6
+2019.12.01	1-0	1971	1995	Vienna Game: Max Lange Defense	1. e4 e5 2. Nc3 Nc6 3. d3 Bc5 4. Be3 Bxe3
+2019.12.01	1-0	1817	1845	Sicilian Defense: Open	1. e4 c5 2. Nf3 Nc6 3. d4 d6 4. d5 Ne5
+2019.12.01	1-0	1954	1954	Sicilian Defense: Kalashnikov Variation	1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5
+2019.12.01	0-1	1384	1397	Van't Kruijs Opening	1. e3 e5 2. Qf3 Nf6 3. Bc4 e4 4. Qg3 d5
+2019.12.01	1-0	1500	1530	Robatsch (Modern) Defense	1. e4 g6 2. d4 Bg7 3. Be3 d6 4. c4 e5
+2019.12.01	0-1	2109	2143	Polish Opening: Czech Defense	1. b4 e5 2. Bb2 d6 3. e4 g6 4. Nf3 Bg7
+2019.12.01	1-0	1958	1903	Owen Defense	1. e4 b6 2. d4 Bb7 3. Nc3 d6 4. f3 Nd7
+2019.12.01	1-0	1500	1365	Nimzo-Larsen Attack: English Variation	1. b3 c5 2. Bb2 g6
+2019.12.01	1-0	1624	1571	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6
+2019.12.01	1-0	1223	1167	King's Pawn Game: Busch-Gass Gambit	1. e4 e5 2. Nf3 Bc5 3. Nc3 Qe7 4. Bc4 Bb6
+2019.12.01	0-1	1677	1622	Zukertort Opening: Sicilian Invitation	1. Nf3 c5 2. b3 d5 3. Bb2 e6 4. e3 Nc6
+2019.12.01	1-0	2332	2073	King's Indian Defense: Makogonov Variation	1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6
+2019.12.01	1-0	1244	1144	Petrov's Defense	1. e4 e5 2. Nf3 Nf6 3. d3 d6 4. Bg5 Be7
+2019.12.01	0-1	2009	2028	Pirc Defense #4	1. e4 d6 2. Nf3 Nf6 3. Nc3 Nc6 4. d3 Bg4
+2019.12.01	0-1	1381	1385	Queen's Gambit Refused: Marshall Defense	1. d4 d5 2. c4 Nf6 3. c5 c6 4. f3 Nbd7
+2019.12.01	1-0	1950	1977	Bird Opening: Dutch Variation	1. f4 d5 2. Nf3 Bf5 3. e3 e6 4. b3 Bd6
+2019.12.01	0-1	1111	1091	King's Pawn Game: Napoleon Attack	1. e4 e5 2. Qf3 Nf6 3. g4 h6 4. Nh3 c6
+2019.12.01	1/2-1/2	1301	1317	Horwitz Defense	1. d4 e6 2. Nc3 Nf6 3. e3 Bb4 4. Bd2 O-O
+2019.12.01	1-0	1532	1498	King's Indian Attack: Keres Variation #2	1. Nf3 d5 2. g3 Bg4 3. Bg2 e6 4. O-O Bd6
+2019.12.01	0-1	1759	1789	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. g3 Nf6
+2019.12.01	1-0	1999	2048	Sicilian Defense: Lasker-Dunne Attack	1. e4 c5 2. g3 Nc6 3. Bg2 g6 4. Ne2 Bg7
+2019.12.01	1-0	1493	1468	Modern Defense	1. e4 g6 2. Nf3 Bg7 3. Bc4 d6 4. d4 Nf6
+2019.12.01	1-0	1840	1828	Sicilian Defense: Najdorf Variation, English Attack	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	1-0	1300	1070	Russian Game: Three Knights Game	1. e4 e5 2. Nf3 Nf6 3. Nc3 Bb4 4. d3 Bxc3+
+2019.12.01	1-0	2329	2408	Bird Opening	1. f4 c6 2. Nf3 d6 3. e3 Nd7 4. c3 g6
+2019.12.01	1-0	2296	2280	English Opening: Anglo-Dutch Defense	1. c4 f5 2. Nc3 Nf6 3. g3 d6 4. Bg2 g6
+2019.12.01	1-0	2188	1879	French Defense: Advance Variation, Euwe Variation	1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6
+2019.12.01	1-0	1770	1679	Zukertort Opening: Black Mustang Defense	1. Nf3 Nc6 2. b3 e5 3. Bb2 d6 4. e3 Nge7
+2019.12.01	1-0	1589	1556	Queen's Gambit Accepted: Old Variation	1. d4 d5 2. c4 dxc4 3. e3 Bf5 4. Bxc4 e6
+2019.12.01	0-1	2292	2470	Torre Attack #2	1. d4 Nf6 2. Nf3 e5 3. c4 exd4 4. Nc3 Bb4
+2019.12.01	0-1	1115	1263	Italian Game	1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. c3 f5
+2019.12.01	1-0	1844	1910	Sicilian Defense: Dragon Variation	1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6
+2019.12.01	0-1	1586	1575	Polish Opening	1. b4 b6 2. Bb2 Bb7 3. e3 c5 4. bxc5 bxc5
+2019.12.01	1-0	1324	1273	Philidor Defense #2	1. e4 e5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7
+2019.12.01	1-0	1472	1422	Danish Gambit Accepted, Classical Defense	1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2
+2019.12.01	0-1	1696	1723	Queen's Gambit Refused: Albin Countergambit, Normal Line	1. d4 d5 2. c4 e5 3. dxe5 d4 4. Nf3 Nc6
+2019.12.01	0-1	1365	1419	Indian Game: East Indian Defense	1. d4 Nf6 2. c4 e6 3. Bf4 c5 4. Nf3 cxd4
+2019.12.01	1-0	1649	1655	Scandinavian Defense: Main Line	1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. Bc4 Nf6
