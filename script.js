@@ -756,8 +756,8 @@ function analyze(val, chessColor, update_time=false) {
 /*
 TREEMAP (TEST)
 */
-width = 954
-height = 500
+width_treemap = 954
+height_treemap = 500
 color = d3.scaleOrdinal(d3.schemeCategory10)
 // treemap = data => d3.treemap()
 //     .tile(d3.treemapSquarify)
@@ -832,12 +832,12 @@ function makeTreemap() {
     root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
 
     d3.treemap()
-      .size([width, height])
+      .size([width_treemap, height_treemap])
       .padding(4)
       (root)
 
     const svg = d3.select("#openings-treemap-svg")
-        .attr("viewBox", [0, 0, width, height])
+        .attr("viewBox", [0, 0, width_treemap, height_treemap])
         .style("font", "18px sans-serif");
 
     // Clear treemap before building new one.
@@ -901,10 +901,16 @@ function makeTreemap() {
           //                      .attr("id", "openings-treemap-tooltip");
           boardTooltipDiv = d3.select("#openings-treemap-tooltip");
 
-          // tooltipSize = 0.7 * Math.min(d.y1-d.y0, d.x1-d.x0);
-          tooltipSize = 200;
-          boardTooltipDiv.style("width", tooltipSize+"px")
-                         .style("height", tooltipSize+"px")
+          // Position the tooltip
+          var bodyRect = document.body.getBoundingClientRect();
+          var elemRect = document.getElementById("openings-treemap-node-"+d.data.name).getBoundingClientRect();
+          var offsetTop = elemRect.top - bodyRect.top;
+          var offsetLeft = elemRect.left - bodyRect.left;
+
+          tooltipSize = 20;
+          console.log(tooltipSize);
+          boardTooltipDiv.style("width", tooltipSize+"%")
+                         .style("height", tooltipSize+"%")
                          .style("position", "absolute");
 
           tooltipBoard = Chessboard("openings-treemap-tooltip");
@@ -913,19 +919,10 @@ function makeTreemap() {
           tooltipBoard.position(tooltipGame.fen())
           boardTooltipDiv.transition()
               .duration(200)
-              .style("opacity", .9);
+              .style("opacity", 1.0);
 
-          // Position the tooltip
-          var bodyRect = document.body.getBoundingClientRect();
-          var elemRect = document.getElementById("openings-treemap-node-"+d.data.name).getBoundingClientRect();
-          var offsetTop = elemRect.top - bodyRect.top;
-          var offsetLeft = elemRect.left - bodyRect.left;
-
-          console.log(offsetTop);
-          console.log(offsetLeft);
-
-          boardTooltipDiv.style("left", offsetLeft + "px")
-                         .style("top", offsetTop + "px");
+          boardTooltipDiv.style("left", offsetLeft + (elemRect.right-elemRect.left)*.4 + "px")
+                         .style("top", offsetTop + (elemRect.bottom-elemRect.top)*.4 + "px");
         })
         .on('mouseout', function(event, d) {
           d3.select(this).attr('stroke-opacity', 0);

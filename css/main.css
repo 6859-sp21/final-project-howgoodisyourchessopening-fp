@@ -5,9 +5,11 @@ body {
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
     background-color: azure;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    padding-left: 200px;
     margin-right: 200px;
-    margin-top:50px;
+    /* margin-top:50px; */
+    padding-top: 50px;
 }
 
 h1 {
