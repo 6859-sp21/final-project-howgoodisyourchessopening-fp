@@ -191,12 +191,13 @@ function filterData() {
 
 function updateStatus (update_time_graph=false) {
 
-  var filter_data = filterData();
-  console.log("FILTERED: ", filter_data)
+  // var filter_data = filterData();
+  // console.log("FILTERED: ", filter_data)
 
   analyze(game.pgn(), document.getElementById("chessColor").value, update_time_graph)
   if (update_time_graph) {
-    plotOpeningsOverTime();
+    // plotOpeningsOverTime();
+    makeTreemap();
   }
   var status = ''
 
@@ -564,193 +565,6 @@ function analyze(val, chessColor, update_time=false) {
     });
 
 
-    // if (update_time) {
-
-    //   // Get most common openings
-    //   var openingFrequencies = {}
-    //   var numOpenings = 10;
-    //   for (var i = 0; i < openingData1.length; i++) {
-    //     openingName = openingData1[i].Opening.split(':')[0];
-    //     if (!(openingName in openingFrequencies)) {
-    //       openingFrequencies[openingName] = 0;
-    //     }
-    //     openingFrequencies[openingName] += 1;
-    //   }
-    //   keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
-    //   var openingsToPlot = keysSorted.slice(0, numOpenings);
-    //   // console.log(openingsToPlot);
-
-    //   function getOpeningFrequencies(data) {
-    //     freqs = {}
-    //     for (var i = 0; i < data.length; i++) {
-    //       openingName = data[i].Opening.split(':')[0];
-    //       if (!(openingName in freqs)) {
-    //         freqs[openingName] = 0;
-    //       }
-    //       freqs[openingName] += 1;
-    //     }
-    //     freqsToPlot = []
-    //     for (var i = 0; i < openingsToPlot.length; i++) {
-    //       freqsToPlot.push(100 * freqs[openingsToPlot[i]] / data.length);
-    //       // freqsToPlot.push(freqs[openingsToPlot[i]]);
-    //     }
-    //     return freqsToPlot;
-    //   }
-
-    //   // Group data by month
-    //   // Reference: https://stackoverflow.com/questions/40847912/group-data-by-calendar-month
-    //   var nested_data = d3.nest()
-    //     // .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
-    //     .key(function(d) {
-    //       var incDate = new Date(d.Date.replace(/\./g, "-"));
-    //       incDate.setDate(incDate.getDate()+1);
-    //       // console.log(incDate);
-    //       return incDate.getUTCFullYear() + "." + (incDate.getUTCMonth()+1);
-    //     })
-    //     .sortKeys(d3.ascending)
-    //     .rollup(getOpeningFrequencies)
-    //     .entries(openingData1);
-    //   // console.log(nested_data);
-    //   var keys = nested_data.map(function(d){ return d.key; });
-    //   var dates = []
-    //   for (var i = 0; i < keys.length; i++) {
-    //     dates.push(new Date(keys[i].replace(/\./g, "-")));
-    //   }
-    //   var linegraph_data = {
-    //     "dates": dates,
-    //     "series": []
-    //   }
-    //   for (var i = 0; i < openingsToPlot.length; i++) {
-    //     openingFreqs = []
-    //     for (var j = 0; j < keys.length; j++) {
-    //       openingFreqs.push(nested_data[j].value[i]);
-    //     }
-    //     linegraph_data["series"].push({
-    //       "name": openingsToPlot[i],
-    //       "values": openingFreqs
-    //     })
-    //   }
-    //   // console.log(linegraph_data);
-
-    //   const svg = d3.select("#openings-over-time-svg")
-
-    //   x = d3.scaleUtc()
-    //       .domain(d3.extent(linegraph_data.dates))
-    //       .range([margin.left, width_time - margin.right])
-    //   y = d3.scaleLinear()
-    //       .domain([0, d3.max(linegraph_data.series, d => d3.max(d.values))]).nice()
-    //       .range([height_time - margin.bottom, margin.top])
-    //   xAxis = g => g
-    //       .attr("transform", `translate(0,${height_time - margin.bottom})`)
-    //       .call(d3.axisBottom(x).ticks(width_time / 80).tickSizeOuter(0))
-    //   yAxis = g => g
-    //       .attr("transform", `translate(${margin.left},0)`)
-    //       .call(d3.axisLeft(y))
-    //       .call(g => g.select(".domain").remove())
-    //       .call(g => g.select(".tick:last-of-type text").clone()
-    //           .attr("x", 3)
-    //           .attr("text-anchor", "start")
-    //           .attr("font-weight", "bold")
-    //           .text("% Games"))
-
-    //   line = d3.line()
-    //       .defined(d => !isNaN(d))
-    //       .x((d, i) => x(linegraph_data.dates[i]))
-    //       .y(d => y(d))
-
-    //   svg.select("#openings-over-time-xAxis")
-    //       .call(xAxis);
-    //   svg.select("#openings-over-time-yAxis")
-    //       .call(yAxis);
-
-    //   const path = svg.select("#openings-over-time-paths")
-    //       .attr("fill", "none")
-    //       .attr("stroke", "steelblue")
-    //       .attr("stroke-width", 1.5)
-    //       .attr("stroke-linejoin", "round")
-    //       .attr("stroke-linecap", "round")
-    //     .selectAll("path")
-    //     .data(linegraph_data.series)
-    //     .join("path")
-    //       .style("mix-blend-mode", "multiply")
-    //       .attr("d", d => line(d.values));
-
-    //   function hover(svg, path) {
-    //     if ("ontouchstart" in document) svg
-    //         .style("-webkit-tap-highlight-color", "transparent")
-    //         .on("touchmove", moved)
-    //         .on("touchstart", entered)
-    //         .on("touchend", left)
-    //     else svg
-    //         .on("mousemove", moved)
-    //         .on("mouseenter", entered)
-    //         .on("mouseleave", left);
-
-    //     const dot = svg.append("g")
-    //         .attr("display", "none");
-
-    //     dot.append("circle")
-    //         .attr("r", 2.5);
-
-    //     dot.append("text")
-    //         .attr("font-family", "sans-serif")
-    //         .attr("font-size", 10)
-    //         .attr("text-anchor", "middle")
-    //         .attr("y", -8);
-
-    //     function moved(event) {
-    //       event.preventDefault();
-    //       const pointer = d3.pointer(event, this);
-    //       const xm = x.invert(pointer[0]);
-    //       const ym = y.invert(pointer[1]);
-    //       const i = d3.bisectCenter(linegraph_data.dates, xm);
-    //       const s = d3.least(linegraph_data.series, d => Math.abs(d.values[i] - ym));
-    //       path.attr("stroke", d => d === s ? null : "#ddd").filter(d => d === s).raise();
-    //       dot.attr("transform", `translate(${x(linegraph_data.dates[i])},${y(s.values[i])})`);
-    //       dot.select("text").text(s.name);
-    //     }
-
-    //     function entered() {
-    //       path.style("mix-blend-mode", null).attr("stroke", "#ddd");
-    //       dot.attr("display", null);
-    //     }
-
-    //     function left() {
-    //       path.style("mix-blend-mode", "multiply").attr("stroke", null);
-    //       dot.attr("display", "none");
-    //     }
-    //   }
-    //   svg.call(hover, path);
-
-    //   const clickPath = svg.select("#openings-over-time-clickpaths")
-    //       .attr("fill", "none")
-    //       .attr('stroke', 'black').attr('stroke-width', 3)
-    //       .attr('stroke-opacity', 0)
-    //       .attr("stroke-linejoin", "round")
-    //       .attr("stroke-linecap", "round")
-    //       .style("cursor", "pointer")
-    //     .selectAll("path")
-    //     .data(linegraph_data.series)
-    //     .join("path")
-    //       .style("mix-blend-mode", "multiply")
-    //       .attr("d", d => line(d.values));
-
-    //   clickPath.on('click', function(event, d) {
-    //     // FOR MATT
-    //     var opening_pgn = openingDatabaseMap[d.name];
-    //     loadPGN(opening_pgn);
-    //   })
-
-    //   clickPath.on("mouseover", function(event, d) {
-    //         d3.select(this).attr('stroke-opacity', 1);
-    //         })
-    //     .on("mouseout", function(event, d) {
-    //         d3.select(this).attr('stroke-opacity', 0);
-    //     });
-    // }
-
-
-
     var openingData = openingData1.filter(function (d) {
       return d.Moves.startsWith(val);
     });
@@ -952,45 +766,112 @@ treemap = data => d3.treemap()
       .sum(d => d.value)
       .sort((a, b) => b.value - a.value))
 
-d3.json("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/json_test.json").then(function(data) {
-  // console.log(data);
-  const root = treemap(data);
 
-  const svg = d3.select("#openings-treemap-svg")
-      .attr("viewBox", [0, 0, width, height])
-      .style("font", "10px sans-serif");
+function makeTreemap() {
+  // Filter games by rating and date.
+  opening_data.then(function(data) {
 
-  const leaf = svg.selectAll("g")
-    .data(root.leaves())
-    .join("g")
-      .attr("transform", d => `translate(${d.x0},${d.y0})`);
+    var openingData = data.filter(function (d) {
+      var a = performance.now()
+      var elo = d.WhiteElo
+      if (chessColor === 'black') {
+        elo = d.BlackElo
+      }
+      var date_dot = d.Date
+      var date_str = date_dot.replace(/\./g, "-");
+      var date = new Date(date_str)
 
-  leaf.append("title")
-      .text(d => d.name);
+      var b = performance.now()
 
-  leaf.append("rect")
-      // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
-      .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
-      .attr("fill-opacity", 0.6)
-      .attr("width", d => d.x1 - d.x0)
-      .attr("height", d => d.y1 - d.y0);
+      // console.log(b-a + 'ms')
 
-  leaf.append("clipPath")
-      // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
-    .append("use")
-      // .attr("xlink:href", d => d.leafUid.href);
+      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
+    });
 
-  leaf.append("text")
-      .attr("clip-path", d => d.clipUid)
-    .selectAll("tspan")
-    .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value))
-    .join("tspan")
-      .attr("x", 3)
-      .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
-      .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
-      .text(d => d);
+    // Get most common openings
+    var openingFrequencies = {}
+    var numOpenings = 10;
+    for (var i = 0; i < openingData.length; i++) {
+      openingName = openingData[i].Opening.split(':')[0];
+      if (!(openingName in openingFrequencies)) {
+        openingFrequencies[openingName] = 0;
+      }
+      openingFrequencies[openingName] += 1;
+    }
+    keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
+    var openingsToPlot = keysSorted.slice(0, numOpenings);
+    console.log(openingFrequencies);
+    console.log(openingsToPlot);
 
-})
+    data = [
+      {
+        name: "Origin",
+        parent: null,
+        value: null
+      }
+    ]
+
+    for (var i=0; i < numOpenings; i++) {
+      data.push({
+        name: openingsToPlot[i],
+        parent: "Origin",
+        value: openingFrequencies[openingsToPlot[i]]
+      })
+    }
+
+    console.log(data);
+
+    // d3.csv("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/2020-openings.csv").then(function(data) {
+    // console.log(data);
+    // stratify the data: reformatting for d3.js
+    var root = d3.stratify()
+      .id(function(d) { return d.name; })   // Name of the entity (column name is name in csv)
+      .parentId(function(d) { return d.parent; })   // Name of the parent (column name is parent in csv)
+      (data);
+    root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
+
+    d3.treemap()
+    .size([width, height])
+    .padding(4)
+    (root)
+
+    // const root = treemap(data);
+
+    const svg = d3.select("#openings-treemap-svg")
+        .attr("viewBox", [0, 0, width, height])
+        .style("font", "14px sans-serif");
+
+    const leaf = svg.selectAll("g")
+      .data(root.leaves())
+      .join("g")
+        .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+    leaf.append("title")
+        .text(d => d.name);
+
+    leaf.append("rect")
+        // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+        .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
+        .attr("fill-opacity", 0.6)
+        .attr("width", d => d.x1 - d.x0)
+        .attr("height", d => d.y1 - d.y0);
+
+    leaf.append("clipPath")
+        // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
+      .append("use")
+        // .attr("xlink:href", d => d.leafUid.href);
+
+    leaf.append("text")
+        .attr("clip-path", d => d.clipUid)
+      .selectAll("tspan")
+      .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g).concat(d.value))
+      .join("tspan")
+        .attr("x", 3)
+        .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
+        .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
+        .text(d => d);
+  });
+}
 
 
 /*
