@@ -59,10 +59,13 @@
     <div class="openings-treemap-container">
         <div id="openings-treemap">
             <svg id="openings-treemap-svg">
-                <g id="openings-treemap-transform"></g>
-								<g id='openings-treemap-clicknodes'></g>
+                <!-- <g id="openings-treemap-transform"> -->
+									<!-- <div id="openings-treemap-tooltip" class='tooltip'></div> -->
+							  <!-- </g> -->
+								<!-- <g id='openings-treemap-clicknodes'></g> -->
             </svg>
         </div>
+				<div id="openings-treemap-tooltip"></div>
     </div>
 
 		<!-- <div class="openings-over-time-container">
@@ -107,7 +110,8 @@
 							<text x="380" y="245" class='rating-description'>Expert ⇨</text>
 						<text id='xAxisLabel'></text>
 						<text id='yAxisLabel'></text>
-				    </svg>
+			    </svg>
+					<div id='win-graph-tooltip' class='tooltip' style="opacity:0;"></div>
 				</div>
 				<div class ="total-games">
 					<label>Total Games:  </label>

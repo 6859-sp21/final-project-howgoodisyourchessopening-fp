@@ -539,9 +539,9 @@ d3.select("#openings-over-time-svg")
   .attr("viewBox", [0, 0, width_time, height_time])
   .style("overflow", "visible");
 
-var div = d3.select("#win-graph").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
+// var div = d3.select("#win-graph").append("div")
+//     .attr("class", "tooltip")
+//     .style("opacity", 0);
 
 const colorWin = "ForestGreen";
 const colorDraw = "LightSkyBlue";
@@ -723,6 +723,8 @@ function analyze(val, chessColor, update_time=false) {
       .attr("y", d => y(getWinRate(d)+getDrawRate(d)))
       .attr("height", d => y(0) - y(getWinRate(d)+getDrawRate(d)));
 
+    var div = d3.select("#win-graph-tooltip");
+
     outlines.on("mouseover", function(event, d) {
           d3.select(this).attr('stroke-opacity', 2);
           div.transition()
@@ -757,14 +759,14 @@ TREEMAP (TEST)
 width = 954
 height = 500
 color = d3.scaleOrdinal(d3.schemeCategory10)
-treemap = data => d3.treemap()
-    .tile(d3.treemapSquarify)
-    .size([width, height])
-    .padding(1)
-    .round(true)
-  (d3.hierarchy(data)
-      .sum(d => d.value)
-      .sort((a, b) => b.value - a.value))
+// treemap = data => d3.treemap()
+//     .tile(d3.treemapSquarify)
+//     .size([width, height])
+//     .padding(1)
+//     .round(true)
+//   (d3.hierarchy(data)
+//       .sum(d => d.value)
+//       .sort((a, b) => b.value - a.value))
 
 
 function makeTreemap() {
@@ -821,7 +823,6 @@ function makeTreemap() {
 
     console.log(data);
 
-    // d3.csv("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/2020-openings.csv").then(function(data) {
     // console.log(data);
     // stratify the data: reformatting for d3.js
     var root = d3.stratify()
@@ -831,15 +832,13 @@ function makeTreemap() {
     root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
 
     d3.treemap()
-    .size([width, height])
-    .padding(4)
-    (root)
-
-    // const root = treemap(data);
+      .size([width, height])
+      .padding(4)
+      (root)
 
     const svg = d3.select("#openings-treemap-svg")
         .attr("viewBox", [0, 0, width, height])
-        .style("font", "14px sans-serif");
+        .style("font", "18px sans-serif");
 
     const leaf = svg.selectAll("g")
       .data(root.leaves())
@@ -849,8 +848,39 @@ function makeTreemap() {
     leaf.append("title")
         .text(d => d.name);
 
+    // Make tooltips
+    // const tooltip = d3.select("#openings-treemap-tooltip")
+    //     .attr("viewBox", [0, 0, width, height])
+    //
+    // const tooltip_leaf = svg.selectAll("g")
+    //   .data(root.leaves())
+    //   .join("div")
+    //     .attr("transform", d => `translate(${d.x0},${d.y0})`);
+    //
+    // tooltip_leaf.append("div")
+    //     // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+    //     // .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
+    //     // .attr("fill-opacity", 0.6)
+    //     .attr("width", d => d.x1 - d.x0)
+    //     .attr("height", d => d.y1 - d.y0)
+    //     .attr('stroke', 'black').attr('stroke-width', 1)
+    //     .attr('stroke-opacity', 0)
+    //     .attr('id', d => "openings-treemap-tooltip"+d.data.name)
+    //     .style("cursor", "pointer")
+    //     .style("position", "relative")
+    //
+    // for (var i=0; i < data.length; i++) {
+    //   if (data[i].name != "Origin") {
+    //     console.log("openings-treemap-tooltip"+data[i].name);
+    //     tooltipBoard = Chessboard("openings-treemap-tooltip"+data[i].name);
+    //     tooltipGame = new Chess();
+    //     tooltipGame.load_pgn(openingDatabaseMap[data[i].name]);
+    //     tooltipBoard.position(tooltipGame.fen());
+    //   }
+    // }
+
     leaf.append("rect")
-        // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+        .attr("id", d => "openings-treemap-node-"+d.data.name)
         .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
         .attr("fill-opacity", 0.6)
         .attr("width", d => d.x1 - d.x0)
@@ -858,23 +888,53 @@ function makeTreemap() {
         .attr('stroke', 'black').attr('stroke-width', 1)
         .attr('stroke-opacity', 0)
         .style("cursor", "pointer")
-        .on('mouseover', function(d, i) {
+        .style("position", "relative")
+        .on('mouseover', function(event, d) {
+          console.log(d);
           d3.select(this).attr('stroke-opacity', 2);
-          div.transition()
+
+          // On mouseover, show a chessboard with this opening
+          // boardTooltipDiv = leaf.append("div")
+          //                      .attr("id", "openings-treemap-tooltip");
+          boardTooltipDiv = d3.select("#openings-treemap-tooltip");
+
+          // tooltipSize = 0.7 * Math.min(d.y1-d.y0, d.x1-d.x0);
+          tooltipSize = 200;
+          boardTooltipDiv.style("width", tooltipSize+"px")
+                         .style("height", tooltipSize+"px")
+                         .style("position", "absolute");
+
+          tooltipBoard = Chessboard("openings-treemap-tooltip");
+          tooltipGame = new Chess();
+          tooltipGame.load_pgn(openingDatabaseMap[d.data.name]);
+          tooltipBoard.position(tooltipGame.fen())
+          boardTooltipDiv.transition()
               .duration(200)
               .style("opacity", .9);
+
+          // Position the tooltip
+          var bodyRect = document.body.getBoundingClientRect();
+          var elemRect = document.getElementById("openings-treemap-node-"+d.data.name).getBoundingClientRect();
+          var offsetTop = elemRect.top - bodyRect.top;
+          var offsetLeft = elemRect.left - bodyRect.left;
+
+          console.log(offsetTop);
+          console.log(offsetLeft);
+
+          boardTooltipDiv.style("left", offsetLeft + "px")
+                         .style("top", offsetTop + "px");
         })
-        .on('mouseout', function(d, i) {
+        .on('mouseout', function(event, d) {
           d3.select(this).attr('stroke-opacity', 0);
-          div.transition()
+          boardTooltipDiv = d3.select("#openings-treemap-tooltip");
+          boardTooltipDiv.transition()
               .duration(500)
               .style("opacity", 0);
+          // boardTooltipDiv.remove();
         });
 
     leaf.append("clipPath")
-        // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
       .append("use")
-        // .attr("xlink:href", d => d.leafUid.href);
 
     leaf.append("text")
         .attr("clip-path", d => d.clipUid)
@@ -888,11 +948,9 @@ function makeTreemap() {
 
     var clickTreeNode = leaf.selectAll("rect")
     clickTreeNode.on('click', function(event, d) {
-      // FOR MATT
       console.log(d);
       var opening_pgn = openingDatabaseMap[d.data.name];
       console.log(opening_pgn);
-      // $(window).scrollTop($('#visual-container').position().top);
       $('html, body').animate({scrollTop: $("#vis1").offset().top
             }, 2000);
       loadPGN(opening_pgn);
