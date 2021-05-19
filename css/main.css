@@ -10,6 +10,7 @@ body {
     margin-right: 200px;
     /* margin-top:50px; */
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -193,4 +194,20 @@ h3 {
 .words {
     margin: 60px;
     font-style: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#summary-image-left {
+    width: 100%;
+}
+#summary-image-right {
+    width: 100%;
 }
