@@ -4,7 +4,7 @@ An interactive visualization of the utilization and success of chess openings ov
 
 ## Paper and Video
 
-A complete exposition of this project can be found [here](FinalPaper.pdf). A teaser video demonstrating our visualization can be found [here]("https://www.youtube.com/watch?v=O_6j2CBjXx0" target="_blank").
+A complete exposition of this project can be found [here](FinalPaper.pdf). A teaser video demonstrating our visualization can be found [here](https://www.youtube.com/watch?v=O_6j2CBjXx0).
 
 ## Instructions to Run Software
 
