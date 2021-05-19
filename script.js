@@ -1,8 +1,10 @@
 var low_rating = 0;
 var high_rating = 9999;
 var input_rating = false;
-var start_date = new Date("2013-01-01")
-var end_date = new Date("2021-01-31")
+var min_date = new Date("2012-01-01");
+var start_date = min_date;
+var max_date = new Date("2021-01-31");
+var end_date = max_date;
 
 
 var board = null
@@ -78,9 +80,23 @@ for (var i=0 ; i<filenames.length; i++) {
   filenames[i] = filenames[i] + '-cleaned-small.csv';
 }
 
-function fetchAndFilter(filename) {
+
+var setting = {
+    roots: document.querySelector('.my-js-slider'),
+    type: 'range',
+    limits : {
+      minLimit: 0,
+      maxLimit: 3000
+    },
+    step: 1,
 
 }
+var slider = wRunner(setting);
+
+// console.log("SLIDER: ", slider.getLimits());
+slider.setRangeValue({minValue:0, maxValue:3000});
+// console.log("SLIDER: ", slider.getValue());
+
 
 var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
@@ -106,7 +122,7 @@ openingDatabase.then(function(data) {
   }
 });
 
-console.log(openingDatabaseMap);
+// console.log(openingDatabaseMap);
 var first_move = getMostCommonMove(opening_data, "")
 // var first_move ="e4"
 var common_move = first_move
@@ -118,23 +134,43 @@ USER INPUT
 Instantiate user input parameters and create handlers
 */
 
-$( function() {
-  $( "#slider" ).slider();
-} );
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
 function filterByRating() {
-  low_rating = document.getElementById("input-rating-low").value;
-  high_rating = document.getElementById("input-rating-high").value;
-  // console.log(low_rating);
-  // console.log(high_rating);
+  var ratings = slider.getValue();
+  low_rating = ratings.minValue;
+  high_rating = ratings.maxValue;
+  // console.log(ratings);
+  // low_rating = document.getElementById("input-rating-low").value;
+  // high_rating = document.getElementById("input-rating-high").value;
+  console.log(low_rating);
+  console.log(high_rating);
   updateStatus(true);
 }
 
 function filterByDate() {
   start_date = new Date(document.getElementById("start-date").value);
   end_date = new Date(document.getElementById("end-date").value);
+  console.log(start_date)
+  updateStatus(true);
+}
+
+function filterByDateAndRating() {
+  var ratings = slider.getValue();
+  low_rating = ratings.minValue;
+  high_rating = ratings.maxValue;
+  start_date = new Date(document.getElementById("start-date").value);
+  end_date = new Date(document.getElementById("end-date").value);
+  if (isNaN(start_date.getTime())) {
+    start_date = min_date;
+  } 
+  if (isNaN(end_date.getTime())) {
+    end_date = max_date;
+  }
+
+  console.log(start_date);
+  console.log(end_date);
   updateStatus(true);
 }
 
@@ -159,9 +195,8 @@ function doMostCommon() {
 }
 
 function loadPGN(pgn) {
-  console.log("LOADING:   ", pgn);
+  game.load_pgn(pgn)
 
-  console.log(game.load_pgn(pgn));
   onSnapEnd()
   updateStatus();
 }
@@ -220,7 +255,6 @@ function filterData() {
 
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
-    console.log("WOAH: ", openingData)
     return openingData;
   });
 }
@@ -594,6 +628,8 @@ function makeTreemap() {
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
 
+    console.log(openingData.length)
+
     // Get most common openings
     var openingFrequencies = {}
     var numOpenings = 10;
@@ -606,8 +642,8 @@ function makeTreemap() {
     }
     keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
     var openingsToPlot = keysSorted.slice(0, numOpenings);
-    console.log(openingFrequencies);
-    console.log(openingsToPlot);
+    // console.log(openingFrequencies);
+    // console.log(openingsToPlot);
 
     data = [
       {
@@ -625,7 +661,7 @@ function makeTreemap() {
       })
     }
 
-    console.log(data);
+    // console.log(data);
 
     // console.log(data);
     // stratify the data: reformatting for d3.js
@@ -666,7 +702,7 @@ function makeTreemap() {
         .style("cursor", "pointer")
         .style("position", "relative")
         .on('mouseover', function(event, d) {
-          console.log(d);
+          // console.log(d);
           d3.select(this).attr('stroke-opacity', 2);
 
           // On mouseover, show a chessboard with this opening
@@ -681,7 +717,7 @@ function makeTreemap() {
           var offsetLeft = elemRect.left - bodyRect.left;
 
           tooltipSize = 20;
-          console.log(tooltipSize);
+          // console.log(tooltipSize);
           boardTooltipDiv.style("width", tooltipSize+"%")
                          .style("height", tooltipSize+"%")
                          .style("position", "absolute");
@@ -721,11 +757,11 @@ function makeTreemap() {
 
     var clickTreeNode = leaf.selectAll("rect")
     clickTreeNode.on('click', function(event, d) {
-      console.log(d);
+      // console.log(d);
       var opening_pgn = openingDatabaseMap[d.data.name];
       console.log(opening_pgn);
       $('html, body').animate({scrollTop: $("#vis1").offset().top
-            }, 2000);
+            }, 1200);
       loadPGN(opening_pgn);
     })
   });

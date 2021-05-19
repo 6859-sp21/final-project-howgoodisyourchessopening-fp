@@ -55,6 +55,8 @@ h3 {
 
 
 
+
+
 .visual-container {
     max-width: 100vw;
     display: flex;
@@ -194,3 +196,97 @@ h3 {
     margin: 60px;
     font-style: bold;
 }
+
+[slider] {
+  position: relative;
+  height: 14px;
+  border-radius: 10px;
+  text-align: left;
+  margin: 45px 0 10px 0;
+}
+ 
+[slider] > div {
+  position: absolute;
+  left: 13px;
+  right: 15px;
+  height: 14px;
+}
+
+[slider] > div > [inverse-left] {
+  position: absolute;
+  left: 0;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #CCC;
+  margin: 0 7px;
+}
+ 
+[slider] > div > [inverse-right] {
+  position: absolute;
+  right: 0;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #CCC;
+  margin: 0 7px;
+}
+ 
+[slider] > div > [range] {
+  position: absolute;
+  left: 0;
+  height: 14px;
+  border-radius: 14px;
+  background-color: #1ABC9C;
+}
+ 
+[slider] > div > [thumb] {
+  position: absolute;
+  top: -7px;
+  z-index: 2;
+  height: 28px;
+  width: 28px;
+  text-align: left;
+  margin-left: -11px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  background-color: #FFF;
+  border-radius: 50%;
+  outline: none;
+}
+
+    div[slider] > input[type=range]::-ms-thumb {
+      pointer-events: all;
+      width: 28px;
+      height: 28px;
+      border-radius: 0px;
+      border: 0 none;
+      background: red;
+    }
+     
+    div[slider] > input[type=range]::-moz-range-thumb {
+      pointer-events: all;
+      width: 28px;
+      height: 28px;
+      border-radius: 0px;
+      border: 0 none;
+      background: red;
+    }
+     
+    div[slider] > input[type=range]::-webkit-slider-thumb {
+      pointer-events: all;
+      width: 28px;
+      height: 28px;
+      border-radius: 0px;
+      border: 0 none;
+      background: red;
+      -webkit-appearance: none;
+    }
+     
+    div[slider] > input[type=range]::-ms-fill-lower {
+      background: transparent;
+      border: 0 none;
+    }
+     
+    div[slider] > input[type=range]::-ms-fill-upper {
+      background: transparent;
+      border: 0 none;
+    }
