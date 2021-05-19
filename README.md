@@ -4,7 +4,7 @@ An interactive visualization of the utilization and success of chess openings ov
 
 ## Paper and Video
 
-A complete exposition of this project can be found [here (UPLOAD WRITEUP)](FinalPaper.pdf). A teaser video demonstrating our visualization can be found [here (ADD LINK)](TODO).
+A complete exposition of this project can be found [here](FinalPaper.pdf). A teaser video demonstrating our visualization can be found [here]("https://www.youtube.com/watch?v=O_6j2CBjXx0" target="_blank").
 
 ## Instructions to Run Software
 
@@ -24,7 +24,9 @@ This command writes files of the form `lichess_db_standard_rated_2016-09-cleaned
 
 Visualization here: https://6859-sp21.github.io/final-project-howgoodisyourchessopening-fp/
 
-TODO "include a breakdown of how the work was split among the group members and a commentary on the project process."
+As an extension of our A4 project, we decided to add features on top of our initial visualization in a similar fashion. Justin Lim, for both the A4 and final project components, primarily contributed to preprocssing the lichess data and displaying it with the stacked bar chart and the treemap via D3. He reflected this contribution in our writeup as well as formatting the paper and doing most of the research and providing context to chess, as a chess player himself. Matthew mainly contributed to the interactive chessboard and making sure all of the encodings interacted with one another and updated accordingly, exploring and implementing the PGN method that could be extracted from Justin's data and visualizations. He also implemented the filtering method for updating the graphs by date, Elo, and PGN, also implementing the reset and most common move functions for the chessboard. These contributions were written by him in the writeup and he also was the front for the video presentation as well as the formatting and CSS of the site itself.
+
+Overall, we thought it would be really cool and fun to explore the open source lichess.org database and see if we could find anything cool. As a game with virutally infinite possibilities, we decided to focus on the openings and make a visualization that is engaging and could potentially be used by someone with prior chess experience (Justin) and someone with none (Matthew). We wanted the data to be given important context and be explorable across multiple dimensions. We split up the work accordingly and created, Your Check Mate, a site that can hopefully help "open" a users' eye to the world of chess!
 
 <!--
 For our interactive visualization, we wanted to explore the open source lichess.org database, which keeps data of all of its games. The main thing we wanted to explore were chess openings. Chess is an extremely complex and expanding game, whereas after several moves, virtually every game is unique, so we decided to focus on the opening and see if there were any trends or interesting observations that could be seen about different opening moves and their success rate across chess rating (a metric of Elo used by lichess). Using a sample from the most recent games from lichess, we were able to create such a visualization. -->
