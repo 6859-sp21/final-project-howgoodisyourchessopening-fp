@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 		<meta content="utf-8" http-equiv="encoding">
+
+<!-- 		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
@@ -14,7 +18,8 @@
 		      crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"
 		        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
-		        crossorigin="anonymous"></script>
+		        crossorigin="anonymous">        	
+		</script>
 
 		<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
 		        integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD"
@@ -23,47 +28,60 @@
 		<script defer src="js/chess.js"></script>
 		<script src="https://d3js.org/d3-collection.v1.min.js"></script>
 
-        <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
-        <!-- <script defer src="js/jquery-ui.js"></script> -->
-		<script src=""></script>
-
-
+	    <!-- wRunner CSS -->
+	    <link rel="stylesheet" href="css/wrunner-default-theme.css">
+	    <!-- wRunner JS -->
+	    <script src="js/wrunner-native.js"></script>
+	    <!-- wRunner jQuery -->
+	    <script src="js/wrunner-jquery.js"></script>
 
 	    <script src="https://d3js.org/d3.v6.min.js"></script>
   	</head>
 	<body>
 		<h1>Your Check Mate</h1>
-		<h2>How Good is Your Chess Opening? <a href="writeup.html">Writeup</a></h2>
+		<h2>How Good is Your Chess Opening? <a href="writeup.html">Project Page</a></h2>
 
-		<h3>In the game of chess, there are an infinite amounts of different games that can be played, but there are certain opening moves that are very popular, so popular that they have names!
-        <h3>Explore the most popular chess openings used by players at <a href="https://database.lichess.org/" target="_blank">lichess.org</a>!</h3>
-        <h4>Filter by Date and/or Rating (based on Lichess Elo)</h4>
-        <div id="slider"></div>
+		<h3>In chess, although there are (almost) an infinite amount of different games that can be played, there are certain opening moves that are very popular - so popular that they have names!</h3>
+    <h3>Explore the most popular chess openings used by players at <a href="https://database.lichess.org/" target="_blank">lichess.org</a>!</h3>
+
+
+
+		<hr>
+		<h4>Filter by...</h4>
+
 		<div class="filter-container">
-			<form>
-				<label for="input-rating">Go by Rating!</label><br>
-				<input type="number" id="input-rating-low" name="input-rating-low"><br>
-				<input type="number" id="input-rating-high" name="input-rating-high"><br>
-				<input type="button" value="Submit" onclick="filterByRating()">
-			</form>
-			<form>
-			  <label>
-			    Go by Date
-			    <input type="date" id="start-date" name="start-date">
+ 			<label>..Rating (Elo)</label><br>
+ 			<div class="slider-container" style="padding-top: 5px; padding-bottom: 5px;">
+     			<div class=" my-js-slider"></div> 
+<!--      			<input type="button" value="Submit" onclick="filterByRating()"> -->
+     		</div>
+			<form style="padding-top: 5px; padding-bottom: 5px;">
+			  <label>..Date:</label><br>
+			    <input type="date" id="start-date" name="start-date"> 
+			    To
 			    <input type="date" id="end-date" name="end-date">
-			    <input type="button" value="Submit" onclick="filterByDate()">
-			  </label>
+			    <input type="button" value="Submit" onclick="filterByDateAndRating()">
 			</form>
 		</div>
+
+		<br>
+
+		<hr>
 		<h4 style="text-align:center;">Hover over the map to see the opening, click to see even more data, or just scroll down to play some chess!</h4>
     <div class="openings-treemap-container">
         <div id="openings-treemap">
             <svg id="openings-treemap-svg">
-                <g id="openings-treemap-transform"></g>
-								<g id='openings-treemap-clicknodes'></g>
+                <!-- <g id="openings-treemap-transform"> -->
+									<!-- <div id="openings-treemap-tooltip" class='tooltip'></div> -->
+							  <!-- </g> -->
+								<!-- <g id='openings-treemap-clicknodes'></g> -->
             </svg>
         </div>
+				<div id="openings-treemap-tooltip"></div>
     </div>
+		<div class="acknowledgements" style="text-align:center;">
+			Built following the examples in <a href="https://observablehq.com/@d3/treemap">Treemap / D3 /Observable</a>.
+		</div>
 
 		<!-- <div class="openings-over-time-container">
 			<div id="openings-over-time">
@@ -75,7 +93,7 @@
                 </svg>
 			</div>
 		</div> -->
-		<h2 style="text-align:center;">See the opening and explore more by playing some chess yourself!</h2>
+		<h4 style="text-align:center;">See the opening and explore more by playing some chess yourself!</h2>
 		<div class="visual-container" id="vis1">
 			<div class="board-container">
 				<!-- <label>Status:</label> -->
@@ -107,7 +125,8 @@
 							<text x="380" y="245" class='rating-description'>Expert ⇨</text>
 						<text id='xAxisLabel'></text>
 						<text id='yAxisLabel'></text>
-				    </svg>
+			    </svg>
+					<div id='win-graph-tooltip' class='tooltip' style="opacity:0;"></div>
 				</div>
 				<div class ="total-games">
 					<label>Total Games:  </label>
@@ -121,6 +140,8 @@
 
   	</body>
 
-	<script defer src="./script.js"></script>
+	<script defer src="./script.js">
+	</script>
+
 
 </html>

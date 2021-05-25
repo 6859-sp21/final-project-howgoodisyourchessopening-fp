@@ -5,9 +5,12 @@ body {
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
     background-color: azure;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    padding-left: 200px;
     margin-right: 200px;
-    margin-top:50px;
+    /* margin-top:50px; */
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h2 {
 h3 {
     color: #000;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #chessColor {
@@ -50,6 +53,8 @@ h3 {
 .time-graph-container {
     display: flex;
 }
+
+
 
 
 
@@ -108,7 +113,7 @@ h3 {
 }
 
 .graph-title {
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 0.65;
 }
 
@@ -191,4 +196,20 @@ h3 {
 .words {
     margin: 60px;
     font-style: bold;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#summary-image-left {
+    width: 100%;
+}
+#summary-image-right {
+    width: 100%;
 }

@@ -1,8 +1,10 @@
 var low_rating = 0;
 var high_rating = 9999;
 var input_rating = false;
-var start_date = new Date("2013-01-01")
-var end_date = new Date("2021-01-31")
+var min_date = new Date("2012-01-01");
+var start_date = min_date;
+var max_date = new Date("2021-01-31");
+var end_date = max_date;
 
 
 var board = null
@@ -18,32 +20,83 @@ GET DATA
 
 1. Cleaned databases of lichess games
 2. Opening reference file obtained from https://lichess.org/forum/general-chess-discussion/eco-code-csv-sheet
-3. Opening frequences per year
 */
 var filepath = "https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/"
-var filenames = ["lichess_db_standard_rated_2013-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2013-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2014-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2014-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2015-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2015-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2016-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2016-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2017-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2017-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2018-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2018-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2019-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2019-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2020-01-cleaned-small.csv",
-                 "lichess_db_standard_rated_2020-07-cleaned-small.csv",
-                 "lichess_db_standard_rated_2021-01-cleaned-small.csv"]
+
+var filenames = ["lichess_db_standard_rated_2021-01",
+                // # 2020
+                "lichess_db_standard_rated_2020-10",
+                "lichess_db_standard_rated_2020-09",
+                "lichess_db_standard_rated_2020-08",
+                "lichess_db_standard_rated_2020-07",
+                "lichess_db_standard_rated_2020-06",
+                "lichess_db_standard_rated_2020-05",
+                "lichess_db_standard_rated_2020-04",
+                "lichess_db_standard_rated_2020-03",
+                "lichess_db_standard_rated_2020-02",
+                "lichess_db_standard_rated_2020-01",
+                // # 2019
+                "lichess_db_standard_rated_2019-12",
+                "lichess_db_standard_rated_2019-11",
+                "lichess_db_standard_rated_2019-10",
+                "lichess_db_standard_rated_2019-09",
+                "lichess_db_standard_rated_2019-08",
+                "lichess_db_standard_rated_2019-07",
+                "lichess_db_standard_rated_2019-06",
+                "lichess_db_standard_rated_2019-05",
+                "lichess_db_standard_rated_2019-04",
+                "lichess_db_standard_rated_2019-03",
+                "lichess_db_standard_rated_2019-02",
+                "lichess_db_standard_rated_2019-01",
+                // # 2018,
+                "lichess_db_standard_rated_2018-07",
+                "lichess_db_standard_rated_2018-01",
+                // # 2017
+                "lichess_db_standard_rated_2017-07",
+                "lichess_db_standard_rated_2017-01",
+                // # 2016
+                "lichess_db_standard_rated_2016-12",
+                "lichess_db_standard_rated_2016-11",
+                "lichess_db_standard_rated_2016-10",
+                "lichess_db_standard_rated_2016-09",
+                "lichess_db_standard_rated_2016-08",
+                "lichess_db_standard_rated_2016-07",
+                "lichess_db_standard_rated_2016-06",
+                "lichess_db_standard_rated_2016-05",
+                "lichess_db_standard_rated_2016-04",
+                "lichess_db_standard_rated_2016-03",
+                "lichess_db_standard_rated_2016-02",
+                "lichess_db_standard_rated_2016-01",
+                // # 2015
+                "lichess_db_standard_rated_2015-07",
+                "lichess_db_standard_rated_2015-01",
+                // # 2014
+                "lichess_db_standard_rated_2014-07",
+                "lichess_db_standard_rated_2014-01",
+                // 2013
+                "lichess_db_standard_rated_2013-07",
+                "lichess_db_standard_rated_2013-01"]
+for (var i=0 ; i<filenames.length; i++) {
+  filenames[i] = filenames[i] + '-cleaned-small.csv';
+}
 
 
-
-function fetchAndFilter(filename) {
+var setting = {
+    roots: document.querySelector('.my-js-slider'),
+    type: 'range',
+    limits : {
+      minLimit: 0,
+      maxLimit: 3000
+    },
+    step: 1,
 
 }
+var slider = wRunner(setting);
+
+// console.log("SLIDER: ", slider.getLimits());
+slider.setRangeValue({minValue:0, maxValue:3000});
+// console.log("SLIDER: ", slider.getValue());
+
 
 var data_promises = []
 for (var i = 0; i < filenames.length; i++) {
@@ -69,7 +122,7 @@ openingDatabase.then(function(data) {
   }
 });
 
-console.log(openingDatabaseMap);
+// console.log(openingDatabaseMap);
 var first_move = getMostCommonMove(opening_data, "")
 // var first_move ="e4"
 var common_move = first_move
@@ -81,23 +134,43 @@ USER INPUT
 Instantiate user input parameters and create handlers
 */
 
-$( function() {
-  $( "#slider" ).slider();
-} );
 
 $('#chessColor').on('change', function() {analyze(game.pgn(), this.value)})
 
 function filterByRating() {
-  low_rating = document.getElementById("input-rating-low").value;
-  high_rating = document.getElementById("input-rating-high").value;
-  // console.log(low_rating);
-  // console.log(high_rating);
+  var ratings = slider.getValue();
+  low_rating = ratings.minValue;
+  high_rating = ratings.maxValue;
+  // console.log(ratings);
+  // low_rating = document.getElementById("input-rating-low").value;
+  // high_rating = document.getElementById("input-rating-high").value;
+  console.log(low_rating);
+  console.log(high_rating);
   updateStatus(true);
 }
 
 function filterByDate() {
   start_date = new Date(document.getElementById("start-date").value);
   end_date = new Date(document.getElementById("end-date").value);
+  console.log(start_date)
+  updateStatus(true);
+}
+
+function filterByDateAndRating() {
+  var ratings = slider.getValue();
+  low_rating = ratings.minValue;
+  high_rating = ratings.maxValue;
+  start_date = new Date(document.getElementById("start-date").value);
+  end_date = new Date(document.getElementById("end-date").value);
+  if (isNaN(start_date.getTime())) {
+    start_date = min_date;
+  } 
+  if (isNaN(end_date.getTime())) {
+    end_date = max_date;
+  }
+
+  console.log(start_date);
+  console.log(end_date);
   updateStatus(true);
 }
 
@@ -122,9 +195,8 @@ function doMostCommon() {
 }
 
 function loadPGN(pgn) {
-  console.log("LOADING:   ", pgn);
+  game.load_pgn(pgn)
 
-  console.log(game.load_pgn(pgn));
   onSnapEnd()
   updateStatus();
 }
@@ -183,7 +255,6 @@ function filterData() {
 
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
-    console.log("WOAH: ", openingData)
     return openingData;
   });
 }
@@ -294,239 +365,6 @@ function getMostCommonMove(data, pgn, low=0, high=9999) {
 }
 
 /*
-OPENINGS OVER TIME
-
-Create plot of common openings over time. Reference: https://observablehq.com/@d3/multi-line-chart
-*/
-
-width_time = 500;
-height_time = 200;
-margin = ({top: 20, right: 20, bottom: 30, left: 30});
-d3.select("#openings-over-time-svg")
-  .attr("viewBox", [0, 0, width_time, height_time])
-  .style("overflow", "visible");
-
-function plotOpeningsOverTime() {
-  var a = performance.now()
-  opening_data.then(function(data) {
-    var filterColor = "WhiteElo"
-    if (chessColor === 'black') {
-      filterColor = "BlackElo"
-    }
-
-    // Filter games by rating and date.
-    var openingData = data.filter(function (d) {
-      var a = performance.now()
-      var elo = d.WhiteElo
-      if (chessColor === 'black') {
-        elo = d.BlackElo
-      }
-      var date_dot = d.Date
-      var date_str = date_dot.replace(/\./g, "-");
-      var date = new Date(date_str)
-
-      var b = performance.now()
-
-      // console.log(b-a + 'ms')
-
-      return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
-    });
-
-    var b = performance.now()
-    // console.log(b-a + 'ms')
-
-    // Get most common openings
-    var openingFrequencies = {}
-    var numOpenings = 10;
-    for (var i = 0; i < openingData.length; i++) {
-      openingName = openingData[i].Opening.split(':')[0];
-      if (!(openingName in openingFrequencies)) {
-        openingFrequencies[openingName] = 0;
-      }
-      openingFrequencies[openingName] += 1;
-    }
-    keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
-    var openingsToPlot = keysSorted.slice(0, numOpenings);
-    // console.log(openingsToPlot);
-
-    function getOpeningFrequencies(data) {
-      freqs = {}
-      for (var i = 0; i < data.length; i++) {
-        openingName = data[i].Opening.split(':')[0];
-        if (!(openingName in freqs)) {
-          freqs[openingName] = 0;
-        }
-        freqs[openingName] += 1;
-      }
-      freqsToPlot = []
-      for (var i = 0; i < openingsToPlot.length; i++) {
-        freqsToPlot.push(100 * freqs[openingsToPlot[i]] / data.length);
-        // freqsToPlot.push(freqs[openingsToPlot[i]]);
-      }
-      return freqsToPlot;
-    }
-
-    // Group data by month
-    // Reference: https://stackoverflow.com/questions/40847912/group-data-by-calendar-month
-    var nested_data = d3.nest()
-      // .key(function(d) { return d.Date.split('.').slice(0, 2).join('.'); })
-      .key(function(d) {
-        var incDate = new Date(d.Date.replace(/\./g, "-"));
-        incDate.setDate(incDate.getDate()+1);
-        // console.log(incDate);
-        return incDate.getUTCFullYear() + "." + (incDate.getUTCMonth()+1);
-      })
-      .sortKeys(d3.ascending)
-      .rollup(getOpeningFrequencies)
-      .entries(openingData);
-    // console.log(nested_data);
-    var keys = nested_data.map(function(d){ return d.key; });
-    var dates = []
-    for (var i = 0; i < keys.length; i++) {
-      dates.push(new Date(keys[i].replace(/\./g, "-")));
-    }
-    var linegraph_data = {
-      "dates": dates,
-      "series": []
-    }
-    for (var i = 0; i < openingsToPlot.length; i++) {
-      openingFreqs = []
-      for (var j = 0; j < keys.length; j++) {
-        openingFreqs.push(nested_data[j].value[i]);
-      }
-      linegraph_data["series"].push({
-        "name": openingsToPlot[i],
-        "values": openingFreqs
-      })
-    }
-    // console.log(linegraph_data);
-
-    const svg = d3.select("#openings-over-time-svg")
-
-    x = d3.scaleUtc()
-        .domain(d3.extent(linegraph_data.dates))
-        .range([margin.left, width_time - margin.right])
-    y = d3.scaleLinear()
-        .domain([0, d3.max(linegraph_data.series, d => d3.max(d.values))]).nice()
-        .range([height_time - margin.bottom, margin.top])
-    xAxis = g => g
-        .attr("transform", `translate(0,${height_time - margin.bottom})`)
-        .call(d3.axisBottom(x).ticks(width_time / 80).tickSizeOuter(0))
-    yAxis = g => g
-        .attr("transform", `translate(${margin.left},0)`)
-        .call(d3.axisLeft(y))
-        .call(g => g.select(".domain").remove())
-        .call(g => g.select(".tick:last-of-type text").clone()
-            .attr("x", 3)
-            .attr("text-anchor", "start")
-            .attr("font-weight", "bold")
-            .text("% Games"))
-
-    line = d3.line()
-        .defined(d => !isNaN(d))
-        .x((d, i) => x(linegraph_data.dates[i]))
-        .y(d => y(d))
-
-    svg.select("#openings-over-time-xAxis")
-        .call(xAxis);
-    svg.select("#openings-over-time-yAxis")
-        .call(yAxis);
-
-    const path = svg.select("#openings-over-time-paths")
-        .attr("fill", "none")
-        .attr("stroke", "steelblue")
-        .attr("stroke-width", 1.5)
-        .attr("stroke-linejoin", "round")
-        .attr("stroke-linecap", "round")
-      .selectAll("path")
-      .data(linegraph_data.series)
-      .join("path")
-        .style("mix-blend-mode", "multiply")
-        .attr("d", d => line(d.values));
-
-    function hover(svg, path) {
-      if ("ontouchstart" in document) svg
-          .style("-webkit-tap-highlight-color", "transparent")
-          .on("touchmove", moved)
-          .on("touchstart", entered)
-          .on("touchend", left)
-      else svg
-          .on("mousemove", moved)
-          .on("mouseenter", entered)
-          .on("mouseleave", left);
-
-      const dot = svg.append("g")
-          .attr("display", "none");
-
-      dot.append("circle")
-          .attr("r", 2.5);
-
-      dot.append("text")
-          .attr("font-family", "sans-serif")
-          .attr("font-size", 10)
-          .attr("text-anchor", "middle")
-          .attr("y", -8);
-
-      function moved(event) {
-        event.preventDefault();
-        const pointer = d3.pointer(event, this);
-        const xm = x.invert(pointer[0]);
-        const ym = y.invert(pointer[1]);
-        const i = d3.bisectCenter(linegraph_data.dates, xm);
-        const s = d3.least(linegraph_data.series, d => Math.abs(d.values[i] - ym));
-        path.attr("stroke", d => d === s ? null : "#ddd").filter(d => d === s).raise();
-        dot.attr("transform", `translate(${x(linegraph_data.dates[i])},${y(s.values[i])})`);
-        dot.select("text").text(s.name);
-      }
-
-      function entered() {
-        path.style("mix-blend-mode", null).attr("stroke", "#ddd");
-        dot.attr("display", null);
-      }
-
-      function left() {
-        path.style("mix-blend-mode", "multiply").attr("stroke", null);
-        dot.attr("display", "none");
-      }
-    }
-    svg.call(hover, path);
-
-    const clickPath = svg.select("#openings-over-time-clickpaths")
-        .attr("fill", "none")
-        .attr('stroke', 'black').attr('stroke-width', 3)
-        .attr('stroke-opacity', 0)
-        .attr("stroke-linejoin", "round")
-        .attr("stroke-linecap", "round")
-        .style("cursor", "pointer")
-      .selectAll("path")
-      .data(linegraph_data.series)
-      .join("path")
-        .style("mix-blend-mode", "multiply")
-        .attr("d", d => line(d.values));
-
-    clickPath.on('click', function(event, d) {
-      // FOR MATT
-      console.log(d);
-      var opening_pgn = openingDatabaseMap[d.name];
-      console.log(opening_pgn);
-      // $(window).scrollTop($('#visual-container').position().top);
-      $('html, body').animate({scrollTop: $("#vis1").offset().top
-            }, 2000);
-      loadPGN(opening_pgn);
-    })
-
-    clickPath.on("mouseover", function(event, d) {
-          d3.select(this).attr('stroke-opacity', 1);
-          })
-      .on("mouseout", function(event, d) {
-          d3.select(this).attr('stroke-opacity', 0);
-      });
-
-  })
-}
-
-
-/*
 WIN/DRAW RATES
 
 Create graph with win/draw rate based on moves played.
@@ -539,9 +377,9 @@ d3.select("#openings-over-time-svg")
   .attr("viewBox", [0, 0, width_time, height_time])
   .style("overflow", "visible");
 
-var div = d3.select("#win-graph").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
+// var div = d3.select("#win-graph").append("div")
+//     .attr("class", "tooltip")
+//     .style("opacity", 0);
 
 const colorWin = "ForestGreen";
 const colorDraw = "LightSkyBlue";
@@ -723,6 +561,8 @@ function analyze(val, chessColor, update_time=false) {
       .attr("y", d => y(getWinRate(d)+getDrawRate(d)))
       .attr("height", d => y(0) - y(getWinRate(d)+getDrawRate(d)));
 
+    var div = d3.select("#win-graph-tooltip");
+
     outlines.on("mouseover", function(event, d) {
           d3.select(this).attr('stroke-opacity', 2);
           div.transition()
@@ -754,17 +594,17 @@ function analyze(val, chessColor, update_time=false) {
 /*
 TREEMAP (TEST)
 */
-width = 954
-height = 500
+width_treemap = 954
+height_treemap = 500
 color = d3.scaleOrdinal(d3.schemeCategory10)
-treemap = data => d3.treemap()
-    .tile(d3.treemapSquarify)
-    .size([width, height])
-    .padding(1)
-    .round(true)
-  (d3.hierarchy(data)
-      .sum(d => d.value)
-      .sort((a, b) => b.value - a.value))
+// treemap = data => d3.treemap()
+//     .tile(d3.treemapSquarify)
+//     .size([width, height])
+//     .padding(1)
+//     .round(true)
+//   (d3.hierarchy(data)
+//       .sum(d => d.value)
+//       .sort((a, b) => b.value - a.value))
 
 
 function makeTreemap() {
@@ -788,6 +628,8 @@ function makeTreemap() {
       return elo >= low_rating && elo <= high_rating && date >= start_date && date <= end_date;
     });
 
+    console.log(openingData.length)
+
     // Get most common openings
     var openingFrequencies = {}
     var numOpenings = 10;
@@ -800,8 +642,8 @@ function makeTreemap() {
     }
     keysSorted = Object.keys(openingFrequencies).sort(function(a,b){return openingFrequencies[b]-openingFrequencies[a]});
     var openingsToPlot = keysSorted.slice(0, numOpenings);
-    console.log(openingFrequencies);
-    console.log(openingsToPlot);
+    // console.log(openingFrequencies);
+    // console.log(openingsToPlot);
 
     data = [
       {
@@ -819,9 +661,8 @@ function makeTreemap() {
       })
     }
 
-    console.log(data);
+    // console.log(data);
 
-    // d3.csv("https://raw.githubusercontent.com/6859-sp21/final-project-howgoodisyourchessopening-fp/main/datafiles/2020-openings.csv").then(function(data) {
     // console.log(data);
     // stratify the data: reformatting for d3.js
     var root = d3.stratify()
@@ -831,15 +672,16 @@ function makeTreemap() {
     root.sum(function(d) { return +d.value })   // Compute the numeric value for each entity
 
     d3.treemap()
-    .size([width, height])
-    .padding(4)
-    (root)
-
-    // const root = treemap(data);
+      .size([width_treemap, height_treemap])
+      .padding(4)
+      (root)
 
     const svg = d3.select("#openings-treemap-svg")
-        .attr("viewBox", [0, 0, width, height])
-        .style("font", "14px sans-serif");
+        .attr("viewBox", [0, 0, width_treemap, height_treemap])
+        .style("font", "18px sans-serif");
+
+    // Clear treemap before building new one.
+    svg.selectAll("g").remove();
 
     const leaf = svg.selectAll("g")
       .data(root.leaves())
@@ -850,7 +692,7 @@ function makeTreemap() {
         .text(d => d.name);
 
     leaf.append("rect")
-        // .attr("id", d => (d.leafUid = DOM.uid("leaf")).id)
+        .attr("id", d => "openings-treemap-node-"+d.data.name)
         .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
         .attr("fill-opacity", 0.6)
         .attr("width", d => d.x1 - d.x0)
@@ -858,23 +700,50 @@ function makeTreemap() {
         .attr('stroke', 'black').attr('stroke-width', 1)
         .attr('stroke-opacity', 0)
         .style("cursor", "pointer")
-        .on('mouseover', function(d, i) {
+        .style("position", "relative")
+        .on('mouseover', function(event, d) {
+          // console.log(d);
           d3.select(this).attr('stroke-opacity', 2);
-          div.transition()
+
+          // On mouseover, show a chessboard with this opening
+          // boardTooltipDiv = leaf.append("div")
+          //                      .attr("id", "openings-treemap-tooltip");
+          boardTooltipDiv = d3.select("#openings-treemap-tooltip");
+
+          // Position the tooltip
+          var bodyRect = document.body.getBoundingClientRect();
+          var elemRect = document.getElementById("openings-treemap-node-"+d.data.name).getBoundingClientRect();
+          var offsetTop = elemRect.top - bodyRect.top;
+          var offsetLeft = elemRect.left - bodyRect.left;
+
+          tooltipSize = 20;
+          // console.log(tooltipSize);
+          boardTooltipDiv.style("width", tooltipSize+"%")
+                         .style("height", tooltipSize+"%")
+                         .style("position", "absolute");
+
+          tooltipBoard = Chessboard("openings-treemap-tooltip");
+          tooltipGame = new Chess();
+          tooltipGame.load_pgn(openingDatabaseMap[d.data.name]);
+          tooltipBoard.position(tooltipGame.fen())
+          boardTooltipDiv.transition()
               .duration(200)
               .style("opacity", .9);
+
+          boardTooltipDiv.style("left", offsetLeft + Math.max((elemRect.right-elemRect.left)*.4, 100) + "px")
+                         .style("top", offsetTop - (elemRect.bottom-elemRect.top)*.1 + "px");
         })
-        .on('mouseout', function(d, i) {
+        .on('mouseout', function(event, d) {
           d3.select(this).attr('stroke-opacity', 0);
-          div.transition()
+          boardTooltipDiv = d3.select("#openings-treemap-tooltip");
+          boardTooltipDiv.transition()
               .duration(500)
               .style("opacity", 0);
+          // boardTooltipDiv.remove();
         });
 
     leaf.append("clipPath")
-        // .attr("id", d => (d.clipUid = DOM.uid("clip")).id)
       .append("use")
-        // .attr("xlink:href", d => d.leafUid.href);
 
     leaf.append("text")
         .attr("clip-path", d => d.clipUid)
@@ -888,13 +757,11 @@ function makeTreemap() {
 
     var clickTreeNode = leaf.selectAll("rect")
     clickTreeNode.on('click', function(event, d) {
-      // FOR MATT
-      console.log(d);
+      // console.log(d);
       var opening_pgn = openingDatabaseMap[d.data.name];
       console.log(opening_pgn);
-      // $(window).scrollTop($('#visual-container').position().top);
       $('html, body').animate({scrollTop: $("#vis1").offset().top
-            }, 2000);
+            }, 1200);
       loadPGN(opening_pgn);
     })
   });
